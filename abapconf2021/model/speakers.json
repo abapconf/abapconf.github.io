@@ -152,7 +152,7 @@
                 "time": "10:10",
                 "duration": 45,
                 "language": "English",
-                "ics": "/card/speakers/thomas/Channel1ABAPinEclipse.ics",
+                "ics": "./card/speakers/thomas/Channel1ABAPinEclipse.ics",
                 "tags": [
                     {
                         "name": "Cloud",
@@ -212,8 +212,8 @@
                 "time": "10:10",
                 "duration": 45,
                 "language": "German",
-                "ics": "/card/speakers/michael/Channel2CleanABAP.ics",
-                "slide": "/card/speakers/michael/ABAPConf 2021 - Clean ABAP in der Praxis - Michael Keller.pdf",
+                "ics": "./card/speakers/michael/Channel2CleanABAP.ics",
+                "slide": "./card/speakers/michael/ABAPConf 2021 - Clean ABAP in der Praxis - Michael Keller.pdf",
                 "icon": "sap-icon://pdf-attachment",
                 "tags": [
                     {
@@ -266,7 +266,7 @@
                 "time": "11:00",
                 "duration": 30,
                 "language": "German",
-                "ics": "/card/speakers/jbrandeis/Channel1BestOfADT.ics",
+                "ics": "./card/speakers/jbrandeis/Channel1BestOfADT.ics",
                 "slide": "https://www.brandeis.de/blog/vortrag-best-of-adt-auf-der-abapconf-2021/",
                 "icon": "sap-icon://attachment-html",
                 "tags": [
@@ -312,7 +312,7 @@
                 "time": "16:35",
                 "duration": 45,
                 "language": "German",
-                "ics": "/card/speakers/enno/Channel1CodeDojo.ics",
+                "ics": "./card/speakers/enno/Channel1CodeDojo.ics",
                 "slide": "https://prezi.com/view/vDSpwbuz1OVY4zvhKW8S/",
                 "icon": "sap-icon://attachment-html",
                 "tags": [
@@ -366,8 +366,8 @@
                 "time": "16:35",
                 "duration": 45,
                 "language": "German",
-                "ics": "/card/speakers/enno/Channel1CodeDojo.ics",
-                "slide": "/card/speakers/hendrik/ABAP Code Dojo syskoplan Reply.pdf",
+                "ics": "./card/speakers/enno/Channel1CodeDojo.ics",
+                "slide": "./card/speakers/hendrik/ABAP Code Dojo syskoplan Reply.pdf",
                 "icon": "sap-icon://pdf-attachment",
                 "tags": [
                     {
@@ -416,7 +416,7 @@
                 "time": "11:35",
                 "duration": 30,
                 "language": "English",
-                "ics": "/card/speakers/lukasz/ChannelADTPlugins.ics",
+                "ics": "./card/speakers/lukasz/ChannelADTPlugins.ics",
                 "tags": [
                     {
                         "name": "Classic ABAP",
@@ -464,8 +464,8 @@
                 "time": "11:35",
                 "duration": 45,
                 "language": "German",
-                "ics": "/card/speakers/wolfgang/Channel2AgileABAP.ics",
-                "slide": "/card/speakers/wolfgang/abapconf_12-2021_Vortrag_Wolfgang.pdf",
+                "ics": "./card/speakers/wolfgang/Channel2AgileABAP.ics",
+                "slide": "./card/speakers/wolfgang/abapconf_12-2021_Vortrag_Wolfgang.pdf",
                 "icon": "sap-icon://pdf-attachment",
                 "tags": [
                     {
@@ -522,8 +522,8 @@
                 "time": "13:10",
                 "duration": 45,
                 "language": "German",
-                "ics": "/card/speakers/marcos/Channel1ConstructorOperators.ics",
-                "slide": "/card/speakers/marcos/ABAPConf_constructors.pdf",
+                "ics": "./card/speakers/marcos/Channel1ConstructorOperators.ics",
+                "slide": "./card/speakers/marcos/ABAPConf_constructors.pdf",
                 "icon": "sap-icon://pdf-attachment",
                 "tags": [
                     {
@@ -568,8 +568,8 @@
                 "time": "13:10",
                 "duration": 45,
                 "language": "German",
-                "ics": "/card/speakers/christopher/Channel2CDSViewALV.ics",
-                "slide": "/card/speakers/christopher/ABAPConf_Praesentation.pdf",
+                "ics": "./card/speakers/christopher/Channel2CDSViewALV.ics",
+                "slide": "./card/speakers/christopher/ABAPConf_Praesentation.pdf",
                 "icon": "sap-icon://pdf-attachment",
                 "tags": [
                     {
@@ -618,8 +618,8 @@
                 "time": "14:00",
                 "duration": 30,
                 "language": "English",
-                "ics": "/card/speakers/bogdan/Channel1ExceptionClass.ics",
-                "slide": "/card/speakers/bogdan/exception_with_long_text.pdf",
+                "ics": "./card/speakers/bogdan/Channel1ExceptionClass.ics",
+                "slide": "./card/speakers/bogdan/exception_with_long_text.pdf",
                 "icon": "sap-icon://pdf-attachment",
                 "code1": "/card/speakers/bogdan/example_report.txt",
                 "code2": "/card/speakers/bogdan/zcx_cap_adf.txt",
@@ -664,7 +664,7 @@
                 "time": "14:35",
                 "duration": 45,
                 "language": "English",
-                "ics": "/card/speakers/gopal/Channel1CommonCodePoint.ics",
+                "ics": "./card/speakers/gopal/Channel1CommonCodePoint.ics",
                 "tags": [
                     {
                         "name": "Deep-Dive",
@@ -720,7 +720,7 @@
                 "time": "14:35",
                 "duration": 45,
                 "language": "German",
-                "ics": "/card/speakers/uwe/Channel2Events.ics",
+                "ics": "./card/speakers/uwe/Channel2Events.ics",
                 "slide": "https://github.com/se38/abapMQDaemons",
                 "icon": "sap-icon://attachment-html",
                 "tags": [
@@ -774,8 +774,8 @@
                 "time": "16:00",
                 "duration": 30,
                 "language": "English",
-                "ics": "/card/speakers/marc/Channel1ABAPGit.ics",
-                "slide": "/card/speakers/marc/abapGit_for_Beginners_v3.pdf",
+                "ics": "./card/speakers/marc/Channel1ABAPGit.ics",
+                "slide": "./card/speakers/marc/abapGit_for_Beginners_v3.pdf",
                 "icon": "sap-icon://pdf-attachment",
                 "tags": [
                     {
@@ -824,7 +824,7 @@
                 "time": "16:00",
                 "duration": 30,
                 "language": "English",
-                "ics": "/card/speakers/lars/Channel2ABAP.ics",
+                "ics": "./card/speakers/lars/Channel2ABAP.ics",
                 "slide": "https://slides.heliconialabs.com/20211209abapconf/#/",
                 "icon": "sap-icon://attachment-html",
                 "tags": [                    
@@ -882,8 +882,8 @@
                 "time": "11:00",
                 "duration": 30,
                 "language": "German",
-                "ics": "/card/speakers/dominik/Channel2LegacyCode.ics",
-                "slide": "/card/speakers/dominik/2021_Legacy_Code_angstfrei_mit_der_Golden_Master_Technik_aendern.pdf",                
+                "ics": "./card/speakers/dominik/Channel2LegacyCode.ics",
+                "slide": "./card/speakers/dominik/2021_Legacy_Code_angstfrei_mit_der_Golden_Master_Technik_aendern.pdf",                
                 "icon": "sap-icon://pdf-attachment",
                 "tags": [
                     {
@@ -944,8 +944,8 @@
                 "time": "16:35",
                 "duration": 45,
                 "language": "English",
-                "ics": "/card/speakers/andre/Channel2Extending.ics",
-                "slide": "/card/speakers/andre/How to work around problems when extending complex SAP Fiori apps in SAP S4HANA.pdf",
+                "ics": "./card/speakers/andre/Channel2Extending.ics",
+                "slide": "./card/speakers/andre/How to work around problems when extending complex SAP Fiori apps in SAP S4HANA.pdf",
                 "blog": "https://blogs.sap.com/2021/12/08/how-to-redefine-rds-based-odata-services/",
                 "tags": [
                     {
@@ -1002,7 +1002,7 @@
                 "time": "13:10",
                 "duration": 120,
                 "language": "German",
-                "ics": "/card/speakers/christian/Channel3.ics", 
+                "ics": "./card/speakers/christian/Channel3.ics", 
                 "tags": [
                     {
                         "name": "Best Practice",
@@ -1046,7 +1046,7 @@
                 "time": "14:00",
                 "duration": 30,
                 "language": "German",
-                "ics": "/card/speakers/martin/Channel2CDSTipps.ics",
+                "ics": "./card/speakers/martin/Channel2CDSTipps.ics",
                 "tags": [
                     {
                         "name": "Best Practice",
@@ -1098,7 +1098,7 @@
                 "time": "13:10",
                 "duration": 120,
                 "language": "German",
-                "ics": "/card/speakers/damir/Channel3.ics",
+                "ics": "./card/speakers/damir/Channel3.ics",
                 "tags": [
                     {
                         "name": "Best Practice",
@@ -1142,7 +1142,7 @@
                 "time": "9:10",
                 "duration": 55,
                 "language": "English",
-                "ics": "/card/speakers/boris/Channel1Keynote.ics",
+                "ics": "./card/speakers/boris/Channel1Keynote.ics",
                 "tags": [
                     {
                         "name": "Keynote",
@@ -1202,7 +1202,7 @@
                 "time": "9:10",
                 "duration": 55,
                 "language": "English",
-                "ics": "/card/speakers/frank/Channel1Keynote.ics",
+                "ics": "./card/speakers/frank/Channel1Keynote.ics",
                 "tags": [
                     {
                         "name": "Keynote",
