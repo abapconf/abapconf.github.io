@@ -23,7 +23,7 @@
                 "time": "9:00",
                 "duration": 20,
                 "language": "German",
-                "ics": "/card/orga/tobias/Channel1Welcome.ics",
+                "ics": "./card/orga/tobias/Channel1Welcome.ics",
                 "tags": [
                     {
                         "name": "Keynote",
@@ -65,7 +65,7 @@
                 "abstract": "Welcome to ABAPConf 2021. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
                 "track": 1,
                 "time": "9:00",
-                "ics": "/card/orga/tobias/Channel1Welcome.ics",
+                "ics": "./card/orga/tobias/Channel1Welcome.ics",
                 "tags": [
                     {
                         "name": "Keynote",
@@ -107,7 +107,7 @@
                 "abstract": "Welcome to ABAPConf 2021. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
                 "track": 1,
                 "time": "9:00",
-                "ics": "/card/orga/tobias/Channel1Welcome.ics",
+                "ics": "./card/orga/tobias/Channel1Welcome.ics",
                 "tags": [
                     {
                         "name": "Keynote",
@@ -621,9 +621,9 @@
                 "ics": "./card/speakers/bogdan/Channel1ExceptionClass.ics",
                 "slide": "./card/speakers/bogdan/exception_with_long_text.pdf",
                 "icon": "sap-icon://pdf-attachment",
-                "code1": "/card/speakers/bogdan/example_report.txt",
-                "code2": "/card/speakers/bogdan/zcx_cap_adf.txt",
-                "code3": "/card/speakers/bogdan/zcx_cap_adf_constructor_enhancement.txt",
+                "code1": "./card/speakers/bogdan/example_report.txt",
+                "code2": "./card/speakers/bogdan/zcx_cap_adf.txt",
+                "code3": "./card/speakers/bogdan/zcx_cap_adf_constructor_enhancement.txt",
                 "iconcode": "sap-icon://attachment-text-file",
                 "tags": [                    
                     {
