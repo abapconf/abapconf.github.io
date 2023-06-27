@@ -2,7 +2,7 @@
   "_version": "1.32.0",
   "start_url": "https://www.abapconf.org",
   "sap.app": {
-    "id": "abapconf.2022.org",
+    "id": "abapconf.2023.org",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -17,14 +17,7 @@
       "keywords": ["{{abapconftags}}", "{{appDescription}}"]
     },
     "dataSources": {
-      "speakers":{
-        "uri": "model/speakers.json",
-        "type": "JSON"
-      },
-      "agenda":{
-        "uri": "model/agenda.json",
-        "type": "JSON"
-      }
+      
     },
     "offline": false
   },
@@ -49,7 +42,7 @@
   "sap.ui5": {
     "flexEnabled": false,
     "rootView": {
-      "viewName": "abapconf.2022.org.view.App",
+      "viewName": "abapconf.2023.org.view.App",
       "type": "XML",
       "async": true,
       "id": "app"
@@ -70,17 +63,11 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "abapconf.2022.org.i18n.i18n",
+          "bundleName": "abapconf.2023.org.i18n.i18n",
           "supportedLocales": ["de", "en"],
           "fallbackLocale": "en"
         }
-      },
-      "speakers": {
-        "dataSource": "speakers"
-      },
-      "agenda": {
-        "dataSource": "agenda"
-      }
+      }      
     },
     "resources": {
       "css": [
@@ -89,16 +76,12 @@
         }
       ]
     },
-    "resourceRoots": {
-			"de.itsfullofstars.yt": "./libs/de/itsfullofstars/yt",
-      "de.itsfullofstars.timeline": "./libs/de/itsfullofstars/timeline"
-		},
     "routing": {
       "config": {
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "abapconf.2022.org.view",
+        "viewPath": "abapconf.2023.org.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false

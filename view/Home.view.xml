@@ -1,0 +1,512 @@
+<mvc:View
+    controllerName="abapconf.2023.org.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:f="sap.f"
+	xmlns:w="sap.ui.integration.widgets"  
+    >
+    
+    <Page id="home" title="{i18n>title}" showHeader="false">
+        <content>
+            <!-- footer -->
+            <mvc:XMLView viewName="abapconf.2023.org.view.header.Header"/>
+
+            <!-- ABAPConf Werbung -->
+            <VBox class="imgBackground" height="900px" visible="{= !${homeView>/live}}">    
+
+                <!-- TITLE -->
+                <l:Grid
+                    containerQuery="false"
+                    defaultSpan="XL2 L2 M12 S12"
+                    hSpacing="1">
+                    <html:div class="exampleDiv"/>
+                    <HBox height="150px" alignItems="Center" justifyContent="Center">
+                        <Title level="H1" width="100%" titleStyle="H1" text="{i18n>abapConf} 2023" class="abapconfTitle"></Title>
+                        <layoutData>
+                            <l:GridData span="XL8 L8 M12 S12"/>
+                        </layoutData>
+                    </HBox>
+                    <html:div class="exampleDiv"/>
+                </l:Grid>
+
+                <!-- Subtitle -->                
+                <l:Grid
+                    containerQuery="false"
+                    defaultSpan="XL2 L2 M12 S12"
+                    hSpacing="1">
+                    <html:div class="exampleDiv"/>
+                    <HBox height="100px" alignItems="Center" justifyContent="Center">
+                        <Text text="{i18n>homeP1}" textAlign="Center" class="abapconfSubtitle"></Text>
+                        <layoutData>
+                            <l:GridData span="XL8 L8 M12 S12"/>
+                        </layoutData>
+                    </HBox>
+                    <html:div class="exampleDiv"/>
+                </l:Grid>
+
+                <!-- Intro Text -->
+                <l:Grid
+                    containerQuery="false"
+                    defaultSpan="XL4 L3 M12 S12"
+                    hSpacing="1">
+                    <html:div class="exampleDiv"/>
+                    <HBox height="200px" alignItems="Center" justifyContent="Center">
+                        <Text width="100%" text="{i18n>homeP2}" textAlign="Center"  class="abapconfSubtitle"></Text>
+                        <layoutData>
+                            <l:GridData span="XL4 L6 M12 S12"/>
+                        </layoutData>
+                    </HBox>
+                    <html:div class="exampleDiv"/>
+                </l:Grid>
+
+                <!-- Short explaination text -->
+                <l:Grid
+                    containerQuery="false"
+                    defaultSpan="XL4 L3 M12 S12"
+                    hSpacing="1">
+                    <html:div class="exampleDiv"/>
+                    <HBox height="200px" alignItems="Center" justifyContent="Center">
+                        <Text width="100%" text="{i18n>homeP3}" textAlign="Center"  class="abapconfSubtitle"></Text>
+                        <layoutData>
+                            <l:GridData span="XL4 L6 M12 S12"/>
+                        </layoutData>
+                    </HBox>
+                    <html:div class="exampleDiv"/>
+                </l:Grid>
+
+            </VBox>
+
+            <VBox class="imgBackground" height="900px" visible="{homeView>/live}">
+                
+                <!-- TITLE -->
+                <l:Grid
+                    containerQuery="false"
+                    defaultSpan="XL2 L2 M12 S12"
+                    hSpacing="1">
+                    <html:div class="exampleDiv"/>
+                    <HBox height="150px" alignItems="Center" justifyContent="Center">
+                        <Title level="H1" width="100%" titleStyle="H1" text="{i18n>abapConf} 2023" class="abapconfTitle"></Title>
+                        <layoutData>
+                            <l:GridData span="XL8 L8 M12 S12"/>
+                        </layoutData>
+                    </HBox>
+                    <html:div class="exampleDiv"/>
+                </l:Grid>
+
+                <!--
+                <l:Grid
+                    containerQuery="false"
+                    defaultSpan="XL4 L4 M12 S12"
+                    hSpacing="1">
+                    <html:div class="exampleDiv"/>
+                    <VBox height="auto" alignItems="Center" justifyContent="Center">
+                        <HBox width="100%" alignItems="Start" justifyContent="SpaceBetween">
+                            <Label class="abapconfSubtitle" text="Where: " />
+                            <Text class="abapconfSubtitle" text="YouTube" />
+                        </HBox>
+                        <HBox width="100%" alignItems="Center" justifyContent="SpaceBetween">
+                            <Label class="abapconfSubtitle" text="Interact: " />
+                            <Text class="abapconfSubtitle" text="YouTube chat " />
+                        </HBox>
+                        <HBox width="100%" alignItems="Center" justifyContent="SpaceBetween">
+                            <Label class="abapconfSubtitle textReadability" text="Hashtag: " />
+                            <Text class="abapconfSubtitle" text="#ABAPConf" />
+                        </HBox>
+                        <HBox width="100%" alignItems="Center" justifyContent="SpaceBetween">
+                            <Label class="abapconfSubtitle" text="Links: " />
+                            <VBox >
+                            <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="YouTube ABAPConf" href="https://www.youtube.com/@abapconf" />
+                            <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="Livestream Channel 1" href="https://www.youtube.com/watch?v=l5DEB-uwjAw" />
+                            <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="Livestream Channel 2" href="https://www.youtube.com/watch?v=Yeo9rz-7Pdc" />                            
+                            </VBox>
+                        </HBox>
+                        <layoutData>
+                            <l:GridData span="XL4 L4 M12 S12"/>
+                        </layoutData>
+                    </VBox>
+                    <html:div class="exampleDiv"/>
+                </l:Grid>
+                -->
+            </VBox>
+            
+
+
+            <!-- Eyecatcher -->
+            <l:Grid
+                class="DarkBlue"
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                
+                <html:div class="exampleDiv"/>
+
+                <VBox>
+
+                    <l:Grid
+                        containerQuery="false"
+                        defaultSpan="XL4 L4 M12 S12"
+                        hSpacing="1">
+                        
+                        <HBox 
+                        alignItems="Center"
+                        justifyContent="Center"
+                        class="bgDarkBlue sapUiSmallMarginTop">
+
+                            <FlexBox 
+                                height="50px"
+                                width="50px"                      
+                                alignItems="Center"
+                                justifyContent="Center">
+                                <core:Icon size="2.5em" src="sap-icon://calendar" />
+                            </FlexBox>
+                            
+                            <VBox class="DarkBlue">
+                                <FlexBox height="50px" width="200px" direction="Column" alignItems="Center" justifyContent="SpaceBetween">
+                                    <Text class="textColorWhite" text="{i18n>homeOVH1}" />
+                                    <Text class="textColorWhite" text="{i18n>homeOVP1}" />
+                                </FlexBox>                                
+                            </VBox>
+                        </HBox>
+
+                        <HBox 
+                            alignItems="Center"
+                            justifyContent="Center"
+                            class="sapUiSmallMarginTop">
+                            <FlexBox
+                                height="50px"
+                                width="50px"
+                                alignItems="Center"
+                                justifyContent="Center">
+                                <core:Icon size="2.5em" src="sap-icon://locate-me" />
+                            </FlexBox>
+                        
+                            <VBox >
+                                <FlexBox height="50px" width="200px" direction="Column" alignItems="Center" justifyContent="SpaceBetween">
+                                    <Text class="textColorWhite" text="{i18n>homeOVH2}" />
+                                    <Text class="textColorWhite" text="{i18n>homeOVP2}" />
+                                </FlexBox>
+                            </VBox>
+                        </HBox>
+                    
+                        <HBox 
+                            alignItems="Center"
+                            justifyContent="Center"
+                            class="sapUiSmallMarginTop">
+                            <FlexBox
+                                height="50px"
+                                alignItems="Center"
+                                justifyContent="Center">
+                                <core:Icon size="2.5em" src="sap-icon://money-bills" />                        
+                            </FlexBox>
+                            
+                            <VBox >
+                                <FlexBox height="50px" width="200px" direction="Column" alignItems="Center" justifyContent="SpaceBetween">
+                                    <Text class="textColorWhite" text="{i18n>homeOVH3}" />
+                                    <Text class="textColorWhite" text="{i18n>homeOVP3}" />
+                                </FlexBox>                                
+                            </VBox>
+                        </HBox>
+                        
+                    </l:Grid>
+
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </VBox>
+
+                <html:div class="exampleDiv"/>
+
+            </l:Grid>
+
+            
+             <!-- ABAPConf Bullet Points -->
+            <FlexBox
+				height="100px"
+				alignItems="Center"
+                justifyContent="Center">
+				<Title level="H2" titleStyle="H2" text="{i18n>abapConf}"> </Title>
+			</FlexBox>
+
+            <FlexBox
+				height="20px"
+				alignItems="Center"
+                justifyContent="Center"
+                class="sapUiTinyMarginBottom">
+                <html:div class="seperator"></html:div>
+			</FlexBox>
+
+            <!-- Register at eventbrite -->
+            <!--
+            <FlexBox
+				height="50px"
+				alignItems="Center"
+                justifyContent="Center">
+				<Link text="{i18n>homeRegisterEventbrite}" class="textReadability sapUiLargeMarginBottom sapUiLargeMarginTop" wrapping="true" target="_blank" href="https://www.eventbrite.com/e/abapconf-2023-registration-407372982557"/>
+			</FlexBox>
+            -->
+
+            <!-- Points 1, 2, 3 -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                class="sapUiLargeMarginTop"
+                hSpacing="1">
+                
+                <html:div class="exampleDiv"/>
+
+                <VBox>
+
+                    <l:Grid
+                        containerQuery="false"
+                        defaultSpan="XL4 L4 M12 S12"
+                        hSpacing="1">
+
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox height="50px">
+                                <core:Icon size="1.5em" src="sap-icon://information" class="sapUiLargeMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH1}"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP1}" />
+                        </VBox>
+
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox height="50px">
+                                <core:Icon size="1.5em" src="sap-icon://sys-help-2" class="sapUiLargeMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH2}"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP2}" />
+                        </VBox>
+
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox height="50px">
+                                <core:Icon size="1.5em" src="sap-icon://favorite" class="sapUiLargeMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH3}"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP3}" />
+                        </VBox>
+
+                    </l:Grid>
+
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </VBox>
+
+                <html:div class="exampleDiv"/>
+
+            </l:Grid>
+
+            <!-- Points 4, 5, 6 -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                
+                <html:div class="exampleDiv"/>
+
+                <VBox>
+
+                    <l:Grid
+                        containerQuery="false"
+                        defaultSpan="XL4 L4 M12 S12"
+                        hSpacing="1">
+                        
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox
+                                height="50px"      >
+                                <core:Icon size="1.5rem" src="sap-icon://business-card" class="sapUiSmallMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH4}"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP4}" />
+                        </VBox>
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox
+                                height="50px">
+                                <core:Icon size="1.5em" src="sap-icon://study-leave" class="sapUiLargeMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH5}"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP5}" />
+                        </VBox>
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox
+                                height="50px">
+                                <core:Icon size="1.5em" src="sap-icon://away" class="sapUiLargeMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH6}"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP6}" />
+                        </VBox>
+                        
+                    </l:Grid>
+
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </VBox>
+
+                <html:div class="exampleDiv"/>
+
+            </l:Grid>
+
+            
+             <!-- Highlights -->
+
+             <!--
+             <FlexBox
+                height="100px"
+                alignItems="Center"
+                justifyContent="Center">
+                <Title level="H2" titleStyle="H2" text="{i18n>homeHighlights}"> </Title>
+            </FlexBox>
+
+            <FlexBox
+                height="20px"
+                alignItems="Center"
+                justifyContent="Center"
+                class="sapUiLargeMarginBottom">
+                <html:div class="seperator"></html:div>
+            </FlexBox>
+
+            -->
+
+            <!-- Text Highlights -->
+            <!--
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Text width="100%" text="{i18n>homeHighlightsP1}" textAlign="Begin"  class="textReadability"></Text>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+
+            <HBox justifyContent="Center" renderType="Bare">
+                <Panel id="carouselContainer" height="auto">
+                    <Carousel
+                        id="carouselSpeakerHighlights"
+                        loop="true"
+                        showPageIndicator="true"
+                        arrowsPlacement="Content"
+                        class="sapUiContentPadding" >
+                        <pages>
+
+                            
+                            <FlexBox
+                                height="auto"
+                                alignItems="Center"
+                                justifyContent="Center">
+                                <w:Card manifest="../card/speakers/karl/Speaker.json" width="350px" height="auto"/>
+                            </FlexBox>
+                            <FlexBox
+                                height="auto"
+                                alignItems="Center"
+                                justifyContent="Center">
+                                <w:Card manifest="../card/speakers/andre/Speaker.json" width="350px" height="auto"/>
+                            </FlexBox>
+                            <FlexBox
+                                height="auto"
+                                alignItems="Center"
+                                justifyContent="Center">
+                                <w:Card manifest="../card/speakers/ingo/Speaker.json" width="350px" height="auto"/>
+                            </FlexBox>
+                            <FlexBox
+                                height="auto"
+                                alignItems="Center"
+                                justifyContent="Center">
+                                <w:Card manifest="../card/speakers/lars/Speaker.json" width="350px" height="auto"/>
+                            </FlexBox>
+                            <FlexBox
+                                height="auto"
+                                alignItems="Center"
+                                justifyContent="Center">
+                                <w:Card manifest="../card/speakers/thomas/Speaker.json" width="350px" height="auto"/>
+                            </FlexBox>
+                            
+                        </pages>
+                        <customLayout>
+                            <CarouselLayout visiblePagesCount="1" />
+                        </customLayout>
+                    </Carousel>
+                </Panel>
+            </HBox>
+            -->
+
+            <!--
+            agenda
+            -->
+            <!--
+            <mvc:XMLView viewName="abapconf.2023.org.view.agenda.AgendaHome"/>
+            -->
+
+            <!-- FAQ -->
+            <!-- H1 -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox height="150px" alignItems="Center" justifyContent="Center">
+                    <Title level="H1" wrapping="true" wrappingType="Normal" textAlign="Center" titleStyle="H1" text="{i18n>faqH1}"> </Title>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <FlexBox
+				height="20px"
+				alignItems="Center"
+                justifyContent="Center"
+                class="sapUiLargeMarginBottom">
+                <html:div class="seperator"></html:div>
+			</FlexBox>
+
+            <!-- FAQ -->
+            <core:Fragment fragmentName="abapconf.2023.org.view.info.FAQ" type="XML" />
+
+            
+
+            <!-- Meet the orga team -->
+            <FlexBox
+				height="100px"                
+				alignItems="Center"
+                justifyContent="Center">
+				<Title level="H2" titleStyle="H2" text="{i18n>orgaTeamMeet}"> </Title>
+			</FlexBox>
+
+            <FlexBox
+				height="20px"
+				alignItems="Center"
+                justifyContent="Center"
+                class="sapUiLargeMarginBottom ">
+                <html:div class="seperator"></html:div>
+			</FlexBox>
+
+            <!-- Orga Team -->
+            <core:Fragment fragmentName="abapconf.2023.org.view.orga.People" type="XML" />
+
+            <!-- Note text -->
+            <FlexBox
+                alignItems="Start"
+                justifyContent="Center">
+                <Text 
+                    text="{i18n>homeP4}"/>
+            </FlexBox>
+            
+            
+    
+            <!-- footer -->
+            <mvc:XMLView viewName="abapconf.2023.org.view.footer.Footer"/>
+        </content>
+    </Page>
+</mvc:View>

@@ -1,1 +1,2 @@
-sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/resource/ResourceModel"],function(e,n){"use strict";return e.extend("abapconf.2022.org.card.prog.soeren.Main",{onInit:function(){var e=new n({bundleName:"abapconf.2022.org.card.prog.soeren.i18n.i18n"});this.getView().setModel(e,"i18n")}})});
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/resource/ResourceModel"],function(e,n){"use strict";return e.extend("abapconf.2023.org.card.prog.soeren.Main",{onInit:function(){var e=new n({bundleName:"abapconf.2023.org.card.prog.soeren.i18n.i18n"});this.getView().setModel(e,"i18n")}})});
+//# sourceMappingURL=Main.controller.js.map

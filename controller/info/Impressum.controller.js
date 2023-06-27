@@ -1,0 +1,2 @@
+sap.ui.define(["abapconf/2023/org/controller/BaseController"],function(e){"use strict";return e.extend("abapconf.2023.org.controller.Impressum",{onInit:function(){window.addEventListener("hashchange",function(){_paq.push(["setCustomUrl","/#/impressum"+window.location.hash.substr(1)]);_paq.push(["setDocumentTitle","Impressum"]);_paq.push(["trackPageView"])})}})});
+//# sourceMappingURL=Impressum.controller.js.map

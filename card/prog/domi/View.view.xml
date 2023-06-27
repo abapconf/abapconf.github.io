@@ -5,7 +5,7 @@
     xmlns:html="http://www.w3.org/1999/xhtml"
     width="100%"	  
     displayBlock="true"
-    controllerName="abapconf.2022.org.card.prog.domi.Main">
+    controllerName="abapconf.2023.org.card.prog.domi.Main">
 
     <Avatar
         src="./card/prog/domi/DomiBigl.jpg"

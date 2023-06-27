@@ -3,6 +3,6 @@ sap.ui.define([
 ], function (UIComponent) {
 	"use strict";
 
-	return UIComponent.extend("abapconf.2022.org.card.prog.soeren.Component", {});
+	return UIComponent.extend("abapconf.2023.org.card.prog.soeren.Component", {});
 
 });
