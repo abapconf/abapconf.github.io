@@ -131,7 +131,7 @@
             <FlexBox direction="Column" alignItems="Start">
                 <!-- wenn handy, dann 60px, wenn tablet oder desktop, dann 100 px-->          
                 <Image 
-                    src="./img/abap_logo_weiss.png"
+                    src="./img/abapconf2023_logo.png"
                     class="sapUiTinyMargin" 
                     width="{= ${device>/system/phone} ? '60px' : '100px'}" 
                     height="50%"
