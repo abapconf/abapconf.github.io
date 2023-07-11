@@ -240,14 +240,14 @@
 			</FlexBox>
 
             <!-- Register at eventbrite -->
-            <!--
+            
             <FlexBox
 				height="50px"
 				alignItems="Center"
                 justifyContent="Center">
-				<Link text="{i18n>homeRegisterEventbrite}" class="textReadability sapUiLargeMarginBottom sapUiLargeMarginTop" wrapping="true" target="_blank" href="https://www.eventbrite.com/e/abapconf-2023-registration-407372982557"/>
+				<Link text="{i18n>homeRegisterEventbrite}" class="textReadability sapUiLargeMarginBottom sapUiLargeMarginTop" wrapping="true" target="_blank" href="https://www.eventbrite.com/e/abapconf-2023-registration-669212682147"/>
 			</FlexBox>
-            -->
+            
 
             <!-- Points 1, 2, 3 -->
             <l:Grid
