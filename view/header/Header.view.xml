@@ -19,12 +19,13 @@
             </core:layoutData>
         </core:HTML>
 		
+        <!-- register -->
         <Link text="{i18n>headerRegisterEventbrite}" class="whiteText"  wrapping="true" target="_blank" visible="true" href="https://www.eventbrite.com/e/abapconf-2023-registration-669212682147">
             <layoutData>
                 <FlexItemData growFactor="1" />
             </layoutData>
         </Link>
-		
+
         <HBox 
             class="DarkBlue" 
             alignItems="Center"
@@ -41,6 +42,29 @@
 	</HBox>
 
     <HBox
+        fitContainer="true"
+        alignItems="Center"
+        justifyContent="Center"
+        height="35px"
+        class="DarkBlue">
+        <core:HTML content="">
+            <core:layoutData>
+                <FlexItemData growFactor="1" />
+            </core:layoutData>
+        </core:HTML>
+            <!-- call for speakers -->
+            <Link text="{i18n>headerCfSOpen}" class="whiteText"  wrapping="true" target="_blank" visible="true" href="https://forms.gle/zvDh1qVVfsqMxnu78">
+            </Link>
+            
+        <core:HTML content="">
+            <core:layoutData>
+                <FlexItemData growFactor="1" />
+            </core:layoutData>
+        </core:HTML>
+    </HBox>
+     
+
+    <HBox
 		fitContainer="true"
         alignItems="Center"
         justifyContent="Center"
@@ -51,9 +75,9 @@
                 <FlexItemData growFactor="1" />
             </core:layoutData>
         </core:HTML>
-            <Text text="{i18n>headerPreviousABAPConf}: " class="whiteText sapUiSmallMarginEnd" />
-            <Link text="ABAPConf 2021" class="whiteText sapUiSmallMarginEnd"  wrapping="true" target="_blank" href="/abapconf2021/" />
-            <Link text="ABAPConf 2022" class="whiteText sapUiSmallMarginEnd"  wrapping="true" target="_blank" href="/abapconf2022/" />
+        <Text text="{i18n>headerPreviousABAPConf}: " class="whiteText sapUiSmallMarginEnd" />
+        <Link text="ABAPConf 2021" class="whiteText sapUiSmallMarginEnd"  wrapping="true" target="_blank" href="/abapconf2021/" />
+        <Link text="ABAPConf 2022" class="whiteText sapUiSmallMarginEnd"  wrapping="true" target="_blank" href="/abapconf2022/" />
         <core:HTML content="">
             <core:layoutData>
                 <FlexItemData growFactor="1" />

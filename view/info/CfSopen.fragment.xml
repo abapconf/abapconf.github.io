@@ -76,7 +76,7 @@
                 hSpacing="1">
                 <html:div class="exampleDiv"/>
                 <HBox alignItems="Center" justifyContent="Center">
-                    <Link text="ABAPConf 2023 Call for Speakers" href="https://forms.gle/Sv6jC99sHJhc5bi88" target="_blank" textAlign="Center" class="textReadability sapUiLargeMarginBegin" />
+                    <Link text="ABAPConf 2023 Call for Speakers" href="https://forms.gle/zvDh1qVVfsqMxnu78" target="_blank" textAlign="Center" class="textReadability sapUiLargeMarginBegin" />
                     <layoutData>
                         <l:GridData span="XL8 L8 M12 S12"/>
                     </layoutData>
