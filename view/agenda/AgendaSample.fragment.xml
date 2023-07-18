@@ -22,6 +22,85 @@
     </l:Grid>
         
     <!-- Sample Agenda -->
+
+    <!-- Agenda start morgens -->
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"     
+        visible="{= !${agendaView>/hideTableChannel12} ? true : false}"
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        
+        <Table
+            headerText="Agenda">
+            <columns>
+                <Column 
+                    hAlign="Begin"
+                    width="33%">
+                    <header>
+                        <Text text="{i18n>agendaTableHeaderTime}" />
+                    </header>
+                </Column>
+                <Column 
+                    hAlign="Begin"
+                    >
+                    <header>
+                        <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack1}" />
+                    </header>
+                </Column>
+                             
+            </columns>
+
+            <!-- Willkommen -->            
+            <ColumnListItem class="columnKey">
+                <ObjectNumber number="9:00" class="whiteText"/>
+                <Text text="Welcome" class="whiteText"/>
+                <Text text="Welcome" class="whiteText"/>
+            </ColumnListItem>
+            <ColumnListItem class="columnKey">
+                <ObjectNumber number="9:15" class="whiteText"/>
+                <VBox >
+                    <Title 
+                        wrapping="false"    
+                        titleStyle="H3"
+                        level="H3" 
+                        text="Keynote" 
+                        class="whiteText"/>
+                    <Text text="Welcome to ABAPConf. Introduction to the conference, motivation and agenda. Learn how ABAP is evolving, the role it plays and how it is powering innovation." wrapping="true" class="whiteText"/>
+                    <HBox
+                        wrap="Wrap"
+                        alignContent="Center"
+                        justifyContent="Start"
+                        >
+                        <tnt:InfoLabel
+                            class="sapUiTinyMargin"
+                            text="Keynote"
+                            displayOnly="false"
+                            colorScheme= "1" />
+                        <tnt:InfoLabel
+                            class="sapUiTinyMargin"
+                            text="ABAP"
+                            displayOnly="false"
+                            colorScheme= "3" />      
+                    </HBox> 
+                </VBox>
+            </ColumnListItem>
+
+            <ColumnListItem class="columnPause">
+                <Text text="9:55" class="whiteText"/>
+                <Text text="{i18n>agendaTablePause}" class="whiteText"/>
+            </ColumnListItem>
+
+                        <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+
+        </Table>    
+
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+
+
             
     <l:Grid
         containerQuery="false"
@@ -29,8 +108,7 @@
         hSpacing="1">
         <html:div class="exampleDiv"/>
         
-        <Table
-            headerText="Agenda">
+        <Table >
             <columns>
                 <Column 
                     hAlign="Begin">
@@ -50,52 +128,7 @@
                         <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack2}" />
                     </header>
                 </Column>                
-            </columns>
-            <ColumnListItem class="columnKey">
-                <ObjectNumber number="9:00" class="whiteText"/>
-                <Text text="Welcome" class="whiteText"/>
-                <Text text="Welcome" class="whiteText"/>
-            </ColumnListItem>
-            <ColumnListItem class="columnKey" span="2">
-                <ObjectNumber number="9:15" class="whiteText"/>
-                <VBox >
-                    <Title 
-                        wrapping="false"    
-                        titleStyle="H3"
-                        level="H3" 
-                        text="Keynote" 
-                        class="whiteText"/>
-                    <Text text="Welcome to ABAPConf 2021. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day." wrapping="true" class="whiteText"/>
-                    <HBox>
-                        <Label text="Speakers" class="whiteText sapUiSmallMarginTop"/>
-                        <Link text="Tobias Hofmann" class="whiteText sapUiSmallMargin" press="openSpeaker($event, 0)" width="150%"/>
-                        <Link text="Sören Schlegel" class="whiteText sapUiSmallMargin" press="openSpeaker($event, 1)" width="150%"/>
-                        <Link text="Johann Fößleitner" class="whiteText sapUiSmallMargin" press="openSpeaker($event, 2)" width="150%"/>
-                    </HBox>
-                    <HBox
-                        wrap="Wrap"
-                        alignContent="Center"
-                        justifyContent="Start"
-                        >
-                        <tnt:InfoLabel
-                            class="sapUiTinyMargin"
-                            text="Keynote"
-                            displayOnly="false"
-                            colorScheme= "1" />
-                        <tnt:InfoLabel
-                            class="sapUiTinyMargin"
-                            text="ABAP"
-                            displayOnly="false"
-                            colorScheme= "3" />      
-                    </HBox> 
-                </VBox>
-            </ColumnListItem>
-            <ColumnListItem class="columnPause">
-                <ObjectNumber number="9:55" class="whiteText"/>
-                <Text text="{i18n>agendaTablePause}" class="whiteText"/>
-                <Text text="{i18n>agendaTablePause}" class="whiteText" />
-                <Text text="{i18n>agendaTablePause}" class="whiteText" />
-            </ColumnListItem>
+            </columns>            
             <ColumnListItem highlight="Indication05">
                 <ObjectNumber number="10:00" />
                 <Text text="Session" />
