@@ -41,6 +41,8 @@
         </HBox>        
 	</HBox>
 
+    <!-- Call for Speaker -->
+    <!--
     <HBox
         fitContainer="true"
         alignItems="Center"
@@ -52,7 +54,7 @@
                 <FlexItemData growFactor="1" />
             </core:layoutData>
         </core:HTML>
-            <!-- call for speakers -->
+            
             <Link text="{i18n>headerCfSOpen}" class="whiteText"  wrapping="true" target="_blank" visible="true" href="https://forms.gle/zvDh1qVVfsqMxnu78">
             </Link>
             
@@ -62,8 +64,9 @@
             </core:layoutData>
         </core:HTML>
     </HBox>
+    -->
      
-
+    <!-- Previous events -->
     <HBox
 		fitContainer="true"
         alignItems="Center"

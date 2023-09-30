@@ -15,12 +15,12 @@
             <!-- CfS not startet yet 
             <core:Fragment id="cfsPrep" fragmentName="abapconf.2023.org.view.info.CfSprep" type="XML" />
             -->
-            <!-- CfS is running -->
+            <!-- CfS is running
             <core:Fragment id="cfsOpen" fragmentName="abapconf.2023.org.view.info.CfSopen" type="XML" />
-                        
-            <!-- CfS closed 
-            <core:Fragment id="cfsClosed" fragmentName="abapconf.2023.org.view.info.CfSclosed" type="XML" />
             -->
+            <!-- CfS closed -->
+            <core:Fragment id="cfsClosed" fragmentName="abapconf.2023.org.view.info.CfSclosed" type="XML" />
+            
 
             <!-- footer -->
             <mvc:XMLView viewName="abapconf.2023.org.view.footer.Footer"/>
