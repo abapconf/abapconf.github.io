@@ -17,7 +17,7 @@
 			<l:BlockLayoutRow 
                 content="{
                     path: 'speakersTable>',
-                    templateShareable:false
+                    templateShareable:true
                 }">
 
 				<l:BlockLayoutCell > 

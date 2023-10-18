@@ -19,12 +19,13 @@ sap.ui.define([
 			_onShowSpeakers: function() {
 
 				var model = models;
+				var that = this;
 				this.getView().getModel("speakers").dataLoaded()
 				.then( () => {
 				
 					let speakers = this.getView().getModel("speakers").getData();
 					let count = speakers.length;
-					let rows = count / 3;
+					//let rows = count / 3;
 	
 					let speakersTable = [];
 					for (let i = 0; i < speakers.length; i += 3) {
@@ -32,7 +33,7 @@ sap.ui.define([
 						speakersTable.push(chunk);
 					}
 					console.log(speakersTable);
-					this.setModel(model.createSpeakersViewModel(speakersTable), "speakersTable");
+					that.setModel(model.createSpeakersViewModel(speakersTable), "speakersTable");
 				});
 				
 
