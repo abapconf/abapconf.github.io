@@ -48,6 +48,9 @@
 
             <!-- speaker directory -->
             
+            <mvc:XMLView viewName="abapconf.2023.org.view.speakers.SpeakersTable" type="XML" />
+
+            <!--
             <l:Grid
                 containerQuery="false"
                 defaultSpan="XL2 L2 M12 S12"
@@ -61,7 +64,7 @@
                 </HBox>
                 <html:div class="exampleDiv"/>
             </l:Grid>
-            
+            -->
             
             
 

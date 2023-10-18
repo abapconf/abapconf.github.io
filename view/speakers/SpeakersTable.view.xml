@@ -15,14 +15,16 @@
             background="Dashboard" 
             content="{speakersTable>/}">
 			<l:BlockLayoutRow 
+                id="speakerRow"
                 content="{
                     path: 'speakersTable>',
                     templateShareable:true
                 }">
 
-				<l:BlockLayoutCell > 
-                    <Text text="tbd" />
-                    <!--
+
+				<l:BlockLayoutCell 
+                    id="speakerCell"> 
+                    
                     <FlexBox
                         direction="Column"
                         alignItems="Center"
@@ -40,7 +42,7 @@
                             <Title text="{speakersTable>firstname} {speakersTable>lastname}" />
                         </FlexBox>
                     </FlexBox>
-                -->
+                
                     
 				</l:BlockLayoutCell>				
 

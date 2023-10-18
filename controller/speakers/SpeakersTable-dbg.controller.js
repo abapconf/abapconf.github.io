@@ -34,6 +34,13 @@ sap.ui.define([
 					}
 					console.log(speakersTable);
 					that.setModel(model.createSpeakersViewModel(speakersTable), "speakersTable");
+					that.getModel("speakersTable").refresh(true);
+
+					that.getView().byId("speakerRow");
+
+					console.log("a");
+
+					that.getView().byId("speakerRow").setScrollable(false)
 				});
 				
 
