@@ -9,12 +9,7 @@ function (BaseController) {
 
 	return BaseController.extend("abapconf.2023.org.controller.speakerDetail.SpeakerDetail", {
 		onInit: function () {
-			window.addEventListener('hashchange', function() {
-				_paq.push(['setCustomUrl', '/#/speakers' + window.location.hash.substr(1)]);
-				_paq.push(['setDocumentTitle', 'SpeakerDetail']);
-				_paq.push(['trackPageView']);
-			});
-
+			
 			this.getRouter().getRoute("SpeakerDetail").attachPatternMatched(this._onObjectMatched, this);
 		},
 

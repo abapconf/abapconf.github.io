@@ -38,7 +38,7 @@ sap.ui.define([
              * 
              */
             pressEventbrite: function (oEvent) {
-                window.open( "https://www.eventbrite.com/e/407372982557","_blank");
+                window.open( "https://www.eventbrite.com/e/abapconf-2023-registration-669212682147","_blank");
             },
 
             /**

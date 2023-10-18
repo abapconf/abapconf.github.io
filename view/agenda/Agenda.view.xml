@@ -53,13 +53,12 @@
             <!-- Agenda Call for Speaker 
             <core:Fragment id="agendaCfS" fragmentName="abapconf.2023.org.view.agenda.AgendaCfS" type="XML" />
             --> 
-            <!-- Agenda Call for Speaker closed --> 
+            <!-- Agenda Call for Speaker closed
             <core:Fragment id="agendaCfSclosed" fragmentName="abapconf.2023.org.view.agenda.AgendaCfSClosed" type="XML" />
+             --> 
             
             <!-- Agenda Agenda available --> 
-            <!--
             <core:Fragment id="agendaPublished" fragmentName="abapconf.2023.org.view.agenda.AgendaPublished" type="XML" />
-            -->
 
             <!-- Even over, share links to videos and session material 
             <core:Fragment id="agendaPublished" fragmentName="abapconf.2023.org.view.agenda.AgendaEventOver" type="XML" />

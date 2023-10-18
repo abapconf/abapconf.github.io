@@ -16,13 +16,7 @@ sap.ui.define([
 
 		return BaseController.extend("abapconf.2023.org.controller.agenda.channel2.Channel2", {
 			onInit: function () {
-				if (typeof _paq !== "undefined" ) {
-					window.addEventListener('hashchange', function() {
-						_paq.push(['setCustomUrl', '/#/agenda/channel2' + window.location.hash.substr(1)]);
-						_paq.push(['setDocumentTitle', 'Channel2']);
-						_paq.push(['trackPageView']);
-					});
-				}
+				
 
 				this.setModel(models.createAgendaViewModel(), "channel2View");
 			},

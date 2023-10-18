@@ -170,7 +170,9 @@
             </FlexBox>
         
             <Button id="navAbout" text="{i18n>headerNavAbout}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'About')"/>
-            <Button id="navSpeakers" text="{i18n>headerNavCfS}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'CfS')" />
+            <!--
+            <Button id="navCallForSpeakers" text="{i18n>headerNavCfS}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'CfS')" />
+            -->
             <Button id="navAgenda" text="{i18n>headerNavAgenda}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Agenda')" />
             <!--
             <Button id="navSpeakers" text="{i18n>headerNavSpeakers}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Speakers')" />

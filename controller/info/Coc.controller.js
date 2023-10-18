@@ -1,2 +1,2 @@
-sap.ui.define(["abapconf/2023/org/controller/BaseController"],function(o){"use strict";return o.extend("abapconf.2023.org.controller.Coc",{onInit:function(){window.addEventListener("hashchange",function(){_paq.push(["setCustomUrl","/#/coc"+window.location.hash.substr(1)]);_paq.push(["setDocumentTitle","Code of conduct"]);_paq.push(["trackPageView"])})}})});
+sap.ui.define(["abapconf/2023/org/controller/BaseController"],function(n){"use strict";return n.extend("abapconf.2023.org.controller.Coc",{onInit:function(){}})});
 //# sourceMappingURL=Coc.controller.js.map

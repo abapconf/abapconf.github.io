@@ -11,14 +11,6 @@ sap.ui.define([
 
 		return BaseController.extend("abapconf.2023.org.controller.agenda.Agenda", {
 			onInit: function () {
-				if (typeof _paq !== "undefined" ) {
-					window.addEventListener('hashchange', function() {
-						_paq.push(['setCustomUrl', '/#/agenda' + window.location.hash.substr(1)]);
-						_paq.push(['setDocumentTitle', 'Agenda']);
-						_paq.push(['trackPageView']);
-					});
-				}
-
 				this.setModel(models.createAgendaViewModel(), "agendaView");
 			},
 
@@ -28,7 +20,7 @@ sap.ui.define([
 				var oDataSpeaker = this.getModel("speakers").getProperty("/" + iSpeakerId);
 				var oModel = models.createSessionDetailModel(oDataAgenda, oDataSpeaker);
 				console.log(oModel);
-				this.openQuickView(oEvent, oModel);				
+				//this.openQuickView(oEvent, oModel);				
 			},
 
 

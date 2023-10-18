@@ -9,11 +9,7 @@ sap.ui.define([
 
 		return BaseController.extend("abapconf.2023.org.controller.Datenschutz", {
 			onInit: function () {
-				window.addEventListener('hashchange', function() {
-					_paq.push(['setCustomUrl', '/#/datenschutz' + window.location.hash.substr(1)]);
-					_paq.push(['setDocumentTitle', 'Datenschutzerklärung']);
-					_paq.push(['trackPageView']);
-				});
+				
 			}
 		});
 	});

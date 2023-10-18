@@ -13,13 +13,7 @@ sap.ui.define([
 		var URLHelper = mobileLibrary.URLHelper;
 		return BaseController.extend("abapconf.2023.org.controller.agenda.channel3.Channel3", {
 			onInit: function () {
-				if (typeof _paq !== "undefined" ) {
-					window.addEventListener('hashchange', function() {
-						_paq.push(['setCustomUrl', '/#/agenda/channel3' + window.location.hash.substr(1)]);
-						_paq.push(['setDocumentTitle', 'Channel3']);
-						_paq.push(['trackPageView']);
-					});
-				}
+				
 
 				this.setModel(models.createAgendaViewModel(), "channel3View");
 			},
