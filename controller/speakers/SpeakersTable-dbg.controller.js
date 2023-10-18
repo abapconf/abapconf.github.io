@@ -12,29 +12,29 @@ sap.ui.define([
 
 		return BaseController.extend("abapconf.2023.org.controller.speakers.SpeakersTable", {
 			onInit: function () {
-
 				var oRouter = this.getOwnerComponent().getRouter();
 				oRouter.getRoute("Speakers").attachPatternMatched(this._onShowSpeakers, this);
-
-				
-				//this.getView().setModel("speakersView")
-			},
+			}, 
 
 			_onShowSpeakers: function() {
-				let speakers = this.getView().getModel("speakers").getData();
-				let count = speakers.length;
-				let rows = count / 3;
-				console.log(count, rows);
 
-				let speakersTable = [];
-				for (let i = 0; i < speakers.length; i += 3) {
-					const chunk = speakers.slice(i, i + 3);
-					// do whatever
-					
-					speakersTable.push(chunk);
-				}
-				console.log(speakersTable);
-				this.setModel(models.createSpeakersViewModel(speakersTable), "speakersTable");
+				
+				this.getView().getModel("speakers").dataLoaded()
+				.then( () => {
+				
+					let speakers = this.getView().getModel("speakers").getData();
+					let count = speakers.length;
+					let rows = count / 3;
+	
+					let speakersTable = [];
+					for (let i = 0; i < speakers.length; i += 3) {
+						const chunk = speakers.slice(i, i + 3);
+						speakersTable.push(chunk);
+					}
+					console.log(speakersTable);
+					this.setModel(models.createSpeakersViewModel(speakersTable), "speakersTable");
+				});
+				
 
 			},
 
