@@ -32,15 +32,8 @@ sap.ui.define([
 						const chunk = speakers.slice(i, i + 3);
 						speakersTable.push(chunk);
 					}
-					console.log(speakersTable);
 					that.setModel(model.createSpeakersViewModel(speakersTable), "speakersTable");
-					that.getModel("speakersTable").refresh(true);
 
-					that.getView().byId("speakerRow");
-
-					console.log("a");
-
-					that.getView().byId("speakerRow").setScrollable(false)
 				});
 				
 
