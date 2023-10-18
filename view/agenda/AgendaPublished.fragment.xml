@@ -84,7 +84,7 @@
                     <core:Item key="all" text="{i18n>agendaFilterAll}" />
                 </ComboBox>
             </FlexBox>
-            <!--
+            
             <FlexBox direction="Column" alignItems="Start">
                 <Label text="{i18n>agendaFilterLanguage}" />
                 <ComboBox
@@ -95,7 +95,7 @@
                     <core:Item key="all" text="{i18n>agendaFilterAll}" />
                 </ComboBox>
             </FlexBox>
-            -->
+            
             <layoutData>
                 <l:GridData span="XL8 L8 M12 S12"/>
             </layoutData>
@@ -357,7 +357,7 @@
                 <Text text="10:00"/>
                 <!-- REST 1 -->
                 <VBox
-                    blocked="{agendaView>/showEnglish}"
+                    blocked="{agendaView>/showGerman}"
                     class="sapUiSmallMarginBottom sapUiSmallMarginTop">
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
@@ -394,7 +394,7 @@
                 </VBox>
                 <!-- Test 1 -->
                 <VBox 
-                    blocked="{agendaView>/showGerman}"
+                    blocked="{agendaView>/showEnglish}"
                     class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
@@ -440,7 +440,7 @@
             <ColumnListItem>
                 <Text text="10:50" />
                 <!-- REST 2 -->
-                <VBox blocked="{agendaView>/showEnglish}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
+                <VBox blocked="{agendaView>/showGerman}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
@@ -479,7 +479,7 @@
                 </VBox>
                 <!-- SDK 1 -->
                 <VBox 
-                    blocked="{agendaView>/showGerman}"
+                    blocked="{agendaView>/showEnglish}"
                     class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
@@ -562,7 +562,7 @@
             <ColumnListItem>
                 <Text text="11:40" />
                 <!-- RAP 3 -->
-                <VBox blocked="{agendaView>/showEnglish}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
+                <VBox blocked="{agendaView>/showGerman}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
@@ -691,7 +691,7 @@
             <ColumnListItem>
                 <Text text="13:05" />
                 <!-- RAP 4 -->
-                <VBox blocked="{agendaView>/showEnglish}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
+                <VBox blocked="{agendaView>/showGerman}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
@@ -727,7 +727,7 @@
                 </VBox>
                 <!-- SDK 2 -->
                 <VBox 
-                    blocked="{agendaView>/showGerman}"
+                    blocked="{agendaView>/showEnglish}"
                     class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
@@ -805,7 +805,7 @@
             <ColumnListItem >
                 <Text text="13:55" />
                 <!-- RAP 5 -->
-                <VBox blocked="{agendaView>/showGerman}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
+                <VBox blocked="{agendaView>/showEnglish}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
@@ -1137,9 +1137,6 @@
             </ColumnListItem>
             <ColumnListItem>
                 <Text text="16:35" />
-
-               
-
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
