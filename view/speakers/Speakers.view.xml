@@ -47,7 +47,7 @@
 			</FlexBox>
 
             <!-- speaker directory -->
-            <!--
+            
             <l:Grid
                 containerQuery="false"
                 defaultSpan="XL2 L2 M12 S12"
@@ -61,7 +61,7 @@
                 </HBox>
                 <html:div class="exampleDiv"/>
             </l:Grid>
-            -->
+            
             
             
 

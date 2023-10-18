@@ -246,10 +246,10 @@
                         wrap="Wrap"
                         width="{= ${device>/system/phone}? '200%' : '300%'}" >
                         <Label text="Speakers" class="whiteText sapUiSmallMarginTop"/>
-                        <!--
-                        <Link text="Boris Gebhardt"  press="openSpeaker($event, '39a33820-ddc5-4f99-8422-016622ebb788')" class="whiteText sapUiSmallMargin" width="150%"/>
-                        <Link text="Frank Jentsch"   press="openSpeaker($event, '39a33820-ddc5-4f99-8422-016622ebb789')" class="whiteText sapUiSmallMargin" width="150%"/>
-                        -->
+                        
+                        <Link text="Volker Drees"  press="openSpeaker($event, 'VolkerDrees')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="Marcel Hermanns"   press="openSpeaker($event, 'MarcelHermanns')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        
                     </HBox>
                     <HBox
                         wrap="Wrap"
@@ -531,7 +531,7 @@
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/insidetalk1/speaker}" press="openSpeaker($event, '39a33820-ddc5-4f99-8422-816601ebb775')" width="150%"/>
+                        <Link text="{agenda>/insidetalk1/speaker}" press="openSpeaker($event, 'MarcelHermanns')" width="150%"/>
                     </HBox>                    
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -775,7 +775,7 @@
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/insidetalk2/speaker}" press="openSpeaker($event, '39zz3820-dac5-4f99-8422-016622ebb789')" width="150%"/>
+                        <Link text="{agenda>/insidetalk2/speaker}" press="openSpeaker($event, 'FrankJentsch')" width="150%"/>
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>

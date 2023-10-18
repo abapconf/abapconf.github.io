@@ -1,17 +1,44 @@
 sap.ui.define([
 	"abapconf/2023/org/controller/BaseController",
 	"sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator"
+	"sap/ui/model/FilterOperator",
+	"abapconf/2023/org/model/models"
 ],
 	/**
 	 * @param {typeof sap.ui.core.mvc.Controller} Controller
 	 */
-	function (BaseController, Filter, FilterOperator) {
+	function (BaseController, Filter, FilterOperator, models) {
 		"use strict";
 
 		return BaseController.extend("abapconf.2023.org.controller.speakers.SpeakersTable", {
 			onInit: function () {
+
+				var oRouter = this.getOwnerComponent().getRouter();
+				oRouter.getRoute("Speakers").attachPatternMatched(this._onShowSpeakers, this);
+
+				
+				//this.getView().setModel("speakersView")
 			},
+
+			_onShowSpeakers: function() {
+				let speakers = this.getView().getModel("speakers").getData();
+				let count = speakers.length;
+				let rows = count / 3;
+				console.log(count, rows);
+
+				let speakersTable = [];
+				for (let i = 0; i < speakers.length; i += 3) {
+					const chunk = speakers.slice(i, i + 3);
+					// do whatever
+					
+					speakersTable.push(chunk);
+				}
+				console.log(speakersTable);
+				this.setModel(models.createSpeakersViewModel(speakersTable), "speakersTable");
+
+			},
+
+
 			
 			
 			/**
@@ -19,19 +46,18 @@ sap.ui.define([
 			 * 
 			 * @param {sap.ui.base.Event} oEvent Press event from ListItem
 			 */
-			 openSpeakerDetail: function(oEvent) {
-				console.log("openSpeakerDetail");
-
-				var oItem = oEvent.getParameter("listItem");
-				var sPath = oItem.getBindingContextPath();
-				var sId = this.getModel("speakers").getProperty(sPath + "/id")
-
+			openSpeakerDetail: function(oEvent) {
+				
+				var oCtx = oEvent.getSource().mBindingInfos.src.binding.getContext();
+				var sPath = oCtx.getPath();
+				var sId = this.getModel("speakersTable").getProperty(sPath + "/id");
+				
 				this.getRouter().navTo("SpeakerDetail", {
 					id: sId
 				});
 				
 			},
-
+			
 
 			/**
 			 * Search the speaker table
