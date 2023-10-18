@@ -154,14 +154,15 @@
                         <CustomListItem class="sapUiSmallMargin">
                             <FlexBox alignItems="Start" justifyContent="SpaceBetween">
                                 <VBox>
-                                    <Title level="H3" titleStyle="H3" text="{speakers>title}" />
-                                    <Text text="{speakers>abstract}" />
+                                    <Title level="H3" titleStyle="H3" text="{speakers>title}" wrapping="true" />
+                                    <Text text="{speakers>abstract}" wrapping="true"/>
                                     
                                 </VBox>
                                 <HBox
                                     items="{
                                         path: 'speakers>tags'
-                                    }">
+                                    }"
+                                    visible="{= !${device>/system/phone} }">
                                     <tnt:InfoLabel
                                         class="sapUiSmallMargin"
                                         text="{speakers>name}"
@@ -169,6 +170,17 @@
                                         colorScheme= "{speakers>color}" />                                                   
                                 </HBox> 
                             </FlexBox>
+                            <HBox
+                                    items="{
+                                        path: 'speakers>tags'
+                                    }"
+                                    visible="{device>/system/phone}">
+                                    <tnt:InfoLabel
+                                        class="sapUiSmallMargin"
+                                        text="{speakers>name}"
+                                        displayOnly="false"
+                                        colorScheme= "{speakers>color}" />                                                   
+                                </HBox> 
                         </CustomListItem>
                     </items>
                     <layoutData>
