@@ -17,7 +17,14 @@
       "keywords": ["{{abapconftags}}", "{{appDescription}}"]
     },
     "dataSources": {
-      
+      "speakers":{
+        "uri": "model/speakers.json",
+        "type": "JSON"
+      },
+      "agenda":{
+        "uri": "model/agenda.json",
+        "type": "JSON"
+      }
     },
     "offline": false
   },
@@ -67,7 +74,13 @@
           "supportedLocales": ["de", "en"],
           "fallbackLocale": "en"
         }
-      }      
+      },
+      "speakers": {
+        "dataSource": "speakers"
+      },
+      "agenda": {
+        "dataSource": "agenda"
+      }    
     },
     "resources": {
       "css": [
