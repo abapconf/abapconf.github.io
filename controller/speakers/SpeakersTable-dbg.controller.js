@@ -18,7 +18,7 @@ sap.ui.define([
 
 			_onShowSpeakers: function() {
 
-				
+				var model = models;
 				this.getView().getModel("speakers").dataLoaded()
 				.then( () => {
 				
@@ -32,7 +32,7 @@ sap.ui.define([
 						speakersTable.push(chunk);
 					}
 					console.log(speakersTable);
-					this.setModel(models.createSpeakersViewModel(speakersTable), "speakersTable");
+					this.setModel(model.createSpeakersViewModel(speakersTable), "speakersTable");
 				});
 				
 
