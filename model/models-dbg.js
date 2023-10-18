@@ -31,6 +31,11 @@ sap.ui.define([
 		},
 
 
+		createSpeakersViewModel: function(speakers) {
+			var oModel = new JSONModel(speakers);
+			return oModel;
+		},
+
 		createAgendaViewModel: function() {
 
 			// check if device is phone to set visible mode correctly for agenda table with Channel 1 and 2

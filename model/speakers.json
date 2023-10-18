@@ -921,12 +921,12 @@
         "twitter": "",
         "sessions": [
             {
-                "title": "",
+                "title": "Building Apps and Extensions with ABAP Cloud on SAP BTP ABAP Environment",
                 "abstract": "",
                 "track": 1,
-                "time": "9:00",
+                "time": "13:05",
                 "duration": 60,
-                "language": "Deutsch",
+                "language": "English",
                 "ics": "/card/speakers/keynote/keynote.ics",
                 "tags": [
                     {
@@ -980,11 +980,69 @@
         "twitter": "",
         "sessions": [
             {
-                "title": "",
+                "title": "Keynote: Restful Application Programming Model",
+                "abstract": "Keynote on channel 1: ABAP Restful Application Programming Model (RAP)",
+                "track": 1,
+                "time": "9:00",
+                "duration": 55,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "RAP",
+                        "color": 2
+                    }     
+                ]
+            },
+            {
+                "title": "Classic ABAP to ABAP Cloud",
                 "abstract": "",
                 "track": 3,
-                "time": "14:45",
-                "duration": 30,
+                "time": "10:50",
+                "duration": 60,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "RAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "Inside Talk",
+                        "color": 1
+                    }   
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Inside Talk",
+                "color": 1
+            }
+        ]
+    },
+    {
+        "id": "VolkerDrees",
+        "firstname": "Volker",
+        "middlename": "",
+        "lastname": "Drees",
+        "initials": "VD",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Produktexperte",
+        "picture": "./card/speakers/volker/VolkerDrees.jpg", 
+        "shortBio": "Produktexperte",
+        "longBio": "Volker Drees hat umfangreiche Erfahrung in den Bereichen: ABAP-Entwicklung, ERP-Implementierung, SAP CRM, Mobile Sales, Mobile Asset Management und Mobile Infrastructure. Aktuell arbeitet er bei der SAP SE als Produktexperte für SAP Gateway und für das ABAP RESTful Application Programming Model im Bereich Technology & Innovation – Core Platform. Volker Drees begann seine SAP-Karriere im Jahr 1998 in der SAP-Beratung. Anschließend arbeitete er als Regional Group Expert für mobile Anwendungen im Bereich Business User und Information Worker. Er hat an der Fachhochschule Wiesbaden Elektrotechnik in der Fachrichtung Nachrichtentechnik studiert und einen Abschluss als Diplom-Ingenieur (FH).",
+        "linkedIn": "",
+        "scn": "https://people.sap.com/volker.drees",
+        "twitter": "",
+        "sessions": [
+            {
+                "title": "Keynote: Restful Application Programming Model",
+                "abstract": "Keynote on channel 1: ABAP Restful Application Programming Model (RAP)",
+                "track": 1,
+                "time": "9:00",
+                "duration": 55,
                 "language": "English",
                 "ics": "",
                 "tags": [
@@ -999,7 +1057,7 @@
             {
                 "name": "Inside Talk",
                 "color": 1
-             }
+            }
         ]
     },
     {
@@ -1082,6 +1140,45 @@
             {
                 "name": "ABAP",
                 "color": 4
+             }
+        ]
+    },
+    {
+        "id": "MarcelHermanns",
+        "firstname": "Marcel",
+        "middlename": "",
+        "lastname": "Hermanns",
+        "initials": "MH",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Development Expert",
+        "picture": "./card/speakers/marcel/marcel.hermanns.png", 
+        "shortBio": "RAP Product Lead",
+        "longBio": "RAP Product Lead",
+        "linkedIn": "",
+        "scn": "https://people.sap.com/marcel.hermanns",
+        "twitter": "",
+        "sessions": [
+            {
+                "title": "Inside Talk: Classic ABAP to ABAP Cloud",
+                "abstract": "",
+                "track": 3,
+                "time": "14:45",
+                "duration": 30,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "RAP",
+                        "color": 2
+                    }     
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Inside Talk",
+                "color": 1
              }
         ]
     }
