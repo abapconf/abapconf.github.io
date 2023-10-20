@@ -121,6 +121,11 @@
           "target": ["SpeakerDetail"]
         },
         {
+          "name": "Session",
+          "pattern": "agenda/session/{id}",
+          "target": ["Session"]
+        },
+        {
           "name": "OrgaTeam",
           "pattern": "orga",
           "target": ["OrgaTeam"]
@@ -228,6 +233,13 @@
           "clearControlAggregation": false,
           "viewId": "Channel3",
           "viewName": "agenda/channel3/Channel3"
+        },
+        "Session": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "Session",
+          "viewName": "agenda/session/Session"
         },
         "Speakers": {
           "viewType": "XML",
