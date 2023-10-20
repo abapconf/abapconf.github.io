@@ -113,7 +113,8 @@
         <html:div class="exampleDiv"/>
         
         <Table
-            headerText="">
+            headerText=""
+            >
             <columns>
                 <Column 
                     width="3.0rem"
@@ -137,20 +138,30 @@
                 <Text text="Warmup" class="whiteText"/>
             </ColumnListItem>
             <!-- Willkommen -->
-            <ColumnListItem class="columnWelcome">
+            <ColumnListItem class="columnWelcome"
+                press="openSession($event, 'willkommen')">
+
                 <Text text="8:30" class="whiteText"/>
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Title 
-                        wrapping="false"    
-                        titleStyle="H3"
-                        level="H3" 
-                        text="{agenda>/willkommen/title}"  
-                        class="whiteText"/>
+                    <Link 
+                    class="sapMTitle sapMTitleStyleAuto whiteText keynoteTitle" 
+                    wrapping="true" 
+                    text="{agenda>/willkommen/title}" 
+                    press="openSession($event, 'willkommen')"/>                     
                     <Text 
                         wrapping="true"
                         class="whiteText"
                         textAlign="Begin"
                         text="{agenda>/welcome/abstract}"/>
+                    <HBox
+                        wrap="Wrap"
+                        alignContent="Center"
+                        justifyContent="Start">
+                        <Link text="Tobias Hofmann" class="whiteText sapUiSmallMargin" press="openSpeaker($event, 'TobiasHofmann')" width=""/>
+                        <Link text="Sören Schlegel" class="whiteText sapUiSmallMargin" press="openSpeaker($event, 'SoerenSchlegel')" width=""/>
+                        <Link text="Johann Fößleitner" class="whiteText sapUiSmallMargin" press="openSpeaker($event, 'JohannFoessleitner')" width=""/>
+                        <Link text="Domi Bigl" class="whiteText sapUiSmallMargin" press="openSpeaker($event, 'DomiBigl')" width=""/>
+                    </HBox>
                     <HBox
                         wrap="Wrap"
                         alignContent="Center"
@@ -181,12 +192,11 @@
             <ColumnListItem class="columnWelcome">
                 <Text text="8:45" class="whiteText"/>
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Title 
-                        wrapping="false"    
-                        titleStyle="H3"
-                        level="H3" 
-                        text="{agenda>/welcome/title}"
-                        class="whiteText"/>
+                    <Link 
+                        class="sapMTitle sapMTitleStyleAuto whiteText keynoteTitle" 
+                        wrapping="true" 
+                        text="{agenda>/welcome/title}" 
+                        press="openSession($event, 'welcome')"/>                    
                     <Text 
                         wrapping="true"
                         class="whiteText"
@@ -232,12 +242,20 @@
                 <Text text="9:00" class="whiteText"/>
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop">                    
                     <!-- width="{= ${device>/system/phone}? '200%' : '300%'}" -->
-                    <Title 
-                        wrapping="true"    
+                    <Link 
+                        class="sapMTitle sapMTitleStyleAuto whiteText keynoteTitle" 
+                        wrapping="true" 
+                        text="{agenda>/keynote/title}" 
+                        press="openSession($event, 'keynote')"/>
+
+                    <!-- 
+                       <Title 
+                        wrapping="true"   
                         titleStyle="H3"
                         level="H3" 
                         text="{agenda>/keynote/title}"                 
-                        class="whiteText"/>
+                        class="whiteText"/>                         
+                    -->
                     <Text 
                         wrapping="true" 
                         class="whiteText"
@@ -400,7 +418,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/adt1/title}" 
-                        press="openSession($event, 'test1', 14)"/>
+                        press="openSession($event, 'adt1')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -445,7 +463,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/rap2/title}" 
-                        press="openSession($event, 'rap2', 7)"/>
+                        press="openSession($event, 'rap2')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -485,7 +503,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/sdk1/title}" 
-                        press="openSession($event, 'test2', 15)"/>
+                        press="openSession($event, 'sdk1')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -527,7 +545,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/insidetalk1/title}" 
-                        press="openSession($event, 'insidetalk1', 11)"/>
+                        press="openSession($event, 'insidetalk1')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -567,7 +585,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/rap3/title}" 
-                        press="openSession($event, 'rap3', 21)"/>
+                        press="openSession($event, 'rap3')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/rap3/speaker}" press="openSpeaker($event, 'SaschaWaechter')" class="" width="150%"/>
@@ -604,7 +622,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/test1/title}" 
-                        press="openSession($event, 'test3', 16)"/>
+                        press="openSession($event, 'test1')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -696,7 +714,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/rap4/title}" 
-                        press="openSession($event, 'rap4', 4)"/>
+                        press="openSession($event, 'rap4')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/rap4/speaker}" press="openSpeaker($event, 'OlgaDolinskaja')" class="" width="150%"/>
@@ -733,11 +751,15 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/sdk2/title}" 
-                        press="openSession($event, 'sdk2', 17)"/>
+                        press="openSession($event, 'sdk2')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/sdk2/speaker}" press="openSpeaker($event, 'JonFriesen')" width="150%"/>
+                    </HBox>
+                    <HBox class="sapUiSmallMarginTop">
+                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                        <Link text="{agenda>/sdk2/speaker2}" press="openSpeaker($event, 'KrishnakumarRamadoss')" width="150%"/>
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -771,7 +793,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/insidetalk2/title}" 
-                        press="openSession($event, 'insidetalk2', 27)"/>
+                        press="openSession($event, 'insidetalk2')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -810,7 +832,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/rap5/title}" 
-                        press="openSession($event, 'rap5', 9)"/>
+                        press="openSession($event, 'rap5')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/rap5/speaker}" press="openSpeaker($event, 'DominikElias')" class="" width="150%"/>
@@ -847,7 +869,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/test2/title}" 
-                        press="openSession($event, 'test2', 18)"/>
+                        press="openSession($event, 'test2')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -891,7 +913,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/rap6/title}" 
-                        press="openSession($event, 'rap6', 10)"/>
+                        press="openSession($event, 'rap6')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/rap6/speaker}" press="openSpeaker($event, 'VijayaChintarlapalli')" class="" width="150%"/>
@@ -928,7 +950,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/test3/title}" 
-                    />
+                        press="openSession($event, 'test3')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/test3/speaker}" press="openSpeaker($event, 'ChristianReutebuch')" width="150%"/>
@@ -1142,7 +1164,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/keynote2/title}" 
-                        press="openSession($event, 'rest1', 20)"/>
+                        press="openSession($event, 'keynote2')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/keynote2/speaker}" press="openSpeaker($event, 'BorisGebhardt')" width="150%"/>
@@ -1176,7 +1198,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/keynote2/title}" 
-                        press="openSession($event, 'rest1', 20)"/>
+                        press="openSession($event, 'keynote2')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/keynote2/speaker}" press="openSpeaker($event, 'BorisGebhardt')" width="150%"/>

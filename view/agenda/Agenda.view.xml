@@ -10,7 +10,7 @@
    
     <Page id="agenda" showHeader="false">
         <content>
-            <!-- footer -->
+            <!-- Header -->
             <mvc:XMLView viewName="abapconf.2023.org.view.header.Header"/>
 
             <!-- image -->

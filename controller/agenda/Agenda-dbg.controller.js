@@ -14,6 +14,7 @@ sap.ui.define([
 				this.setModel(models.createAgendaViewModel(), "agendaView");
 			},
 
+			/*
 			openSession: function(oEvent, sSlot, iSpeakerId) {
 				console.log(sSlot);
 				var oDataAgenda = this.getModel("agenda").getProperty("/" + sSlot);
@@ -21,6 +22,15 @@ sap.ui.define([
 				var oModel = models.createSessionDetailModel(oDataAgenda, oDataSpeaker);
 				console.log(oModel);
 				//this.openQuickView(oEvent, oModel);				
+			},
+			*/
+			openSession: function(oEvent, sSlot) {
+				console.log(sSlot);
+				
+				this.getRouter().navTo("Session", {
+					id: sSlot
+				});
+
 			},
 
 

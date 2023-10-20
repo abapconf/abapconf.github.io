@@ -71,7 +71,7 @@ hSpacing="1">
                 class="sapMTitle sapMTitleStyleAuto textBlack" 
                 wrapping="true" 
                 text="{agenda>/insidetalk1/title}" 
-                press="openSession($event, 'insidetalk1', 11)"/>
+                press="openSession($event, 'insidetalk1')"/>
 
             <HBox class="sapUiSmallMarginTop">
                 <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -128,7 +128,7 @@ hSpacing="1">
                 class="sapMTitle sapMTitleStyleAuto textBlack" 
                 wrapping="true" 
                 text="{agenda>/insidetalk2/title}" 
-                press="openSession($event, 'insidetalk2', 27)"/>
+                press="openSession($event, 'insidetalk2')"/>
 
             <HBox class="sapUiSmallMarginTop">
                 <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -173,7 +173,7 @@ hSpacing="1">
                 class="sapMTitle sapMTitleStyleAuto textBlack" 
                 wrapping="true" 
                 text="{agenda>/insidetalk3/title}" 
-                press="openSession($event, 'insidetalk3', 28)"/>
+                press="openSession($event, 'insidetalk3')"/>
 
             <HBox class="sapUiSmallMarginTop">
                 <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
