@@ -384,7 +384,7 @@
                         press="openSession($event, 'rap1', 5)"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap1/speaker}" press="openSpeaker($event, 'StefanHillinger')" width="150%"/>
+                        <Link text="{agenda>/rap1/speaker}" press="openSpeaker($event, 'SaschaWaechter')" width="150%"/>
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -588,7 +588,7 @@
                         press="openSession($event, 'rap3')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap3/speaker}" press="openSpeaker($event, 'SaschaWaechter')" class="" width="150%"/>
+                        <Link text="{agenda>/rap3/speaker}" press="openSpeaker($event, 'StefanHillinger')" class="" width="150%"/>
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -1125,7 +1125,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/rest1/title}" 
-                        press="openSession($event, 'rest1', 20)"/>
+                        press="openSession($event, 'rest1')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>

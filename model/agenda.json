@@ -115,8 +115,8 @@
             }
         ]
     },    
-    "rap1": {
-        "id": "rap1",
+    "rap3": {
+        "id": "rap3",
         "speaker": "Stefan Hillinger",
         "speakerids": [
             "StefanHillinger"
@@ -124,11 +124,11 @@
         "title": "Freshman RAP - Wie man ins kalte Wasser springt",
         "abstract": "Wie tut man sich als Neuling in der RAP Welt so eigentlich? Lessons learned als Einsteiger in der SAP und RAP Welt.\n\nIch möchte euch meine eigenen Erfahrungen zu meinem Einstieg in die SAP Welt, und nach einer kurzen Ausbildung, direkt in einem Greenfield Private Cloud Projekt, zeigen. Was ist gut gelaufen, wie orientiert man sich am besten und was sind gute Anhaltestellen um sich RAP anzueignen.",
         "track": 1,
-        "time": "10:00",
+        "time": "11:40",
         "YouTubeTimestamp": 0,
         "duration": 30,
         "language": "German",
-        "ics": "./model/agenda/rap1.ics",
+        "ics": "./model/agenda/rap3.ics",
         "tags": [
             {
                 "name": "RAP",
@@ -167,8 +167,8 @@
             }
         ]
     },
-    "rap3": {
-        "id": "rap3",
+    "rap1": {
+        "id": "rap1",
         "speaker": "Sascha Wächter",
         "speakerids": [
             "SaschaWaechter"
@@ -176,11 +176,11 @@
         "title": "Smoke testing your RAP: Schnelleinstieg in das Testen von RAP-Services",
         "abstract": "Im Rahmen vieler S/4HANA-Projekte steht man vor der Herausforderung Geschäftsanwendungen mithilfe neuer Technologien wie zum Beispiel auch dem Restful Application Programming Model bauen zu können oder auch zu müssen. Das meist unter Projektdruck der eh schon komplexen S/4-Projekte.\n\n Die Chance robustere Anwendungen mit automatisierten Unit- und Integrationstests zu bauen gerät dann schnell ins Hintertreffen. Dabei hat man doch gerade im Zuge von S/4-Migration und der Implementierung neuer Anwendungen mit neusten Frameworks die Chance wenigstens ein paar Qualitätsziele umzusetzen. Die Hemmschwelle muss gar nicht so groß sein wie vielleicht angenommen. Man lässt sich doch schnell abschrecken obwohl es mittlerweile immer mehr Möglichkeiten gibt.\n\nDieser Vortrag richtet sich nicht an Testexperten, sondern an Einsteiger, die im Zuge von S/4 oder Steampunk in die RAP-Entwicklung einsteigen und mit einfachen mitteln ihre Services 'smoke testen' wollen. D.h. einfache Tests ohne großen Aufwand aber mit einer gewissen grundlegenden Testabdeckung. Praxisnah pragmatisch, denn jeder Test ist besser als kein Test.\n\nTeil des Vortrages sind Unit-Tests einer Behaviour Implementation (Determinations, Validations und Actions) mit Hilfe des Test Double Frameworks und einfache Integrationstests für OData.",
         "track": 1,
-        "time": "11:40",
+        "time": "10:00",
         "YouTubeTimestamp": 0,
-        "duration": 30,
+        "duration": 45,
         "language": "German",
-        "ics": "./model/agenda/rap3.ics",
+        "ics": "./model/agenda/rap1.ics",
         "icon": "",
         "slide": "",
         "tags": [
