@@ -30,6 +30,11 @@ sap.ui.define([
 			return oModel;
 		},
 
+		createSessionDetailSpeakerModel: function() {
+			var oModel = new JSONModel([]);
+			return oModel;
+		},
+
 
 		createSpeakersViewModel: function(speakers) {
 			var oModel = new JSONModel(speakers);

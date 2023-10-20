@@ -1181,5 +1181,83 @@
                 "color": 1
              }
         ]
+    },
+    {
+        "id": "JonFriesen",
+        "firstname": "Jon",
+        "middlename": "",
+        "lastname": "Friesen",
+        "initials": "JF",
+        "company": "AWS",
+        "companyWeb": "https://www.aws.com/",
+        "function": "Sr. Systems Development Engineer, EC2 SAP",
+        "picture": "./card/speakers/jon/JonFriesen.jpeg", 
+        "shortBio": "AWS and SAP enthusiast, 3D animator, occasional writer and musician",
+        "longBio": "SAP Technologist in the area of hosting, Basis, AWS, SAP Solution Manager, and cybersecurity.\n\nI have a passion for system administration and love to work in areas that cut cross OS, database, application, programming and cloud disciplines. I love system automation and monitoring and have a career-long history in the SAP hosting industry. I have a creative bent and love 3D animation workflows (a multi-disciplinary pursuit which also cuts across creativity, technology, application, programming and cloud -- there is a pattern here).",
+        "linkedIn": "https://www.linkedin.com/in/jonfriesen/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "title": "Accelerate business process innovation with the AWS SDK for SAP ABAP",
+                "abstract": "Transform your business processes and extend mission-critical ERP applications with the help of cloud services. The AWS SDK for SAP ABAP makes it easy for ABAP developers to modernize and transform SAP-based business processes by providing simple, secure, and configurable connections between ABAP environments and 200+ AWS services. Join this chalk talk to explore how to use AI/ML, IoT, and analytics to accelerate innovation and reimagine SAP-based business processes. Learn how to utilize Amazon Textract, Amazon Translate, Amazon S3, and other AWS services from SAP ABAP to automate document processing and other essential processes",
+                "track": 2,
+                "time": "13:05",
+                "duration": 45,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    }     
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 1
+             }
+        ]
+    },
+    {
+        "id": "KrishnakumarRamadoss",
+        "firstname": "Krishnakumar",
+        "middlename": "",
+        "lastname": "Ramadoss",
+        "initials": "KR",
+        "company": "AWS",
+        "companyWeb": "https://www.aws.com/",
+        "function": "Senior Specialist Innovation Architect SAP on AWS",
+        "picture": "./card/speakers/krishnakumar/KrishnakumarRamadoss.jpeg", 
+        "shortBio": "Krishnakumar Ramadoss, aka KKR, is a Senior SAP Innovation Architect at AWS",
+        "longBio": "Krishnakumar Ramadoss, aka KKR, is a Senior SAP Innovation Architect at AWS, covering SAP innovation topics on AWS across AMER regions. He has 18 years of SAP technology experience with expertise in application and integration development, implementing SAP solutions for different industry verticals, and architecting SAP solutions with the AWS cloud. When not working, he enjoys hiking around the hills near the bay. He is also an aviation enthusiast and loves flying simulators.",
+        "linkedIn": "https://www.linkedin.com/in/kramadoss/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "title": "Accelerate business process innovation with the AWS SDK for SAP ABAP",
+                "abstract": "Transform your business processes and extend mission-critical ERP applications with the help of cloud services. The AWS SDK for SAP ABAP makes it easy for ABAP developers to modernize and transform SAP-based business processes by providing simple, secure, and configurable connections between ABAP environments and 200+ AWS services. Join this chalk talk to explore how to use AI/ML, IoT, and analytics to accelerate innovation and reimagine SAP-based business processes. Learn how to utilize Amazon Textract, Amazon Translate, Amazon S3, and other AWS services from SAP ABAP to automate document processing and other essential processes",
+                "track": 2,
+                "time": "13:05",
+                "duration": 45,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    }     
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 1
+             }
+        ]
     }
 ]
