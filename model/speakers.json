@@ -531,10 +531,10 @@
                 "title": "How to transform your legacy code using ABAP Cloud and Clean ABAP",
                 "abstract": "In this session you will learn how to handle your ABAP custom code after an SAP S/4HANA system conversion with regard to clean core including different options: from retirement of the unused code and adaptation for SAP S/4HANA to renovation and innovation with ABAP Cloud and adherence to Clean ABAP style guide rules. The well-known tools Custom Code Migration app, ABAP development tools with Quick Fixes and ABAP test cockpit with clean code checks support you during all relevant analysis and adaptation tasks.",
                 "track": 1,
-                "time": "13:05",
+                "time": "15:45",
                 "duration": 45,
                 "language": "German",
-                "ics": "/card/speakers/test2/test1.ics",
+                "ics": "./model/agenda/rap7.ics",
                 "tags": [
                     {
                         "name": "ABAP",
@@ -781,10 +781,10 @@
                 "title": "Fiori App Erstellung leicht gemacht für ABAP-Entwickler",
                 "abstract": "Mit Fiori elements kann jeder ABAP-Entwickler ohne JavaScript/UI-Kenntnisse konsistente und gut aussehende Fiori Apps erstellen. Startpunkt des Vortrages ist ein RAP-Projekt, für das live benötigte Annotationen gepflegt werden und dann eine Fiori App generiert wird.",
                 "track": 1,
-                "time": "15:45",
+                "time": "13:05",
                 "duration": 45,
                 "language": "English",
-                "ics": "/card/speakers/test2/test2.ics",
+                "ics": "./model/agenda/rap4.ics",
                 "tags": [
                     {
                         "name": "ABAP",
