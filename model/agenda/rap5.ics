@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Hierarchy Support in RAP\nThe aggregation extension of the OData V4 protocol has recently been extended to support the query of recursive hierarchies with the help of hierarchy transformations:\n\nhttps://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/csd04/odata-data-aggregation-ext-v4.0-csd04.html#HierarchicalTransformations\n\nThe RAP Runtime Engine (https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/runtime-frameworks#rap-runtime-engine) and UI5 are now supporting these new $apply transformations to query hierarchy views and display the data in tree tables.\n\nThis session should give a short introduction into the topic, show how hierarchy scenarios can be built with RAP and consumed in Fiori, and which features are available.\n
+DTSTART:20231207T125500Z
+DTEND:20231207T134000Z
+LOCATION:https://www.abapconf.org/#/agenda/channel1
+SUMMARY;LANGUAGE=en-us:Hierarchy Support in RAP
+END:VEVENT
+END:VCALENDAR

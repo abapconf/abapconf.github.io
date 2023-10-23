@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Zentrales ATC-Cloud-Test System für ABAP Code Security Checks - Hybrides Szenario mit Steampunk\nPrüfung der ABAP Security für Eigenentwicklungen unter S/4HANA und ERP on Premise mit Hilfe von SAP Code Vulnerability Analyzer (CVA) basierend auf ABAP Test Cockpit (ATC) und SAP bTP (Steampunk).\n\nMit RAP eine Fiori App entwickelt für Anzeige und Änderung der Findings, Filterung, Tracking der Ergebnisse. Klassifizierung nach Entwicklungsteam Zugehörigkeit, Dokumentation zur Problemlösung mit Beispiel. (Fehlende Funktionaliät bei der SAP Standard Code Migration App). Lösung wird auch für alle anderen ATC Anwendungsfälle verwendet (ein zentrales Testsystem in der Cloud mit akutellem Releasestand).\n
+DTSTART:20231207T134500Z
+DTEND:20231207T141500Z
+LOCATION:https://www.abapconf.org/#/agenda/channel2
+SUMMARY;LANGUAGE=en-us:Zentrales ATC-Cloud-Test System für ABAP Code Security Checks - Hybrides Szenario mit Steampunk
+END:VEVENT
+END:VCALENDAR
