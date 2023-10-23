@@ -559,7 +559,7 @@
             "FrankJentsch"  
         ], 
         "title": "Building Apps and Extensions with ABAP Cloud on SAP BTP ABAP Environment",
-        "abstract": "tdb",
+        "abstract": "ABAP Cloud is a development model for building business apps, services, and extensions, and is an integral part of SAP BTP, ABAP environment.\n\nABAP Cloud supports the creation of transactional apps based on the ABAP RESTful application programming model, analytical apps, and integration. Get an overview of typical usage scenarios and how to build multitenant SaaS applications.",
         "track": 3,
         "time": "13:05",
         "duration": 60,
