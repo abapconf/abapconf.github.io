@@ -92,14 +92,14 @@
     <!-- Sve the date and Live in counter -->    
     <l:Grid
         containerQuery="false"
-        visible="false"
+        visible="true"
         defaultSpan="XL1 L1 M12 S12"    
         class="teaserImgBackground"   
         hSpacing="1">
         <html:div class="exampleDiv"/>
         <VBox height="220px" alignItems="Start" justifyContent="Center">
             <Text text="ABAPConf" class="textBold textColorWhite teaserHeader sapUiMediumMarginTop"/>
-            <Text text="December 7, 2023" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
+            <Text text="{i18n>headerCounterDate}" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
             <Text text="Free | Online | Live" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
             <Link 
                 href="/model/ABAPConf2023.ics" 

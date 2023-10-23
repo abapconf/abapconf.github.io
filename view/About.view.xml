@@ -8,10 +8,11 @@
    
     <Page id="about" showHeader="false">
         <content>
-            <!-- footer -->
+            <!-- header -->
             <mvc:XMLView viewName="abapconf.2023.org.view.header.Header"/>
 
             <!-- image -->
+            <!--
             <Image
                 src="./img/SAPBall.jpeg"
                 mode="Background"
@@ -21,6 +22,7 @@
                     <FlexItemData growFactor="1" />
                 </layoutData>
             </Image>
+            -->
 
              <!-- H1 -->
              <l:Grid
