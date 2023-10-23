@@ -394,23 +394,23 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/rap1/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/rest1/ics}"
+                            href="{agenda>/rap1/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                    -->
+                    
                 </VBox>
-                <!-- Test 1 -->
+                <!-- ADT 1 -->
                 <VBox 
                     blocked="{agendaView>/showEnglish}"
                     class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
@@ -436,29 +436,29 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/adt1/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/test1/ics}"
+                            href="{agenda>/adt1/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                    -->
+                    
                 </VBox>                
                 <Text text="" />
             </ColumnListItem>          
 
             <ColumnListItem>
                 <Text text="10:50" />
-                <!-- REST 2 -->
-                <VBox blocked="{agendaView>/showGerman}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
+                <!-- RAP 2 -->
+                <VBox blocked="{agendaView>/showGerman}" class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
@@ -479,26 +479,25 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/rap2/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/rest2/ics}"
+                            href="{agenda>/rap2/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>  
-                    -->
+                    
                 </VBox>
                 <!-- SDK 1 -->
                 <VBox 
-                    blocked="{agendaView>/showEnglish}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
+                    blocked="{agendaView>/showEnglish}" class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
@@ -521,21 +520,19 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/sdk1/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/test2/ics}"
+                            href="{agenda>/sdk1/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                    -->
                 </VBox>
                 <!-- InsideTalk1 -->
                 <VBox 
@@ -598,21 +595,19 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/rap3/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/rest3/ics}"
+                            href="{agenda>/rap3/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                -->
                 </VBox>
                 <!-- Test 1 -->
                 <VBox 
@@ -636,21 +631,19 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/test1/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/test3/ics}"
+                            href="{agenda>/test1/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                -->
                 </VBox>
                 <Text text="" />
             </ColumnListItem>
@@ -727,8 +720,7 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/rap4/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
@@ -741,7 +733,7 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                -->
+                
                 </VBox>
                 <!-- SDK 2 -->
                 <VBox 
@@ -769,21 +761,19 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/sdk2/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/erp1/ics}"
+                            href="{agenda>/sdk2/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                    -->
                 </VBox>               
                 <!-- InsideTalk2 -->
                 <VBox 
@@ -845,8 +835,7 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/rap5/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
@@ -859,7 +848,7 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                    -->
+                    
                 </VBox>
                 <!-- Test 2 -->
                 <VBox 
@@ -887,21 +876,20 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/test2/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/erp2/ics}"
+                            href="{agenda>/test2/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                -->
+                
                 </VBox>
                 <Text text="" />
             </ColumnListItem>
@@ -926,8 +914,7 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/rap6/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
@@ -940,7 +927,6 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                -->
                 </VBox>  
                 <!-- Test 3 -->             
                 <VBox 
@@ -955,10 +941,6 @@
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/test3/speaker}" press="openSpeaker($event, 'ChristianReutebuch')" width="150%"/>
                     </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/test3/speaker2}" press="openSpeaker($event, '194b11a1-d8f7-4e0c-9788-0282b70cfa45')" width="150%"/>
-                    </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/test3/duration} Min" class="" />
@@ -966,9 +948,8 @@
                     <HBox>
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/test3/language}" class="" />
-                    </HBox>   
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
@@ -980,8 +961,7 @@
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
-                    </HBox>
-                -->          
+                    </HBox>      
                 </VBox>
                 <!-- insidetalk3 -->
                 <VBox 
@@ -1101,21 +1081,21 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/rap7/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/rap1/ics}"
+                            href="{agenda>/rap7/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox> 
-                -->                
+                               
                 </VBox>
                  <!-- REST 1 -->
                 <VBox 
@@ -1139,21 +1119,19 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/rest1/language}" class="" />
                     </HBox>
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/cds1/ics}"
+                            href="{agenda>/rest1/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                -->
                 </VBox>
                 <Text text="" />
             </ColumnListItem>
@@ -1177,21 +1155,19 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/keynote2/language}" class="" />
                     </HBox>
-                    <!--
                     <HBox class="sapUiTinyMarginTop">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/channel1mts3.ics"
+                            href="./model/agenda/Keynote2.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                    --> 
                 </VBox>
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Link 
@@ -1211,21 +1187,19 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/keynote2/language}" class="" />
                     </HBox>
-                    <!--
                     <HBox class="sapUiTinyMarginTop">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/channel1mts3.ics"
+                            href="./model/agenda/Keynote2.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                    --> 
                 </VBox>
                 <Text text="" />
             </ColumnListItem>
