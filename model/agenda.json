@@ -114,29 +114,31 @@
                 "color": 7
             }
         ]
-    },    
-    "rap3": {
-        "id": "rap3",
-        "speaker": "Stefan Hillinger",
+    },        
+    "rap1": {
+        "id": "rap1",
+        "speaker": "Sascha Wächter",
         "speakerids": [
-            "StefanHillinger"
+            "SaschaWaechter"
         ],
-        "title": "Freshman RAP - Wie man ins kalte Wasser springt",
-        "abstract": "Wie tut man sich als Neuling in der RAP Welt so eigentlich? Lessons learned als Einsteiger in der SAP und RAP Welt.\n\nIch möchte euch meine eigenen Erfahrungen zu meinem Einstieg in die SAP Welt, und nach einer kurzen Ausbildung, direkt in einem Greenfield Private Cloud Projekt, zeigen. Was ist gut gelaufen, wie orientiert man sich am besten und was sind gute Anhaltestellen um sich RAP anzueignen.",
+        "title": "Smoke testing your RAP: Schnelleinstieg in das Testen von RAP-Services",
+        "abstract": "Im Rahmen vieler S/4HANA-Projekte steht man vor der Herausforderung Geschäftsanwendungen mithilfe neuer Technologien wie zum Beispiel auch dem Restful Application Programming Model bauen zu können oder auch zu müssen. Das meist unter Projektdruck der eh schon komplexen S/4-Projekte.\n\n Die Chance robustere Anwendungen mit automatisierten Unit- und Integrationstests zu bauen gerät dann schnell ins Hintertreffen. Dabei hat man doch gerade im Zuge von S/4-Migration und der Implementierung neuer Anwendungen mit neusten Frameworks die Chance wenigstens ein paar Qualitätsziele umzusetzen. Die Hemmschwelle muss gar nicht so groß sein wie vielleicht angenommen. Man lässt sich doch schnell abschrecken obwohl es mittlerweile immer mehr Möglichkeiten gibt.\n\nDieser Vortrag richtet sich nicht an Testexperten, sondern an Einsteiger, die im Zuge von S/4 oder Steampunk in die RAP-Entwicklung einsteigen und mit einfachen mitteln ihre Services 'smoke testen' wollen. D.h. einfache Tests ohne großen Aufwand aber mit einer gewissen grundlegenden Testabdeckung. Praxisnah pragmatisch, denn jeder Test ist besser als kein Test.\n\nTeil des Vortrages sind Unit-Tests einer Behaviour Implementation (Determinations, Validations und Actions) mit Hilfe des Test Double Frameworks und einfache Integrationstests für OData.",
         "track": 1,
-        "time": "11:40",
+        "time": "10:00",
         "YouTubeTimestamp": 0,
-        "duration": 30,
+        "duration": 45,
         "language": "German",
-        "ics": "./model/agenda/rap3.ics",
+        "ics": "./model/agenda/rap1.ics",
+        "icon": "",
+        "slide": "",
         "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
             {
                 "name": "RAP",
                 "color": 8
-            },
-            {
-                "name": "Lessons Learned",
-                "color": 6
             }
         ]
     },
@@ -167,43 +169,41 @@
             }
         ]
     },
-    "rap1": {
-        "id": "rap1",
-        "speaker": "Sascha Wächter",
+    "rap3": {
+        "id": "rap3",
+        "speaker": "Stefan Hillinger",
         "speakerids": [
-            "SaschaWaechter"
+            "StefanHillinger"
         ],
-        "title": "Smoke testing your RAP: Schnelleinstieg in das Testen von RAP-Services",
-        "abstract": "Im Rahmen vieler S/4HANA-Projekte steht man vor der Herausforderung Geschäftsanwendungen mithilfe neuer Technologien wie zum Beispiel auch dem Restful Application Programming Model bauen zu können oder auch zu müssen. Das meist unter Projektdruck der eh schon komplexen S/4-Projekte.\n\n Die Chance robustere Anwendungen mit automatisierten Unit- und Integrationstests zu bauen gerät dann schnell ins Hintertreffen. Dabei hat man doch gerade im Zuge von S/4-Migration und der Implementierung neuer Anwendungen mit neusten Frameworks die Chance wenigstens ein paar Qualitätsziele umzusetzen. Die Hemmschwelle muss gar nicht so groß sein wie vielleicht angenommen. Man lässt sich doch schnell abschrecken obwohl es mittlerweile immer mehr Möglichkeiten gibt.\n\nDieser Vortrag richtet sich nicht an Testexperten, sondern an Einsteiger, die im Zuge von S/4 oder Steampunk in die RAP-Entwicklung einsteigen und mit einfachen mitteln ihre Services 'smoke testen' wollen. D.h. einfache Tests ohne großen Aufwand aber mit einer gewissen grundlegenden Testabdeckung. Praxisnah pragmatisch, denn jeder Test ist besser als kein Test.\n\nTeil des Vortrages sind Unit-Tests einer Behaviour Implementation (Determinations, Validations und Actions) mit Hilfe des Test Double Frameworks und einfache Integrationstests für OData.",
+        "title": "Freshman RAP - Wie man ins kalte Wasser springt",
+        "abstract": "Wie tut man sich als Neuling in der RAP Welt so eigentlich? Lessons learned als Einsteiger in der SAP und RAP Welt.\n\nIch möchte euch meine eigenen Erfahrungen zu meinem Einstieg in die SAP Welt, und nach einer kurzen Ausbildung, direkt in einem Greenfield Private Cloud Projekt, zeigen. Was ist gut gelaufen, wie orientiert man sich am besten und was sind gute Anhaltestellen um sich RAP anzueignen.",
         "track": 1,
-        "time": "10:00",
+        "time": "11:40",
         "YouTubeTimestamp": 0,
-        "duration": 45,
+        "duration": 30,
         "language": "German",
-        "ics": "./model/agenda/rap1.ics",
-        "icon": "",
-        "slide": "",
+        "ics": "./model/agenda/rap3.ics",
         "tags": [
-            {
-                "name": "ABAP",
-                "color": 2
-            },
             {
                 "name": "RAP",
                 "color": 8
+            },
+            {
+                "name": "Lessons Learned",
+                "color": 6
             }
         ]
     },
     "rap4": {
         "id": "rap4",
-        "speaker": "Olga Dolinskaja",
+        "speaker": "Stefan Engelhard",
         "speakerids": [
-            "OlgaDolinskaja"
+            "StefanEngelhard"
         ],
-        "title": "How to transform your legacy code using ABAP Cloud and Clean ABAP",
-        "abstract": "In this session you will learn how to handle your ABAP custom code after an SAP S/4HANA system conversion with regard to clean core including different options: from retirement of the unused code and adaptation for SAP S/4HANA to renovation and innovation with ABAP Cloud and adherence to Clean ABAP style guide rules.\n\nThe well-known tools Custom Code Migration app, ABAP development tools with Quick Fixes and ABAP test cockpit with clean code checks support you during all relevant analysis and adaptation tasks.",
+        "title": "Fiori App Erstellung leicht gemacht für ABAP-Entwickler",
+        "abstract": "Mit Fiori elements kann jeder ABAP-Entwickler ohne JavaScript/UI-Kenntnisse konsistente und gut aussehende Fiori Apps erstellen. Startpunkt des Vortrages ist ein RAP-Projekt, für das live benötigte Annotationen gepflegt werden und dann eine Fiori App generiert wird.",
         "track": 1,
-        "time": "13:05",
+        "time": "15:45",
         "YouTubeTimestamp": 0,
         "duration": 45,
         "language": "German",
@@ -277,18 +277,18 @@
     },
     "rap7": {
         "id": "rap7",
-        "speaker": "Stefan Engelhard",
+        "speaker": "Olga Dolinskaja",
         "speakerids": [
-            "StefanEngelhard"
+            "OlgaDolinskaja"
         ],
-        "title": "Fiori App Erstellung leicht gemacht für ABAP-Entwickler",
-        "abstract": "Mit Fiori elements kann jeder ABAP-Entwickler ohne JavaScript/UI-Kenntnisse konsistente und gut aussehende Fiori Apps erstellen. Startpunkt des Vortrages ist ein RAP-Projekt, für das live benötigte Annotationen gepflegt werden und dann eine Fiori App generiert wird.",
+        "title": "How to transform your legacy code using ABAP Cloud and Clean ABAP",
+        "abstract": "In this session you will learn how to handle your ABAP custom code after an SAP S/4HANA system conversion with regard to clean core including different options: from retirement of the unused code and adaptation for SAP S/4HANA to renovation and innovation with ABAP Cloud and adherence to Clean ABAP style guide rules.\n\nThe well-known tools Custom Code Migration app, ABAP development tools with Quick Fixes and ABAP test cockpit with clean code checks support you during all relevant analysis and adaptation tasks.",
         "track": 1,
-        "time": "15:45",
+        "time": "13:05",
         "YouTubeTimestamp": 0,
         "duration": 45,
         "language": "English",
-        "ics": "./model/agenda/rap6.ics",
+        "ics": "./model/agenda/rap7.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -301,7 +301,7 @@
                 "color": 8
             }
         ]
-    },
+    },    
     "adt1": {
         "id": "adt1",
         "speaker": "Thomas Fiedler",        
@@ -389,7 +389,7 @@
         "YouTubeTimestamp": 0,
         "duration": 45,
         "language": "English",
-        "ics": "./model/agenda/sdk1.ics",
+        "ics": "./model/agenda/sdk2.ics",
         "tags": [
             {
                 "name": "ABAP",
