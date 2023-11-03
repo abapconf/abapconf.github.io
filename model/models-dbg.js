@@ -53,6 +53,7 @@ sap.ui.define([
 				showEnglish: false,
 				showGerman: false,
 				showIcs: true,
+				showITregistration: true,
 				open: false,
 				videoicon: "sap-icon://video",
 				channel1: "https://www.youtube.com/watch?v=l5DEB-uwjAw",
