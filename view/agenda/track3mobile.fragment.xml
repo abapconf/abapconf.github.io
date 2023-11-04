@@ -85,10 +85,9 @@ hSpacing="1">
                 <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                 <Text text="{agenda>/insidetalk1/language}" class="" />
             </HBox>
-            <!--
-            <HBox class="sapUiTinyMarginTop">
+            <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
                 <core:Icon
-                    src="sap-icon://calendar"
+                    src="sap-icon://add-employee"
                     class="sapUiTinyMarginEnd"/>
                 <Link 
                     text="{i18n>channel3Register}"
@@ -99,7 +98,6 @@ hSpacing="1">
                     subtle="false" 
                     width="100%"/>
             </HBox>
-        -->    
         </VBox>    
     </ColumnListItem>
     <ColumnListItem>
@@ -142,10 +140,9 @@ hSpacing="1">
                 <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                 <Text text="{agenda>/insidetalk2/language}" class="" />
             </HBox>
-            <!--
-            <HBox class="sapUiTinyMarginTop">
+            <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
                 <core:Icon
-                    src="sap-icon://calendar"
+                    src="sap-icon://add-employee"
                     class="sapUiTinyMarginEnd"/>
                 <Link 
                     text="{i18n>channel3Register}"
@@ -156,7 +153,6 @@ hSpacing="1">
                     subtle="false" 
                     width="100%"/>
             </HBox>
-        -->
         </VBox>
     </ColumnListItem>
     <ColumnListItem >
@@ -174,11 +170,18 @@ hSpacing="1">
                 wrapping="true" 
                 text="{agenda>/insidetalk3/title}" 
                 press="openSession($event, 'insidetalk3')"/>
-
             <HBox class="sapUiSmallMarginTop">
                 <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                <Link text="{agenda>/insidetalk3/speaker}" press="openSpeaker($event, '39zy3820-dac5-4f99-8422-016622ebb789')" width="150%"/>
-            </HBox>            
+                <Link text="{agenda>/insidetalk3/speaker}" press="openSpeaker($event, 'JensWeiler')" width="150%"/>
+            </HBox>
+            <HBox class="sapUiSmallMarginTop">
+                <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Link text="{agenda>/insidetalk3/speaker2}" press="openSpeaker($event, 'JasminGruschke')" width="150%"/>
+            </HBox>
+            <HBox class="sapUiSmallMarginTop">
+                <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Link text="{agenda>/insidetalk3/speaker3}" press="openSpeaker($event, 'ChristianMathis')" width="150%"/>
+            </HBox>          
             <HBox>
                 <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                 <Text text="{agenda>/insidetalk3/duration} Min" class="" />
@@ -187,21 +190,19 @@ hSpacing="1">
                 <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                 <Text text="{agenda>/insidetalk3/language}" class="" />
             </HBox>
-            <!--
-            <HBox class="sapUiTinyMarginTop">
+            <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
                 <core:Icon
-                    src="sap-icon://calendar"
+                    src="sap-icon://add-employee"
                     class="sapUiTinyMarginEnd"/>
                 <Link 
                     text="{i18n>channel3Register}"
-                    href="{agenda>/insidetalk4/link}"
+                    href="{agenda>/insidetalk3/link}"
                     class="linkCalendar" 
                     textAlign="Center" 
                     wrapping="true"
                     subtle="false" 
                     width="100%"/>
             </HBox>
-        -->
         </VBox>
     </ColumnListItem>
     <ColumnListItem>

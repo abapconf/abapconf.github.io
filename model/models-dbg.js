@@ -56,8 +56,8 @@ sap.ui.define([
 				showITregistration: true,
 				open: false,
 				videoicon: "sap-icon://video",
-				channel1: "https://www.youtube.com/watch?v=l5DEB-uwjAw",
-				channel2: "https://www.youtube.com/watch?v=Yeo9rz-7Pdc"
+				channel1: "",
+				channel2: ""
 			};
 			var oModel = new JSONModel(oData);
 			return oModel;

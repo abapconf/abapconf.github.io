@@ -844,6 +844,65 @@
                 "color": 4
              }
         ]
+    },    
+    {
+        "id": "JensWeiler",
+        "firstname": "Jens",
+        "middlename": "",
+        "lastname": "Weiler",
+        "initials": "JW",
+        "company": "SAP SE",
+        "companyWeb": "https://www.sap.com",
+        "function": "Chief Architect ABAP Platform",
+        "picture": "./card/speakers/jens/JensWeiler.png",
+        "shortBio": "Chief Architect ABAP Platform | SAP SE | ABAP Cloud",
+        "longBio": "Brought SAP BTP ABAP Environment (aka Stemapunk) to life.\n\nMission: Bring Cloud and AI into ABAP",
+        "linkedIn": "https://www.linkedin.com/in/jens-weiler-a62914288/",
+        "scn": "https://people.sap.com/jens.weiler",
+        "twitter": "ABAP4H",
+        "sessions": [
+            {
+                "title": "Closing Keynote: ABAP Cloud",
+                "abstract": "Keynote on channel 1: ABAP Cloud",
+                "track": 1,
+                "time": "16:35",
+                "duration": 60,
+                "language": "English",
+                "ics": "/card/speakers/keynote/keynote.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 2
+                    },
+                    {
+                        "name": "On premise",
+                        "color": 3
+                    },
+                    {
+                        "name": "Classic ABAP",
+                        "color": 4
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 5
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 6
+                    }       
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+             }
+        ]
     },
     {
         "id": "BorisGebhardt",
@@ -960,6 +1019,92 @@
             {
                 "name": "Keynote",
                 "color": 1
+             }
+        ]
+    },
+    {
+        "id": "JasminGruschke",
+        "firstname": "Jasmin",
+        "middlename": "",
+        "lastname": "Gruschke",
+        "initials": "JG",
+        "company": "SAP SE",
+        "companyWeb": "https://www.sap.com",
+        "function": "ABAP Platform team",
+        "picture": "./card/speakers/jasmin/JasminGruschke.png", 
+        "shortBio": "ABAP Platform team",
+        "longBio": "Enthusiastic ABAP Cloud advocate ;-)",
+        "linkedIn": "",
+        "scn": "https://people.sap.com/jasmin.gruschke",
+        "twitter": "",
+        "sessions": [
+            {
+                "title": "ABAP AI Strategy",
+                "abstract": "tbd",
+                "track": 3,
+                "time": "15:45",
+                "duration": 60,
+                "language": "English",
+                "ics": "./model/agenda/insidetalk3.ics",
+                "tags": [                    
+                    {
+                        "name": "AI",
+                        "color": 2
+                    },
+                    {
+                        "name": "ABAP",
+                        "color": 6
+                    }       
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Inside Talk",
+                "color": 2
+             }
+        ]
+    },
+    {
+        "id": "ChristianMathis",
+        "firstname": "Christian",
+        "middlename": "",
+        "lastname": "Mathis",
+        "initials": "CM",
+        "company": "SAP SE",
+        "companyWeb": "https://www.sap.com",
+        "function": "ABAP Platform team",
+        "picture": "", 
+        "shortBio": "ABAP Platform team",
+        "longBio": "",
+        "linkedIn": "",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "title": "ABAP AI Strategy",
+                "abstract": "tbd",
+                "track": 3,
+                "time": "15:45",
+                "duration": 60,
+                "language": "English",
+                "ics": "./model/agenda/insidetalk3.ics",
+                "tags": [                    
+                    {
+                        "name": "AI",
+                        "color": 2
+                    },
+                    {
+                        "name": "ABAP",
+                        "color": 6
+                    }       
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Inside Talk",
+                "color": 2
              }
         ]
     },
