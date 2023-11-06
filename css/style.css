@@ -190,6 +190,14 @@
     color: #fff;
 }
 
+.seperator_full_bottom {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.seperator_full_top {
+    border-top: 2px solid black;
+    margin-top: 50px;
+}
 .centerText {
     width: 50em
 }

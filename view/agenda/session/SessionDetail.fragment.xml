@@ -2,6 +2,7 @@
 	xmlns="sap.m" 
 	xmlns:core="sap.ui.core"
     xmlns:l="sap.ui.layout"
+    xmlns:tnt="sap.tnt"
     xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:mvc="sap.ui.core.mvc">
 
@@ -12,7 +13,7 @@
         defaultSpan="XL2 L2 M12 S12"
         hSpacing="1">
         <html:div class="exampleDiv"/>
-        <HBox height="auto" alignItems="Start" justifyContent="Start">
+        <HBox height="auto" alignItems="Start" justifyContent="Start" class="seperator_full_bottom">
             <Text wrapping="false" class="sapUiTinyMarginEnd" text="{i18n>sessionDetail.track} {agenda>track}"> </Text>
             <Text wrapping="false" class="sapUiTinyMarginEnd" text=" | "> </Text>
             <Text wrapping="false" class="sapUiTinyMarginEnd" text="{i18n>sessionDetail.time} {agenda>time}" > </Text>
@@ -26,6 +27,7 @@
         </HBox>
         <html:div class="exampleDiv"/>
     </l:Grid>
+
 
     <!-- Titel -->
     <l:Grid
@@ -94,5 +96,85 @@
         <html:div class="exampleDiv"/>
     </l:Grid>
 
+
+    <!-- ICS download -->
+    <l:Grid
+    containerQuery="false"
+    defaultSpan="XL2 L2 M12 S12"
+    hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <FlexBox
+            height="auto"
+            alignItems="Start"
+            justifyContent="Start"
+            direction="Column"
+            class="seperator_full_top"
+            >
+            
+            <FlexBox
+                height="auto"
+                alignItems="Center"
+                justifyContent="Center"
+                class="sapUiSmallMarginTop">
+
+                <HBox class="sapUiTinyMarginTop">
+                    <core:Icon
+                        src="sap-icon://calendar"
+                        class="sapUiTinyMarginEnd"/>
+                    <Link 
+                        text="{i18n>agendaCalendar}"
+                        href="{agenda>ics}"
+                        class="linkCalendar" 
+                        textAlign="Center" 
+                        wrapping="true"
+                        subtle="false" 
+                        width="100%"/>
+                </HBox>
+                
+            </FlexBox>
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+		</FlexBox>
+            
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+
+
+    <!-- tags -->
+    
+    <l:Grid
+    containerQuery="false"
+    defaultSpan="XL2 L2 M12 S12"
+    hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <FlexBox
+            height="auto"
+            alignItems="Start"
+            justifyContent="Start"
+            direction="Column">
+            
+            <FlexBox
+                height="auto"
+                alignItems="Center"
+                justifyContent="Center"
+                class="sapUiSmallMarginTop">
+
+                <HBox items="{agenda>tags}">
+                    <tnt:InfoLabel
+                        class="sapUiTinyMargin"
+                        text="{agenda>name}"
+                        displayOnly="false"
+                        colorScheme= "{agenda>color}" />                    
+                </HBox>
+                
+            </FlexBox>
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+		</FlexBox>
+            
+        <html:div class="exampleDiv"/>
+    </l:Grid>
 
 </core:FragmentDefinition>

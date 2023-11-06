@@ -442,11 +442,9 @@
 
             <!--
             agenda
-            -->
-            <!--
-            <mvc:XMLView viewName="abapconf.2023.org.view.agenda.AgendaHome"/>
             -->            
-
+            <mvc:XMLView viewName="abapconf.2023.org.view.agenda.AgendaHome"/>
+            
             <!-- FAQ -->
             <!-- H1 -->
             <l:Grid

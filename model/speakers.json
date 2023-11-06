@@ -16,10 +16,22 @@
         "homepage": "https://www.itsfullofstars.de",
         "sessions": [
             {
-                "title": "Keynote",
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2023. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Willkommen.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            },
+            {
+                "title": "Welcome",
                 "abstract": "Welcome to ABAPConf 2023. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
                 "track": 1,
-                "ics": "/card/orga/tobias/Channel1Welcome.ics",
+                "ics": "/card/orga/tobias/Welcome.ics",
                 "tags": [
                     {
                         "name": "Keynote",
@@ -56,10 +68,22 @@
         "scn": "https://people.sap.com/sschlegel",
         "sessions": [
             {
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2023. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Willkommen.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            },
+            {
                 "title": "Keynote",
                 "abstract": "Welcome to ABAPConf 2023. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
                 "track": 1,
-                "ics": "/card/orga/tobias/Channel1Welcome.ics",
+                "ics": "/card/orga/tobias/Welcome.ics",
                 "tags": [
                     {
                         "name": "Keynote",
@@ -96,10 +120,10 @@
         "scn": "https://people.sap.com/johann.fleitner2",
         "sessions": [
             {
-                "title": "Keynote",
-                "abstract": "Welcome to ABAPConf 2023. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2023. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag.",
                 "track": 1,
-                "ics": "/card/orga/tobias/Channel1Welcome.ics",
+                "ics": "/card/orga/tobias/Willkommen.ics",
                 "tags": [
                     {
                         "name": "Keynote",
@@ -108,13 +132,13 @@
                 ]
             },
             {
-                "title": "ADMP",
-                "abstract": "",
-                "track": 2,
-                "ics": "",
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2023. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Welcome.ics",
                 "tags": [
                     {
-                        "name": "ABAP",
+                        "name": "Keynote",
                         "color": 1
                     }                    
                 ]
@@ -149,10 +173,10 @@
         "scn": "https://people.sap.com/dominik.bigl2",
         "sessions": [
             {
-                "title": "Keynote",
-                "abstract": "Welcome to ABAPConf 2023. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2023. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag.",
                 "track": 1,
-                "ics": "/card/orga/tobias/Channel1Welcome.ics",
+                "ics": "/card/orga/tobias/Willkommen.ics",
                 "tags": [
                     {
                         "name": "Keynote",
@@ -161,13 +185,13 @@
                 ]
             },
             {
-                "title": "ADMP",
-                "abstract": "",
-                "track": 2,
-                "ics": "",
+                "title": "Keynote",
+                "abstract": "Welcome to ABAPConf 2023. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Welcome.ics",
                 "tags": [
                     {
-                        "name": "ABAP",
+                        "name": "Keynote",
                         "color": 1
                     }                    
                 ]
@@ -264,7 +288,7 @@
                 "time": "10:00",
                 "duration": 30,
                 "language": "German",
-                "ics": "/card/speakers/rap1/rap1.ics",
+                "ics": "./model/agenda/rap3.ics",
                 "tags": [
                     {
                         "name": "ABAP",
@@ -311,20 +335,36 @@
                 "time": "10:50",
                 "duration": 45,
                 "language": "German",
-                "ics": "/card/speakers/test2/test1.ics",
+                "ics": "./model/agenda/rap2.ics",
                 "tags": [
                     {
                         "name": "ABAP",
                         "color": 2
-                    }           
+                    },
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    },
+                    {
+                        "name": "CDS",
+                        "color": 11
+                    }
                 ]
             }
         ],
         "tags": [
             {
+                "name": "RAP",
+                "color": 10
+            },
+            {
                 "name": "ABAP",
                 "color": 2
-             }
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
         ]
     },
     {
@@ -357,17 +397,29 @@
                         "color": 2
                     },
                     {
+                        "name": "ADT",
+                        "color": 8
+                    },
+                    {
                         "name": "Testing",
                         "color": 9
                     },
                     {
                         "name": "Classic ABAP",
                         "color": 5
-                    }               
+                    }          
                 ]
             }
         ],
         "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "ADT",
+                "color": 8
+            },
             {
                 "name": "Testing",
                 "color": 9
@@ -404,20 +456,28 @@
                         "color": 2
                     },
                     {
-                        "name": "Testing",
-                        "color": 9
+                        "name": "Cloud",
+                        "color": 3
                     },
                     {
-                        "name": "Classic ABAP",
-                        "color": 5
-                    }               
+                        "name": "SDK",
+                        "color": 6
+                    },
+                    {
+                        "name": "Azure",
+                        "color": 8
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }              
                 ]
             }
         ],
         "tags": [
             {
-                "name": "Testing",
-                "color": 9
+                "name": "Azure",
+                "color": 8
             }
         ]
     },
@@ -451,20 +511,28 @@
                         "color": 2
                     },
                     {
-                        "name": "Testing",
-                        "color": 9
+                        "name": "Cloud",
+                        "color": 3
                     },
                     {
-                        "name": "Classic ABAP",
-                        "color": 5
-                    }               
+                        "name": "SDK",
+                        "color": 6
+                    },
+                    {
+                        "name": "Azure",
+                        "color": 8
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }              
                 ]
             }
         ],
         "tags": [
             {
-                "name": "Testing",
-                "color": 9
+                "name": "Azure",
+                "color": 8
             }
         ]
     },
@@ -491,21 +559,28 @@
                 "time": "11:40",
                 "duration": 30,
                 "language": "German",
-                "ics": "/card/speakers/test2/test1.ics",
+                "ics": "./model/agenda/rap1.ics",
                 "tags": [
                     {
                         "name": "ABAP",
                         "color": 2
                     },
                     {
+                        "name": "RAP",
+                        "color": 10
+                    },
+                    {
                         "name": "Testing",
                         "color": 9
-                    }             
+                    }           
                 ]
             }
         ],
         "tags": [
             {
+                "name": "RAP",
+                "color": 10
+            },{
                 "name": "Testing",
                 "color": 9
             }
@@ -539,7 +614,19 @@
                     {
                         "name": "ABAP",
                         "color": 2
-                    }           
+                    },
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    }          
                 ]
             }
         ],
@@ -547,7 +634,15 @@
             {
                 "name": "ABAP",
                 "color": 2
-            }
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            }    
         ]
     },
     {
@@ -573,7 +668,7 @@
                 "time": "16:15",
                 "duration": 45,
                 "language": "English",
-                "ics": "/card/speakers/rap1/rap1.ics",
+                "ics": "./model/agenda/rap5.ics",
                 "tags": [
                     {
                         "name": "ABAP",
@@ -581,8 +676,12 @@
                     },
                     {
                         "name": "RAP",
-                        "color": 10
-                    }            
+                        "color": 8
+                    },
+                    {
+                        "name": "CDS",
+                        "color": 11
+                    }        
                 ]
             }
         ],
@@ -614,13 +713,17 @@
                 "abstract": "Objektorientierung ist der Standard bei dir im Unternehmen? Includes und Forms gibt es nicht mehr? FuBas werden gewrapped? Und es finden sich sogar manchmal Unit Tests? ABAP Cloud aktiv. Super! Läuft doch. Endlich ist alles besser als früher!\n\nAber sei mal ehrlich, ist jetzt irgendetwas *wirklich* anders? Plötzlich sind deine Klassen 1.000 Zeilen lang. Und sind deine Klassen wirklich Strukturen, die Funktionen anbieten, um damit auf Daten, die nur sie kennen, operieren? Oder ist eigentlich vieles beim Alten geblieben: \n* Lange Klassen und Methoden\n* Doppeltes Coding quer übers System. \n* Immer wieder dasselbe validieren, ob nicht doch jemand inkonsistente Daten übergeben hat.\n* Verdächtige Klassennamen wie „ZCL_UTILITY*“ oder „ZCL*MANAGER*“, weil du nicht so recht weißt, wohin bestimmte Funktionen sollen.\n* Businesslogik verstreut im ganzen System und kein Single Point Of Truth. \n* Viele primitive Datentyp, die irgendwie durchs System geschleust werden. \n* Wesentliche Begriffe aus der Domäne finden sich nicht im System wieder. \n\nKommt dir das bekannt vor? \n\nKeine Sorge, so sehen viele System aus. Aber kann man das besser machen? Klar, mit einer in anderen Sprachen sehr etablierten Technik. Michael und Dominik zeigen sie dir in der Theorie und Praxis.",
                 "track": 2,
                 "time": "13:55",
-                "duration": 45,
-                "language": "German",
-                "ics": "/card/speakers/test1/test1.ics",
+                "duration": 30,
+                "language": "Deutsch",
+                "ics": "/card/speakers/erp1/erp1.ics",
                 "tags": [
                     {
                         "name": "ABAP",
                         "color": 2
+                    },
+                    {
+                        "name": "Lessons Learned",
+                        "color": 6
                     },
                     {
                         "name": "Testing",
@@ -629,7 +732,7 @@
                     {
                         "name": "Classic ABAP",
                         "color": 5
-                    }              
+                    }          
                 ]
             }
         ],
@@ -670,16 +773,24 @@
                         "color": 2
                     },
                     {
-                        "name": "S/4HANA",
-                        "color": 7
-                    }             
+                        "name": "Lessons Learned",
+                        "color": 6
+                    },
+                    {
+                        "name": "Testing",
+                        "color": 9
+                    },
+                    {
+                        "name": "Classic ABAP",
+                        "color": 5
+                    }          
                 ]
             }
         ],
         "tags": [
             {
-                "name": "S/4HANA",
-                "color": 7
+                "name": "Testing",
+                "color": 9
             }
         ]
     },  
@@ -706,19 +817,31 @@
                 "time": "14:45",
                 "duration": 45,
                 "language": "English",
-                "ics": "/card/speakers/test2/test2.ics",
+                "ics": "./model/agenda/rap6.ics",
                 "tags": [
                     {
                         "name": "ABAP",
                         "color": 2
-                    }              
+                    },
+                    {
+                        "name": "RAP",
+                        "color": 8
+                    },
+                    {
+                        "name": "CDS",
+                        "color": 11
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }
                 ]
             }
         ],
         "tags": [
             {
-                "name": "Testing",
-                "color": 9
+                "name": "RAP",
+                "color": 8
             }
         ]
     },
@@ -740,17 +863,29 @@
         "sessions": [
             {
                 "title": "Zentrales ATC-Cloud-Test System für ABAP Code Security Checks - Hybrides Szenario mit Steampunk",
-                "abstract": "Prüfung der ABAP Security für Eigenentwicklungen unter S/4HANA und ERP on Premise mit Hilfe von SAP Code Vulnerability Analyzer (CVA) basierend auf ABAP Test Cockpit (ATC) und SAP bTP (Steampunk). Mit RAP eine Fiori App entwickelt für Anzeige und Änderung der Findings, Filterung, Tracking der Ergebnisse. Klassifizierung nach Entwicklungsteam Zugehörigkeit, Dokumentation zur Problemlösung mit Beispiel. (Fehlende Funktionaliät bei der SAP Standard Code Migration App).Lösung wird auch für alle anderen ATC Anwendungsfälle verwendet (ein zentrales Testsystem in der Cloud mit akutellem Releasestand).",
+                "abstract": "Prüfung der ABAP Security für Eigenentwicklungen unter S/4HANA und ERP on Premise mit Hilfe von SAP Code Vulnerability Analyzer (CVA) basierend auf ABAP Test Cockpit (ATC) und SAP bTP (Steampunk).\n\nMit RAP eine Fiori App entwickelt für Anzeige und Änderung der Findings, Filterung, Tracking der Ergebnisse. Klassifizierung nach Entwicklungsteam Zugehörigkeit, Dokumentation zur Problemlösung mit Beispiel. (Fehlende Funktionaliät bei der SAP Standard Code Migration App). Lösung wird auch für alle anderen ATC Anwendungsfälle verwendet (ein zentrales Testsystem in der Cloud mit akutellem Releasestand).",
                 "track": 2,
                 "time": "14:45",
-                "duration": 45,
-                "language": "English",
+                "duration": 30,
+                "language": "German",
                 "ics": "/card/speakers/test2/test2.ics",
                 "tags": [
                     {
                         "name": "ABAP",
                         "color": 2
-                    }              
+                    },
+                    {
+                        "name": "Testing",
+                        "color": 9
+                    },
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    }             
                 ]
             }
         ],
@@ -821,20 +956,20 @@
                 "title": "Dieser Mann schrieb alles auf, was er wusste. Was dann passierte, wirst du nicht glauben. Oder: 20 Jahre Tricktresor",
                 "abstract": "Ein Resümee über 20 Jahre Tricktresor. Warum gibt es den Tricktresor? Was habe ich gelernt? Warum tue ich das immer noch? Warum nutze ich eine eigene Website anstatt populäre Plattformen zu verwenden? Kurze Info zu Self-learning Techniken, Wissensvermittlung, eigenen Wissensdatenbanken.",
                 "track": 2,
-                "time": "14:45",
+                "time": "15:45",
                 "language": "German",
-                "ics": "/card/speakers/enno/Channel1CodeDojo.ics",
+                "ics": "./model/agenda/rest1.ics",
                 "slide": "",
                 "icon": "sap-icon://attachment-html",
                 "tags": [
                     {
-                        "name": "Best practice",
-                        "color": 5
+                        "name": "ABAP",
+                        "color": 2
                     },
                     {
-                        "name": "Classic ABAP",
-                        "color": 4
-                    }          
+                        "name": "Lessons Learned",
+                        "color": 6
+                    }       
                 ]
             }
         ],
@@ -895,13 +1030,32 @@
                         "color": 6
                     }       
                 ]
+            },
+            {
+                "title": "ABAP AI Strategy",
+                "abstract": "tbd",
+                "track": 3,
+                "time": "14:45",
+                "duration": 60,
+                "language": "English",
+                "ics": "./model/agenda/insidetalk3.ics",
+                "tags": [
+                    {
+                        "name": "Inside Talk",
+                        "color": 14
+                    }     
+                ]
             }
         ],
         "tags": [
             {
                 "name": "Keynote",
                 "color": 1
-             }
+            },
+            {
+                "name": "Inside Talk",
+                "color": 14
+            }
         ]
     },
     {
@@ -986,39 +1140,19 @@
                 "time": "13:05",
                 "duration": 60,
                 "language": "English",
-                "ics": "/card/speakers/keynote/keynote.ics",
+                "ics": "./model/agenda/insidetalk2.ics",
                 "tags": [
                     {
-                        "name": "Keynote",
-                        "color": 1
-                    },
-                    {
-                        "name": "Cloud",
-                        "color": 2
-                    },
-                    {
-                        "name": "On premise",
-                        "color": 3
-                    },
-                    {
-                        "name": "Classic ABAP",
-                        "color": 4
-                    },
-                    {
-                        "name": "Best practice",
-                        "color": 5
-                    },
-                    {
-                        "name": "S/4HANA",
-                        "color": 6
-                    }       
+                        "name": "Inside Talk",
+                        "color": 14
+                    }     
                 ]
             }
         ],
         "tags": [
             {
-                "name": "Keynote",
-                "color": 1
+                "name": "Inside Talk",
+                "color": 14
              }
         ]
     },
@@ -1042,26 +1176,22 @@
                 "title": "ABAP AI Strategy",
                 "abstract": "tbd",
                 "track": 3,
-                "time": "15:45",
+                "time": "14:45",
                 "duration": 60,
                 "language": "English",
                 "ics": "./model/agenda/insidetalk3.ics",
-                "tags": [                    
+                "tags": [
                     {
-                        "name": "AI",
-                        "color": 2
-                    },
-                    {
-                        "name": "ABAP",
-                        "color": 6
-                    }       
+                        "name": "Inside Talk",
+                        "color": 14
+                    }     
                 ]
             }
         ],
         "tags": [
             {
                 "name": "Inside Talk",
-                "color": 2
+                "color": 14
              }
         ]
     },
@@ -1085,26 +1215,22 @@
                 "title": "ABAP AI Strategy",
                 "abstract": "tbd",
                 "track": 3,
-                "time": "15:45",
+                "time": "14:45",
                 "duration": 60,
                 "language": "English",
                 "ics": "./model/agenda/insidetalk3.ics",
-                "tags": [                    
+                "tags": [
                     {
-                        "name": "AI",
-                        "color": 2
-                    },
-                    {
-                        "name": "ABAP",
-                        "color": 6
-                    }       
+                        "name": "Inside Talk",
+                        "color": 14
+                    }     
                 ]
             }
         ],
         "tags": [
             {
                 "name": "Inside Talk",
-                "color": 2
+                "color": 14
              }
         ]
     },
@@ -1134,9 +1260,13 @@
                 "ics": "",
                 "tags": [
                     {
+                        "name": "Keynote",
+                        "color": 1
+                    },
+                    {
                         "name": "RAP",
                         "color": 2
-                    }     
+                    }
                 ]
             },
             {
@@ -1149,12 +1279,8 @@
                 "ics": "",
                 "tags": [
                     {
-                        "name": "RAP",
-                        "color": 2
-                    },
-                    {
                         "name": "Inside Talk",
-                        "color": 1
+                        "color": 14
                     }   
                 ]
             }
@@ -1162,7 +1288,7 @@
         "tags": [
             {
                 "name": "Inside Talk",
-                "color": 1
+                "color": 14
             }
         ]
     },
@@ -1204,23 +1330,23 @@
                 "time": "10:50",
                 "duration": 60,
                 "language": "English",
-                "ics": "",
+                "ics": "./model/agenda/insidetalk1.ics",
                 "tags": [
                     {
-                        "name": "RAP",
-                        "color": 2
-                    },
-                    {
                         "name": "Inside Talk",
-                        "color": 1
-                    }   
+                        "color": 14
+                    }     
                 ]
             }
         ],
         "tags": [
             {
-                "name": "Inside Talk",
+                "name": "Keynote",
                 "color": 1
+            },
+            {
+                "name": "Inside Talk",
+                "color": 14
             }
         ]
     },
@@ -1241,25 +1367,43 @@
         "twitter": "https://mobile.twitter.com/uenal61",
         "sessions": [
             {
+                "id": 2,
                 "title": "News from ABAP development tools",
                 "abstract": "In this session we will show you all the hot new features in the ABAP development tools for eclipse (ADT). Focus is on RAP tooling but we will highlight other features as well like dependency management, feature toggles and so on. No slides, only demo!",
                 "track": 2,
                 "time": "10:00",
+                "duration": 45,
                 "language": "English",
-                "ics": "",
+                "ics": "/card/speakers/bp1/bp1.ics",
                 "tags": [
                     {
-                        "name": "ADT",
+                        "name": "ABAP",
                         "color": 2
-                    }     
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    },
+                    {
+                        "name": "ADT",
+                        "color": 8
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    } 
                 ]
             }
         ],
         "tags": [
             {
-                "name": "ABAP",
-                "color": 2
-             }
+                "name": "ADT",
+                "color": 8
+            }
         ]
     },
     {
@@ -1335,14 +1479,30 @@
                     {
                         "name": "ABAP",
                         "color": 2
-                    }     
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "SDK",
+                        "color": 6
+                    },
+                    {
+                        "name": "AWS",
+                        "color": 8
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }    
                 ]
             }
         ],
         "tags": [
             {
-                "name": "ABAP",
-                "color": 1
+                "name": "AWS",
+                "color": 8
              }
         ]
     },
@@ -1374,14 +1534,30 @@
                     {
                         "name": "ABAP",
                         "color": 2
-                    }     
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "SDK",
+                        "color": 6
+                    },
+                    {
+                        "name": "AWS",
+                        "color": 8
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }    
                 ]
             }
         ],
         "tags": [
             {
-                "name": "ABAP",
-                "color": 1
+                "name": "AWS",
+                "color": 8
              }
         ]
     }

@@ -79,6 +79,10 @@
             {
                 "name": "S/4HANA",
                 "color": 7
+            },
+            {
+                "name": "RAP",
+                "color": 10
             }
         ]
     }, 
@@ -140,7 +144,11 @@
             },
             {
                 "name": "RAP",
-                "color": 8
+                "color": 10
+            },
+            {
+                "name": "Testing",
+                "color": 9
             }
         ]
     },
@@ -167,7 +175,11 @@
             },
             {
                 "name": "RAP",
-                "color": 8
+                "color": 10
+            },
+            {
+                "name": "Best practice",
+                "color": 6
             }
         ]
     },
@@ -188,7 +200,7 @@
         "tags": [
             {
                 "name": "RAP",
-                "color": 8
+                "color": 10
             },
             {
                 "name": "Lessons Learned",
@@ -214,12 +226,20 @@
         "slide": "",
         "tags": [
             {
-                "name": "ABAP",
-                "color": 2
+                "name": "Fiori",
+                "color": 13
             },
             {
                 "name": "RAP",
-                "color": 8
+                "color": 10
+            },
+            {
+                "name": "CDS",
+                "color": 11
+            },
+            {
+                "name": "Best practice",
+                "color": 6
             }
         ]
     },
@@ -247,6 +267,10 @@
             {
                 "name": "RAP",
                 "color": 8
+            },
+            {
+                "name": "CDS",
+                "color": 11
             }
         ]
     },
@@ -274,6 +298,14 @@
             {
                 "name": "RAP",
                 "color": 8
+            },
+            {
+                "name": "CDS",
+                "color": 11
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
             }
         ]
     },
@@ -300,8 +332,17 @@
             },
             {
                 "name": "RAP",
-                "color": 8
+                "color": 10
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            },
+            {
+                "name": "Cloud",
+                "color": 3
             }
+
         ]
     },    
     "adt1": {
@@ -334,6 +375,10 @@
             {
                 "name": "ADT",
                 "color": 8
+            },
+            {
+                "name": "Cloud",
+                "color": 3
             }
         ]
     },
@@ -408,6 +453,10 @@
             {
                 "name": "AWS",
                 "color": 8
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
             }
         ]
     },
@@ -432,6 +481,10 @@
             {
                 "name": "ABAP",
                 "color": 2
+            },
+            {
+                "name": "ADT",
+                "color": 8
             },
             {
                 "name": "Testing",
@@ -466,6 +519,10 @@
             {
                 "name": "ABAP",
                 "color": 2
+            },
+            {
+                "name": "Lessons Learned",
+                "color": 6
             },
             {
                 "name": "Testing",
@@ -504,8 +561,12 @@
                 "color": 9
             },
             {
-                "name": "Classic ABAP",
-                "color": 5
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "Cloud",
+                "color": 3
             }
         ]
     },
@@ -530,6 +591,10 @@
             {
                 "name": "ABAP",
                 "color": 2
+            },
+            {
+                "name": "Lessons Learned",
+                "color": 6
             }
         ]
     },
@@ -551,8 +616,8 @@
         "link": "https://forms.gle/QEXsoEcyEPLsFNNa9",
         "tags": [
             {
-                "name": "RAP",
-                "color": 2
+                "name": "Inside Talk",
+                "color": 14
             }
         ]
     },
@@ -572,8 +637,8 @@
         "link": "https://forms.gle/QEXsoEcyEPLsFNNa9",
         "tags": [
             {
-                "name": "RAP",
-                "color": 2
+                "name": "Inside Talk",
+                "color": 14
             }
         ]
     },
@@ -590,15 +655,15 @@
         "title": "ABAP AI Strategy",
         "abstract": "tbd",
         "track": 3,
-        "time": "15:45",
+        "time": "14:45",
         "duration": 60,
         "language": "English",
         "ics": "./model/agenda/insidetalk1.ics",
         "link": "https://forms.gle/QEXsoEcyEPLsFNNa9",
         "tags": [
             {
-                "name": "RAP",
-                "color": 2
+                "name": "Inside Talk",
+                "color": 14
             }
         ]
     }
