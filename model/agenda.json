@@ -536,10 +536,12 @@
     "insidetalk1": {
         "id": "it1",
         "speaker": "Marcel Hermanns",
+        "speaker2": "Volker Drees",
         "speakerids": [
-            "MarcelHermanns"  
+            "MarcelHermanns",
+            "VolkerDrees"
         ], 
-        "title": "Classic ABAP to ABAP Cloud",
+        "title": "ABAP Cloud for Classic ABAP Developer",
         "abstract": "tbd",
         "track": 3,
         "time": "10:50",
