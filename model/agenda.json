@@ -641,30 +641,5 @@
                 "color": 14
             }
         ]
-    },
-    "insidetalk3": {
-        "id": "it3",
-        "speaker": "Jens Weiler",
-        "speaker2": "Jasmin Gruschke",
-        "speaker3": "Christian Mathis",
-        "speakerids": [
-            "JensWeiler",
-            "JasminGruschke",
-            "ChristianMathis"
-        ], 
-        "title": "ABAP AI Strategy",
-        "abstract": "tbd",
-        "track": 3,
-        "time": "14:45",
-        "duration": 60,
-        "language": "English",
-        "ics": "./model/agenda/insidetalk1.ics",
-        "link": "https://forms.gle/QEXsoEcyEPLsFNNa9",
-        "tags": [
-            {
-                "name": "Inside Talk",
-                "color": 14
-            }
-        ]
     }
 }

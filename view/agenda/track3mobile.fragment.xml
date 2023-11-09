@@ -164,8 +164,10 @@ hSpacing="1">
         <Text text="" />
     </ColumnListItem>
     <ColumnListItem>
-        <Text text="14:45" />                  
+        <Text text="14:45" />
+        <Text text="" />              
         <!-- insidetalk3 -->
+        <!--
         <VBox 
             blocked="{agendaView>/showEnglish}"
             class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
@@ -208,6 +210,7 @@ hSpacing="1">
                     width="100%"/>
             </HBox>
         </VBox>
+        -->
     </ColumnListItem>
     <ColumnListItem>
         <Text text="15:15" />
