@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Meet the speakers:\n-Thomas Fiedler\n-Ünal Akkaya\n-Martin Pankraz\n-Holger Bruchelt\n-Timo John
+DTSTART:20231207T111000Z
+DTEND:20231207T111500Z
+LOCATION:https://www.abapconf.org/#/agenda/channel2
+SUMMARY;LANGUAGE=en-us:Meet the speakers
+END:VEVENT
+END:VCALENDAR

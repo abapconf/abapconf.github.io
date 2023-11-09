@@ -655,39 +655,35 @@
                 <Text text="12:10" />
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Text text="Meet the speakers" />
-                    <!--
                     <HBox class="sapUiTinyMarginTop">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/channel1mts1.ics"
+                            href="./model/agenda/mts_c1_1.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                -->
                 </VBox>
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop">
                     <Text text="Meet the speakers" />
-                    <!--
                     <HBox class="sapUiTinyMarginTop">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/channel2mts1.ics"
+                            href="./model/agenda/mts_c2_1.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox> 
-                -->
                 </VBox>
                 <Text text="" />
             </ColumnListItem>
@@ -1014,39 +1010,35 @@
                 <Text text="15:15" />
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Text text="Meet the speakers" />
-                    <!--
                     <HBox class="sapUiTinyMarginTop">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/channel1mts2.ics"
+                            href="./model/agenda/mts_c1_2.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                --> 
                 </VBox>                
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Text text="Meet the speakers" />
-                    <!--
                     <HBox class="sapUiTinyMarginTop">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/channel2mts2.ics"
+                            href="./model/agenda/mts_c2_2.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                -->
                 </VBox>
                 <Text text="" />
             </ColumnListItem>
@@ -1323,21 +1315,19 @@
                 <Text text="17:20" />
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Text text="Meet the speakers" />
-                    <!--
                     <HBox class="sapUiTinyMarginTop">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/channel1mts3.ics"
+                            href="./model/agenda/mts_c1_3.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                -->
                 </VBox>
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Text text="Meet the speakers" />
