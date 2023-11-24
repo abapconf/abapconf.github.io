@@ -52,8 +52,8 @@
             "VolkerDrees",
             "GururajRaman"
         ],
-        "title": "Keynote: Restful Application Programming Model",
-        "abstract": "Keynote on channel 1: ABAP Restful Application Programming Model (RAP)",
+        "title": "Keynote: ABAP Cloud in Action",
+        "abstract": "Keynote on channel 1: ABAP Cloud in Action\n\nGolden Path journey in Sales Order with extensibility demo - Gururaj",
         "track": 1,
         "time": "9:00",
         "YouTubeTimestamp": 0,
@@ -613,7 +613,7 @@
         "time": "10:50",
         "duration": 60,
         "language": "English",
-        "ics": "./model/agenda/insidetalk1.ics",
+        "ics": "https://forms.gle/QEXsoEcyEPLsFNNa9",
         "link": "https://forms.gle/QEXsoEcyEPLsFNNa9",
         "tags": [
             {
@@ -634,7 +634,7 @@
         "time": "13:05",
         "duration": 60,
         "language": "English",
-        "ics": "./model/agenda/insidetalk1.ics",
+        "ics": "https://forms.gle/QEXsoEcyEPLsFNNa9",
         "link": "https://forms.gle/QEXsoEcyEPLsFNNa9",
         "tags": [
             {
