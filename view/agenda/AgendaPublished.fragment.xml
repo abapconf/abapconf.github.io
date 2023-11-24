@@ -267,6 +267,7 @@
                         
                         <Link text="Volker Drees"  press="openSpeaker($event, 'VolkerDrees')" class="whiteText sapUiSmallMargin" width="150%"/>
                         <Link text="Marcel Hermanns"   press="openSpeaker($event, 'MarcelHermanns')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="Gururaj Raman"   press="openSpeaker($event, 'GururajRaman')" class="whiteText sapUiSmallMargin" width="150%"/>
                         
                     </HBox>
                     <HBox

@@ -1273,6 +1273,45 @@
         ]
     },
     {
+        "id": "GururajRaman",
+        "firstname": "Gururaj",
+        "middlename": "",
+        "lastname": "Raman",
+        "initials": "GR",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Chief Development Expert",
+        "picture": "./card/speakers/gururaj/GururajRaman.jpeg", 
+        "shortBio": "Full-stack developer with good know-how of Sales processes (focus areas: Sales Order and pricing)",
+        "longBio": "Gururaj Raman is leading the enablement of the RESTful Application Programming Model (RAP) in Sales (component SD, program SAPMV45A) within SAP S/4HANA Cloud. As many keynotes of previous years have shown, the sales order is the most prominent RAP-enabled business object in this area.\n\nGururaj has 19+ years of experience in application development using ABAP programming models, primarily for sales order processing, pricing, and price master data. He is a devoted follower of the Golden Path of RAP, recognizing how customers can reap great benefits from it in the form of increased business value and trailblazing innovations",
+        "linkedIn": "https://www.linkedin.com/in/gururaj-raman-87873647/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "title": "Keynote: Restful Application Programming Model",
+                "abstract": "Keynote on channel 1: ABAP Restful Application Programming Model (RAP)",
+                "track": 1,
+                "time": "9:00",
+                "duration": 55,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "RAP",
+                        "color": 2
+                    }     
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+            }
+        ]
+    },
+    {
         "id": "UnalAkkaya",
         "firstname": "Ünal",
         "middlename": "",

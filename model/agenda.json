@@ -49,7 +49,8 @@
         "id": "keynote",
         "speakerids": [
             "MarcelHermanns",
-            "VolkerDrees"
+            "VolkerDrees",
+            "GururajRaman"
         ],
         "title": "Keynote: Restful Application Programming Model",
         "abstract": "Keynote on channel 1: ABAP Restful Application Programming Model (RAP)",
