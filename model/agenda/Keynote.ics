@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 BEGIN:VEVENT
 CLASS:PUBLIC
-DESCRIPTION:Keynote Restful Application Programming Model\n
+DESCRIPTION:Keynote ABAP Cloud in Action
 DTSTART:20231207T080000Z
 DTEND:20231207T085500Z
 LOCATION:https://www.abapconf.org/#/agenda/channel1
