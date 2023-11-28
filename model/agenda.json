@@ -53,7 +53,7 @@
             "GururajRaman"
         ],
         "title": "Keynote: ABAP Cloud in Action",
-        "abstract": "Keynote on channel 1: ABAP Cloud in Action\n\nGolden Path journey in Sales Order with extensibility demo - Gururaj",
+        "abstract": "Keynote on channel 1: ABAP Cloud in Action\n\nStrategy and Roadmap - Marcel\n\nDemo - Volker\n\nGolden Path journey in Sales Order with extensibility demo - Gururaj",
         "track": 1,
         "time": "9:00",
         "YouTubeTimestamp": 0,
@@ -213,7 +213,7 @@
         "id": "rap4",
         "speaker": "Stefan Engelhardt",
         "speakerids": [
-            "StefanEngelhard"
+            "StefanEngelhardt"
         ],
         "title": "Fiori App Erstellung leicht gemacht für ABAP-Entwickler",
         "abstract": "Mit Fiori elements kann jeder ABAP-Entwickler ohne JavaScript/UI-Kenntnisse konsistente und gut aussehende Fiori Apps erstellen. Startpunkt des Vortrages ist ein RAP-Projekt, für das live benötigte Annotationen gepflegt werden und dann eine Fiori App generiert wird.",

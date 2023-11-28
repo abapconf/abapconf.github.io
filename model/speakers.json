@@ -897,7 +897,7 @@
         ]
     },
     {
-        "id": "StefanEngelhard",
+        "id": "StefanEngelhardt",
         "firstname": "Stefan",
         "middlename": "",
         "lastname": "Engelhardt",
@@ -905,7 +905,7 @@
         "company": "SAP",
         "companyWeb": "https://www.sap.com",
         "function": "Development Architect",
-        "picture": "./card/speakers/stefanh/StefanEngelhard.jpeg",
+        "picture": "./card/speakers/stefanh/StefanEngelhardt.jpeg",
         "shortBio": "Fiori Elements Development Architect",
         "longBio": "",
         "linkedIn": "https://www.linkedin.com/in/stefan-engelhardt-35490a126/",
