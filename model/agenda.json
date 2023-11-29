@@ -608,7 +608,7 @@
             "VolkerDrees"
         ], 
         "title": "ABAP Cloud for Classic ABAP Developer",
-        "abstract": "tbd",
+        "abstract": "You are familiar with classic ABAP development? Learn how you can reuse or map your knowledge to concepts and technologies in ABAP Cloud with RAP and Fiori.\n\nOn the Devtoberfest we focused on the ALV, DDIC and SQL (https://tinyurl.com/y3vcz2nt)\n\nNow we want to discuss transactional enterprise applications. How is the user interaction with authorizations, feature control, locks, end-user messages, OK_CODES represented in ABAP Cloud? What about the database handling including update task?\n\nLooking forward to see you.",
         "track": 3,
         "time": "10:50",
         "duration": 60,
