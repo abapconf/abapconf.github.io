@@ -53,7 +53,7 @@
             "GururajRaman"
         ],
         "title": "Keynote: ABAP Cloud in Action",
-        "abstract": "Keynote on channel 1: ABAP Cloud in Action\n\nStrategy and Roadmap - Marcel\n\nDemo - Volker\n\nGolden Path journey in Sales Order with extensibility demo - Gururaj",
+        "abstract": "Keynote channel 1: ABAP Cloud in Action\n\nThe ABAP RESTful Application Development is now there for several years and the best choice for transactional application development in the cloud and new on-premise versions. In ABAP Cloud, RAP is combined with other technologies to shape the ABAP development model for cloud-ready apps, services and extensions\n\nIn this key-note session we will have the real SAP SalesOrder application on stage. We will see, how the existing application code was integrated into RAP and Fiori Elements. We will discuss experiences, pit falls and problems of this long running project.\n\nIn addition, we will have a look on the newest features and a short outlook what the future brings.\n\nStrategy and Roadmap - Marcel\n\nDemo - Volker\n\nGolden Path journey in Sales Order with extensibility demo - Gururaj",
         "track": 1,
         "time": "9:00",
         "YouTubeTimestamp": 0,
