@@ -12,6 +12,9 @@ sap.ui.define([
 		return BaseController.extend("abapconf.2023.org.controller.agenda.Agenda", {
 			onInit: function () {
 				this.setModel(models.createAgendaViewModel(), "agendaView");
+
+				var oModel = this.getModel("agendaView");
+				this.startCounter(oModel);
 			},
 
 			/*

@@ -97,7 +97,7 @@
                     <html:div class="exampleDiv"/>
                 </l:Grid>
 
-                <!--
+                
                 <l:Grid
                     containerQuery="false"
                     defaultSpan="XL4 L4 M12 S12"
@@ -120,8 +120,8 @@
                             <Label class="abapconfSubtitle" text="Links: " />
                             <VBox >
                             <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="YouTube ABAPConf" href="https://www.youtube.com/@abapconf" />
-                            <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="Livestream Channel 1" href="https://www.youtube.com/watch?v=l5DEB-uwjAw" />
-                            <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="Livestream Channel 2" href="https://www.youtube.com/watch?v=Yeo9rz-7Pdc" />                            
+                            <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="Livestream Channel 1" href="{homeView>/channel1}" />
+                            <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="Livestream Channel 2" href=" {homeView>/channel2}" />
                             </VBox>
                         </HBox>
                         <layoutData>
@@ -130,7 +130,7 @@
                     </VBox>
                     <html:div class="exampleDiv"/>
                 </l:Grid>
-                -->
+                
             </VBox>
             
 
@@ -352,94 +352,6 @@
             </l:Grid>
 
             
-             <!-- Highlights -->
-
-             <!--
-             <FlexBox
-                height="100px"
-                alignItems="Center"
-                justifyContent="Center">
-                <Title level="H2" titleStyle="H2" text="{i18n>homeHighlights}"> </Title>
-            </FlexBox>
-
-            <FlexBox
-                height="20px"
-                alignItems="Center"
-                justifyContent="Center"
-                class="sapUiLargeMarginBottom">
-                <html:div class="seperator"></html:div>
-            </FlexBox>
-
-            -->
-
-            <!-- Text Highlights -->
-            <!--
-            <l:Grid
-                containerQuery="false"
-                defaultSpan="XL2 L2 M12 S12"
-                hSpacing="1">
-                <html:div class="exampleDiv"/>
-                <HBox alignItems="Center" justifyContent="Start">
-                    <Text width="100%" text="{i18n>homeHighlightsP1}" textAlign="Begin"  class="textReadability"></Text>
-                    <layoutData>
-                        <l:GridData span="XL8 L8 M12 S12"/>
-                    </layoutData>
-                </HBox>
-                <html:div class="exampleDiv"/>
-            </l:Grid>
-
-
-            <HBox justifyContent="Center" renderType="Bare">
-                <Panel id="carouselContainer" height="auto">
-                    <Carousel
-                        id="carouselSpeakerHighlights"
-                        loop="true"
-                        showPageIndicator="true"
-                        arrowsPlacement="Content"
-                        class="sapUiContentPadding" >
-                        <pages>
-
-                            
-                            <FlexBox
-                                height="auto"
-                                alignItems="Center"
-                                justifyContent="Center">
-                                <w:Card manifest="../card/speakers/karl/Speaker.json" width="350px" height="auto"/>
-                            </FlexBox>
-                            <FlexBox
-                                height="auto"
-                                alignItems="Center"
-                                justifyContent="Center">
-                                <w:Card manifest="../card/speakers/andre/Speaker.json" width="350px" height="auto"/>
-                            </FlexBox>
-                            <FlexBox
-                                height="auto"
-                                alignItems="Center"
-                                justifyContent="Center">
-                                <w:Card manifest="../card/speakers/ingo/Speaker.json" width="350px" height="auto"/>
-                            </FlexBox>
-                            <FlexBox
-                                height="auto"
-                                alignItems="Center"
-                                justifyContent="Center">
-                                <w:Card manifest="../card/speakers/lars/Speaker.json" width="350px" height="auto"/>
-                            </FlexBox>
-                            <FlexBox
-                                height="auto"
-                                alignItems="Center"
-                                justifyContent="Center">
-                                <w:Card manifest="../card/speakers/thomas/Speaker.json" width="350px" height="auto"/>
-                            </FlexBox>
-                            
-                        </pages>
-                        <customLayout>
-                            <CarouselLayout visiblePagesCount="1" />
-                        </customLayout>
-                    </Carousel>
-                </Panel>
-            </HBox>
-            -->
-
             <!--
             agenda
             -->            

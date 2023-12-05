@@ -18,7 +18,9 @@ sap.ui.define([
 				hour: 0,
 				minute: 0,
 				second: 0,
-				live: false
+				live: false,
+				channel1: "https://youtube.com/live/bGtcmIJLeNY",
+				channel2: "https://youtube.com/live/hleq0-NTVQo"
 			};
 			var oModel = new JSONModel(oData);
 			return oModel;
@@ -56,8 +58,13 @@ sap.ui.define([
 				showITregistration: true,
 				open: false,
 				videoicon: "sap-icon://video",
-				channel1: "",
-				channel2: ""
+				channel1: "https://youtube.com/live/bGtcmIJLeNY",
+				channel2: "https://youtube.com/live/hleq0-NTVQo",
+				day: 0,
+				hour: 0,
+				minute: 0,
+				second: 0,
+				live: false
 			};
 			var oModel = new JSONModel(oData);
 			return oModel;

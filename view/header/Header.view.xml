@@ -135,9 +135,9 @@
             </HBox>
             <VBox alignItems="Center" justifyContent="Center" visible="{headerView>/live}">
                 <FlexBox direction="Column" alignItems="Center">
-                   <Link width="auto" text="{i18n>linkChannel1}" href="https://www.youtube.com/watch?v=l5DEB-uwjAw" textAlign="Center"  class="sapUiSmallMarginTopBottom channelLink textReadability">
+                   <Link width="auto" text="{i18n>linkChannel1}" href="{headerView>/channel1}" textAlign="Center"  class="sapUiSmallMarginTopBottom channelLink textReadability">
                     </Link>
-                    <Link  width="auto" text="{i18n>linkChannel2}" href="https://www.youtube.com/watch?v=Yeo9rz-7Pdc" textAlign="Left"  class="sapUiSmallMarginTopBottom channelLink textReadability">
+                    <Link  width="auto" text="{i18n>linkChannel2}" href="{headerView>/channel2}" textAlign="Left"  class="sapUiSmallMarginTopBottom channelLink textReadability">
                     </Link>
                 </FlexBox>                
             </VBox>        
