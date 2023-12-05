@@ -345,7 +345,28 @@
             }
 
         ]
-    },    
+    }, 
+    "rap8": {
+        "id": "rap8",
+        "speaker": "Jörg Brandeis",
+        "speakerids": [
+            "JoergBrandeis"
+        ],
+        "title": "RAP 101",
+        "abstract": "Kurze Einführung in RAP: Begriffe und Zusammenhänge einfach erklärt",
+        "track": 1,
+        "time": "11:40",
+        "YouTubeTimestamp": 0,
+        "duration": 30,
+        "language": "German",
+        "ics": "./model/agenda/rap3.ics",
+        "tags": [
+            {
+                "name": "RAP",
+                "color": 10
+            }
+        ]
+    },  
     "adt1": {
         "id": "adt1",
         "speaker": "Thomas Fiedler",        

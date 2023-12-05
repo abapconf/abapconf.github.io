@@ -1521,5 +1521,46 @@
                 "color": 8
              }
         ]
+    },
+    {
+        "id": "JoergBrandeis",
+        "firstname": "Jörg",
+        "middlename": "",
+        "lastname": "Brandeis",
+        "initials": "JB",
+        "company": "Brandeis Consulting GmbH",
+        "companyWeb": "https://www.brandeis.de",
+        "function": "Experte",
+        "picture": "./card/speakers/joerg/jbrandeis.png",
+        "shortBio": "THE expert for SAP HANA SQL and SQLScript",
+        "longBio": "Let me help you with the conversion to SAP HANA and BW/4HANA. I bring a lot of practical experience from large customer projects. With my SAP Press book 'SQLScript for SAP HANA', I have the best training material on the subject for participants in my courses!",
+        "linkedIn": "https://www.linkedin.com/in/joerg-brandeis/",
+        "scn": "https://people.sap.com/jbrandeis",
+        "twitter": "joerg_brandeis",
+        "sessions": [
+            {
+                "title": "RAP 101",
+                "abstract": "Kurze Einführung in RAP: Begriffe und Zusammenhänge einfach erklärt",
+                "track": 1,
+                "time": "11:40",
+                "duration": 30,
+                "language": "German",
+                "ics": "",
+                "slide": "https://www.brandeis.de/blog/vortrag-best-of-adt-auf-der-abapconf-2021/",
+                "icon": "sap-icon://attachment-html",
+                "tags": [
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    }              
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "RAP",
+                "color": 10
+             }
+        ]
     }
 ]

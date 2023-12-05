@@ -563,19 +563,19 @@
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
-                        text="{agenda>/rap3/title}" 
-                        press="openSession($event, 'rap3')"/>
+                        text="{agenda>/rap8/title}" 
+                        press="openSession($event, 'rap8')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap3/speaker}" press="openSpeaker($event, 'StefanHillinger')" class="" width="150%"/>
+                        <Link text="{agenda>/rap8/speaker}" press="openSpeaker($event, 'JoergBrandeis')" class="" width="150%"/>
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap3/duration} Min" class="" />
+                        <Text text="{agenda>/rap8/duration} Min" class="" />
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap3/language}" class="" />
+                        <Text text="{agenda>/rap8/language}" class="" />
                     </HBox>
                     <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
