@@ -1533,20 +1533,20 @@
         "function": "Experte",
         "picture": "./card/speakers/joerg/jbrandeis.png",
         "shortBio": "THE expert for SAP HANA SQL and SQLScript",
-        "longBio": "Let me help you with the conversion to SAP HANA and BW/4HANA. I bring a lot of practical experience from large customer projects. With my SAP Press book 'SQLScript for SAP HANA', I have the best training material on the subject for participants in my courses!",
+        "longBio": "Jörg ist Trainer und Berater für alle Themen rund um die SAP Entwicklung. Er bietet mit seiner Brandeis Consulting GmbH Schulungen zu den Themen Modernes ABAP, RAP, AMDP, CDS und SQLScript an.",
         "linkedIn": "https://www.linkedin.com/in/joerg-brandeis/",
         "scn": "https://people.sap.com/jbrandeis",
         "twitter": "joerg_brandeis",
         "sessions": [
             {
-                "title": "RAP 101",
-                "abstract": "Kurze Einführung in RAP: Begriffe und Zusammenhänge einfach erklärt",
+                "title": "RAP im Schweinsgalopp",
+                "abstract": "Auf Basis von ein zwei Datenbanktabellen wird in einer halben Stunde eine kleine RAP Anwendung gebaut und dabei werden alle relevanten Konzepte für den schnellen Einstieg in das Thema RAP kurz erklärt und gezeigt. Explaining by Doing. Eine kleine Demo für Entwicklereffizienz.",
                 "track": 1,
                 "time": "11:40",
                 "duration": 30,
                 "language": "German",
                 "ics": "",
-                "slide": "https://www.brandeis.de/blog/vortrag-best-of-adt-auf-der-abapconf-2021/",
+                "slide": "",
                 "icon": "sap-icon://attachment-html",
                 "tags": [
                     {

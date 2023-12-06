@@ -1081,12 +1081,12 @@
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
-                        text="{agenda>/rest1/title}" 
-                        press="openSession($event, 'rest1')"/>
+                        text="{agenda>/rest2/title}" 
+                        press="openSession($event, 'rest2')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rest1/speaker}" press="openSpeaker($event, 'EnnoWulff')" width="150%"/>
+                        <Link text="{agenda>/rest2/speaker}" press="openSpeaker($event, 'tbd')" width="150%"/>
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
@@ -1094,7 +1094,7 @@
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rest1/language}" class="" />
+                        <Text text="{agenda>/rest2/language}" class="" />
                     </HBox>
                     <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon

@@ -352,8 +352,8 @@
         "speakerids": [
             "JoergBrandeis"
         ],
-        "title": "RAP 101",
-        "abstract": "Kurze Einführung in RAP: Begriffe und Zusammenhänge einfach erklärt",
+        "title": "RAP im Schweinsgalopp",
+        "abstract": "Auf Basis von ein zwei Datenbanktabellen wird in einer halben Stunde eine kleine RAP Anwendung gebaut und dabei werden alle relevanten Konzepte für den schnellen Einstieg in das Thema RAP kurz erklärt und gezeigt. Explaining by Doing. Eine kleine Demo für Entwicklereffizienz.",
         "track": 1,
         "time": "11:40",
         "YouTubeTimestamp": 0,
@@ -620,6 +620,34 @@
             }
         ]
     },
+    "rest2": {
+        "id": "rest2",
+        "speaker": "tbd",
+        "speakerids": [
+            "tbd"  
+        ], 
+        "title": "--- Ersatzvortrag ---",
+        "abstract": "Vorträg fällt wegen Krankheit aus. Ein Ersatzvortrag wird akuell vorbereitet.",
+        "track": 2,
+        "time": "15:45",
+        "YouTubeTimestamp": 0,
+        "YouTubeHMSformat": "",
+        "duration": 45,
+        "language": "German",
+        "ics": "./model/agenda/rest1.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Lessons Learned",
+                "color": 6
+            }
+        ]
+    },
     "insidetalk1": {
         "id": "it1",
         "speaker": "Marcel Hermanns",
@@ -643,6 +671,7 @@
             }
         ]
     },
+    
     "insidetalk2": {
         "id": "it2",
         "speaker": "Frank Jentsch",

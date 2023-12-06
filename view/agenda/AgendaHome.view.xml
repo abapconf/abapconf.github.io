@@ -65,6 +65,6 @@
     -->
 
     <!-- Agenda -->
-    <core:Fragment fragmentName="abapconf.2023.org.view.agenda.AgendaPublished" type="XML" />
+    <core:Fragment fragmentName="abapconf.2023.org.view.agenda.AgendaEventDay" type="XML" />
     
 </mvc:View>
