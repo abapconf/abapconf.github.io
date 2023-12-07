@@ -1562,5 +1562,64 @@
                 "color": 10
              }
         ]
+    },
+    {
+        "id": "AlexanderRother",
+        "firstname": "Alexander",
+        "middlename": "",
+        "lastname": "Rother",
+        "initials": "AR",
+        "company": "SAP SE",
+        "companyWeb": "https://www.sap.com",
+        "function": "Product Lead",
+        "picture": "./card/speakers/alexander/AlexanderRother.jpg",
+        "shortBio": "Leading reuse service development in the ABAP Platform.",
+        "longBio": "",
+        "linkedIn": "https://www.linkedin.com/in/alexander-wlotzka/",
+        "scn": "https://people.sap.com/a.rother",
+        "twitter": "",
+        "sessions": [
+            {
+                "title": "Closing Keynote: ABAP Cloud",
+                "abstract": "Keynote on channel 1: ABAP Cloud",
+                "track": 1,
+                "time": "16:35",
+                "duration": 60,
+                "language": "English",
+                "ics": "/card/speakers/keynote/keynote.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 2
+                    },
+                    {
+                        "name": "On premise",
+                        "color": 3
+                    },
+                    {
+                        "name": "Classic ABAP",
+                        "color": 4
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 5
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 6
+                    }       
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+            }
+        ]
     }
 ]

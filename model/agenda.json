@@ -90,10 +90,10 @@
     "keynote2": {
         "id": "keynote2",
         "speaker": "Boris Gebhardt",
-        "speaker2": "Jens Weiler",
+        "speaker2": "Alexander Rother",
         "speakerids": [
             "BorisGebhardt",
-            "JensWeiler"
+            "AlexanderRother"
         ], 
         "title": "Closing Keynote: ABAP Cloud",
         "abstract": "ABAP Cloud strategy, tier model, usage types.\n\nClosing with Q&A\n\nAttention: closing keynote streamed on channel 1",
