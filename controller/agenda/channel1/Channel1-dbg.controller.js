@@ -12,7 +12,7 @@ sap.ui.define([
 
 		var URLHelper = mobileLibrary.URLHelper;
 		//var urlABAPConfYTChannel = "https://www.youtube.com/@abapconf";
-		var urlABAPConfYTChannel = "https://www.youtube.com/watch?v=l5DEB-uwjAw";
+		var urlABAPConfYTChannel = "https://www.youtube.com/watch?v=bGtcmIJLeNY";
 
 		return BaseController.extend("abapconf.2023.org.controller.agenda.channel1.Channel1", {
 			onInit: function () {
