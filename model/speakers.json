@@ -1621,5 +1621,44 @@
                 "color": 1
             }
         ]
+    },
+    {
+        "id": "AndreFischer",
+        "firstname": "André",
+        "middlename": "",
+        "lastname": "Fischer",
+        "initials": "AF",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com",
+        "function": "Product Manager",
+        "picture": "./card/speakers/andre/AndreFischer.png",
+        "shortBio": "SAP Product Manager, SAP Cloud Platform, ABAP Platform & SAP Gateway, SAP Champion",
+        "longBio": "As Product Manager for the SAP Business Technology ABAP Environment and SAP Gateway I am working on the topic of OData Service development since the launch of the SAP Gateway in 2011. You will find me as a speaker at various events such as SAP TechEd, SAP CodeJam, SAP Inside Track and SAP Online Track. I have written lots of blogs about ABAP and OData service development and I am also supporting the SAP Community by answering questions in those areas and I am co-author of the SAP PRESS book 'SAP Gateway and OData'. In May I became SAP Champion after being active in the SAP Community as an SAP Mentor and SAP Technology Ambassador.",
+        "linkedIn": "https://www.linkedin.com/in/anfisc/",
+        "scn": "https://people.sap.com/andre.fischer",
+        "twitter": "anfisc",
+        "sessions": [
+            {
+                "title": "Der Open Source RAP Generator",
+                "abstract": "Der Open Source RAP Generator - Live Demo",
+                "track": 2,
+                "time": "15:45",
+                "duration": 45,
+                "language": "German",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    }  
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "RAP",
+                "color": 10
+            }
+        ]
     }
 ]

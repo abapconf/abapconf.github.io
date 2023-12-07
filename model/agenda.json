@@ -367,6 +367,27 @@
             }
         ]
     },  
+    "rap9": {
+        "id": "rap9",
+        "speaker": "André Fischer",
+        "speakerids": [
+            "AndreFischer"
+        ],
+        "title": "Der Open Source RAP Generator",
+        "abstract": "Der Open Source RAP Generator - Live Demo",
+        "track": 2,
+        "time": "15:45",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "German",
+        "ics": "./model/agenda/rest1.ics",
+        "tags": [
+            {
+                "name": "RAP",
+                "color": 10
+            }
+        ]
+    }, 
     "adt1": {
         "id": "adt1",
         "speaker": "Thomas Fiedler",        

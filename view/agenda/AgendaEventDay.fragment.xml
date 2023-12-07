@@ -1081,20 +1081,20 @@
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
-                        text="{agenda>/rest2/title}" 
-                        press="openSession($event, 'rest2')"/>
+                        text="{agenda>/rap9/title}" 
+                        press="openSession($event, 'rap9')"/>
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rest2/speaker}" press="openSpeaker($event, 'tbd')" width="150%"/>
+                        <Link text="{agenda>/rap9/speaker}" press="openSpeaker($event, 'AndreFischer')" width="150%"/>
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rest1/duration} Min" class="" />
+                        <Text text="{agenda>/rap9/duration} Min" class="" />
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rest2/language}" class="" />
+                        <Text text="{agenda>/rap9/language}" class="" />
                     </HBox>
                     <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
@@ -1249,7 +1249,7 @@
                         <Label text="Speakers:" class="whiteText sapUiSmallMarginTop"/>
                         
                         <Link text="{agenda>/keynote2/speaker}" press="openSpeaker($event, 'BorisGebhardt')" class="whiteText sapUiSmallMargin" width="150%"/>
-                        <Link text="{agenda>/keynote2/speaker2}" press="openSpeaker($event, 'JensWeiler')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="{agenda>/keynote2/speaker2}" press="openSpeaker($event, 'AlexanderRother')" class="whiteText sapUiSmallMargin" width="150%"/>
                         
                     </HBox>
                
