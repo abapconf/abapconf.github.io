@@ -20,12 +20,13 @@
         </core:HTML>
 		
         <!-- register -->
+        <!--
         <Link text="{i18n>headerRegisterEventbrite}" class="whiteText"  wrapping="true" target="_blank" visible="true" href="https://www.eventbrite.com/e/abapconf-2023-registration-669212682147">
             <layoutData>
                 <FlexItemData growFactor="1" />
             </layoutData>
         </Link>
-
+        -->
         <HBox 
             class="DarkBlue" 
             alignItems="Center"
@@ -97,10 +98,13 @@
         class="teaserImgBackground"   
         hSpacing="1">
         <html:div class="exampleDiv"/>
+        <!-- save the date -->
+        <!--
         <VBox height="220px" alignItems="Start" justifyContent="Center">
             <Text text="ABAPConf" class="textBold textColorWhite teaserHeader sapUiMediumMarginTop"/>
             <Text text="{i18n>headerCounterDate}" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
             <Text text="Free | Online | Live" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
+            
             <Link 
                 href="/model/ABAPConf2023.ics" 
                 subtle="false" 
@@ -109,10 +113,14 @@
                 text="Save the date" 
                 textAlign="Center" 
                 wrapping="true"></Link>
+                
             <layoutData>
                 <l:GridData span="XL4 L4 M5 S12"/>
             </layoutData>
         </VBox>
+        -->
+        <!-- live in -->
+        <!--
         <VBox alignItems="Center" justifyContent="Center">
             <Text text="{i18n>headerLiveIn}" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
             <HBox alignItems="Center" justifyContent="Center" visible="{= !${headerView>/live} }">
@@ -145,6 +153,7 @@
                 <l:GridData span="XL6 L6 M7 S12"/>
             </layoutData>
         </VBox>
+        -->
         <html:div class="exampleDiv"/>
     </l:Grid>
 

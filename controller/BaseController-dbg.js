@@ -107,6 +107,12 @@ sap.ui.define([
 			if (days < 0 && hours < 0 && minutes < 0 && seconds < 0) {
 				oModel.setProperty("/live", true);
 			}
+
+			// check if pos go live date (event date + 4)
+			const diff = Math.floor((new Date() - date) / (1000*60*60*24))
+			if (diff > 4) {
+				oModel.setProperty("/aftergolive", true);
+			}
 		},
         
         
