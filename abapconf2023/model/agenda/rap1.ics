@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Smoke testing your RAP: Schnelleinstieg in das Testen von RAP-Services\nIm Rahmen vieler S/4HANA-Projekte steht man vor der Herausforderung Geschäftsanwendungen mithilfe neuer Technologien wie zum Beispiel auch dem Restful Application Programming Model bauen zu können oder auch zu müssen. Das meist unter Projektdruck der eh schon komplexen S/4-Projekte.\n\n Die Chance robustere Anwendungen mit automatisierten Unit- und Integrationstests zu bauen gerät dann schnell ins Hintertreffen. Dabei hat man doch gerade im Zuge von S/4-Migration und der Implementierung neuer Anwendungen mit neusten Frameworks die Chance wenigstens ein paar Qualitätsziele umzusetzen. Die Hemmschwelle muss gar nicht so groß sein wie vielleicht angenommen. Man lässt sich doch schnell abschrecken obwohl es mittlerweile immer mehr Möglichkeiten gibt.\n\nDieser Vortrag richtet sich nicht an Testexperten, sondern an Einsteiger, die im Zuge von S/4 oder Steampunk in die RAP-Entwicklung einsteigen und mit einfachen mitteln ihre Services 'smoke testen' wollen. D.h. einfache Tests ohne großen Aufwand aber mit einer gewissen grundlegenden Testabdeckung. Praxisnah pragmatisch, denn jeder Test ist besser als kein Test.\n\nTeil des Vortrages sind Unit-Tests einer Behaviour Implementation (Determinations, Validations und Actions) mit Hilfe des Test Double Frameworks und einfache Integrationstests für OData.\n
+DTSTART:20231207T090000Z
+DTEND:20231207T094500Z
+LOCATION:https://www.abapconf.org/#/agenda/channel1
+SUMMARY;LANGUAGE=en-us:Smoke testing your RAP: Schnelleinstieg in das Testen von RAP-Services
+END:VEVENT
+END:VCALENDAR

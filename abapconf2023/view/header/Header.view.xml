@@ -1,0 +1,213 @@
+<mvc:View
+   controllerName="abapconf.2023.org.controller.header.Header"
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core"
+   xmlns:l="sap.ui.layout"
+   xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:mvc="sap.ui.core.mvc">
+   
+
+    <HBox
+		fitContainer="true"
+        alignItems="Center"
+        justifyContent="Center"
+        height="35px"
+		class="DarkBlue">
+        <core:HTML content="">
+            <core:layoutData>
+                <FlexItemData growFactor="1" styleClass="item3" />
+            </core:layoutData>
+        </core:HTML>
+		
+        <!-- register -->
+        <!--
+        <Link text="{i18n>headerRegisterEventbrite}" class="whiteText"  wrapping="true" target="_blank" visible="true" href="https://www.eventbrite.com/e/abapconf-2023-registration-669212682147">
+            <layoutData>
+                <FlexItemData growFactor="1" />
+            </layoutData>
+        </Link>
+        -->
+        <HBox 
+            class="DarkBlue" 
+            alignItems="Center"
+            justifyContent="End"
+            >
+            <core:Icon            
+                src="sap-icon://world"
+                press="onSelectLanguage"
+                class="sapUiSmallMarginEnd"
+                color="white" >
+
+            </core:Icon>                
+        </HBox>        
+	</HBox>
+
+    <!-- Call for Speaker -->
+    <!--
+    <HBox
+        fitContainer="true"
+        alignItems="Center"
+        justifyContent="Center"
+        height="35px"
+        class="DarkBlue">
+        <core:HTML content="">
+            <core:layoutData>
+                <FlexItemData growFactor="1" />
+            </core:layoutData>
+        </core:HTML>
+            
+            <Link text="{i18n>headerCfSOpen}" class="whiteText"  wrapping="true" target="_blank" visible="true" href="https://forms.gle/zvDh1qVVfsqMxnu78">
+            </Link>
+            
+        <core:HTML content="">
+            <core:layoutData>
+                <FlexItemData growFactor="1" />
+            </core:layoutData>
+        </core:HTML>
+    </HBox>
+    -->
+     
+    <!-- Previous events -->
+    <HBox
+		fitContainer="true"
+        alignItems="Center"
+        justifyContent="Center"
+        height="35px"
+		class="DarkBlue">
+        <core:HTML content="">
+            <core:layoutData>
+                <FlexItemData growFactor="1" />
+            </core:layoutData>
+        </core:HTML>
+        <Text text="{i18n>headerPreviousABAPConf}: " class="whiteText sapUiSmallMarginEnd" />
+        <Link text="ABAPConf 2021" class="whiteText sapUiSmallMarginEnd"  wrapping="true" target="_blank" href="/abapconf2021/" />
+        <Link text="ABAPConf 2022" class="whiteText sapUiSmallMarginEnd"  wrapping="true" target="_blank" href="/abapconf2022/" />
+        <core:HTML content="">
+            <core:layoutData>
+                <FlexItemData growFactor="1" />
+            </core:layoutData>
+        </core:HTML>
+	</HBox>
+   
+
+    <!-- Sve the date and Live in counter -->    
+    <l:Grid
+        containerQuery="false"
+        visible="true"
+        defaultSpan="XL1 L1 M12 S12"    
+        class="teaserImgBackground"   
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <!-- save the date -->
+        <!--
+        <VBox height="220px" alignItems="Start" justifyContent="Center">
+            <Text text="ABAPConf" class="textBold textColorWhite teaserHeader sapUiMediumMarginTop"/>
+            <Text text="{i18n>headerCounterDate}" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
+            <Text text="Free | Online | Live" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
+            
+            <Link 
+                href="/model/ABAPConf2023.ics" 
+                subtle="false" 
+                width="100%" 
+                class="textBold textColorWhite teaserBody sapUiSmallMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd sapUiMediumMarginBottom teaserLink"
+                text="Save the date" 
+                textAlign="Center" 
+                wrapping="true"></Link>
+                
+            <layoutData>
+                <l:GridData span="XL4 L4 M5 S12"/>
+            </layoutData>
+        </VBox>
+        -->
+        <!-- live in -->
+        <!--
+        <VBox alignItems="Center" justifyContent="Center">
+            <Text text="{i18n>headerLiveIn}" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
+            <HBox alignItems="Center" justifyContent="Center" visible="{= !${headerView>/live} }">
+                <FlexBox direction="Column" alignItems="Center">
+                    <Text class="whiteText countdown sapUiTinyMargin" text="{headerView>/day}"/>
+                    <Text class="whiteText countdownLabel sapUiTinyMargin" text="{i18n>headerDays}"/>
+                </FlexBox>
+                <FlexBox direction="Column" alignItems="Center">
+                    <Text class="whiteText countdown sapUiTinyMargin" text="{headerView>/hour}"/>
+                    <Text class="whiteText countdownLabel sapUiTinyMargin" text="{i18n>headerHours}"/>
+                </FlexBox>
+                <FlexBox direction="Column" alignItems="Center">
+                    <Text class="whiteText countdown sapUiTinyMargin" text="{headerView>/minute}"/>
+                    <Text class="whiteText countdownLabel sapUiTinyMargin" text="{i18n>headerMinutes}"/>
+                </FlexBox>
+                <FlexBox direction="Column" alignItems="Center">
+                    <Text class="whiteText countdown sapUiTinyMargin" text="{headerView>/second}"/>
+                    <Text class="whiteText countdownLabel sapUiTinyMargin" text="{i18n>headerSeconds}"/>
+                </FlexBox>                               
+            </HBox>
+            <VBox alignItems="Center" justifyContent="Center" visible="{headerView>/live}">
+                <FlexBox direction="Column" alignItems="Center">
+                   <Link width="auto" text="{i18n>linkChannel1}" href="{headerView>/channel1}" textAlign="Center"  class="sapUiSmallMarginTopBottom channelLink textReadability">
+                    </Link>
+                    <Link  width="auto" text="{i18n>linkChannel2}" href="{headerView>/channel2}" textAlign="Left"  class="sapUiSmallMarginTopBottom channelLink textReadability">
+                    </Link>
+                </FlexBox>                
+            </VBox>        
+            <layoutData>
+                <l:GridData span="XL6 L6 M7 S12"/>
+            </layoutData>
+        </VBox>
+        -->
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL1 L1 M1 S1"
+        hSpacing="0">
+        <HBox 
+            alignItems="Center"
+            justifyContent="Start">
+            <FlexBox direction="Column" alignItems="Start">
+                <!-- wenn handy, dann 60px, wenn tablet oder desktop, dann 100 px-->          
+                <Image 
+                    src="./img/abapconf2023_logo.png"
+                    class="sapUiTinyMargin" 
+                    width="{= ${device>/system/phone} ? '60px' : '100px'}" 
+                    height="50%"
+                    press="doNavigation($event, 'Home')"
+                />
+                <layoutData>
+                    <l:GridData span="XL2 L2 M4 S4"/>
+                </layoutData>
+            </FlexBox>
+        
+            <Button id="navAbout" text="{i18n>headerNavAbout}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'About')"/>
+            <!--
+            <Button id="navCallForSpeakers" text="{i18n>headerNavCfS}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'CfS')" />
+            -->
+            <Button id="navAgenda" text="{i18n>headerNavAgenda}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Agenda')" />
+            <Button id="navSpeakers" text="{i18n>headerNavSpeakers}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Speakers')" />
+            
+            <layoutData>
+                <l:GridData span="XL10 L10 M8 S8"/>
+            </layoutData>
+        </HBox>
+
+    </l:Grid>
+
+
+    <!-- Link to Call for Speaker -->
+    <!--
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <HBox alignItems="Center" justifyContent="Center">
+            <Link href="#/cfs" subtle="false" width="100%" text="{i18n>headerCfsLinkText}" textAlign="Center" wrapping="true" class="textReadability"></Link>
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+        </HBox>
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+    -->
+
+</mvc:View>

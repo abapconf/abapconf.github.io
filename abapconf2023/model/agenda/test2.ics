@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Jetzt ist alles besser, oder? Früher: Includes mit 1.000 Zeilen. Heute: Klassen mit 1.000 Zeilen.\nObjektorientierung ist der Standard bei dir im Unternehmen? Includes und Forms gibt es nicht mehr? FuBas werden gewrapped? Und es finden sich sogar manchmal Unit Tests? ABAP Cloud aktiv. Super! Läuft doch. Endlich ist alles besser als früher!\n\nAber sei mal ehrlich, ist jetzt irgendetwas *wirklich* anders? Plötzlich sind deine Klassen 1.000 Zeilen lang. Und sind deine Klassen wirklich Strukturen, die Funktionen anbieten, um damit auf Daten, die nur sie kennen, operieren? Oder ist eigentlich vieles beim Alten geblieben:\n\n* Lange Klassen und Methoden\n* Doppeltes Coding quer übers System. \n* Immer wieder dasselbe validieren, ob nicht doch jemand inkonsistente Daten übergeben hat.\n* Verdächtige Klassennamen wie „ZCL_UTILITY*“ oder „ZCL*MANAGER*“, weil du nicht so recht weißt, wohin bestimmte Funktionen sollen.\n* Businesslogik verstreut im ganzen System und kein Single Point Of Truth. \n* Viele primitive Datentyp, die irgendwie durchs System geschleust werden. \n* Wesentliche Begriffe aus der Domäne finden sich nicht im System wieder. \n\nKommt dir das bekannt vor? \n\nKeine Sorge, so sehen viele System aus. Aber kann man das besser machen? Klar, mit einer in anderen Sprachen sehr etablierten Technik. Michael und Dominik zeigen sie dir in der Theorie und Praxis.\n
+DTSTART:20231207T125500Z
+DTEND:20231207T134000Z
+LOCATION:https://www.abapconf.org/#/agenda/channel2
+SUMMARY;LANGUAGE=en-us:Jetzt ist alles besser, oder? Früher: Includes mit 1.000 Zeilen. Heute: Klassen mit 1.000 Zeilen.
+END:VEVENT
+END:VCALENDAR

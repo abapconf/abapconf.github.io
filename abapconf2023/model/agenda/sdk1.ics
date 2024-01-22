@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Kick-Start your SAP ABAP Platform integration journey with Microsoft\nSee ABAP Restful Application Programming Model (RAP) seemlessly applied to interact with Microsoft services like Excel for SAP product updates or Azure OpenAI to generate SAP data entry inputs. The sessions works of off our blogs, GitHub repos, Microsoft ABAP SDKs, DSAG ABAP developer day artifacts, and videos executed completely from ADT.\n\n#no-slides\n
+DTSTART:20231207T095000Z
+DTEND:20231207T104000Z
+LOCATION:https://www.abapconf.org/#/agenda/channel2
+SUMMARY;LANGUAGE=en-us:Kick-Start your SAP ABAP Platform integration journey with Microsoft
+END:VEVENT
+END:VCALENDAR

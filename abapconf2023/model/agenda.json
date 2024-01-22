@@ -1,0 +1,717 @@
+{
+    "willkommen": {
+        "id": "willkommen",
+        "speakerids": [
+            "TobiasHofmann",
+            "SoerenSchlegel",
+            "JohannFoessleitner",
+            "DomiBigl"
+        ],
+        "title": "Willkommen",
+        "abstract": "Willkommen zur ABAPConf 2023. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag.",
+        "track": 1,
+        "time": "8:30",
+        "YouTubeTimestamp": 0,
+        "duration": 15,
+        "language": "German",
+        "ics": "./model/agenda/Willkommen.ics",
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+            }
+        ]
+    },
+    "welcome": {
+        "id": "welcome",
+        "speakerids": [
+            "TobiasHofmann",
+            "SoerenSchlegel",
+            "JohannFoessleitner",
+            "DomiBigl"
+        ],
+        "title": "Welcome",
+        "abstract": "Welcome to ABAPConf 2023. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
+        "track": 1,
+        "time": "8:30",
+        "YouTubeTimestamp": 0,
+        "duration": 15,
+        "language": "German",
+        "ics": "./model/agenda/Welcome.ics",
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+            }
+        ]
+    },
+    "keynote": {
+        "id": "keynote",
+        "speakerids": [
+            "MarcelHermanns",
+            "VolkerDrees",
+            "GururajRaman"
+        ],
+        "title": "Keynote: ABAP Cloud in Action",
+        "abstract": "Keynote channel 1: ABAP Cloud in Action\n\nThe ABAP RESTful Application Development is now there for several years and the best choice for transactional application development in the cloud and new on-premise versions. In ABAP Cloud, RAP is combined with other technologies to shape the ABAP development model for cloud-ready apps, services and extensions\n\nIn this key-note session we will have the real SAP SalesOrder application on stage. We will see, how the existing application code was integrated into RAP and Fiori Elements. We will discuss experiences, pit falls and problems of this long running project.\n\nIn addition, we will have a look on the newest features and a short outlook what the future brings.\n\nStrategy and Roadmap - Marcel\n\nDemo - Volker\n\nGolden Path journey in Sales Order with extensibility demo - Gururaj",
+        "track": 1,
+        "time": "9:00",
+        "YouTubeTimestamp": 0,
+        "duration": 55,
+        "language": "English",
+        "ics": "./model/agenda/Keynote.ics",
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+            },
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            }
+        ]
+    }, 
+    "keynote2": {
+        "id": "keynote2",
+        "speaker": "Boris Gebhardt",
+        "speaker2": "Alexander Rother",
+        "speakerids": [
+            "BorisGebhardt",
+            "AlexanderRother"
+        ], 
+        "title": "Closing Keynote: ABAP Cloud",
+        "abstract": "ABAP Cloud strategy, tier model, usage types.\n\nClosing with Q&A\n\nAttention: closing keynote streamed on channel 1",
+        "track": 1,
+        "time": "16:35",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "English",
+        "ics": "./model/agenda/Keynote2.ics",
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+            },
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },            
+            {
+                "name": "S/4HANA",
+                "color": 7
+            }
+        ]
+    },        
+    "rap1": {
+        "id": "rap1",
+        "speaker": "Sascha Wächter",
+        "speakerids": [
+            "SaschaWaechter"
+        ],
+        "title": "Smoke testing your RAP: Schnelleinstieg in das Testen von RAP-Services",
+        "abstract": "Im Rahmen vieler S/4HANA-Projekte steht man vor der Herausforderung Geschäftsanwendungen mithilfe neuer Technologien wie zum Beispiel auch dem Restful Application Programming Model bauen zu können oder auch zu müssen. Das meist unter Projektdruck der eh schon komplexen S/4-Projekte.\n\n Die Chance robustere Anwendungen mit automatisierten Unit- und Integrationstests zu bauen gerät dann schnell ins Hintertreffen. Dabei hat man doch gerade im Zuge von S/4-Migration und der Implementierung neuer Anwendungen mit neusten Frameworks die Chance wenigstens ein paar Qualitätsziele umzusetzen. Die Hemmschwelle muss gar nicht so groß sein wie vielleicht angenommen. Man lässt sich doch schnell abschrecken obwohl es mittlerweile immer mehr Möglichkeiten gibt.\n\nDieser Vortrag richtet sich nicht an Testexperten, sondern an Einsteiger, die im Zuge von S/4 oder Steampunk in die RAP-Entwicklung einsteigen und mit einfachen mitteln ihre Services 'smoke testen' wollen. D.h. einfache Tests ohne großen Aufwand aber mit einer gewissen grundlegenden Testabdeckung. Praxisnah pragmatisch, denn jeder Test ist besser als kein Test.\n\nTeil des Vortrages sind Unit-Tests einer Behaviour Implementation (Determinations, Validations und Actions) mit Hilfe des Test Double Frameworks und einfache Integrationstests für OData.",
+        "track": 1,
+        "time": "10:00",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "German",
+        "ics": "./model/agenda/rap1.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "Testing",
+                "color": 9
+            }
+        ]
+    },
+    "rap2": {
+        "id": "rap2",
+        "speaker": "Christopher Graw",
+        "speakerids": [
+            "ChristopherGraw"
+        ],
+        "title": "Serviceentwicklung mit CDS und RAP im Rahmen einer Greenfield-Transformation",
+        "abstract": "In den vergangenen anderthalb Jahren haben wir mit dem Greenfield-Ansatz ein Template-System für Energieversorger auf der Basis von S/4HANA Utilities aufgebaut. In diesem Rahmen haben wir eine neue Servicearchitektur eingeführt und unseren Custom Code von Grund auf neu aufgebaut.\n\nIn meinem Vortrag erläutere ich am Beispiel der Strom- und Gaszählerablesung, wie ein Service mithilfe von CDS und RAP modelliert und implementiert wird, und über das API Management der SAP BTP bereitgestellt wird. Dabei beleuchte ich insbesondere auch die Unterstützung verschiedener Zugriffsmuster, Benutzerrollen und Frontend-Technologien.\n\nFolgende Themen werden betrachtet:\n\n- Paketkonzept für Services\n        - Schichtenmodell mit externen Services, Adaptern und Serviceklassen für Backendlogik\n        - Datenmodellierung für Stamm- und Bewegungsdaten mit CDS und RAP\n        - Berücksichtigung verschiedener Aufrufmuster und Benutzergruppen\n        - Erkenntnisse zu Performance und Fehlerbehandlung (Asynchrone Verbuchung, Ereignissteuerung, …)\n",
+        "track": 1,
+        "time": "10:50",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "German",
+        "ics": "./model/agenda/rap2.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
+        ]
+    },
+    "rap3": {
+        "id": "rap3",
+        "speaker": "Stefan Hillinger",
+        "speakerids": [
+            "StefanHillinger"
+        ],
+        "title": "Freshman RAP - Wie man ins kalte Wasser springt",
+        "abstract": "Wie tut man sich als Neuling in der RAP Welt so eigentlich? Lessons learned als Einsteiger in der SAP und RAP Welt.\n\nIch möchte euch meine eigenen Erfahrungen zu meinem Einstieg in die SAP Welt, und nach einer kurzen Ausbildung, direkt in einem Greenfield Private Cloud Projekt, zeigen. Was ist gut gelaufen, wie orientiert man sich am besten und was sind gute Anhaltestellen um sich RAP anzueignen.",
+        "track": 1,
+        "time": "11:40",
+        "YouTubeTimestamp": 0,
+        "duration": 30,
+        "language": "German",
+        "ics": "./model/agenda/rap3.ics",
+        "tags": [
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "Lessons Learned",
+                "color": 6
+            }
+        ]
+    },
+    "rap4": {
+        "id": "rap4",
+        "speaker": "Stefan Engelhardt",
+        "speakerids": [
+            "StefanEngelhardt"
+        ],
+        "title": "Fiori App Erstellung leicht gemacht für ABAP-Entwickler",
+        "abstract": "Mit Fiori elements kann jeder ABAP-Entwickler ohne JavaScript/UI-Kenntnisse konsistente und gut aussehende Fiori Apps erstellen. Startpunkt des Vortrages ist ein RAP-Projekt, für das live benötigte Annotationen gepflegt werden und dann eine Fiori App generiert wird.",
+        "track": 1,
+        "time": "13:05",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "German",
+        "ics": "./model/agenda/rap4.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "Fiori",
+                "color": 13
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "CDS",
+                "color": 11
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
+        ]
+    },
+    "rap5": {
+        "id": "rap5",
+        "speaker": "Dominik Eira Elias",
+        "speakerids": [
+            "DominikElias"
+        ],
+        "title": "Hierarchy Support in RAP",
+        "abstract": "The aggregation extension of the OData V4 protocol has recently been extended to support the query of recursive hierarchies with the help of hierarchy transformations:\n\nhttps://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/csd04/odata-data-aggregation-ext-v4.0-csd04.html#HierarchicalTransformations\n\nThe RAP Runtime Engine (https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/runtime-frameworks#rap-runtime-engine) and UI5 are now supporting these new $apply transformations to query hierarchy views and display the data in tree tables.\n\nThis session should give a short introduction into the topic, show how hierarchy scenarios can be built with RAP and consumed in Fiori, and which features are available.",
+        "track": 1,
+        "time": "13:55",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "English",
+        "ics": "./model/agenda/rap5.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "RAP",
+                "color": 8
+            },
+            {
+                "name": "CDS",
+                "color": 11
+            }
+        ]
+    },
+    "rap6": {
+        "id": "rap6",
+        "speaker": "Vijaya Chintarlapalli",
+        "speakerids": [
+            "VijayaChintarlapalli"
+        ],
+        "title": "Extensions to Standard RAP Based Apps",
+        "abstract": "Different types of Extensions possibilities for RAP based standard applications like adding a custom fields, Custom Logic, Adding additional BOs, Additional Sections in the Fiori Object Pages",
+        "track": 1,
+        "time": "14:45",
+        "YouTubeTimestamp": 0,
+        "duration": 30,
+        "language": "English",
+        "ics": "./model/agenda/rap6.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "RAP",
+                "color": 8
+            },
+            {
+                "name": "CDS",
+                "color": 11
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            }
+        ]
+    },
+    "rap7": {
+        "id": "rap7",
+        "speaker": "Olga Dolinskaja",
+        "speakerids": [
+            "OlgaDolinskaja"
+        ],
+        "title": "How to transform your legacy code using ABAP Cloud and Clean ABAP",
+        "abstract": "In this session you will learn how to handle your ABAP custom code after an SAP S/4HANA system conversion with regard to clean core including different options: from retirement of the unused code and adaptation for SAP S/4HANA to renovation and innovation with ABAP Cloud and adherence to Clean ABAP style guide rules.\n\nThe well-known tools Custom Code Migration app, ABAP development tools with Quick Fixes and ABAP test cockpit with clean code checks support you during all relevant analysis and adaptation tasks.",
+        "track": 1,
+        "time": "15:45",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "English",
+        "ics": "./model/agenda/rap7.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            }
+
+        ]
+    }, 
+    "rap8": {
+        "id": "rap8",
+        "speaker": "Jörg Brandeis",
+        "speakerids": [
+            "JoergBrandeis"
+        ],
+        "title": "RAP im Schweinsgalopp",
+        "abstract": "Auf Basis von ein zwei Datenbanktabellen wird in einer halben Stunde eine kleine RAP Anwendung gebaut und dabei werden alle relevanten Konzepte für den schnellen Einstieg in das Thema RAP kurz erklärt und gezeigt. Explaining by Doing. Eine kleine Demo für Entwicklereffizienz.",
+        "track": 1,
+        "time": "11:40",
+        "YouTubeTimestamp": 0,
+        "duration": 30,
+        "language": "German",
+        "ics": "./model/agenda/rap3.ics",
+        "tags": [
+            {
+                "name": "RAP",
+                "color": 10
+            }
+        ]
+    },  
+    "rap9": {
+        "id": "rap9",
+        "speaker": "André Fischer",
+        "speakerids": [
+            "AndreFischer"
+        ],
+        "title": "Der Open Source RAP Generator",
+        "abstract": "Der Open Source RAP Generator - Live Demo",
+        "track": 2,
+        "time": "15:45",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "German",
+        "ics": "./model/agenda/rest1.ics",
+        "tags": [
+            {
+                "name": "RAP",
+                "color": 10
+            }
+        ]
+    }, 
+    "adt1": {
+        "id": "adt1",
+        "speaker": "Thomas Fiedler",        
+        "speaker2": "Ünal Akkaya",  
+        "speakerids": [
+            "ThomasFiedler",
+            "UnalAkkaya"
+        ],  
+        "title": "News from ABAP development tools",
+        "abstract": "In this session we will show you all the hot new features in the ABAP development tools for eclipse (ADT). Focus is on RAP tooling but we will highlight other features as well like dependency management, feature toggles and so on.\n\nNo slides, only demo!",
+        "track": 2,
+        "time": "10:00",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "English",
+        "ics": "./model/agenda/adt1.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 4
+            },
+            {
+                "name": "Classic ABAP",
+                "color": 5
+            },
+            {
+                "name": "ADT",
+                "color": 8
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            }
+        ]
+    },
+    "sdk1": {
+        "id": "sdk1",
+        "speaker": "Martin Pankraz",
+        "speaker2": "Holger Bruchelt",
+        "speakerids": [
+            "MartinPankraz",
+            "HolgerBruchelt"
+        ],  
+        "title": "Kick-Start your SAP ABAP Platform integration journey with Microsoft",
+        "abstract": "See ABAP Restful Application Programming Model (RAP) seemlessly applied to interact with Microsoft services like Excel for SAP product updates or Azure OpenAI to generate SAP data entry inputs. The sessions works of off our blogs, GitHub repos, Microsoft ABAP SDKs, DSAG ABAP developer day artifacts, and videos executed completely from ADT.\n\n#no-slides",
+        "track": 2,
+        "time": "10:50",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "English",
+        "ics": "./model/agenda/sdk1.ics",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "SDK",
+                "color": 6
+            },
+            {
+                "name": "Azure",
+                "color": 8
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            }
+        ]
+    },
+    "sdk2": {
+        "id": "sdk2",
+        "speaker": "Jon Friesen",
+        "speaker2": "KK Ramadoss",
+        "speakerids": [
+            "JonFriesen",
+            "KrishnakumarRamadoss"
+        ],  
+        "title": "Accelerate business process innovation with the AWS SDK for SAP ABAP",
+        "abstract": "Transform your business processes and extend mission-critical ERP applications with the help of cloud services. The AWS SDK for SAP ABAP makes it easy for ABAP developers to modernize and transform SAP-based business processes by providing simple, secure, and configurable connections between ABAP environments and 200+ AWS services. Join this chalk talk to explore how to use AI/ML, IoT, and analytics to accelerate innovation and reimagine SAP-based business processes. Learn how to utilize Amazon Textract, Amazon Translate, Amazon S3, and other AWS services from SAP ABAP to automate document processing and other essential processes",
+        "track": 2,
+        "time": "13:05",
+        "YouTubeTimestamp": 0,
+        "duration": 45,
+        "language": "English",
+        "ics": "./model/agenda/sdk2.ics",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "SDK",
+                "color": 6
+            },
+            {
+                "name": "AWS",
+                "color": 8
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            }
+        ]
+    },
+    "test1": {
+        "id": "test1",
+        "speaker": "Timo John",
+        "speakerids": [
+            "TimoJohn"            
+        ],  
+        "title": "Tipp's & Tricks in ABAP in Eclipse für mehr Produktivität",
+        "abstract": "Ich möchte anderen zeigen, was ich in Ecplise wie anwende um meine Entwicklungen schnell und Effizient zu erledigen.\n\nEinsatz von Wizzards, Code Completion, Templates, Refactoring Assisten.\n\nEinsatzt von Tools die andere netterweise geschrieben haben. evtl. Einsatz von Mylin.\n\nUnittest und Classrun klassen als Ersatz für die Klassischen TEST-Reports",
+        "track": 2,
+        "time": "11:40",
+        "YouTubeTimestamp": 0,
+        "YouTubeHMSformat": "",
+        "duration": 30,
+        "language": "German",
+        "ics": "./model/agenda/test1.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "ADT",
+                "color": 8
+            },
+            {
+                "name": "Testing",
+                "color": 9
+            },
+            {
+                "name": "Classic ABAP",
+                "color": 5
+            }
+        ]
+    },
+    "test2": {
+        "id": "test2",
+        "speaker": "Dominik Panzer",
+        "speaker2": "Michael Keller",
+        "speakerids": [
+            "DominikPanzer",
+            "MichaelKeller"            
+        ], 
+        "title": "Jetzt ist alles besser, oder? Früher: Includes mit 1.000 Zeilen. Heute: Klassen mit 1.000 Zeilen.",
+        "abstract": "Objektorientierung ist der Standard bei dir im Unternehmen? Includes und Forms gibt es nicht mehr? FuBas werden gewrapped? Und es finden sich sogar manchmal Unit Tests? ABAP Cloud aktiv. Super! Läuft doch. Endlich ist alles besser als früher!\n\nAber sei mal ehrlich, ist jetzt irgendetwas *wirklich* anders? Plötzlich sind deine Klassen 1.000 Zeilen lang. Und sind deine Klassen wirklich Strukturen, die Funktionen anbieten, um damit auf Daten, die nur sie kennen, operieren? Oder ist eigentlich vieles beim Alten geblieben:\n\n* Lange Klassen und Methoden\n* Doppeltes Coding quer übers System. \n* Immer wieder dasselbe validieren, ob nicht doch jemand inkonsistente Daten übergeben hat.\n* Verdächtige Klassennamen wie „ZCL_UTILITY*“ oder „ZCL*MANAGER*“, weil du nicht so recht weißt, wohin bestimmte Funktionen sollen.\n* Businesslogik verstreut im ganzen System und kein Single Point Of Truth. \n* Viele primitive Datentyp, die irgendwie durchs System geschleust werden. \n* Wesentliche Begriffe aus der Domäne finden sich nicht im System wieder. \n\nKommt dir das bekannt vor? \n\nKeine Sorge, so sehen viele System aus. Aber kann man das besser machen? Klar, mit einer in anderen Sprachen sehr etablierten Technik. Michael und Dominik zeigen sie dir in der Theorie und Praxis.",
+        "track": 2,
+        "time": "13:55",
+        "YouTubeTimestamp": 0,
+        "YouTubeHMSformat": "",
+        "duration": 45,
+        "language": "German",
+        "ics": "./model/agenda/test2.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Lessons Learned",
+                "color": 6
+            },
+            {
+                "name": "Testing",
+                "color": 9
+            },
+            {
+                "name": "Classic ABAP",
+                "color": 5
+            }
+        ]
+    },
+    "test3": {
+        "id": "test3",
+        "speaker": "Christian Reutebuch",
+        "speakerids": [
+            "ChristianReutebuch"  
+        ], 
+        "title": "Zentrales ATC-Cloud-Test System für ABAP Code Security Checks - Hybrides Szenario mit Steampunk",
+        "abstract": "Prüfung der ABAP Security für Eigenentwicklungen unter S/4HANA und ERP on Premise mit Hilfe von SAP Code Vulnerability Analyzer (CVA) basierend auf ABAP Test Cockpit (ATC) und SAP bTP (Steampunk).\n\nMit RAP eine Fiori App entwickelt für Anzeige und Änderung der Findings, Filterung, Tracking der Ergebnisse. Klassifizierung nach Entwicklungsteam Zugehörigkeit, Dokumentation zur Problemlösung mit Beispiel. (Fehlende Funktionaliät bei der SAP Standard Code Migration App). Lösung wird auch für alle anderen ATC Anwendungsfälle verwendet (ein zentrales Testsystem in der Cloud mit akutellem Releasestand).",
+        "track": 2,
+        "time": "14:45",
+        "YouTubeTimestamp": 0,
+        "YouTubeHMSformat": "",
+        "duration": 30,
+        "language": "German",
+        "ics": "./model/agenda/test3.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Testing",
+                "color": 9
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            }
+        ]
+    },
+    "rest1": {
+        "id": "rest1",
+        "speaker": "Enno Wulff",
+        "speakerids": [
+            "EnnoWulff"  
+        ], 
+        "title": "Dieser Mann schrieb alles auf, was er wusste. Was dann passierte, wirst du nicht glauben. Oder: 20 Jahre Tricktresor",
+        "abstract": "Ein Resümee über 20 Jahre Tricktresor.\n\nWarum gibt es den Tricktresor? Was habe ich gelernt? Warum tue ich das immer noch? Warum nutze ich eine eigene Website anstatt populäre Plattformen zu verwenden?\n\nKurze Info zu Self-learning Techniken, Wissensvermittlung, eigenen Wissensdatenbanken.",
+        "track": 2,
+        "time": "15:45",
+        "YouTubeTimestamp": 0,
+        "YouTubeHMSformat": "",
+        "duration": 45,
+        "language": "German",
+        "ics": "./model/agenda/rest1.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Lessons Learned",
+                "color": 6
+            }
+        ]
+    },
+    "rest2": {
+        "id": "rest2",
+        "speaker": "tbd",
+        "speakerids": [
+            "tbd"  
+        ], 
+        "title": "--- Ersatzvortrag ---",
+        "abstract": "Vorträg fällt wegen Krankheit aus. Ein Ersatzvortrag wird akuell vorbereitet.",
+        "track": 2,
+        "time": "15:45",
+        "YouTubeTimestamp": 0,
+        "YouTubeHMSformat": "",
+        "duration": 45,
+        "language": "German",
+        "ics": "./model/agenda/rest1.ics",
+        "icon": "",
+        "slide": "",
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Lessons Learned",
+                "color": 6
+            }
+        ]
+    },
+    "insidetalk1": {
+        "id": "it1",
+        "speaker": "Marcel Hermanns",
+        "speaker2": "Volker Drees",
+        "speakerids": [
+            "MarcelHermanns",
+            "VolkerDrees"
+        ], 
+        "title": "ABAP Cloud for Classic ABAP Developer",
+        "abstract": "You are familiar with classic ABAP development? Learn how you can reuse or map your knowledge to concepts and technologies in ABAP Cloud with RAP and Fiori.\n\nOn the Devtoberfest we focused on the ALV, DDIC and SQL (https://tinyurl.com/y3vcz2nt)\n\nNow we want to discuss transactional enterprise applications. How is the user interaction with authorizations, feature control, locks, end-user messages, OK_CODES represented in ABAP Cloud? What about the database handling including update task?\n\nLooking forward to see you.",
+        "track": 3,
+        "time": "10:50",
+        "duration": 60,
+        "language": "English",
+        "ics": "https://forms.gle/QEXsoEcyEPLsFNNa9",
+        "link": "https://forms.gle/QEXsoEcyEPLsFNNa9",
+        "tags": [
+            {
+                "name": "Inside Talk",
+                "color": 14
+            }
+        ]
+    },
+    
+    "insidetalk2": {
+        "id": "it2",
+        "speaker": "Frank Jentsch",
+        "speakerids": [
+            "FrankJentsch"  
+        ], 
+        "title": "Building Apps and Extensions with ABAP Cloud on SAP BTP ABAP Environment",
+        "abstract": "ABAP Cloud is a development model for building business apps, services, and extensions, and is an integral part of SAP BTP, ABAP environment.\n\nABAP Cloud supports the creation of transactional apps based on the ABAP RESTful application programming model, analytical apps, and integration. Get an overview of typical usage scenarios and how to build multitenant SaaS applications.",
+        "track": 3,
+        "time": "13:05",
+        "duration": 60,
+        "language": "English",
+        "ics": "https://forms.gle/QEXsoEcyEPLsFNNa9",
+        "link": "https://forms.gle/QEXsoEcyEPLsFNNa9",
+        "tags": [
+            {
+                "name": "Inside Talk",
+                "color": 14
+            }
+        ]
+    }
+}

@@ -1,0 +1,2 @@
+sap.ui.define(["./BaseController","abapconf/2023/org/model/models"],function(e,o){"use strict";return e.extend("abapconf.2023.org.controller.Home",{onInit:function(){var e=o.createHeaderViewModel();this.setModel(e,"homeView");var t=this.getModel("homeView");this.startCounter(t)}})});
+//# sourceMappingURL=Home.controller.js.map

@@ -1,0 +1,70 @@
+<mvc:View
+   controllerName="abapconf.2023.org.controller.agenda.Agenda"
+   displayBlock="true"
+   xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
+   xmlns:tnt="sap.tnt"
+   xmlns:core="sap.ui.core"
+   xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:mvc="sap.ui.core.mvc">
+   
+            
+
+    <!-- H1 -->
+    
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <HBox height="100px" alignItems="Center" justifyContent="Center">
+            <Title level="H1" titleStyle="H1" text="{i18n>agendaH1}"> </Title>
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+        </HBox>
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+
+    <FlexBox
+        height="20px"
+        alignItems="Center"
+        justifyContent="Center"
+        class="sapUiLargeMarginBottom">
+        <html:div class="seperator"></html:div>
+    </FlexBox>
+    
+    <!--
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <HBox alignItems="Center" justifyContent="Start">
+            <Text width="100%" text="{i18n>agendaP2}" textAlign="Begin"  class="textReadability"></Text>
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+        </HBox>
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <HBox alignItems="Center" justifyContent="Center">
+            <Text width="100%" text="{i18n>agendaP3}" textAlign="Begin"  class="textReadability textBold"></Text>
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+        </HBox>
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+    -->
+
+    <!-- Agenda -->
+    <core:Fragment fragmentName="abapconf.2023.org.view.agenda.AgendaEventOver" type="XML" />
+    
+</mvc:View>

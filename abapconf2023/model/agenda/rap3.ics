@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Freshman RAP - Wie man ins kalte Wasser springt\nWie tut man sich als Neuling in der RAP Welt so eigentlich? Lessons learned als Einsteiger in der SAP und RAP Welt.\n\nIch möchte euch meine eigenen Erfahrungen zu meinem Einstieg in die SAP Welt, und nach einer kurzen Ausbildung, direkt in einem Greenfield Private Cloud Projekt, zeigen. Was ist gut gelaufen, wie orientiert man sich am besten und was sind gute Anhaltestellen um sich RAP anzueignen.\n
+DTSTART:20231207T104000Z
+DTEND:20231207T111000Z
+LOCATION:https://www.abapconf.org/#/agenda/channel1
+SUMMARY;LANGUAGE=en-us:Freshman RAP - Wie man ins kalte Wasser springt
+END:VEVENT
+END:VCALENDAR

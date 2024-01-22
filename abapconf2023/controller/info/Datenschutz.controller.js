@@ -1,0 +1,2 @@
+sap.ui.define(["abapconf/2023/org/controller/BaseController"],function(n){"use strict";return n.extend("abapconf.2023.org.controller.Datenschutz",{onInit:function(){}})});
+//# sourceMappingURL=Datenschutz.controller.js.map
