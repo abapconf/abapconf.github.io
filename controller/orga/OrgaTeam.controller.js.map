@@ -1,1 +1,0 @@
-{"version":3,"file":"OrgaTeam.controller.js","names":["sap","ui","define","BaseController","extend","onInit"],"sources":["OrgaTeam-dbg.controller.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACb,+CAKA,SAAUC,GACT,aAEA,OAAOA,EAAeC,OAAO,6CAA8C,CAC1EC,OAAQ,WAER,GAEF"}

@@ -1,2 +1,0 @@
-sap.ui.define(["./BaseController","sap/ui/model/json/JSONModel"],function(e,t){"use strict";return e.extend("abapconf.2023.org.controller.App",{onInit:function(){var e,n,s=this.getView().getBusyIndicatorDelay();e=new t({busy:true,delay:0});this.setModel(e,"appView");n=function(){e.setProperty("/busy",false);e.setProperty("/delay",s)};n();this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass())}})});
-//# sourceMappingURL=App.controller.js.map

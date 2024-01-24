@@ -1,2 +1,0 @@
-sap.ui.define(["abapconf/2023/org/controller/BaseController"],function(n){"use strict";return n.extend("abapconf.2023.org.controller.Coc",{onInit:function(){}})});
-//# sourceMappingURL=Coc.controller.js.map

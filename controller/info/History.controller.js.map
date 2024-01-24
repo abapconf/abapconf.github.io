@@ -1,1 +1,0 @@
-{"version":3,"file":"History.controller.js","names":["sap","ui","define","BaseController","extend","onInit"],"sources":["History-dbg.controller.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACb,mDAKA,SAAUC,GACT,aAEA,OAAOA,EAAeC,OAAO,2CAA4C,CACxEC,OAAQ,WAER,GAEF"}

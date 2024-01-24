@@ -1,2 +1,0 @@
-sap.ui.define(["abapconf/2023/org/controller/BaseController"],function(e){"use strict";return e.extend("abapconf.2023.org.controller.speakers.Speakers",{onInit:function(){}})});
-//# sourceMappingURL=Speakers.controller.js.map

@@ -1,1 +1,0 @@
-{"version":3,"file":"Faq.controller.js","names":["sap","ui","define","BaseController","extend","onInit"],"sources":["Faq-dbg.controller.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACb,+CAKA,SAAUC,GACT,aACA,OAAOA,EAAeC,OAAO,wCAAyC,CACrEC,OAAQ,WAER,GAEF"}
