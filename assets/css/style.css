@@ -1680,3 +1680,41 @@ h6 {
     text-align: start;
   }
 }
+
+
+.sponsor-links {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.sponsor-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.sponsor-links ul i {
+  padding-right: 5px;
+  color: #f82249;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+
+.sponsor-links ul li:first-child {
+  padding-top: 0;
+}
+
+.sponsor-links ul li{
+  padding-top: 10px;
+}
+
+.sponsor-links ul a {
+  color: #f82249;
+}
+
+.sponsor-links ul a:hover {
+  color: #f82249;
+}
