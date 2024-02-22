@@ -1718,3 +1718,28 @@ h6 {
 .sponsor-links ul a:hover {
   color: #f82249;
 }
+
+
+.abapconf-sponsors-table {
+  font-size: var(--type-0);
+  margin: auto;
+  margin-block-end: 4rem;
+
+}
+
+.abapconf-sponsors-table tr {
+  height: 3rem;
+}
+
+.abapconf-sponsors-table th, .abapconf-sponsors-table td {
+  line-height: 1.5;
+}
+
+.abapconf-sponsor-header {
+  padding-bottom: 40px;
+}
+.abapconf-box {
+  padding-block: clamp(2rem, 5vw, 4rem);
+  padding-inline: 2rem;
+  border-radius: 2rem;
+}
