@@ -1363,6 +1363,36 @@ h6 {
   background-color: #e0072f;
 }
 
+#registration .about-btn {
+  font-family: roboto, segoe, helvetica, 'open sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: black;
+  animation-delay: 0.8s;
+  border: 2px solid #f82249;
+}
+
+#registration .about-btn:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#registration .registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
+}
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
