@@ -1773,3 +1773,28 @@ h6 {
   padding-inline: 2rem;
   border-radius: 2rem;
 }
+
+
+.abapconf-sponsor-header {
+  margin-bottom: 10px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.abapconf-sponsor-header h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.cfscard {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .cfscard {
+    width: 50%;
+  } 
+}
