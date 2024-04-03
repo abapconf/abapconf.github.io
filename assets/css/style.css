@@ -1822,3 +1822,14 @@ h6 {
   font-weight: 500;
   color: #9195a2;
 }
+
+
+.logosize {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .logosize {
+    width: 70%;
+  } 
+}
