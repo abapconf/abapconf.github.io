@@ -509,6 +509,12 @@ h6 {
   }
 }
 
+@media (max-width: 991px) {
+  #home  {
+    height: 150vh;
+  }
+}
+
 #home:before {
   content: "";
   background: rgba(6, 12, 34, 0.8);
@@ -1083,12 +1089,12 @@ h6 {
   overflow: hidden;
 }
 
-#gallery .swiper-pagination {
+#home .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-#gallery .swiper-pagination .swiper-pagination-bullet {
+#home .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1096,20 +1102,20 @@ h6 {
   border: 1px solid #f82249;
 }
 
-#gallery .swiper-pagination .swiper-pagination-bullet-active {
+#home .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #f82249;
 }
 
-#gallery .swiper-slide-active {
+#home .swiper-slide-active {
   text-align: center;
 }
 
 @media (min-width: 992px) {
-  #gallery .swiper-wrapper {
+  #home .swiper-wrapper {
     padding: 40px 0;
   }
 
-  #gallery .swiper-slide-active {
+  #home .swiper-slide-active {
     border: 5px solid #f82249;
     padding: 4px;
     background: #fff;
@@ -1832,4 +1838,18 @@ h6 {
   .logosize {
     width: 70%;
   } 
+}
+
+
+
+#carousel p {
+  color: black;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  #carousel p {
+    font-size: 16px;
+  }
 }
