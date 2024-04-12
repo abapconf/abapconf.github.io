@@ -827,13 +827,13 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Schedule Section
+# agenda Section
 --------------------------------------------------------------*/
-#schedule {
+#agenda {
   padding: 60px 0 60px 0;
 }
 
-#schedule .nav-tabs {
+#agenda .nav-tabs {
   text-align: center;
   margin: auto;
   display: block;
@@ -841,12 +841,12 @@ h6 {
   margin-bottom: 30px;
 }
 
-#schedule .nav-tabs li {
+#agenda .nav-tabs li {
   display: inline-block;
   margin-bottom: 0;
 }
 
-#schedule .nav-tabs a {
+#agenda .nav-tabs a {
   border: none;
   border-radius: 50px;
   font-weight: 600;
@@ -856,29 +856,29 @@ h6 {
 }
 
 @media (max-width: 991px) {
-  #schedule .nav-tabs a {
+  #agenda .nav-tabs a {
     padding: 8px 60px;
   }
 }
 
 @media (max-width: 767px) {
-  #schedule .nav-tabs a {
+  #agenda .nav-tabs a {
     padding: 8px 50px;
   }
 }
 
 @media (max-width: 480px) {
-  #schedule .nav-tabs a {
+  #agenda .nav-tabs a {
     padding: 8px 30px;
   }
 }
 
-#schedule .nav-tabs a.active {
+#agenda .nav-tabs a.active {
   background-color: #f82249;
   color: #fff;
 }
 
-#schedule .sub-heading {
+#agenda .sub-heading {
   text-align: center;
   font-size: 18px;
   font-style: italic;
@@ -886,32 +886,32 @@ h6 {
 }
 
 @media (min-width: 991px) {
-  #schedule .sub-heading {
+  #agenda .sub-heading {
     width: 75%;
   }
 }
 
-#schedule .tab-pane {
+#agenda .tab-pane {
   transition: ease-in-out 0.2s;
 }
 
-#schedule .schedule-item {
+#agenda .agenda-item {
   border-bottom: 1px solid #cad4f6;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
 }
 
-#schedule .schedule-item:hover {
+#agenda .agenda-item:hover {
   background-color: #fff;
 }
 
-#schedule .schedule-item time {
+#agenda .agenda-item time {
   padding-bottom: 5px;
   display: inline-block;
 }
 
-#schedule .schedule-item .speaker {
+#agenda .agenda-item .speaker {
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -920,27 +920,27 @@ h6 {
   margin: 0 10px 10px 0;
 }
 
-#schedule .schedule-item .speaker img {
+#agenda .agenda-item .speaker img {
   height: 100%;
   transform: translateX(-50%);
   margin-left: 50%;
   transition: all ease-in-out 0.3s;
 }
 
-#schedule .schedule-item h4 {
+#agenda .agenda-item h4 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#schedule .schedule-item h4 span {
+#agenda .agenda-item h4 span {
   font-style: italic;
   color: #19328e;
   font-weight: normal;
   font-size: 16px;
 }
 
-#schedule .schedule-item p {
+#agenda .agenda-item p {
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
