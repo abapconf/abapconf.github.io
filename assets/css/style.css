@@ -900,11 +900,14 @@ h6 {
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
+  margin:0px;
 }
 
+/*
 #agenda .agenda-item:hover {
   background-color: #fff;
 }
+*/
 
 #agenda .agenda-item time {
   padding-bottom: 5px;
@@ -944,6 +947,38 @@ h6 {
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
+}
+
+#agenda .agenda-admin {
+  color: black;
+  /*
+  background:lightsteelblue
+  */
+}
+
+#agenda .agenda-admin h4 {
+  color: black;
+}
+
+#agenda .agenda-admin p {
+  color: black;
+}
+
+#agenda .agenda-content {
+  color: black;
+  background-color: darkblue;
+}
+
+#agenda .agenda-content h4 {
+  color: white
+}
+
+#agenda .agenda-content h4 span {
+  color: whitesmoke
+}
+
+#agenda .agenda-content p {
+  color: white;
 }
 
 /*--------------------------------------------------------------
