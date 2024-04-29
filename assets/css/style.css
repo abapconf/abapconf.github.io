@@ -204,7 +204,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Buy Tickets
+# Registration
 --------------------------------------------------------------*/
 
 .registration {
@@ -234,6 +234,73 @@ h6 {
   .registration {
     margin: 0 15px 0 0;
   }
+}
+
+/*--------------------------------------------------------------
+# Online registration
+--------------------------------------------------------------*/
+
+.online {
+  color: #fff;
+  background: #f82249;
+  padding: 7px 22px;
+  margin: 0 0 0 15px;
+  border-radius: 50px;
+  border: 2px solid #f82249;
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.online:hover {
+  background: none;
+  color: #fff;
+}
+
+.online:focus {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .online {
+    margin: 0 15px 0 0;
+  }
+}
+
+#online {
+  padding: 60px 0;
+}
+
+#online .about-btn {
+  font-family: roboto, segoe, helvetica, 'open sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: black;
+  animation-delay: 0.8s;
+  border: 2px solid #f82249;
+}
+
+#online .about-btn:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#online .registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 15px;
 }
 
 /*--------------------------------------------------------------
@@ -831,6 +898,10 @@ h6 {
 --------------------------------------------------------------*/
 #agenda {
   padding: 60px 0 60px 0;
+}
+
+#agenda .agenda p {
+  text-align: start;
 }
 
 #agenda .nav-tabs {
