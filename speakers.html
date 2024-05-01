@@ -1043,9 +1043,6 @@
   </main><!-- End #main -->
 
 
- 
-
-  
 
 
   <!-- Modal Speaker -->
@@ -1068,8 +1065,8 @@
 								<div id="speakerJob" class="meta"></div>
 								<div id="speakerCompany" class="meta mb-2"></div>
 								<ul class="social-list list-inline mb-0">								
-									<li id="speakerLinkWeb" class="list-inline-item"><a  href="#"><i class="bi bi-browser-chrome"></i></a></li>
-									<li id="speakerLinkLI" class="list-inline-item"><a  href="#"><i class="bi bi-linkedin"></i></a></li>                  
+									<li class="list-inline-item"><a id="speakerLinkWeb"  href=""><i class="bi bi-browser-chrome"></i></a></li>
+									<li class="list-inline-item"><a id="speakerLinkLI"   href=""><i class="bi bi-linkedin"></i></a></li>                  
 								</ul>
 							</div>
 						</div>
@@ -1166,10 +1163,7 @@
 
     if (speakerHash !== "") {
       window.onload = function () {
-        console.log("onload");
-          
         const ele = document.getElementById(speakerHash.replace("#", ""));
-        console.log(ele);
         ele.click();
       };
     }
@@ -1187,31 +1181,33 @@
       
       // Button that triggered the modal
       const button = event.relatedTarget;
+
       // extract speaker info
-      const speaker = button.getAttribute("data-bs-speaker");
-      const picture = button.getAttribute("data-bs-speaker-picture");
-      const job = button.getAttribute("data-bs-job");
-      const bio = button.getAttribute("data-bs-bio");
-      const linkedin = button.getAttribute("data-bs-linkedin");
-      const company = button.getAttribute("data-bs-company");
-      
-      
+      const speaker  = button.getAttribute("data-bs-speaker");
+      const company  = button.getAttribute("data-bs-company");
+      const picture  = button.getAttribute("data-bs-speaker-picture");
+      const job      = button.getAttribute("data-bs-job");
+      const bio      = button.getAttribute("data-bs-bio");
+      const web      = button.getAttribute("data-bs-web");
+      const linkedin = button.getAttribute("data-bs-linkedin");      
+            
       // get elements to replace text
       const modalSpeaker = speakerModal.querySelector("#speaker-Title");
       const modalPicture = speakerModal.querySelector("#modalSpeakerPicture");
-      const modalJob = speakerModal.querySelector("#speakerJob");
+      const modalJob     = speakerModal.querySelector("#speakerJob");
       const modalCompany = speakerModal.querySelector("#speakerCompany");
-      const modalBio = speakerModal.querySelector("#speakerBio");
-
-      const modalLinkedIn = speakerModal.querySelector("#modal-body input");
-
-      modalSpeaker.textContent = speaker; 
-      modalPicture.src = picture;
+      const modalBio     = speakerModal.querySelector("#speakerBio");
+      const modalLinkWeb = speakerModal.querySelector("#speakerLinkWeb");
+      const modalLinkLI  = speakerModal.querySelector("#speakerLinkLI");
       
+      // set texts
+      modalSpeaker.textContent = speaker; 
+      modalPicture.src = picture;      
       modalJob.textContent = job;
       modalCompany.textContent = company;
       modalBio.textContent = bio;
-      //debugger;
+      modalLinkWeb.href= web;
+      modalLinkLI.href= linkedin;
       
     })
   </script>
