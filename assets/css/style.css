@@ -1995,3 +1995,43 @@ h6 {
   font-weight: 500;
   color: #9195a2;
 }
+
+.speakers-section .back {
+  color: black;
+  background-color: darkblue !important;
+}
+
+.icon-darkblue {
+  color: darkblue;
+}
+.icon-blue {
+  color: blue;
+}
+
+.icon-darkorange {
+  color: darkorange;
+}
+
+.icon-darkgreen {
+  color: darkgreen;
+}
+
+.icon-orangered {
+  color: orangered;
+}
+
+.icon-darkturquoise {
+  color: darkturquoise;
+}
+
+.icon-darkorchid {
+  color: darkorchid;
+}
+
+.icon-darkred {
+  color: darkred;
+}
+
+.icon-darkred {
+  color: #e6e203;
+}
