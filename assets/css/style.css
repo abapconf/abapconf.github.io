@@ -575,12 +575,13 @@ h6 {
     background-attachment: fixed;
   }
 }
-
+/*
 @media (max-width: 991px) {
   #home  {
     height: 150vh;
   }
 }
+*/
 
 #home:before {
   content: "";
