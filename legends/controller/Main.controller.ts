@@ -75,9 +75,14 @@ export default class Main extends BaseController {
     doFilterByABAPConf(event: string): void {
         const control: Control = this.byId("gridSpeakers") as Control;
         const binding: Binding = control.getBinding("content");
-        const filter: Filter = this.createFilter(event);
 
-        binding.filter([filter]);        
+        if (event === "all") {
+            binding.filter([]);
+        } else {
+            const filter: Filter = this.createFilter(event);
+            binding.filter([filter]);
+        }
+        
     }
 
     /**

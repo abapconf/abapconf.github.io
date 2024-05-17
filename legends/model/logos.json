@@ -1,5 +1,9 @@
 [
     {
+        "event": "all",
+        "img": "./img/logo/abapconf_logo.png"
+    },
+    {
         "event": "abapconf2021",
         "img": "./img/logo/abapconf_logo_2021.png"
     },

@@ -16,27 +16,20 @@
 		id="page">
 		<content>
 
-            <FlexBox
-                id="fbABAPConfLogos"
-                class="sapUiResponsiveMargin"
-				alignItems="Center"
-				justifyContent="Center">
-				
-                <l:Grid
-                    id="gridABAPConfLogos"
-                    containerQuery="true"
-                    defaultSpan="XL2 L3 M3 S6"
-                    class="sapUiMediumMarginTop"
-                    content="{logos>/}"
-                    >
-                    <Image 
-                        id="ABAPConfLogo2021"
-                        ariaDetails="ABAPConf 2021 Logo" src="{logos>img}"
-                        width="150px"
-                        decorative="false"
-                        press="doFilterByABAPConf(${logos>event})" />
-                </l:Grid>
-            </FlexBox>
+            <l:Grid
+                id="gridABAPConfLogos"
+                containerQuery="false"
+                defaultSpan="XL1 L2 M2 S6"
+                class="sapUiMediumMarginTop"
+                content="{logos>/}"
+                >
+                <Image 
+                    id="ABAPConfLogo"
+                    ariaDetails="ABAPConf Logo" src="{logos>img}"
+                    width="150px"
+                    decorative="false"
+                    press="doFilterByABAPConf(${logos>event})" />
+            </l:Grid>
 
             <l:VerticalLayout
                 id="vlSpeakers"

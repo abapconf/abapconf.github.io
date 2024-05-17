@@ -57,8 +57,12 @@ sap.ui.define(["./BaseController", "sap/m/GroupHeaderListItem", "sap/ui/model/Fi
     doFilterByABAPConf: function _doFilterByABAPConf(event) {
       const control = this.byId("gridSpeakers");
       const binding = control.getBinding("content");
-      const filter = this.createFilter(event);
-      binding.filter([filter]);
+      if (event === "all") {
+        binding.filter([]);
+      } else {
+        const filter = this.createFilter(event);
+        binding.filter([filter]);
+      }
     },
     /**
      * Create filter based on event
