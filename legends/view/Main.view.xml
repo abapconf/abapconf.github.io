@@ -26,7 +26,7 @@
                 <Image 
                     id="ABAPConfLogo"
                     ariaDetails="ABAPConf Logo" src="{logos>img}"
-                    width="150px"
+                    width="130px"
                     decorative="false"
                     press="doFilterByABAPConf(${logos>event})" />
             </l:Grid>
