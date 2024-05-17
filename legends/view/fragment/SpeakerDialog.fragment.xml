@@ -1,0 +1,112 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:grid="sap.ui.layout.cssgrid"
+	>
+
+	<Dialog
+		id="speakerDialog"
+		title="{firstname} {lastname}"
+		contentWidth="{= ${device>/system/desktop} ? '750px' : 'auto'}"
+		>
+		<content>
+
+			<grid:CSSGrid id="grid1">
+				<grid:customLayout>
+					<grid:GridResponsiveLayout layoutChange="onLayoutChange">
+						<grid:layoutM>
+							<grid:GridSettings
+								gridTemplateColumns="repeat(auto-fit, 32rem)"
+								gridRowGap="1rem"
+								gridColumnGap="1rem">
+							</grid:GridSettings>
+						</grid:layoutM>
+						<grid:layoutL>
+							<grid:GridSettings
+								gridTemplateColumns="repeat(auto-fit, 20rem)"
+								gridRowGap="1rem"
+								gridColumnGap="1rem">
+							</grid:GridSettings>
+						</grid:layoutL>
+						<grid:layout>
+							<grid:GridSettings						
+								gridRowGap="1rem"
+								gridColumnGap="1rem">
+							</grid:GridSettings>
+						</grid:layout>
+						<grid:layoutXL>
+							<grid:GridSettings
+								gridTemplateColumns="300px 400px"							
+								gridRowGap="1rem"
+								gridColumnGap="1rem">
+							</grid:GridSettings>
+						</grid:layoutXL>
+					</grid:GridResponsiveLayout>
+				</grid:customLayout>
+
+				<!-- profile photo -->
+				<FlexBox 
+					direction="Row" 
+					alignItems="Center"
+					justifyContent="Center"
+					class="sapUiSmallMargin">
+					<Avatar 
+						src="{picture}"
+						displaySize="Custom"
+						customDisplaySize="250px"
+						initials="{initials}"
+						displayShape="Square"
+						class="sapUiSmallMarginEnd">
+					</Avatar>
+				</FlexBox>	
+				<!-- job title -->
+				<FlexBox 
+					direction="Row" 
+					alignItems="Center"
+					justifyContent="Center">
+					<Title level="H3" titleStyle="H3" wrapping="true" wrappingType="Hyphenated" class="sapUiSmallMargin" text="{function}" />
+				</FlexBox>				
+			</grid:CSSGrid>
+
+			<!-- biography -->
+			<VBox class="sapUiSmallMargin" width="auto">
+				<Title level="H4" titleStyle="H4" text="{i18n>bio}" />
+				<Text wrapping="true"  text="{longBio}" />
+			</VBox>
+
+			<List
+			 	headerText="{i18n>eventListTitle}"
+				headerLevel="H2"				
+			 	items="{
+					path: 'sessions',
+					sorter: {
+						path: 'event',
+						descending: true,
+						group: true
+					},
+					groupHeaderFactory: '.getEventName'
+				}"
+				>
+				<CustomListItem class="sapUiSmallMargin">
+					<FlexBox alignItems="Start" justifyContent="SpaceBetween">
+						<Text text="{title}"></Text>
+						<Link href="https://www.abapconf.org/{event}" text="link"></Link>
+					</FlexBox>
+				</CustomListItem>
+				<!--
+				<StandardListItem title="{title}">
+				</StandardListItem>
+				-->
+			</List>
+
+        </content>
+
+		<beginButton>
+			<Button
+			   text="{i18n>dialogCloseButtonText}"
+			   press=".onCloseDialog"/>
+		 </beginButton>
+    </Dialog>
+</core:FragmentDefinition>

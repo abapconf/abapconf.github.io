@@ -1,0 +1,18 @@
+[
+    {
+        "event": "abapconf2021",
+        "img": "./img/logo/abapconf_logo_2021.png"
+    },
+    {
+        "event": "abapconf2022",
+        "img": "./img/logo/abapconf_logo_2022.png"
+    },
+    {
+        "event": "abapconf2023",
+        "img": "./img/logo/abapconf_logo_2023.png"
+    },
+    {
+        "event": "abapconfeurope2024",
+        "img": "./img/logo/abapconf_logo_2024.png"
+    }
+]

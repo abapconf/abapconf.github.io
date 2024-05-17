@@ -1,0 +1,82 @@
+<mvc:View
+   xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
+   xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:mvc="sap.ui.core.mvc">
+
+
+
+
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL4 L4 M12 S12"
+        hSpacing="1"
+        class="footer">
+    
+        <VBox >
+            <FlexBox
+                height="50px"
+                class="footerTitle sapUiSmallMarginTop sapUiSmallMarginEnd sapUiSmallMarginBottom sapUiTinyMarginBegin"
+                alignItems="Center"
+                justifyContent="Start">
+                <Title class="footer-text" level="H2" text="{i18n>footerContact}"/>
+            </FlexBox>                
+
+            <HBox class="sapUiTinyMargin">
+                <Text class="footer-text" text="E-Mail: abapconf (at) gmail.com" />
+            </HBox>
+
+            <HBox class="sapUiTinyMargin">
+                <Label class="footer-text" text="{i18n>footerWebsite}: " labelFor="linkWebsite"/>
+                <Link class="footer-text"  id="linkWebsite" text=" www.abapconf.org" href="https://www.abapconf.org" target="_blank"/>
+            </HBox>
+
+            <HBox class="sapUiTinyMargin">
+                    <Link class="footer-text" id="linkManifesto" text="{i18n>footerManifesto}" href="https://www.abapconf.org/abapconf2023/#/manifesto" target="_blank"/>
+                <layoutData>
+                    <FlexItemData growFactor="1" />
+                </layoutData>
+            </HBox>
+
+            <HBox class="sapUiTinyMargin">
+                <Label class="footer-text" text="{i18n>footerLogoBy}: " labelFor="linkLogoBy"/>
+                <Link class="footer-text" id="linkLogoBy" text=" UNgleich" href="https://www.ungleich-design.de/" target="_blank"/>
+            </HBox>
+
+        </VBox>
+
+        <VBox>
+            <FlexBox
+                height="50px"
+                alignItems="Center"
+                justifyContent="Start"
+                class="footerTitle sapUiSmallMarginTop sapUiSmallMarginEnd sapUiSmallMarginBottom sapUiTinyMarginBegin">                
+                <Title class="footer-text" level="H2" text="{i18n>footerPastEvents}"/>
+            </FlexBox>  
+
+            <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2021" text="{i18n>abapconf2021}" href="https://www.abapconf.org/abapconf2021" target="_blank"/>
+            <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2022" text="{i18n>abapconf2022}" href="https://www.abapconf.org/abapconf2022" target="_blank"/>
+            <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2023" text="{i18n>abapconf2023}" href="https://www.abapconf.org/abapconf2023" target="_blank"/>
+            <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2024europe" text="{i18n>abapconfeurope2024}" href="https://www.abapconf.org" target="_blank"/>
+        </VBox>
+        
+        <VBox>
+            <FlexBox
+                height="50px"
+                alignItems="Center"
+                justifyContent="Start"
+                class="footerTitle sapUiSmallMarginTop sapUiSmallMarginEnd sapUiSmallMarginBottom sapUiTinyMarginBegin">
+                <Title class="footer-text" level="H2" text="Legal"/>
+            </FlexBox> 
+            <Link class="sapUiTinyMargin footer-text" id="linkImpressum" text="{i18n>footerImpressum}" href="https://www.abapconf.org/abapconf2023/#/impressum" target="_blank"/>
+            <Link class="sapUiTinyMargin footer-text" id="linkDS" text="{i18n>footerDS}" href="https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement" target="_blank"/>
+            
+            <layoutData>
+                <FlexItemData growFactor="1" />
+            </layoutData>
+        </VBox>
+
+    </l:Grid>
+   
+
+</mvc:View>

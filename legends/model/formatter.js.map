@@ -1,0 +1,1 @@
+{"version":3,"file":"formatter.js","names":["eventCounter","value","length","__exports"],"sources":["formatter.ts"],"sourcesContent":["import GroupHeaderListItem from \"sap/m/GroupHeaderListItem\";\n\nexport default {\n\teventCounter: (value: string[]): int => {\n\t\treturn value.length;\n\t},\n\n};\n"],"mappings":"4DAEe,CACdA,aAAeC,GACPA,EAAMC,QAGd,OAAAC,CAAA","ignoreList":[]}

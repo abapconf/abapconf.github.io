@@ -1,0 +1,88 @@
+<mvc:View
+	controllerName="org.abapconf.legends.controller.Main"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout" 
+	core:require="{
+		formatter: 'org/abapconf/legends/model/formatter'
+	}">
+
+	<Page
+		title="{i18n>appTitle}"
+        titleAlignment="Center"
+        titleLevel="Auto"     
+		id="page">
+		<content>
+
+            <FlexBox
+                id="fbABAPConfLogos"
+                class="sapUiResponsiveMargin"
+				alignItems="Center"
+				justifyContent="Center">
+				
+                <l:Grid
+                    id="gridABAPConfLogos"
+                    containerQuery="true"
+                    defaultSpan="XL2 L3 M3 S6"
+                    class="sapUiMediumMarginTop"
+                    content="{logos>/}"
+                    >
+                    <Image 
+                        id="ABAPConfLogo2021"
+                        ariaDetails="ABAPConf 2021 Logo" src="{logos>img}"
+                        width="150px"
+                        decorative="false"
+                        press="doFilterByABAPConf(${logos>event})" />
+                </l:Grid>
+            </FlexBox>
+
+            <l:VerticalLayout
+                id="vlSpeakers"
+                class="sapUiMediumMarginTop"
+				width="100%">
+                <l:Grid
+                    id="gridSpeakers"
+                    containerQuery="false"
+                    defaultSpan="XL2 L3 M4 S12"
+                    content="{ 
+                        path: '/'
+                    }">
+                    <FlexBox
+                        direction="Column"
+                        alignItems="Center"
+                        backgroundDesign="Solid">
+
+                        <Avatar
+                            id="speakerPhoto"
+                            src="{picture}"
+                            displayShape="Square"
+                            imageFitType="Cover"
+                            displaySize="Custom"
+                            customDisplaySize="200px"
+                            press="openSpeakerDetail">                                               
+                        </Avatar>
+                        <Text 
+                            text="{
+                                path: 'events',
+                                formatter: 'formatter.eventCounter'
+                            }" 
+                            textAlign="Center" class="myAvatar"/>
+                            
+                        <FlexBox
+                            alignItems="Center"
+                            justifyContent="Center">
+                            <Title text="{firstname} {lastname}" />
+                        </FlexBox>
+                        
+                    </FlexBox>
+                </l:Grid>
+            </l:VerticalLayout>
+        
+            <!-- footer -->
+            <mvc:XMLView viewName="org.abapconf.legends.view.footer.Footer"/>
+		</content>
+	</Page>
+
+</mvc:View>
