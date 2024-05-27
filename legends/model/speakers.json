@@ -834,7 +834,7 @@
             {
                 "event": "abapconfeurope2024",
                 "title": "Keynote: ABAP Cloud – Best practices for a clean core strategy",
-                "abstract": ""
+                "abstract": "ABAP Cloud paves the way towards extensibility for SAP S/4HANA Cloud and SAP S/4HANA using a clean core approach. ABAP Cloud is based on public APIs avoiding upgrade efforts.\nThe session will show the path how to transition step-by-step to the future proof ABAP Cloud development model."
             }
         ]
     },
@@ -1247,8 +1247,7 @@
         "linkedIn": "",
         "events": [
             "abapconf2022",
-            "abapconf2023",
-            "abapconfeurope2024"
+            "abapconf2023"
         ],
         "sessions": [
             {
@@ -1260,11 +1259,6 @@
                 "event": "abapconf2023",
                 "title": "Keynote: ABAP Cloud in Action",
                 "abstract": "The ABAP RESTful Application Development is now there for several years and the best choice for transactional application development in the cloud and new on-premise versions. In ABAP Cloud, RAP is combined with other technologies to shape the ABAP development model for cloud-ready apps, services and extensions\nIn this key-note session we will have the real SAP SalesOrder application on stage. We will see, how the existing application code was integrated into RAP and Fiori Elements. We will discuss experiences, pit falls and problems of this long running project.\nIn addition, we will have a look on the newest features and a short outlook what the future brings."
-            },
-            {
-                "event": "abapconfeurope2024",
-                "title": "Keynote: ABAP Cloud in action – Latest features and capabilities",
-                "abstract": ""
             }
         ]
     },
@@ -1595,7 +1589,7 @@
             {
                 "event": "abapconfeurope2024",
                 "title": "Keynote: ABAP Cloud in action – Latest features and capabilities",
-                "abstract": ""
+                "abstract": "The ABAP Cloud development model supports the ABAP developer to build applications, extensions and services for the cloud. New ABAP Cloud apps can be automatically generated using Generative AI capabilities embedded into the ABAP Development Tools for Eclipse. The generated apps have built-in ABAP Cloud qualities such as end-to-end extensibility for side-by-side and on-stack extension scenarios.\nThe session will show how to integrate business events and expose the underlying data model for Enterprise Search and Analytics use cases."
             }
         ]
     },
