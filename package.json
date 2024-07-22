@@ -1,0 +1,20 @@
+{
+  "name": "ABAPConf homepage",
+  "version": "1.0.0",
+  "description": "ABAPConf homepage",
+  "homepage": "https://www.abapconf.org",
+  "repository": "https://github.com/abapconf/abapconf.github.io",
+  "license": "Apache-2.0",
+  "private": true,
+  "author": {
+    "name": "Tobias Hofmann",
+    "email": "hof...@outlook.com",
+    "url": "https://www.itsfullofstars.de"
+  },
+  "scripts": {
+    "start": "browser-sync . -w"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  }
+}
