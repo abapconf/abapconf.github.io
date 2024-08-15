@@ -95,10 +95,6 @@
 						<Link href="https://www.abapconf.org/{event}" text="link"></Link>
 					</FlexBox>
 				</CustomListItem>
-				<!--
-				<StandardListItem title="{title}">
-				</StandardListItem>
-				-->
 			</List>
 
         </content>

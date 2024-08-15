@@ -12,7 +12,8 @@
 	<Page
 		title="{i18n>appTitle}"
         titleAlignment="Center"
-        titleLevel="Auto"     
+        titleLevel="Auto" 
+        backgroundDesign="Standard"
 		id="page">
 		<content>
 
@@ -38,7 +39,7 @@
                 <l:Grid
                     id="gridSpeakers"
                     containerQuery="false"
-                    defaultSpan="XL2 L3 M4 S12"
+                    defaultSpan="XL1 L3 M4 S12"
                     content="{ 
                         path: '/'
                     }">
