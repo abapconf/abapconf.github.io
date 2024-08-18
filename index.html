@@ -62,7 +62,7 @@
                 <a class="nav-link" href="#nextevent">Current Event</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#abaconfhistory">Past Event</a>
+                <a class="nav-link" href="#abaconfhistory">Past Events</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#legends">Legends</a>
@@ -80,13 +80,83 @@
       <!-- Hero -->
       <section id="home">
         <div class="home-container">
+
+
+        <div id="abapConfEventsCarousel" class="carousel slide mb-6 w-100 h-100" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#abapConfEventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="ABAPConf 2024"></button>
+            <button type="button" data-bs-target="#abapConfEventsCarousel" data-bs-slide-to="1" aria-label="ABAPConf South Africa 2024"></button>
+          </div>
+          
+            <div class="carousel-inner h-100">
+
+              <div class="carousel-item active h-100">
+                <div class="container">
+                  <div class="carousel-caption d-flex align-items-center row h-100">
+                    <div class="container ">
+                      <h1 class="mb-4 pb-0">ABAPConf 2024</h1>
+                      <h1 class="mb-4 pb-0">
+                        <a href="https://forms.gle/z4x49M5g17bamqD56">Call for Speakers</a>
+                      </h1>
+                      <p class="mb-4 pb-0 fw-bold text-white">Free | Live | Online</p>
+                      <div class="container d-flex align-items-center justify-content-center">
+                        <p class="mb-4 text-white border rounded-4 p-3 border-bottom">Save the date: December 5<sup>th</sup> 2024</p>                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item h-100">
+                <div class="container">
+                  <div class="carousel-caption d-flex align-items-center row h-100">
+                    <div class="container ">
+                      <h1 class="mb-4 pb-0">
+                        ABAPConf South Africa 2024
+                      </h1>
+                      <h1 class="mb-4 pb-0"><a href="#abapconfsa2024">Get the details</a></h1>
+                      <p class="mb-4 pb-0 fw-bold text-white">Free | Live | Online</p>
+                      <div class="container d-flex align-items-center justify-content-center">
+                        <p class="mb-4 text-white border rounded-4 p-3 border-bottom">Save the date: November 13<sup>th</sup> 2024</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#abapConfEventsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#abapConfEventsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+        
+        <!--
+        <div class="home-container">
           <h1 class="mb-4 pb-0">
             <a href="https://forms.gle/z4x49M5g17bamqD56">Call for Speakers</a>
           </h1>
           <h1 class="mb-4 pb-0">ABAPConf 2024</h1>
           <p class="mb-4 pb-0 fw-bold text-white">Free | Live | Online</p>
           <p class="mb-4 text-white border rounded-4 p-3 border-bottom">Save the date: December 5<sup>th</sup> 2024</p>
+          
+          <h1 class="mb-4 pb-0">
+            <a href="#abapconfsa2024">ABAPConf South Africa 2024</a>
+            <h1 class="mb-4 pb-0">Register</h1>
+            <p class="mb-4 text-white border rounded-4 p-3 border-bottom">
+              <a class="text-reset" href="#abapconfsa2024">Save the date: November 13<sup>th</sup> 2024</a>
+            </p>
+            
+          </h1>
         </div>
+        -->
       </section>
 
       <!-- About -->
@@ -206,7 +276,6 @@
           </div>
 
           <!-- ABAPConf South Africa 2024 -->
-           
           <div class="container px-4" id="abapconfsa2024">
             <div class="row row-cols-1 align-items-stretch g-4 py-2">
 
