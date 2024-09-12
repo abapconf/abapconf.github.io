@@ -30,7 +30,7 @@
 				justifyContent="Start">
                 <VBox class="sapUiLargeMargin" >
                     <Text text="Tobias Hofmann" />
-                    <Text text="Huttenstrasse 46" />
+                    <Text text="Huttenstrasse 33" />
                     <Text text="76646 Bruchsal" />
                     <Text text="E-Mail: tobias.a.hofmann@gmail.com" />
                 </VBox>
