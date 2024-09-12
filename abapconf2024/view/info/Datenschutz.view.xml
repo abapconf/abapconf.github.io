@@ -36,7 +36,7 @@
 				justifyContent="Start">
                 <VBox class="sapUiResponsiveMargin" >
                     <Text text="Tobias Hofmann" />
-                    <Text text="Huttenstrasse 46" />
+                    <Text text="Wiesenstr. 33" />
                     <Text text="76646 Bruchsal" />                    
                 </VBox>
 			</FlexBox>
