@@ -1,0 +1,76 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc">
+   
+    <!-- image -->
+    <Image
+        src="./img/SAPBall.jpeg"
+        mode="Background"
+        height="300px"
+        width="100%" >
+        <layoutData>
+            <FlexItemData growFactor="1" />
+        </layoutData>
+    </Image>
+
+    <!-- H1 -->
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <HBox height="100px" alignItems="Center" justifyContent="Center">
+            <Title wrapping="true" level="H1" textAlign="Center" titleStyle="H1" text="{i18n>cfsH1closed}"> </Title>
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+        </HBox>
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+
+    <FlexBox
+        height="20px"
+        alignItems="Center"
+        justifyContent="Center"
+        class="sapUiLargeMarginBottom">
+        <html:div class="seperator"></html:div>
+    </FlexBox>
+    
+    <!-- H2 Untertitel -->            
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <HBox height="100px" alignItems="Center" justifyContent="Center">
+            <Title wrapping="true" textAlign="Center" level="H3" titleStyle="H3" text="{i18n>cfsH2closed}" class="textBold"> </Title>
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+        </HBox>
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+           
+    <!-- image -->
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"                
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <Image
+            src="./img/CallForSpeaker.jpg"
+            mode="Image"
+            height="100%"
+            width="100%"
+            >
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+        </Image>
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+    
+</core:FragmentDefinition>

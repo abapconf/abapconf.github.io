@@ -1,0 +1,2 @@
+sap.ui.define(["abapconf/web/abapconf/controller/BaseController"],function(n){"use strict";return n.extend("abapconf.web.abapconf.controller.History",{onInit:function(){}})});
+//# sourceMappingURL=History.controller.js.map

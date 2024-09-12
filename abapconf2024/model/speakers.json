@@ -1,0 +1,212 @@
+[
+    {
+        "id": "TobiasHofmann",
+        "firstname": "Tobias",
+        "middlename": "",
+        "lastname": "Hofmann",
+        "initials": "TH",
+        "company": "DB Systel GmbH",
+        "companyWeb": "https://www.dbsystel.de/",
+        "function": "Developer",
+        "picture": "./card/orga/tobias/TobiasHofmann.png",
+        "shortBio": "Seasoned SAP Consultant with focus on UX. Helps global companies to get the best out of SAP software. My interest is not solely ABAP, I like to look accrosss the horizont to see what others are using and how this can be incorporated in a SAP solution.",
+        "longBio": "I have a long background on several SAP topics. Learned SAP and ABAP in 1998 and since then focused on the intersection between SAP backend transactions and the user that works with them to bring benefits to the company. As the SAP customer is in the end the one that pays to use SAP, my focus is on helping customers to get the best out of SAP software. Be it with bringin the best UX to them, or by architecting timeless solutions that combine the best of several worlds. I lived in Brazil for 11 years and I learned there that SAP sells a global product, and that their programming tools are like a lingua franca for SAP professionals around the world.",
+        "linkedIn": "https://www.linkedin.com/in/tobias-hofmann-768b085/",
+        "twitter": "tobiashofmann",
+        "homepage": "https://www.itsfullofstars.de",
+        "sessions": [
+            {
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2024. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Willkommen.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            },
+            {
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Welcome.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+             },
+             {
+                "name": "Orga-Team",
+                "color": 12
+              }
+        ]
+    },
+    {
+        "id": "SoerenSchlegel",
+        "firstname": "Sören",
+        "middlename": "",
+        "lastname": "Schlegel",
+        "initials": "SS",
+        "company": "Brandeis Consulting GmbH",
+        "companyWeb": "https://www.brandeis.de/",
+        "function": "ABAP Development Architect",
+        "picture": "./card/orga/soeren/SoerenSchlegel.png",
+        "shortBio": "ABAP, RAP, Cloud",
+        "longBio": "Technician with enthusiasm for new technologies with more than 10 years of experience in ABAP development from SAP GUI to Fiori. Also active as a trainer and speaker at SAP community events and webinars for 8 years. Always interested in the latest stuff around ABAP and therefore in contact with OData, Fiori Elements and RAP since the beginning of time.",
+        "linkedIn": "https://www.linkedin.com/in/soeren-schlegel-55171bb4/",
+        "twitter": "SoSchlegel87",
+        "scn": "https://people.sap.com/sschlegel",
+        "sessions": [
+            {
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2024. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Willkommen.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            },
+            {
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Welcome.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+             },
+             {
+                "name": "Orga-Team",
+                "color": 12
+              }
+        ]
+    },
+    {
+        "id": "JohannFoessleitner",
+        "firstname": "Johann",
+        "middlename": "",
+        "lastname": "Fößleitner",
+        "initials": "JF",
+        "company": "Cadaxo GmbH",
+        "companyWeb": "http://www.cadaxo.com/",
+        "function": "CEO",
+        "picture": "./card/orga/johann/JohannFoessleitner.png",
+        "shortBio": "First and foremost I love wrting code. Since I wrote my first code on my Commodore C16 I have been obsessed with the idea of using software to solve problems. And I still really enjoy doing that.",
+        "longBio": "I developed my first ABAP Report in 1990. At that time, it was in R/2 4.2. Much has changed over the years, but one thing stayed the same - I am still passionate about writing great SAP Applications and I like to share my knowledge. I am a co-founder of the SAP Inside Track Vienna #sitVIE and I also organize other community events like CodeRetreats, Stammtisch or Webinars in Vienna / Austria. I have two children, I like to play games on my original old game consoles and from time to time I partie in front of Rock Bands’ stages.",
+        "linkedIn": "https://www.linkedin.com/in/foessleitnerj/",
+        "twitter": "foessleitnerj",
+        "scn": "https://people.sap.com/johann.fleitner2",
+        "sessions": [
+            {
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2024. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Willkommen.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            },
+            {
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Welcome.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+             },
+             {
+                "name": "Orga-Team",
+                "color": 12
+              }
+
+        ]
+    },
+    {
+        "id": "DomiBigl",
+        "firstname": "Domi",
+        "middlename": "",
+        "lastname": "Bigl",
+        "initials": "DB",
+        "company": "Cadaxo GmbH",
+        "companyWeb": "http://www.cadaxo.com/",
+        "function": "SAP Senior Consultant",
+        "picture": "./card/orga/domi/DomiBigl.jpg",
+        "shortBio": "Geht nicht, gibt’s nicht!",
+        "longBio": "Geht nicht, gibt’s nicht!",
+        "linkedIn": "https://www.linkedin.com/in/domi-bigl-9b98b68b/",
+        "twitter": "DomiBiglSAP",
+        "scn": "https://people.sap.com/dominik.bigl2",
+        "sessions": [
+            {
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2024. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Willkommen.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            },
+            {
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
+                "track": 1,
+                "ics": "/card/orga/tobias/Welcome.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }                    
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+             },
+             {
+                "name": "Orga-Team",
+                "color": 12
+              }
+
+        ]
+    }
+]

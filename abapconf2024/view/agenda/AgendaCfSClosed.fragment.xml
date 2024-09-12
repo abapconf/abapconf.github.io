@@ -1,0 +1,31 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc">
+   
+    <!-- Text Agenda -->
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+        <HBox alignItems="Center" justifyContent="Start">
+            <Text width="100%" text="{i18n>agendaP1}" textAlign="Begin"  class="textReadability"></Text>
+            <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
+        </HBox>
+        <html:div class="exampleDiv"/>
+    </l:Grid>
+
+    <!-- Placeholder image -->
+    <FlexBox				
+        class="sapUiLargeMarginBeginEnd" 
+        alignItems="Center"
+        justifyContent="Center">
+        <Image id="img" width="100%" src="./img/coming-soon-hour-glass-4721933_640.png"></Image>
+    </FlexBox>
+    
+</core:FragmentDefinition>

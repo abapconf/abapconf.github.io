@@ -1,0 +1,1 @@
+{"version":3,"file":"Impressum.controller.js","names":["sap","ui","define","BaseController","extend","onInit"],"sources":["Impressum-dbg.controller.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACb,+CAKA,SAAUC,GACT,aAEA,OAAOA,EAAeC,OAAO,yCAA0C,CACtEC,OAAQ,WAER,GAEF","ignoreList":[]}

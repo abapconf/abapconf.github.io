@@ -1,0 +1,59 @@
+<core:FragmentDefinition 
+	xmlns="sap.m" 
+	xmlns:core="sap.ui.core">
+	<QuickView
+		width="450px"
+		placement="Vertical"
+		>
+		<QuickViewPage
+            pageId="{/id}"
+			header="{/title}"
+			title="{/speaker}"
+			titleUrl="#/speakers/detail/{/info/id}"
+			description="{/info/function}"
+			>
+			<avatar>
+				<Avatar
+					src="{/info/picture}"
+					displayShape="Circle"
+				/>
+			</avatar>
+            <QuickViewGroup heading="Abstract">
+				<QuickViewGroupElement
+					value="{/abstract}"
+					/>
+			</QuickViewGroup>
+			<QuickViewGroup heading="Information">
+				<QuickViewGroupElement
+					label="Time"
+					value="{/time}"
+					/>
+                <QuickViewGroupElement
+					label="Duration"
+					value="{/duration} Min"
+					/>
+                <QuickViewGroupElement
+					label="Language"
+					value="{/language}"
+					/>
+			</QuickViewGroup>
+            <QuickViewGroup heading="Contact">
+				<QuickViewGroupElement
+					value="LinkedIn"
+					url="{/info/linkedIn}"
+					type="link"
+					/>
+                <QuickViewGroupElement
+					value="SCN"
+					url="{/info/scn}"
+					type="link"
+					/>
+                <QuickViewGroupElement
+					value="Twitter"
+					url="https://www.twitter.com/{/info/twitter}"
+					type="link"
+					/>
+			</QuickViewGroup>
+		</QuickViewPage>
+	</QuickView>
+</core:FragmentDefinition>

@@ -1,0 +1,1 @@
+{"version":3,"file":"Speakers.controller.js","names":["sap","ui","define","BaseController","extend","onInit"],"sources":["Speakers-dbg.controller.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACb,+CAKA,SAAUC,GACT,aAEA,OAAOA,EAAeC,OAAO,iDAAkD,CAC9EC,OAAQ,WAER,GAEF","ignoreList":[]}

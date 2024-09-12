@@ -1,0 +1,166 @@
+<mvc:View
+   controllerName="abapconf.2024.org.controller.agenda.channel3.Channel3"
+   displayBlock="true"
+   xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
+   xmlns:tnt="sap.tnt"
+   xmlns:core="sap.ui.core"
+   xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:yt="de.itsfullofstars.yt.controls"
+   xmlns:mvc="sap.ui.core.mvc">
+   
+    <Page id="agenda" showHeader="false">
+        <content>
+            <!-- footer -->
+            <mvc:XMLView viewName="abapconf.2024.org.view.header.Header"/>
+
+             <!-- H1 -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox height="100px" alignItems="Center" justifyContent="Center">
+                    <Title level="H1" titleStyle="H1" text="{i18n>channel3Header}"> </Title>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <FlexBox
+				height="20px"
+				alignItems="Center"
+                justifyContent="Center"
+                class="sapUiLargeMarginBottom">
+                <html:div class="seperator"></html:div>
+			</FlexBox>
+
+            <!-- Intro -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Text width="100%" text="{i18n>channel3Intro}" textAlign="Begin"  class="textReadability"></Text>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <!-- Idee -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Title level="H3" titleStyle="H3" text="{i18n>channel3H1}"> </Title>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Text width="100%" text="{i18n>channel3P1}" textAlign="Begin"  class="textReadability"></Text>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <!-- Format -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Title level="H3" titleStyle="H3" text="{i18n>channel3H2}"> </Title>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Text width="100%" text="{i18n>channel3P2}" textAlign="Begin"  class="textReadability"></Text>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Center">
+                    <Link text="{i18n>channel3Register}" href="https://forms.gle/kvfKfHHY7ubmzFi49" target="_blank" textAlign="Center" class="textReadability sapUiLargeMarginBegin" />
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <!-- Ablauf -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Title level="H3" titleStyle="H3" text="{i18n>channel3H3}"> </Title>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Text width="100%" text="{i18n>channel3P3}" textAlign="Begin"  class="textReadability"></Text>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+
+
+            
+            
+
+            <!-- footer -->
+            <mvc:XMLView viewName="abapconf.2024.org.view.footer.Footer"/>
+        </content>
+    </Page>
+    
+</mvc:View>

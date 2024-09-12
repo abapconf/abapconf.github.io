@@ -1,0 +1,2 @@
+sap.ui.define(["abapconf/2024/org/controller/BaseController"],function(n){"use strict";return n.extend("abapconf.2024.org.controller.Impressum",{onInit:function(){}})});
+//# sourceMappingURL=Impressum.controller.js.map

@@ -1,0 +1,251 @@
+<core:FragmentDefinition 
+	xmlns="sap.m" 
+	xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc">
+
+<!-- Agenda Channel 3 for mobile -->
+<l:Grid
+containerQuery="false"                
+visible="{= ${device>/system/phone} &amp;&amp; ${agendaView>/showTableChannel3} ? true : false}"
+defaultSpan="XL2 L2 M12 S12"
+hSpacing="1">
+<html:div class="exampleDiv"/>
+
+    <Table headerText="">
+    <columns>
+        <Column 
+            width="3.0rem"
+            hAlign="Begin">
+            <header>
+                <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTime}" />
+            </header>
+        </Column>
+        <Column
+            mergeDuplicates="true"
+            width="100%"
+            visible="{agendaView>/showTrack3}"
+            hAlign="Begin" >
+            <header>
+                <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack3}" />
+            </header>
+        </Column>
+    </columns>
+
+    <ColumnListItem class="columnSession">
+        <Text text="8:20" class="whiteText"/>
+        <Text text="Warmup" class="whiteText"/>                
+    </ColumnListItem>
+    <!-- Willkommen -->
+    <ColumnListItem class="columnWelcome">
+        <Text text="8:30" class="whiteText"/>
+        <Text text="See channel 1" class="whiteText"/>
+    </ColumnListItem>
+
+    <ColumnListItem class="columnWelcome">
+        <Text text="8:45" class="whiteText"/>                
+        <Text text="See channel 1" class="whiteText"/>
+    </ColumnListItem>
+
+    <ColumnListItem class="columnKey">
+        <Text text="9:00" class="whiteText"/>                
+        <Text text="See channel 1" class="whiteText"/>
+    </ColumnListItem>
+    
+    <ColumnListItem class="columnPause">
+        <Text text="9:55" class="whiteText"/>
+        <Text text="{i18n>agendaTablePause}" class="whiteText" />
+    </ColumnListItem>
+    <ColumnListItem >
+        <Text text="10:00"/>            
+        <Text text="" />        
+    </ColumnListItem>          
+    <ColumnListItem>
+        <Text text="10:50" />
+        <!-- InsideTalk1 -->
+        <VBox 
+            blocked="{agendaView>/showEnglish}"
+            class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
+            <Link 
+                class="sapMTitle sapMTitleStyleAuto textBlack" 
+                wrapping="true" 
+                text="{agenda>/insidetalk1/title}" 
+                press="openSession($event, 'insidetalk1')"/>
+
+            <HBox class="sapUiSmallMarginTop">
+                <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Link text="{agenda>/insidetalk1/speaker}" press="openSpeaker($event, '39a33820-ddc5-4f99-8422-816601ebb775')" width="150%"/>
+            </HBox>
+            <HBox class="sapUiSmallMarginTop">
+                <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Link text="{agenda>/insidetalk1/speaker2}" press="openSpeaker($event, 'VolkerDrees')" width="150%"/>
+            </HBox> 
+            <HBox>
+                <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Text text="{agenda>/insidetalk1/duration} Min" class="" />
+            </HBox>
+            <HBox>
+                <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Text text="{agenda>/insidetalk1/language}" class="" />
+            </HBox>
+            <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
+                <core:Icon
+                    src="sap-icon://add-employee"
+                    class="sapUiTinyMarginEnd"/>
+                <Link 
+                    text="{i18n>channel3Register}"
+                    href="{agenda>/insidetalk1/link}"
+                    class="linkCalendar" 
+                    textAlign="Center" 
+                    wrapping="true"
+                    subtle="false" 
+                    width="100%"/>
+            </HBox>
+        </VBox>    
+    </ColumnListItem>
+    <ColumnListItem>
+        <Text text="11:40" />
+        <Text text="" />         
+    </ColumnListItem>
+    <ColumnListItem>
+        <Text text="12:10" />
+        <Text text="" />
+    </ColumnListItem>
+    <ColumnListItem class="columnPause">
+        <Text text="12:25" class="whiteText" />
+        <Text text="{i18n>agendaTableLunch}" class="whiteText" />                
+    </ColumnListItem>
+    <ColumnListItem class="columnPause">
+        <Text text="13:00" class="whiteText" />
+        <Text text="{i18n>agendaTableBack}" class="whiteText" />                
+    </ColumnListItem>
+    <ColumnListItem>
+        <Text text="13:05" />                       
+        <!-- InsideTalk2 -->
+        <VBox 
+            blocked="{agendaView>/showEnglish}"
+            class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
+            <Link 
+                class="sapMTitle sapMTitleStyleAuto textBlack" 
+                wrapping="true" 
+                text="{agenda>/insidetalk2/title}" 
+                press="openSession($event, 'insidetalk2')"/>
+
+            <HBox class="sapUiSmallMarginTop">
+                <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Link text="{agenda>/insidetalk2/speaker}" press="openSpeaker($event, '39zz3820-dac5-4f99-8422-016622ebb789')" width="150%"/>
+            </HBox>
+            <HBox>
+                <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Text text="{agenda>/insidetalk2/duration} Min" class="" />
+            </HBox>
+            <HBox>
+                <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Text text="{agenda>/insidetalk2/language}" class="" />
+            </HBox>
+            <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
+                <core:Icon
+                    src="sap-icon://add-employee"
+                    class="sapUiTinyMarginEnd"/>
+                <Link 
+                    text="{i18n>channel3Register}"
+                    href="{agenda>/insidetalk2/link}"
+                    class="linkCalendar" 
+                    textAlign="Center" 
+                    wrapping="true"
+                    subtle="false" 
+                    width="100%"/>
+            </HBox>
+        </VBox>
+    </ColumnListItem>
+    <ColumnListItem >
+        <Text text="13:55" />                
+        <Text text="" />
+    </ColumnListItem>
+    <ColumnListItem>
+        <Text text="14:45" />
+        <Text text="" />              
+        <!-- insidetalk3 -->
+        <!--
+        <VBox 
+            blocked="{agendaView>/showEnglish}"
+            class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
+            <Link 
+                class="sapMTitle sapMTitleStyleAuto textBlack" 
+                wrapping="true" 
+                text="{agenda>/insidetalk3/title}" 
+                press="openSession($event, 'insidetalk3')"/>
+            <HBox class="sapUiSmallMarginTop">
+                <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Link text="{agenda>/insidetalk3/speaker}" press="openSpeaker($event, 'JensWeiler')" width="150%"/>
+            </HBox>
+            <HBox class="sapUiSmallMarginTop">
+                <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Link text="{agenda>/insidetalk3/speaker2}" press="openSpeaker($event, 'JasminGruschke')" width="150%"/>
+            </HBox>
+            <HBox class="sapUiSmallMarginTop">
+                <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Link text="{agenda>/insidetalk3/speaker3}" press="openSpeaker($event, 'ChristianMathis')" width="150%"/>
+            </HBox>          
+            <HBox>
+                <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Text text="{agenda>/insidetalk3/duration} Min" class="" />
+            </HBox>
+            <HBox>
+                <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
+                <Text text="{agenda>/insidetalk3/language}" class="" />
+            </HBox>
+            <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
+                <core:Icon
+                    src="sap-icon://add-employee"
+                    class="sapUiTinyMarginEnd"/>
+                <Link 
+                    text="{i18n>channel3Register}"
+                    href="{agenda>/insidetalk3/link}"
+                    class="linkCalendar" 
+                    textAlign="Center" 
+                    wrapping="true"
+                    subtle="false" 
+                    width="100%"/>
+            </HBox>
+        </VBox>
+        -->
+    </ColumnListItem>
+    <ColumnListItem>
+        <Text text="15:15" />
+        <Text text="" />
+    </ColumnListItem>
+    <ColumnListItem class="columnPause">
+        <Text text="15:30" class="whiteText"/>
+        <Text text="{i18n>agendaTablePause}" class="whiteText" />
+    </ColumnListItem>
+    <ColumnListItem class="columnPause">
+        <Text text="15:40" class="whiteText"/>
+        <Text text="{i18n>agendaTableBack}" class="whiteText" />
+    </ColumnListItem>
+    <ColumnListItem>
+        <Text text="15:45" />
+        <Text text="" />
+    </ColumnListItem>
+    <ColumnListItem>
+        <Text text="16:35" />
+        <Text text="" />
+    </ColumnListItem>
+    <ColumnListItem>
+        <Text text="17:20" />
+        <Text text="" />
+    </ColumnListItem>
+    <ColumnListItem class="columnKey" >
+        <Text text="17:50" class="whiteText"/>
+        <Text text="See you at ABAPConf 2024" class="whiteText"/>
+    </ColumnListItem>
+    <layoutData>
+        <l:GridData span="XL8 L8 M12 S12"/>
+    </layoutData>
+</Table> 
+
+<html:div class="exampleDiv"/>
+</l:Grid>
+
+</core:FragmentDefinition>
