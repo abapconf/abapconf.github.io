@@ -298,10 +298,10 @@
             <!-- Register at eventbrite -->
             
             <FlexBox
-				height="50px"
+				height="70px"
 				alignItems="Center"
                 justifyContent="Center">
-				<Link text="{i18n>homeRegisterEventbrite}" class="textReadability sapUiLargeMarginBottom sapUiLargeMarginTop" wrapping="true" target="_blank" href="https://www.eventbrite.com/e/1009335288017"/>
+				<Link text="{i18n>homeRegisterEventbrite}" class="textReadability  " wrapping="true" target="_blank" href="https://www.eventbrite.com/e/1009335288017"/>
 			</FlexBox>
 
             <!-- Register for on site participation via lottery -->

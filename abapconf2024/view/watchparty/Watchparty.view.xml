@@ -1,0 +1,248 @@
+<mvc:View
+   controllerName="abapconf.2024.org.controller.community.Watchparty"
+   xmlns="sap.m"
+   displayBlock="true"
+   xmlns:l="sap.ui.layout"
+   xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns:core="sap.ui.core"
+   >
+   
+    <Page id="watchparty" showHeader="false">
+        <content>
+            <!-- header -->
+            <mvc:XMLView viewName="abapconf.2024.org.view.header.Header"/>
+           
+            <!-- H1 -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox height="100px" alignItems="Center" justifyContent="Center">
+                    <Title level="H1" titleStyle="H1" text="{i18n>communityWPH1}"> </Title>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+             <!-- Text P1 -->
+             <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Text width="100%" text="{i18n>watchpartyP1}" textAlign="Begin"  class="textReadability"></Text>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <!-- watch party world map -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"                
+                hSpacing="1"
+                class="sapUiLargeMarginTop sapUiLargeMarginBottom">
+                <html:div class="exampleDiv"/>
+                <Image
+                    src="./img/watchpartymap.png"
+                    mode="Image"
+                    height="100%"
+                    width="100%"
+                    >
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </Image>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+        
+
+            <!-- Location List -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                
+                    <Table
+                        id="watchPartyList"
+                        mode="None"
+                        headerText="{i18n>watchpartyListH1}"
+                        items="{
+                            path: 'community>/'
+                        }"
+                        
+                        >
+                        <columns>
+                            <Column
+                                minScreenWidth="Tablet"
+                                demandPopin="true"
+                                width="10rem">
+                                <Text text="Type" />
+                            </Column>
+                            <Column
+                                width="12rem">
+                                <Text text="Location" />
+                            </Column>
+                            <Column
+                                minScreenWidth="Tablet"
+                                width="3rem"
+                                hAlign="Center">
+                                <Text text="Map" />
+                            </Column>
+                            <Column
+                                minScreenWidth="Tablet"
+                                width="6rem"
+                                demandPopin="true">
+                                <Text text="Organizer" />
+                            </Column>
+                            
+                            <Column
+                                width="7rem"
+                                hAlign="Center">
+                                <Text text="Registration" />
+                            </Column>
+                            <Column
+                                minScreenWidth="Desktop"
+                                hAlign="End">
+                                <Text text="Seats" />
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem vAlign="Middle"
+                                highlight="{community>status}">
+                                <cells>
+                                    <GenericTag 
+                                        text="{community>type}" 
+                                        status="{community>status}" >
+                                    </GenericTag>
+
+                                    <VBox>
+                                        <Title text="{community>city}"></Title>
+                                        <Title text="{community>country}"></Title>
+                                    </VBox>
+                                    
+                                    <Button icon="sap-icon://locate-me" type="Transparent" press="onLoadMap"/>
+                                    <Link text="{community>organizer}" href="{community>contact}"></Link>
+
+                                    <HBox >
+                                        <Link href="{community>regLink}" text="Registration" visible="{= ${community>type} === 'Internal' ? false : true }"></Link>
+                                        <Text text="internal event" visible="{= ${community>type} === 'Internal' ? true : false }"/>
+                                    </HBox>
+                                    
+                                    <Text text="{community>space}"></Text>
+                                    
+                                </cells>
+                            </ColumnListItem>
+                                
+                        </items>
+                        <layoutData>
+                            <l:GridData span="XL8 L8 M12 S12"/>
+                        </layoutData>
+                    </Table>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <!-- Text P2 -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1"
+                class="sapUiLargeMarginTop">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Text width="100%" text="{i18n>watchpartyP2}" textAlign="Begin"  class="textReadability"></Text>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <!-- Legende -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1"
+                class="sapUiLargeMarginTop">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Start">
+                    <Table
+                        id="watchPartyLegende"
+                        mode="None"
+                        headerText="{i18n>watchpartyLegendeH1}"                        
+                        >
+                        <columns>
+                            <Column>
+                                <Text text="{i18n>watchpartyLegendeCollType}" />
+                            </Column>
+                            <Column>
+                                <Text text="{i18n>watchpartyLegendeCollDesc}" />
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem
+                                highlight="Success">
+                                <cells>
+                                    <GenericTag 
+                                        text="ABAPConf event" 
+                                        status="Success" >
+                                    </GenericTag>
+                                    <Text text="{i18n>watchpartyLegendeCellOfficial}" />
+                                </cells>
+                            </ColumnListItem>
+                            <ColumnListItem
+                                highlight="Information">
+                                <cells>
+                                    <GenericTag 
+                                        text="Public" 
+                                        status="Information" >
+                                    </GenericTag>
+                                    <Text text="{i18n>watchpartyLegendeCellPublic}" />
+                                </cells>
+                            </ColumnListItem>
+                            <ColumnListItem
+                                highlight="Warning">
+                                <cells>
+                                    <GenericTag 
+                                        text="Internal" 
+                                        status="Warning" >
+                                    </GenericTag>
+                                    <Text text="{i18n>watchpartyLegendeCellInternal}" />
+                                </cells>
+                                
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+
+                 
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            <FlexBox
+				height="20px"
+				alignItems="Center"
+                justifyContent="Center"
+                class="sapUiLargeMarginBottom">
+                <html:div class="seperator"></html:div>
+			</FlexBox>
+
+            
+
+            <!-- footer -->
+            <mvc:XMLView viewName="abapconf.2024.org.view.footer.Footer"/>
+        </content>
+    </Page>
+    
+</mvc:View>

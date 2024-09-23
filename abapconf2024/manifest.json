@@ -34,6 +34,10 @@
       "agenda": {
         "uri": "model/agenda.json",
         "type": "JSON"
+      },
+      "community": {
+        "uri": "model/community.json",
+        "type": "JSON"
       }
     },
     "offline": false
@@ -92,6 +96,9 @@
       },
       "agenda": {
         "dataSource": "agenda"
+      },
+      "community": {
+        "dataSource": "community"
       }
     },
     "resources": {
@@ -237,6 +244,13 @@
           "target": [
             "Channel3"
           ]
+        },
+        {
+          "name": "Watchparty",
+          "pattern": "community",
+          "target": [
+            "Watchparty"
+          ]
         }
       ],
       "targets": {
@@ -365,6 +379,13 @@
           "clearControlAggregation": false,
           "viewId": "Datenschutz",
           "viewName": "info/Datenschutz"
+        },
+        "Watchparty": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "Watchparty",
+          "viewName": "watchparty/Watchparty"
         }
       }
     }
