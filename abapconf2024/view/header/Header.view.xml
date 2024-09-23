@@ -157,7 +157,7 @@
 
     <l:Grid
         containerQuery="false"
-        defaultSpan="XL1 L1 M1 S1"
+        defaultSpan="XL12 L12 M12 S12"
         hSpacing="0">
         <HBox 
             alignItems="Center"
@@ -175,13 +175,21 @@
                     <l:GridData span="XL2 L2 M4 S4"/>
                 </layoutData>
             </FlexBox>
+
+            <l:Grid
+                containerQuery="true"
+                defaultSpan="XL3 L3 M3 S6"
+                hSpacing="0">
+                
+                <Button id="navAbout" text="{i18n>headerNavAbout}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'About')"/>
+                <Button id="navCallForSpeakers" text="{i18n>headerNavCfS}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'CfS')" />
+                <Button id="navWatchParty" text="{i18n>headerNavWatchparty}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Watchparty')" />
+                <Button id="navAgenda" text="{i18n>headerNavAgenda}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Agenda')" />
+                <!--
+                <Button id="navSpeakers" text="{i18n>headerNavSpeakers}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Speakers')" />
+                -->
+            </l:Grid>
         
-            <Button id="navAbout" text="{i18n>headerNavAbout}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'About')"/>
-            <Button id="navCallForSpeakers" text="{i18n>headerNavCfS}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'CfS')" />
-            <Button id="navAgenda" text="{i18n>headerNavAgenda}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Agenda')" />
-            <!--
-            <Button id="navSpeakers" text="{i18n>headerNavSpeakers}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Speakers')" />
-            -->
             <layoutData>
                 <l:GridData span="XL10 L10 M8 S8"/>
             </layoutData>
