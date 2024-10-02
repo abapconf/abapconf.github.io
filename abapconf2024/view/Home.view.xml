@@ -209,7 +209,7 @@
                         <HBox 
                             alignItems="Center"
                             justifyContent="Center"
-                            class="bgDarkBlue sapUiSmallMarginTop">
+                            class="bgDarkBlue sapUiSmallMarginTop sapUiTinyMarginEnd">
 
                             <FlexBox 
                                 height="50px"
@@ -230,7 +230,7 @@
                         <HBox 
                             alignItems="Center"
                             justifyContent="Center"
-                            class="sapUiSmallMarginTop">
+                            class="sapUiSmallMarginTop sapUiTinyMarginEnd sapUiTinyMarginBegin">
                             <FlexBox
                                 height="50px"
                                 width="50px"
@@ -428,7 +428,7 @@
                             justifyContent="Start"
                             class="sapUiSmallMarginTop">
 
-                            <Title level="Auto" titleStyle="H3" text="{i18n>homeRegisteronsiteTitle}" />
+                            <Title level="Auto" titleStyle="H3" wrapping="true" text="{i18n>homeRegisteronsiteTitle}" />
 
                         </FlexBox>
 
@@ -439,12 +439,12 @@
                             class="sapUiLargeMarginTop sapUiLargeMarginBottom">
 
                             <FlexBox alignItems="Start">
-                                <Label width="100px" text="{i18n>homeRegisteronsiteCityMannheim}" class="textReadability sapUiLargeMarginEnd" design="Bold" wrapping="true">
+                                <Label width="90px" text="{i18n>homeRegisteronsiteCityMannheim}" class="textReadability sapUiSmallMarginEnd" design="Bold" wrapping="true">
                                     <layoutData>
                                         <FlexItemData growFactor="1" />
                                     </layoutData>
                                 </Label>
-                                <Link href="https://www.eventbrite.com/e/1011148080127" text="{i18n>homeRegisteronsiteMannheim}" class="textReadability">
+                                <Link href="https://www.eventbrite.com/e/1011148080127" width="auto" wrapping="true" text="{i18n>homeRegisteronsiteMannheim}" class="textReadability">
                                     <layoutData>
                                         <FlexItemData growFactor="1" />
                                     </layoutData>
@@ -453,7 +453,7 @@
                             </FlexBox>
 
                             <FlexBox alignItems="Start">
-                                <Label width="100px" text="{i18n>homeRegisteronsiteCityVienna}" class="textReadability sapUiLargeMarginEnd" design="Bold" wrapping="true">
+                                <Label width="90px" text="{i18n>homeRegisteronsiteCityVienna}" class="textReadability sapUiSmallMarginEnd" design="Bold" wrapping="true">
                                     <layoutData>
                                         <FlexItemData growFactor="1" />
                                     </layoutData>
