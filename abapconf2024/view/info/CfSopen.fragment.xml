@@ -7,6 +7,7 @@
    
     
             <!-- image -->
+             <!--
             <Image
                 src="./img/SAPBall.jpeg"
                 mode="Background"
@@ -16,15 +17,15 @@
                     <FlexItemData growFactor="1" />
                 </layoutData>
             </Image>
-
+            -->
             <!-- H1 -->
             <l:Grid
                 containerQuery="false"
                 defaultSpan="XL2 L2 M12 S12"
                 hSpacing="1">
                 <html:div class="exampleDiv"/>
-                <HBox height="100px" alignItems="Center" justifyContent="Center">
-                    <Title wrapping="true" level="H1" textAlign="Center" titleStyle="H1" text="{i18n>cfsH1open}"> </Title>
+                <HBox height="140px" alignItems="Center" justifyContent="Center">
+                    <Title class="sapUiTinyMarginTop sapUiTinyMarginBottom" wrapping="true" level="H1" textAlign="Center" titleStyle="H1" text="{i18n>cfsH1open}"> </Title>
                     <layoutData>
                         <l:GridData span="XL8 L8 M12 S12"/>
                     </layoutData>

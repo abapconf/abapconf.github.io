@@ -12,6 +12,7 @@
     
     <Page id="home" title="{i18n>title}" showHeader="false">
         <content>
+
             <!-- header -->
             <mvc:XMLView viewName="abapconf.2024.org.view.header.Header"/>
 
@@ -189,8 +190,6 @@
                 
             </VBox>
             
-
-
             <!-- Eyecatcher -->
             <l:Grid
                 class="DarkBlue"
@@ -208,9 +207,9 @@
                         hSpacing="1">
                         
                         <HBox 
-                        alignItems="Center"
-                        justifyContent="Center"
-                        class="bgDarkBlue sapUiSmallMarginTop">
+                            alignItems="Center"
+                            justifyContent="Center"
+                            class="bgDarkBlue sapUiSmallMarginTop">
 
                             <FlexBox 
                                 height="50px"
@@ -278,8 +277,97 @@
 
             </l:Grid>
 
-            
-             <!-- ABAPConf Bullet Points -->
+
+
+            <!-- Sponsors -->
+
+            <FlexBox
+                height="100px"
+                alignItems="Center"
+                justifyContent="Center">
+                <Title level="H2" titleStyle="H2" text="{i18n>abapConfSponsors}"> </Title>
+            </FlexBox>
+
+            <!-- Sponsor company logos -->
+            <l:Grid
+                class=""
+                defaultSpan="XL2 L2 M12 S12"
+                vSpacing="2"
+                hSpacing="1">
+
+                <l:content>
+
+                    <html:div class="exampleDiv"/>
+
+                    <FlexBox 
+                        height="80px"
+                        class="sapUiLargeMarginEnd sapUiSmallMarginTop" 
+                        alignItems="Center"
+                        justifyContent="Center">
+                        <Image decorative="false" src="img/BrandeisConsultingLogo.svg" width="250px" press="navToBrandeis"></Image>
+                        <layoutData>
+                            <l:GridData span="XL3 L3 M12 S12"/>
+                        </layoutData>
+                    </FlexBox>
+
+                    <FlexBox 
+                        height="80px"
+                        class="sapUiLargeMarginEnd sapUiSmallMarginTop" 
+                        alignItems="Center"
+                        justifyContent="Center" >
+                        <Image decorative="false" src="img/cadaxo.png" width="100%" press="navToCadaxo">
+                            <layoutData>
+                                <l:GridData span="XL2 L2 M12 S12"/>
+                            </layoutData>
+                        </Image>
+                    </FlexBox>
+
+                    <FlexBox 
+                        height="80px"
+                        class="sapUiSmallMarginTop" 
+                        alignItems="Center"
+                        justifyContent="Center" >
+                        <Image decorative="false" src="img/S4FITLogo.png" width="100%" height="40px" press="navToS4Fit">
+                            <layoutData>
+                                <l:GridData span="XL3 L3 M12 S12"/>
+                            </layoutData>
+                        </Image>
+                    </FlexBox>
+
+                    <html:div class="exampleDiv"/>
+                </l:content>
+
+            </l:Grid>
+
+            <!-- Sponsor thank you message -->
+            <l:Grid
+                class=""
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                vSpacing="2"
+                hSpacing="1">
+
+                <l:content>
+
+                    <html:div class="exampleDiv"/>
+
+                    <FlexBox
+                        class="sapUiLargeMarginBottom sapUiSmallMarginEnd sapUiSmallMarginBegin"
+                        alignItems="Center"
+                        justifyContent="Center">
+                        <Text text="{i18n>abapConfSponsorsText}"> </Text>
+                        <layoutData>
+                            <l:GridData span="XL8 L8 M12 S12"/>
+                        </layoutData>
+                    </FlexBox>
+
+                    <html:div class="exampleDiv"/>
+                </l:content>
+
+            </l:Grid>
+
+
+             <!-- ABAPConf Title -->
             <FlexBox
 				height="100px"
 				alignItems="Center"
@@ -287,6 +375,7 @@
 				<Title level="H2" titleStyle="H2" text="{i18n>abapConf}"> </Title>
 			</FlexBox>
 
+            <!-- seperator -->
             <FlexBox
 				height="20px"
 				alignItems="Center"
@@ -295,23 +384,112 @@
                 <html:div class="seperator"></html:div>
 			</FlexBox>
 
+
             <!-- Register at eventbrite -->
+            <l:Grid
+                class=""
+                defaultSpan="XL2 L2 M12 S12">
+
+                <l:content>
+                    <html:div class="exampleDiv"/>
+
+                    <FlexBox
+                        alignItems="Center"
+                        justifyContent="Center">
+                        <Link text="{i18n>homeRegisterEventbrite}" class="textReadability  " wrapping="true" target="_blank" href="https://www.eventbrite.com/e/1009335288017"/>
+                        <layoutData>
+                            <l:GridData span="XL8 L8 M12 S12"/>
+                        </layoutData>
+                    </FlexBox>
+
+                    <html:div class="exampleDiv"/>
+                </l:content>
+
+            </l:Grid>
             
-            <FlexBox
-				height="70px"
-				alignItems="Center"
-                justifyContent="Center">
-				<Link text="{i18n>homeRegisterEventbrite}" class="textReadability  " wrapping="true" target="_blank" href="https://www.eventbrite.com/e/1009335288017"/>
-			</FlexBox>
 
             <!-- Register for on site participation via lottery -->
-            <FlexBox
-				height="50px"
-				alignItems="Center"
-                justifyContent="Center">
-				<Text text="{i18n>homeRegisteronsite}" class="textReadability sapUiLargeMarginBottom sapUiLargeMarginTop" wrapping="true" />
-			</FlexBox>
+            <l:Grid
+                class=""
+                defaultSpan="XL2 L2 M12 S12">
 
+                <l:content>
+
+                    <html:div class="exampleDiv"/>
+
+                    <FlexBox
+                        direction="Column"
+                        alignItems="Start"
+                        justifyContent="Center">
+
+                        <FlexBox
+                            direction="Column"
+                            alignItems="Start"
+                            justifyContent="Start"
+                            class="sapUiSmallMarginTop">
+
+                            <Title level="Auto" titleStyle="H3" text="{i18n>homeRegisteronsiteTitle}" />
+
+                        </FlexBox>
+
+                        <FlexBox
+                            direction="Column"
+                            alignItems="Start"
+                            justifyContent="Start"
+                            class="sapUiLargeMarginTop sapUiLargeMarginBottom">
+
+                            <FlexBox alignItems="Start">
+                                <Label width="100px" text="{i18n>homeRegisteronsiteCityMannheim}" class="textReadability sapUiLargeMarginEnd" design="Bold" wrapping="true">
+                                    <layoutData>
+                                        <FlexItemData growFactor="1" />
+                                    </layoutData>
+                                </Label>
+                                <Link href="https://www.eventbrite.com/e/1011148080127" text="{i18n>homeRegisteronsiteMannheim}" class="textReadability">
+                                    <layoutData>
+                                        <FlexItemData growFactor="1" />
+                                    </layoutData>
+                                </Link>
+                                
+                            </FlexBox>
+
+                            <FlexBox alignItems="Start">
+                                <Label width="100px" text="{i18n>homeRegisteronsiteCityVienna}" class="textReadability sapUiLargeMarginEnd" design="Bold" wrapping="true">
+                                    <layoutData>
+                                        <FlexItemData growFactor="1" />
+                                    </layoutData>
+                                </Label>
+                                <Link href="" text="{i18n>homeRegisteronsiteVienna}" enabled="false" class="textReadability">
+                                    <layoutData>
+                                        <FlexItemData growFactor="1" />
+                                    </layoutData>
+                                </Link>
+                                
+                            </FlexBox>
+                            
+                        </FlexBox>
+
+                        <FlexBox
+                            direction="Column"
+                            alignItems="Start"
+                            justifyContent="Start"
+                            class="sapUiSmallMarginTop">
+
+                            <Label text="{i18n>homeRegisterImportant}" class="textReadability" design="Bold" />
+                            <Text text="{i18n>homeRegisteronsite}" class="textReadability" wrapping="true" />
+
+                        </FlexBox>
+ 
+                        <layoutData>
+                            <l:GridData span="XL8 L8 M12 S12"/>
+                        </layoutData>
+                    </FlexBox>
+
+                    <html:div class="exampleDiv"/>
+                </l:content>
+
+            </l:Grid>
+            
+            <!-- seperator -->
             <FlexBox
 				height="20px"
 				alignItems="Center"
@@ -338,25 +516,25 @@
                         hSpacing="1">
 
                         <VBox class="sapUiLargeMarginEnd" >
-                            <HBox height="50px">
-                                <core:Icon size="1.5em" src="sap-icon://information" class="sapUiLargeMarginEnd"  />
-                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH1}"> </Title>
+                            <HBox height="50px" class="sapUiSmallMarginBottom">
+                                <core:Icon size="1.5em" src="sap-icon://information" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH1}" wrapping="true"> </Title>
                             </HBox>
                             <Text width="auto" text="{i18n>homeBP1}" />
                         </VBox>
 
-                        <VBox class="sapUiLargeMarginEnd" >
-                            <HBox height="50px">
-                                <core:Icon size="1.5em" src="sap-icon://sys-help-2" class="sapUiLargeMarginEnd"  />
-                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH2}"> </Title>
+                        <VBox class="sapUiLargeMarginEnd">
+                            <HBox height="50px" class="sapUiSmallMarginBottom">
+                                <core:Icon size="1.5em" src="sap-icon://sys-help-2" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH2}" wrapping="true"> </Title>
                             </HBox>
                             <Text width="auto" text="{i18n>homeBP2}" />
                         </VBox>
 
-                        <VBox class="sapUiLargeMarginEnd" >
-                            <HBox height="50px">
-                                <core:Icon size="1.5em" src="sap-icon://favorite" class="sapUiLargeMarginEnd"  />
-                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH3}"> </Title>
+                        <VBox class="sapUiLargeMarginEnd">
+                            <HBox height="50px" class="sapUiSmallMarginBottom">
+                                <core:Icon size="1.5em" src="sap-icon://favorite" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH3}" wrapping="true"> </Title>
                             </HBox>
                             <Text width="auto" text="{i18n>homeBP3}" />
                         </VBox>
@@ -389,25 +567,28 @@
                         
                         <VBox class="sapUiLargeMarginEnd" >
                             <HBox
+                                class="sapUiSmallMarginBottom"
                                 height="50px"      >
-                                <core:Icon size="1.5rem" src="sap-icon://business-card" class="sapUiSmallMarginEnd"  />
-                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH4}"> </Title>
+                                <core:Icon size="1.5rem" src="sap-icon://business-card" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH4}" wrapping="true"> </Title>
                             </HBox>
                             <Text width="auto" text="{i18n>homeBP4}" />
                         </VBox>
                         <VBox class="sapUiLargeMarginEnd" >
                             <HBox
+                                class="sapUiSmallMarginBottom"
                                 height="50px">
-                                <core:Icon size="1.5em" src="sap-icon://study-leave" class="sapUiLargeMarginEnd"  />
-                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH5}"> </Title>
+                                <core:Icon size="1.5em" src="sap-icon://study-leave" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH5}" wrapping="true"> </Title>
                             </HBox>
                             <Text width="auto" text="{i18n>homeBP5}" />
                         </VBox>
                         <VBox class="sapUiLargeMarginEnd" >
                             <HBox
+                                class="sapUiSmallMarginBottom"
                                 height="50px">
-                                <core:Icon size="1.5em" src="sap-icon://away" class="sapUiLargeMarginEnd"  />
-                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH6}"> </Title>
+                                <core:Icon size="1.5em" src="sap-icon://away" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH6}" wrapping="true"> </Title>
                             </HBox>
                             <Text width="auto" text="{i18n>homeBP6}" />
                         </VBox>

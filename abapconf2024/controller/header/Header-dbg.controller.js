@@ -18,6 +18,31 @@ sap.ui.define([
 				this.startCounter(oModel);
             },
 
+			onOpenMenuMobile: function() {
+				var oView = this.getView();
+				let oButton = oView.byId("navMenuMobile");
+
+				
+				if (!this._oNavMenuFragment) {
+					this._oNavMenuFragment = Fragment.load({
+						id: oView.getId(),
+						name: "abapconf.2024.org.view.header.NavMenu",
+						controller: this
+					}).then(function(oMenu) {
+						oMenu.openBy(oButton);
+						this._oNavMenuFragment = oMenu;
+
+						oView.addDependent(this._oNavMenuFragment );
+
+
+
+						return this._oNavMenuFragment;
+					}.bind(this));
+				} else {
+					this._oNavMenuFragment.openBy(oButton);
+				}
+			},
+
             
             doNavigation: function($event, sTarget) {
                 this.navTo(sTarget);
