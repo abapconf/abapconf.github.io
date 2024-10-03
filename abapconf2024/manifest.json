@@ -251,6 +251,13 @@
           "target": [
             "Watchparty"
           ]
+        },
+        {
+          "name": "Attending",
+          "pattern": "attending",
+          "target": [
+            "Attending"
+          ]
         }
       ],
       "targets": {
@@ -386,6 +393,13 @@
           "clearControlAggregation": false,
           "viewId": "Watchparty",
           "viewName": "watchparty/Watchparty"
+        },
+        "Attending": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "Attending",
+          "viewName": "watchparty/Attending"
         }
       }
     }

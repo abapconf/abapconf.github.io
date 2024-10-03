@@ -436,6 +436,18 @@
                             direction="Column"
                             alignItems="Start"
                             justifyContent="Start"
+                            class="sapUiSmallMarginTop">
+
+                            <Label labelFor="homeRegisteronsiteLinkDesc" wrapping="true" text="{i18n>homeRegisteronsiteDesc}" />
+                            <Link id="homeRegisteronsiteLinkDesc" href="#attending" text="{i18n>homeRegisteronsiteLinkDesc}" />
+    
+                        </FlexBox>
+
+                       
+                        <FlexBox
+                            direction="Column"
+                            alignItems="Start"
+                            justifyContent="Start"
                             class="sapUiLargeMarginTop sapUiLargeMarginBottom">
 
                             <FlexBox alignItems="Start">

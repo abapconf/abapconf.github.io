@@ -1,0 +1,2 @@
+sap.ui.define(["abapconf/2024/org/controller/BaseController","sap/m/library"],function(n,r){"use strict";var e=r.URLHelper;return n.extend("abapconf.2024.org.controller.agenda.community.Attending",{onInit:function(){}})});
+//# sourceMappingURL=Attending.controller.js.map
