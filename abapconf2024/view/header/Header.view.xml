@@ -105,7 +105,7 @@
             <Text text="Free | Online | Live" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
             
             <Link 
-                href="/model/ABAPConf2024.ics" 
+                href="./model/ABAPConf2024.ics" 
                 subtle="false" 
                 width="100%" 
                 class="textBold textColorWhite teaserBody sapUiSmallMarginTop sapUiSmallMarginBegin sapUiSmallMarginEnd sapUiMediumMarginBottom teaserLink"
