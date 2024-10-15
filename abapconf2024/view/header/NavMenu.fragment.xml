@@ -3,7 +3,9 @@
 		xmlns:core="sap.ui.core">
 	<Menu title="{i18n>headerNavTitle}">
         <MenuItem id="navAboutMobile" text="{i18n>headerNavAbout}" press="doNavigation($event, 'About')"/>
+        <!--
         <MenuItem id="navCallForSpeakersMobile" text="{i18n>headerNavCfS}" press="doNavigation($event, 'CfS')" />
+        -->
         <MenuItem id="navWatchPartyMobile" text="{i18n>headerNavWatchparty}" press="doNavigation($event, 'Watchparty')" />
         <MenuItem id="navAgendaMobile" text="{i18n>headerNavAgenda}" press="doNavigation($event, 'Agenda')" />
 	</Menu>

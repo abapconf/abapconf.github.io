@@ -49,15 +49,15 @@
                 <html:div class="seperator"></html:div>
 			</FlexBox>
 
-            <!-- Agenda Sample -->
+            <!-- Agenda Sample 
             <core:Fragment id="agendaSample" fragmentName="abapconf.2024.org.view.agenda.AgendaSample" type="XML" />
-             
+             -->
             <!-- Agenda Call for Speaker 
             <core:Fragment id="agendaCfS" fragmentName="abapconf.2024.org.view.agenda.AgendaCfS" type="XML" />
             --> 
-            <!-- Agenda Call for Speaker closed
+            <!-- Agenda Call for Speaker closed -->
             <core:Fragment id="agendaCfSclosed" fragmentName="abapconf.2024.org.view.agenda.AgendaCfSClosed" type="XML" />
-             --> 
+              
             
             <!-- Agenda available 
             <core:Fragment id="agendaPublished" fragmentName="abapconf.2024.org.view.agenda.AgendaPublished" type="XML" />

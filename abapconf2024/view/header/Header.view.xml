@@ -43,7 +43,7 @@
 	</HBox>
 
     <!-- Call for Speaker -->
-    
+    <!--
     <HBox
         fitContainer="true"
         alignItems="Center"
@@ -65,7 +65,7 @@
             </core:layoutData>
         </core:HTML>
     </HBox>
-    
+    -->
      
     <!-- Previous events -->
     <HBox
@@ -183,13 +183,14 @@
             </layoutData>
         </FlexBox>
 
+        <!--
         <FlexBox direction="Column" alignItems="Start" class="sapUiMediumMarginEnd">
             <Button id="navCallForSpeakers" text="{i18n>headerNavCfS}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'CfS')" />
             <layoutData>
                 <l:GridData span="XL2 L2 M3 S12"/>
             </layoutData>
         </FlexBox>
-
+        -->
         <FlexBox direction="Column" alignItems="Start" class="sapUiMediumMarginEnd">
             <Button id="navWatchParty" text="{i18n>headerNavWatchparty}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Watchparty')" />
             <layoutData>
@@ -244,20 +245,21 @@
         
 
     <!-- Link to Call for Speaker -->
+     <!--
     <l:Grid
         containerQuery="false"
         defaultSpan="XL2 L2 M12 S12"
         hSpacing="1">
         <html:div class="exampleDiv"/>
         <HBox alignItems="Center" justifyContent="Center">
-            <Link href="#/cfs" subtle="false" width="100%" text="{i18n>headerCfSOpen}" textAlign="Center" wrapping="true" class="textReadability"></Link>
-            <!--<Link href="#/cfs" subtle="false" width="100%" text="{i18n>headerCfsLinkText}" textAlign="Center" wrapping="true" class="textReadability"></Link>-->
+            <Link href="#/cfs" subtle="false" width="100%" text="{i18n>headerCfSOpen}" textAlign="Center" wrapping="true" class="textReadability"></Link>            
             <layoutData>
                 <l:GridData span="XL8 L8 M12 S12"/>
             </layoutData>
         </HBox>
         <html:div class="exampleDiv"/>
     </l:Grid>
+    -->
     
 
 </mvc:View>
