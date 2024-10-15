@@ -37,6 +37,11 @@ sap.ui.define([
 				this._navTo(sUrl);
 			},
 
+			navToEspressoTutorials: function() {
+				let sUrl = "https://www.espresso-tutorials.de/";
+				this._navTo(sUrl);
+			},
+
 			_navTo: function(sUrl) {
 				URLHelper.redirect(sUrl, false);
 			}
