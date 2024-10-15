@@ -356,7 +356,7 @@
                         class="sapUiLargeMarginEnd sapUiSmallMarginTop" 
                         alignItems="Center"
                         justifyContent="Center">
-                        <Image decorative="false" src="img/espresso-tutorials-logo.svg" width="250px" press="navToBrandeis"></Image>
+                        <Image decorative="false" src="img/espresso-tutorials-logo.svg" width="250px" press="navToEspressoTutorials"></Image>
                         <layoutData>
                             <l:GridData span="XL4 L4 M12 S12"/>
                         </layoutData>
