@@ -1,0 +1,58 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc">
+
+            <!-- live streaming information -->
+
+            <!-- H1 -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox height="150px" alignItems="Center" justifyContent="Center">
+                    <Title level="H1" wrapping="true" wrappingType="Normal" textAlign="Center" titleStyle="H1" text="{i18n>liveStreamingTitle}"> </Title>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
+            
+
+            <l:Grid
+                defaultSpan="XL2 L2 M12 S12">
+                <l:content>
+                    <html:div class="exampleDiv"/>
+                    <VBox >
+                        <Text text="{i18n>liveStreamingP1}" >
+                            <layoutData>
+                                <l:GridData span="XL8 L8 M12 S12"/>
+                            </layoutData>
+                        </Text>
+                        <Link href="https://www.youtube.com/@abapconf" text="ABAPConf YouTube Channel" class="sapUiSmallMarginBottom sapUiSmallMarginTop"></Link>
+                        <layoutData>
+                            <l:GridData span="XL8 L8 M12 S12"/>
+                        </layoutData>  
+                    </VBox>
+                    <html:div class="exampleDiv"/>
+                </l:content>
+            </l:Grid>
+
+            <l:Grid
+                defaultSpan="XL2 L2 M12 S12">
+                <l:content>
+                    <html:div class="exampleDiv"/>
+                    <Image decorative="false" width="100%" src="img/ABAPConf2024BroadcastWorldMap.png">     
+                        <layoutData>
+                            <l:GridData span="XL8 L8 M12 S12"/>
+                        </layoutData>                   
+                    </Image>
+                    <html:div class="exampleDiv"/>
+                </l:content>
+            </l:Grid>
+</core:FragmentDefinition>

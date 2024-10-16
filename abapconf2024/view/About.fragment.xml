@@ -1,0 +1,113 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc">            
+            
+            <!-- Points 1, 2, 3 -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                class="sapUiLargeMarginTop"
+                hSpacing="1">
+                
+                <html:div class="exampleDiv"/>
+
+                <VBox>
+
+                    <l:Grid
+                        containerQuery="false"
+                        defaultSpan="XL4 L4 M12 S12"
+                        hSpacing="1">
+
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox height="50px" class="sapUiSmallMarginBottom">
+                                <core:Icon size="1.5em" src="sap-icon://information" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH1}" wrapping="true"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP1}" />
+                        </VBox>
+
+                        <VBox class="sapUiLargeMarginEnd">
+                            <HBox height="50px" class="sapUiSmallMarginBottom">
+                                <core:Icon size="1.5em" src="sap-icon://sys-help-2" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH2}" wrapping="true"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP2}" />
+                        </VBox>
+
+                        <VBox class="sapUiLargeMarginEnd">
+                            <HBox height="50px" class="sapUiSmallMarginBottom">
+                                <core:Icon size="1.5em" src="sap-icon://favorite" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH3}" wrapping="true"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP3}" />
+                        </VBox>
+
+                    </l:Grid>
+
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </VBox>
+
+                <html:div class="exampleDiv"/>
+
+            </l:Grid>
+
+            <!-- Points 4, 5, 6 -->
+            <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                
+                <html:div class="exampleDiv"/>
+
+                <VBox>
+
+                    <l:Grid
+                        containerQuery="false"
+                        defaultSpan="XL4 L4 M12 S12"
+                        hSpacing="1">
+                        
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox
+                                class="sapUiSmallMarginBottom"
+                                height="50px"      >
+                                <core:Icon size="1.5rem" src="sap-icon://business-card" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH4}" wrapping="true"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP4}" />
+                        </VBox>
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox
+                                class="sapUiSmallMarginBottom"
+                                height="50px">
+                                <core:Icon size="1.5em" src="sap-icon://study-leave" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH5}" wrapping="true"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP5}" />
+                        </VBox>
+                        <VBox class="sapUiLargeMarginEnd" >
+                            <HBox
+                                class="sapUiSmallMarginBottom"
+                                height="50px">
+                                <core:Icon size="1.5em" src="sap-icon://away" class="sapUiTinyMarginEnd"  />
+                                <Title level="H3" titleStyle="H3" text="{i18n>homeBPH6}" wrapping="true"> </Title>
+                            </HBox>
+                            <Text width="auto" text="{i18n>homeBP6}" />
+                        </VBox>
+                        
+                    </l:Grid>
+
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </VBox>
+
+                <html:div class="exampleDiv"/>
+
+            </l:Grid>
+
+</core:FragmentDefinition>

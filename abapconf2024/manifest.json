@@ -258,6 +258,13 @@
           "target": [
             "Attending"
           ]
+        },
+        {
+          "name": "LiveStreaming",
+          "pattern": "live",
+          "target": [
+            "LiveStreaming"
+          ]
         }
       ],
       "targets": {
@@ -400,6 +407,13 @@
           "clearControlAggregation": false,
           "viewId": "Attending",
           "viewName": "watchparty/Attending"
+        },
+        "LiveStreaming": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "Live",
+          "viewName": "info/LiveStreaming"
         }
       }
     }

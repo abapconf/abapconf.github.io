@@ -1,0 +1,23 @@
+<mvc:View
+   controllerName="abapconf.2024.org.controller.info.LiveStreaming"
+   xmlns="sap.m"
+   displayBlock="true"
+   xmlns:l="sap.ui.layout"
+   xmlns:html="http://www.w3.org/1999/xhtml"
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns:core="sap.ui.core"
+   >
+   
+    <Page id="watchparty" showHeader="false">
+        <content>
+            <!-- header -->
+            <mvc:XMLView viewName="abapconf.2024.org.view.header.Header"/>
+           
+            <core:Fragment id="liveStreamingInfo" fragmentName="abapconf.2024.org.view.StreamingInfo" type="XML" />
+
+            <!-- footer -->
+            <mvc:XMLView viewName="abapconf.2024.org.view.footer.Footer"/>
+        </content>
+    </Page>
+    
+</mvc:View>
