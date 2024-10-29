@@ -135,7 +135,6 @@
                 
             </VBox>
 
-
             <!-- ABAPConf is live streaming information -->
             <VBox class="imgBackground" height="900px" visible="{= ${homeView>/live} &amp;&amp; ${homeView>/aftergolive} }">
                 
@@ -283,7 +282,7 @@
             
 
 
-             <!-- ABAPConf Title -->
+            <!-- ABAPConf Title -->
             <FlexBox
 				height="100px"
 				alignItems="Center"
@@ -322,15 +321,16 @@
                 </l:content>
 
             </l:Grid>
-            
 
             <!-- Register on site -->
             <core:Fragment id="onsiteRegistrationInfo" fragmentName="abapconf.2024.org.view.RegistrationOnsite" type="XML" />
             
+            <!-- Agenda Pre Event --> 
+            <core:Fragment id="agendaPreEventHome" fragmentName="abapconf.2024.org.view.agenda.preevent.PreEvent" type="XML" />
+
             <!-- Streaming information, world map -->
             <core:Fragment id="liveStreamingInfo" fragmentName="abapconf.2024.org.view.StreamingInfo" type="XML" />
 
-            
             
             <!--
             agenda

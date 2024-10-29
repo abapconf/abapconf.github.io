@@ -1,0 +1,85 @@
+<core:FragmentDefinition 
+	xmlns="sap.m" 
+	xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    xmlns:tnt="sap.tnt"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc">
+
+    <!-- Pre Event Title -->
+    <FlexBox
+        height="100px"
+        alignItems="Center"
+        justifyContent="Center">
+        <Title level="H2" titleStyle="H2" text="{i18n>agendaPreEventTitle}"> </Title>
+    </FlexBox>
+
+    <!-- AWS SDK Hands On Workshop -->
+    <FlexBox
+        height="100px"
+        alignItems="Center"
+        justifyContent="Center">
+        <Title level="H3" titleStyle="H3" text="{i18n>agendaPreEventH1}"> </Title>
+    </FlexBox>
+
+    <!-- Register at eventbrite -->
+    <l:Grid
+        class=""
+        defaultSpan="XL2 L2 M12 S12">
+        <l:content>
+            <html:div class="exampleDiv"/>
+
+            <VBox >
+                <FlexBox
+                    alignItems="Center"
+                    justifyContent="Start">
+                    <Text text="{i18n>agendaPreEventP1}" class="textReadability" wrapping="true" />
+                </FlexBox>
+                <FlexBox
+                    alignItems="Center"
+                    class="sapUiTinyMarginTop"
+                    justifyContent="Start">
+                    <Text text="{i18n>agendaPreEventP2}" class="textReadability" wrapping="true" />
+                </FlexBox>
+                <layoutData>
+                    <l:GridData span="XL8 L8 M12 S12"/>
+                </layoutData>
+            </VBox>
+
+            <html:div class="exampleDiv"/>
+        </l:content>
+
+    </l:Grid>
+
+    <!-- Register at AWS -->
+    <l:Grid
+        class=""
+        defaultSpan="XL2 L2 M12 S12">
+        <l:content>
+            <html:div class="exampleDiv"/>
+
+            <FlexBox
+                alignItems="Center"
+                justifyContent="Center">
+                <Link text="{i18n>agendaPreEventRegister}" class="textReadability" wrapping="true" target="_blank" href="https://aws-experience.com/emea/de-central-growth/e/cf226/hands-on-workshop---aws-sdk-for-sap-abap"/>
+                <layoutData>
+                    <l:GridData span="XL8 L8 M12 S12"/>
+                </layoutData>
+            </FlexBox>
+
+            <html:div class="exampleDiv"/>
+        </l:content>
+
+    </l:Grid>
+
+    <!-- seperator -->
+    <FlexBox
+        height="20px"
+        alignItems="Center"
+        justifyContent="Center"
+        class="">
+        <html:div class="seperator"></html:div>
+    </FlexBox>
+
+    
+</core:FragmentDefinition>

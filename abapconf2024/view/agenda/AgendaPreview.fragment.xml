@@ -6,9 +6,6 @@
     xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:mvc="sap.ui.core.mvc">
 
-    
-            
-    
     <!-- Agenda start morgens -->
     <l:Grid
         containerQuery="false"
@@ -17,7 +14,7 @@
         hSpacing="1">
         <html:div class="exampleDiv"/>
         
-        <Image src="./img/AgendaABAPConf2024Draft.png" width="100%">
+        <Image src="./img/AgendaABAPConf2024.png" width="100%">
             <layoutData>
                 <l:GridData span="XL8 L8 M12 S12"/>
             </layoutData>
@@ -25,11 +22,5 @@
 
         <html:div class="exampleDiv"/>
     </l:Grid>
-
- 
-
-
-
-
     
 </core:FragmentDefinition>
