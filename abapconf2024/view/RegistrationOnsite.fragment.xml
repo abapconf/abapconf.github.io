@@ -53,12 +53,14 @@
                                 <FlexItemData growFactor="1" />
                             </layoutData>
                         </Label>
+                        <Text text="{i18n>registrationClosed}" />
+                        <!--
                         <Link href="https://www.eventbrite.com/e/1011148080127" width="auto" wrapping="true" text="{i18n>homeRegisteronsiteMannheim}" class="textReadability">
                             <layoutData>
                                 <FlexItemData growFactor="1" />
                             </layoutData>
                         </Link>
-                        
+                        -->
                     </FlexBox>
 
                     <FlexBox alignItems="Start">

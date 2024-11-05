@@ -18,9 +18,9 @@
                 <ComboBox
                     selectedKey="all"
                     selectionChange="changeAgendaTracks">
-                    <core:Item key="track1" text="Channel 1" />
-                    <core:Item key="track2" text="Channel 2" />
-                    <core:Item key="track3" text="Channel 3 ({i18n>agendaTableHeaderTrack3})" />
+                    <core:Item key="track1" text="{i18n>agendaTableHeaderTrack1}" />
+                    <core:Item key="track2" text="{i18n>agendaTableHeaderTrack2}" />
+                    <core:Item key="track3" text="{i18n>agendaTableHeaderTrack3}" />
                     <core:Item key="all" text="{i18n>agendaFilterAll}" />
                 </ComboBox>
             </FlexBox>
@@ -73,9 +73,15 @@
                 </Column>                
             </columns>
 
+            <!-- registration -->
             <ColumnListItem class="columnSession">
-                <Text text="8:20" class="whiteText"/>
-                <Text text="Warmup" class="whiteText"/>
+                <Text text="8:00" class="whiteText"/>
+                <Text text="{i18n>agendaRegistration}" class="whiteText"/>
+            </ColumnListItem>
+            <!-- breakfast -->
+            <ColumnListItem class="columnSession">
+                <Text text="8:00" class="whiteText"/>
+                <Text text="{i18n>agendaBreakfast}" class="whiteText"/>
             </ColumnListItem>
             <!-- Willkommen -->
             <ColumnListItem class="columnWelcome"
@@ -112,7 +118,7 @@
                             displayOnly="false"
                             colorScheme= "1" />                                  
                     </HBox>
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="false">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd whiteText"
@@ -161,7 +167,7 @@
                             displayOnly="false"
                             colorScheme= "1" />                                  
                     </HBox>
-                    <HBox class="sapUiTinyMarginTop">
+                    <HBox class="sapUiTinyMarginTop" visible="false">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd whiteText"
@@ -205,9 +211,7 @@
                         width="{= ${device>/system/phone}? '200%' : '300%'}" >
                         <Label text="Speakers" class="whiteText sapUiSmallMarginTop"/>
                         
-                        <Link text="Volker Drees"  press="openSpeaker($event, 'VolkerDrees')" class="whiteText sapUiSmallMargin" width="150%"/>
-                        <Link text="Marcel Hermanns"   press="openSpeaker($event, 'MarcelHermanns')" class="whiteText sapUiSmallMargin" width="150%"/>
-                        <Link text="Gururaj Raman"   press="openSpeaker($event, 'GururajRaman')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="Stephan Heinberg"  press="openSpeaker($event, 'StephanHeinberg')" class="whiteText sapUiSmallMargin" width="150%"/>
                         
                     </HBox>
                     <HBox
@@ -225,8 +229,8 @@
                             text="ABAP"
                             displayOnly="false"
                             colorScheme= "3" />      
-                    </HBox> 
-                    <HBox class="sapUiTinyMarginTop">
+                    </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="false">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd whiteText"
@@ -244,12 +248,8 @@
             </ColumnListItem>
             
 
-            <ColumnListItem class="columnPause">
-                <Text text="9:55" class="whiteText"/>
-                <Text text="{i18n>agendaTablePause}" class="whiteText"/>
-            </ColumnListItem>
 
-                        <layoutData>
+            <layoutData>
                 <l:GridData span="XL8 L8 M12 S12"/>
             </layoutData>
 
@@ -258,912 +258,17 @@
         <html:div class="exampleDiv"/>
     </l:Grid>
 
-    <!-- Agenda --> 
-    <l:Grid
-        containerQuery="false"
-        defaultSpan="XL2 L2 M12 S12"     
-        visible="{= !${agendaView>/hideTableChannel12} ? true : false}"
-        hSpacing="1">
-        <html:div class="exampleDiv"/>
-        
-        <Table
-            headerText="">
-            <columns>
-                <Column 
-                    width="3.0rem"
-                    hAlign="Begin">
-                    <header>
-                        <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTime}" />
-                    </header>
-                </Column>
-                <Column 
-                    hAlign="Begin"
-                    width="auto"
-                    visible="{agendaView>/showTrack1}">
-                    <header>
-                        <Text wrapping="true" wrappingType="Hyphenated" text="Channel 1" />
-                    </header>
-                </Column>
-                <Column
-                    hAlign="Begin" 
-                    width="auto"
-                    visible="{agendaView>/showTrack2}">
-                    <header>
-                        <Text wrapping="true" wrappingType="Hyphenated" text="Channel 2" />
-                    </header>
-                </Column>
-                <Column
-                    mergeDuplicates="true"
-                    minScreenWidth="tablet"
-                    width="20%"
-                    visible="{agendaView>/showTrack3}"
-                    hAlign="Begin" >
-                    <header>
-                        <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack3}" />
-                    </header>
-                </Column>
-            </columns>
+    <VBox visible="{= !${device>/system/phone}}">
+        <core:Fragment id="channelsTabletDesktop" fragmentName="abapconf.2024.org.view.agenda.channels123tabletdesktop" type="XML" />
+    </VBox>
 
+    <VBox visible="{= ${device>/system/phone}}">
+        <core:Fragment id="channel1mobile" fragmentName="abapconf.2024.org.view.agenda.channel1mobile" type="XML" />
+        <core:Fragment id="channel2mobile" fragmentName="abapconf.2024.org.view.agenda.channel2mobile" type="XML" />
+        <core:Fragment id="channel3mobile" fragmentName="abapconf.2024.org.view.agenda.channel3mobile" type="XML" />
+    </VBox>
 
-            <ColumnListItem class="columnPause">
-                <Text text="10:00" class="whiteText"/>
-                <Text text="{i18n>agendaTableChannel1Start}" class="whiteText"/>
-                <Text text="{i18n>agendaTableChannel2Start}" class="whiteText" />
-                <Text text="{i18n>agendaTableChannel3Start}" class="whiteText" />
-            </ColumnListItem>
-
-            <ColumnListItem >
-                <Text text="10:00"/>
-                <!-- REST 1 -->
-                <VBox
-                    blocked="{agendaView>/showGerman}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop">
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/rap1/title}" 
-                        press="openSession($event, 'rap1', 5)"/>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap1/speaker}" press="openSpeaker($event, 'SaschaWaechter')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap1/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap1/language}" class="" />
-                    </HBox>
-                    
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/rap1/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                    
-                </VBox>
-                <!-- ADT 1 -->
-                <VBox 
-                    blocked="{agendaView>/showEnglish}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/adt1/title}" 
-                        press="openSession($event, 'adt1')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/adt1/speaker}" press="openSpeaker($event, 'ThomasFiedler')" width="150%"/>
-                    </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/adt1/speaker2}" press="openSpeaker($event, 'UnalAkkaya')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/adt1/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/adt1/language}" class="" />
-                    </HBox>
-                    
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/adt1/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                    
-                </VBox>                
-                <Text text="" />
-            </ColumnListItem>          
-
-            <ColumnListItem>
-                <Text text="10:50" />
-                <!-- RAP 2 -->
-                <VBox blocked="{agendaView>/showGerman}" class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/rap2/title}" 
-                        press="openSession($event, 'rap2')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <VBox>
-                            <Link text="{agenda>/rap2/speaker}" press="openSpeaker($event, 'ChristopherGraw')" class="" width="150%"/>
-                        </VBox>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap2/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap2/language}" class="" />
-                    </HBox>
-                    
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/rap2/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>  
-                    
-                </VBox>
-                <!-- SDK 1 -->
-                <VBox 
-                    blocked="{agendaView>/showEnglish}" class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/sdk1/title}" 
-                        press="openSession($event, 'sdk1')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/sdk1/speaker}" press="openSpeaker($event, 'MartinPankraz')" width="150%"/>
-                    </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/sdk1/speaker2}" press="openSpeaker($event, 'HolgerBruchelt')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/sdk1/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/sdk1/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/sdk1/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-                <!-- InsideTalk1 -->
-                <VBox 
-                    blocked="{agendaView>/showEnglish}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/insidetalk1/title}" 
-                        press="openSession($event, 'insidetalk1')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/insidetalk1/speaker}" press="openSpeaker($event, 'MarcelHermanns')" width="150%"/>
-                    </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/insidetalk1/speaker2}" press="openSpeaker($event, 'VolkerDrees')" width="150%"/>
-                    </HBox>                
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/insidetalk1/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/insidetalk1/language}" class="" />
-                    </HBox>
-                    
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
-                        <core:Icon
-                            src="sap-icon://add-employee"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>channel3Register}"
-                            href="{agenda>/insidetalk1/link}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                
-                </VBox>
-                
-            </ColumnListItem>
-            <ColumnListItem>
-                <Text text="11:40" />
-                <!-- RAP 3 -->
-                <VBox blocked="{agendaView>/showGerman}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/rap3/title}" 
-                        press="openSession($event, 'rap3')"/>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap3/speaker}" press="openSpeaker($event, 'StefanHillinger')" class="" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap3/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap3/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/rap3/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-                <!-- Test 1 -->
-                <VBox 
-                    blocked="{agendaView>/showGerman}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/test1/title}" 
-                        press="openSession($event, 'test1')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/test1/speaker}" press="openSpeaker($event, 'TimoJohn')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/test1/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/test1/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/test1/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-                <Text text="" />
-            </ColumnListItem>
-            <ColumnListItem>
-                <Text text="12:10" />
-                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Text text="Meet the speakers" />
-                    <HBox class="sapUiTinyMarginTop">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="./model/agenda/mts_c1_1.ics"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop">
-                    <Text text="Meet the speakers" />
-                    <HBox class="sapUiTinyMarginTop">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="./model/agenda/mts_c2_1.ics"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox> 
-                </VBox>
-                <Text text="" />
-            </ColumnListItem>
-            <ColumnListItem class="columnPause">
-                <Text text="12:25" class="whiteText" />
-                <Text text="{i18n>agendaTableLunch}" class="whiteText" />
-                <Text text="{i18n>agendaTableLunch}" class="whiteText" />
-                <Text text="" class="whiteText" />
-            </ColumnListItem>
-            <ColumnListItem class="columnPause">
-                <Text text="13:00" class="whiteText" />
-                <Text text="{i18n>agendaTableBack}" class="whiteText" />
-                <Text text="{i18n>agendaTableBack}" class="whiteText" />
-                <Text text="" class="whiteText" />
-            </ColumnListItem>
-            <ColumnListItem>
-                <Text text="13:05" />
-                <!-- RAP 4 -->
-                <VBox blocked="{agendaView>/showGerman}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/rap4/title}" 
-                        press="openSession($event, 'rap4')"/>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap4/speaker}" press="openSpeaker($event, 'StefanEngelhardt')" class="" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap4/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap4/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/rap4/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                
-                </VBox>
-                <!-- SDK 2 -->
-                <VBox 
-                    blocked="{agendaView>/showEnglish}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/sdk2/title}" 
-                        press="openSession($event, 'sdk2')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/sdk2/speaker}" press="openSpeaker($event, 'JonFriesen')" width="150%"/>
-                    </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/sdk2/speaker2}" press="openSpeaker($event, 'KrishnakumarRamadoss')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/sdk2/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/sdk2/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/sdk2/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>               
-                <!-- InsideTalk2 -->
-                <VBox 
-                    blocked="{agendaView>/showEnglish}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/insidetalk2/title}" 
-                        press="openSession($event, 'insidetalk2')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/insidetalk2/speaker}" press="openSpeaker($event, 'FrankJentsch')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/insidetalk2/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/insidetalk2/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
-                        <core:Icon
-                            src="sap-icon://add-employee"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>channel3Register}"
-                            href="{agenda>/insidetalk2/link}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-            </ColumnListItem>
-            <ColumnListItem >
-                <Text text="13:55" />
-                <!-- RAP 5 -->
-                <VBox blocked="{agendaView>/showEnglish}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/rap5/title}" 
-                        press="openSession($event, 'rap5')"/>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap5/speaker}" press="openSpeaker($event, 'DominikElias')" class="" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap5/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap5/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/rap5/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                    
-                </VBox>
-                <!-- Test 2 -->
-                <VBox 
-                    blocked="{agendaView>/showGerman}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/test2/title}" 
-                        press="openSession($event, 'test2')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/test2/speaker}" press="openSpeaker($event, 'DominikPanzer')" width="150%"/>
-                    </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/test2/speaker2}" press="openSpeaker($event, 'MichaelKeller')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/test2/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/test2/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/test2/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                
-                </VBox>
-                <Text text="" />
-            </ColumnListItem>
-            <ColumnListItem>
-                <Text text="14:45" />  
-                <!-- RAP 6 --> 
-                <VBox blocked="{agendaView>/showEnglish}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/rap6/title}" 
-                        press="openSession($event, 'rap6')"/>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap6/speaker}" press="openSpeaker($event, 'VijayaChintarlapalli')" class="" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap6/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap6/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/rap6/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>  
-                <!-- Test 3 -->             
-                <VBox 
-                    blocked="{agendaView>/showGerman}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/test3/title}" 
-                        press="openSession($event, 'test3')"/>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/test3/speaker}" press="openSpeaker($event, 'ChristianReutebuch')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/test3/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/test3/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/test3/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>      
-                </VBox>
-                <Text text="" />
-                <!-- insidetalk3 -->
-                <!--
-                <VBox 
-                    blocked="{agendaView>/showEnglish}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/insidetalk3/title}" 
-                        press="openSession($event, 'insidetalk3')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/insidetalk3/speaker}" press="openSpeaker($event, 'JensWeiler')" width="150%"/>
-                    </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/insidetalk3/speaker2}" press="openSpeaker($event, 'JasminGruschke')" width="150%"/>
-                    </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/insidetalk3/speaker3}" press="openSpeaker($event, 'ChristianMathis')" width="150%"/>
-                    </HBox>                    
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/insidetalk3/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/insidetalk3/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
-                        <core:Icon
-                            src="sap-icon://add-employee"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>channel3Register}"
-                            href="{agenda>/insidetalk3/link}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-                -->
-            </ColumnListItem>
-            <ColumnListItem>
-                <Text text="15:15" />
-                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Text text="Meet the speakers" />
-                    <HBox class="sapUiTinyMarginTop">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="./model/agenda/mts_c1_2.ics"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>                
-                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Text text="Meet the speakers" />
-                    <HBox class="sapUiTinyMarginTop">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="./model/agenda/mts_c2_2.ics"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-                <Text text="" />
-            </ColumnListItem>
-            <ColumnListItem class="columnPause">
-                <Text text="15:30" class="whiteText"/>
-                <Text text="{i18n>agendaTablePause}" class="whiteText"/>
-                <Text text="{i18n>agendaTablePause}" class="whiteText" />
-                <Text text="{i18n>agendaTablePause}" class="whiteText" />
-            </ColumnListItem>
-            <ColumnListItem class="columnPause">
-                <Text text="15:40" class="whiteText"/>
-                <Text text="{i18n>agendaTableBack}" class="whiteText"/>
-                <Text text="{i18n>agendaTableBack}" class="whiteText" />
-                <Text text="{i18n>agendaTableBack}" class="whiteText" />
-            </ColumnListItem>
-            <ColumnListItem>
-                <Text text="15:45" />
-                <!-- RAP 1 -->
-                <VBox blocked="{agendaView>/showEnglish}" class="sapUiSmallMarginBottom sapUiSmallMarginTop">
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/rap7/title}" 
-                        press="openSession($event, 'rap7', 11)"/>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <VBox>
-                            <Link text="{agenda>/rap7/speaker}" press="openSpeaker($event, 'OlgaDolinskaja')" class="" width="150%"/>
-                        </VBox>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap7/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap7/language}" class="" />
-                    </HBox>
-                    
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/rap7/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox> 
-                               
-                </VBox>
-                 <!-- REST 1 -->
-                <VBox 
-                    blocked="{agendaView>/showGerman}"
-                    class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/rest1/title}" 
-                        press="openSession($event, 'rest1')"/>
-
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rest1/speaker}" press="openSpeaker($event, 'EnnoWulff')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rest1/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rest1/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="{agenda>/rest1/ics}"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-                <Text text="" />
-            </ColumnListItem>
-            <!--
-            <ColumnListItem>
-                <Text text="16:35" />
-                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/keynote2/title}" 
-                        press="openSession($event, 'keynote2')"/>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/keynote2/speaker}" press="openSpeaker($event, 'BorisGebhardt')" width="150%"/>
-                    </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/keynote2/speaker2}" press="openSpeaker($event, 'JensWeiler')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/keynote2/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/keynote2/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="./model/agenda/Keynote2.ics"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-                    <Link 
-                        class="sapMTitle sapMTitleStyleAuto textBlack" 
-                        wrapping="true" 
-                        text="{agenda>/keynote2/title}" 
-                        press="openSession($event, 'keynote2')"/>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/keynote2/speaker}" press="openSpeaker($event, 'BorisGebhardt')" width="150%"/>
-                    </HBox>
-                    <HBox class="sapUiSmallMarginTop">
-                        <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/keynote2/speaker2}" press="openSpeaker($event, 'JensWeiler')" width="150%"/>
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/keynote2/duration} Min" class="" />
-                    </HBox>
-                    <HBox>
-                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/keynote2/language}" class="" />
-                    </HBox>
-                    <HBox class="sapUiTinyMarginTop">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="./model/agenda/Keynote2.ics"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                </VBox>
-                <Text text="" />
-            </ColumnListItem>
-            -->
-            
-            
-            <layoutData>
-                <l:GridData span="XL8 L8 M12 S12"/>
-            </layoutData>
-        </Table>    
-
-        <html:div class="exampleDiv"/>
-    </l:Grid>    
-
-    <!-- Agenda closing keynote morgens -->
+    <!-- Agenda closing keynote abends -->
     <l:Grid
         containerQuery="false"
         defaultSpan="XL2 L2 M12 S12"     
@@ -1193,13 +298,13 @@
             </columns>
 
             <ColumnListItem class="columnSession">
-                <Text text="16:35" class="whiteText"/>
+                <Text text="17:20" class="whiteText"/>
                 <Text text="Keynote Channel 1" class="whiteText"/>
             </ColumnListItem>
             
 
             <ColumnListItem class="columnKey">
-                <Text text="16:35" class="whiteText" />
+                <Text text="17:20" class="whiteText" />
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto whiteText keynoteTitle" 
@@ -1254,7 +359,7 @@
             </ColumnListItem>
 
             
-            
+            <!--
             <ColumnListItem>
                 <Text text="17:20" />
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
@@ -1275,30 +380,16 @@
                 </VBox>
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Text text="Meet the speakers" />
-                    <!--
-                    <HBox class="sapUiTinyMarginTop">
-                        <core:Icon
-                            src="sap-icon://calendar"
-                            class="sapUiTinyMarginEnd"/>
-                        <Link 
-                            text="{i18n>agendaCalendar}"
-                            href="./model/agenda/channel2mts3.ics"
-                            class="linkCalendar" 
-                            textAlign="Center" 
-                            wrapping="true"
-                            subtle="false" 
-                            width="100%"/>
-                    </HBox>
-                -->
+                    
                 </VBox>
                 <Text text="" />
             </ColumnListItem>
-
+            -->
             <ColumnListItem class="columnPause" >
-                <Text text="17:50" class="whiteText"/>
-                <Text text="See you at ABAPConf 2024" class="whiteText"/>
-                <Text text="See you at ABAPConf 2024" class="whiteText"/>
-                <Text text="" class="whiteText"/>
+                <Text text="18:10" class="whiteText"/>
+                <Text text="This was the last ABAPConf" class="whiteText"/>
+                <Text text="This was the last ABAPConf" class="whiteText"/>
+                <Text text="This was the last ABAPConf" class="whiteText"/>
             </ColumnListItem>
 
            
@@ -1313,6 +404,4 @@
     </l:Grid>
 
 
-    <core:Fragment id="track3mobile" fragmentName="abapconf.2024.org.view.agenda.track3mobile" type="XML" />
-    
 </core:FragmentDefinition>

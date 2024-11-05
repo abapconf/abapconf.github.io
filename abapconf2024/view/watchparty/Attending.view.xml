@@ -63,6 +63,7 @@
                 <html:div class="exampleDiv"/>
             </l:Grid>
         
+            <!--
             <l:Grid
                 class=""
                 defaultSpan="XL2 L2 M12 S12">
@@ -117,7 +118,8 @@
                 </l:content>
 
             </l:Grid>
-            
+            -->
+
             <!-- Text Desc2 -->
             <l:Grid
                 containerQuery="false"
@@ -132,6 +134,7 @@
                 </HBox>
                 <html:div class="exampleDiv"/>
             </l:Grid>
+            
 
             <FlexBox
 				height="20px"

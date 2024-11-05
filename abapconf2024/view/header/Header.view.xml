@@ -205,6 +205,13 @@
             </layoutData>
         </FlexBox>
 
+        <FlexBox direction="Column" alignItems="Start" class="sapUiMediumMarginEnd">
+            <Button id="navSpeakers" text="{i18n>headerNavSpeakers}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Speakers')" />
+            <layoutData>
+                <l:GridData span="XL2 L2 M1 S12"/>
+            </layoutData>
+        </FlexBox>
+
     </l:Grid>
 
     <!-- 
@@ -220,11 +227,6 @@
                 <Button id="navAgenda" text="{i18n>headerNavAgenda}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Agenda')" />
                 
             </l:Grid>
-
-    -->
-
-    <!--
-    <Button id="navSpeakers" text="{i18n>headerNavSpeakers}" type="Transparent" class="sapUiResponsiveMargin navText" press="doNavigation($event, 'Speakers')" />
     -->
 
     <!-- Navigation phone -->

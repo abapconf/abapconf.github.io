@@ -63,12 +63,13 @@
             <core:Fragment id="agendaCfSclosed" fragmentName="abapconf.2024.org.view.agenda.AgendaCfSClosed" type="XML" />
             -->
             
-            <!-- Agenda Preview --> 
+            <!-- Agenda Preview 
             <core:Fragment id="agendaPreview" fragmentName="abapconf.2024.org.view.agenda.AgendaPreview" type="XML" />
-
-            <!-- Agenda available 
-            <core:Fragment id="agendaPublished" fragmentName="abapconf.2024.org.view.agenda.AgendaPublished" type="XML" />
             --> 
+
+            <!-- Agenda available --> 
+            <core:Fragment id="agendaPublished" fragmentName="abapconf.2024.org.view.agenda.AgendaPublished" type="XML" />
+            
 
             <!-- Agenda at event day with links --> 
             <!--

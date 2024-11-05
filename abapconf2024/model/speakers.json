@@ -142,18 +142,45 @@
                         "color": 1
                     }                    
                 ]
+            },
+            {
+                "id": "V204",
+                "title": "Dokumentengenerierung mit dox42 direkt in ABAP integriert",
+                "abstract": "",
+                "track": 2,
+                "time": "13:30",
+                "duration": 50,
+                "language": "Deutsch",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }
+                ]
             }
         ],
         "tags": [
             {
                 "name": "Keynote",
                 "color": 1
-             },
-             {
+            },
+            {
                 "name": "Orga-Team",
                 "color": 12
-              }
-
+            },
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            }
         ]
     },
     {
@@ -207,6 +234,1491 @@
                 "color": 12
               }
 
+        ]
+    },
+    {
+        "id": "BjoernSchulz",
+        "firstname": "Björn",
+        "middlename": "",
+        "lastname": "Schulz",
+        "initials": "BS",
+        "company": "REWE digital GmbH",
+        "companyWeb": "https://software-heroes.com/",
+        "function": "IT Software Engineer Lead",
+        "picture": "./card/speakers/bjoernschulz/BjoernSchulz.jpg",
+        "shortBio": "Software Engineer and Blogger for the latest ABAP Content.",
+        "longBio": "",
+        "linkedIn": "https://www.linkedin.com/in/bjoern-schulz-swh",
+        "scn": "",
+        "twitter": "SwHeroes",
+        "sessions": [
+            {
+                "id": "V101",
+                "title": "ABAP Cloud - A life after the report",
+                "abstract": "Wie geht es weiter mit dem ALV und dem klassischen ABAP Report? In dieser Session beschäftigen wir uns mit der Migrationsstrategie in Richtung ABAP Cloud und welche Alternativen es mit RAP und dem Application Job gibt. In einem Beispiel gehen wir die einzelnen Schritte der Migration hin zu einer ABAP Cloud Anwendung durch.\n\nWhat happens next with the ALV and the classic ABAP report? In this session we will look at the migration strategy towards ABAP Cloud and what alternatives there are with RAP and the Application Job. In an example we will go through the various steps of the migration to get an ABAP Cloud application.",
+                "track": 1,
+                "time": "9:50",
+                "duration": 50,
+                "language": "Deutsch",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    },
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            }
+        ]
+    },
+    {
+        "id": "ChristopherGraw",
+        "firstname": "Christopher",
+        "middlename": "",
+        "lastname": "Graw",
+        "initials": "CG",
+        "company": "rku.it GmbH",
+        "companyWeb": "https://rku-it.de/",
+        "function": "SAP-Anwendungsentwickler",
+        "picture": "./card/speakers/christopher/ChristopherGraw.jpg",
+        "shortBio": "Ich bin seit 2015 als Berater und Entwickler in der Energieversorgerbranche unterwegs. Seit 2020 bin ich bei rku.it Mitglied der DevGarage. User Slogan ist 'ABAP ist cool!' und dieser Maxime folgend, suchen wir stets nach Möglichkeiten, unseren Horizont zu erweitern und Mehrwert für unsere Kunden, unsere Kollegen und uns selbst zu schaffen. Aktuell befinden uns in der laufenden Transformation von SAP IS-U zu SAP S/4HANA Utilities und werden Anfang 2025 mit unserem ersten Kunden produktiv gehen.",
+        "longBio": "Ich bin seit 2015 als Berater und Entwickler in der Energieversorgerbranche unterwegs. Seit 2020 bin ich bei rku.it Mitglied der DevGarage. User Slogan ist 'ABAP ist cool!' und dieser Maxime folgend, suchen wir stets nach Möglichkeiten, unseren Horizont zu erweitern und Mehrwert für unsere Kunden, unsere Kollegen und uns selbst zu schaffen. Aktuell befinden uns in der laufenden Transformation von SAP IS-U zu SAP S/4HANA Utilities und werden Anfang 2025 mit unserem ersten Kunden produktiv gehen.",
+        "linkedIn": "https://www.linkedin.com/in/christopher-graw-861245228/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V102",
+                "title": "Releasemanagement mit gCTS",
+                "abstract": "Lifecycle und Release Management, sowie Versionsverwaltung gehören zu den wesentlichen Themen im Betrieb eines S/4HANA Systems. Mit gCTS bietet die SAP hier seit einigen Jahren ein Werkzeug, dass das Versionskontrollsystem git mit dem Transportwesen zusammenbringt.\n\nIn diesem Vortrag möchte ich ein paar Ansätze skizzieren, gCTS in Kombination mit einem Transportmanagementsystem zu nutzen, um ein ganzheitliches Releasemanagement für eine Systemlandschaft mit mehreren parallelen fünfstufigen Systemschienen aufzusetzen.\n\nFolgende Themen habe ich dabei im Fokus:\n-Kurze Übersicht über wesentliche Funktionen von gCTS\n- Einsatz von gCTS und Transportmanagement in verschiedenen Systemlandschaften\n- Zuschnitt von Repositories\n- Regeln für die Nutzung von Branches\n- Retrofit vom Wartungs- in das Entwicklungssystem\n- Herausforderungen",
+                "track": 1,
+                "time": "10:40",
+                "duration": 50,
+                "language": "German",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            }
+        ]
+    },
+    {
+        "id": "SaschaWaechter",
+        "firstname": "Sascha",
+        "middlename": "",
+        "lastname": "Wächter",
+        "initials": "SW",
+        "company": "",
+        "companyWeb": "",
+        "function": "Senior SAP Entwickler",
+        "picture": "./card/speakers/sascha/SaschaWaechter.jpeg",
+        "shortBio": "Anfangs viel klassisches ABAP, Workflowentwicklung und FPM for Web Dynpro, später dann viel OData und SAPUI5 und heute vermehrt RAP, Steampunk und Fiori Elements. ABAP zieht sich durch. UI-Entwicklung ebenfalls. Ansonsten 'technologieflexibel' :-)",
+        "longBio": "Anfangs viel klassisches ABAP, Workflowentwicklung und FPM for Web Dynpro, später dann viel OData und SAPUI5 und heute vermehrt RAP, Steampunk und Fiori Elements. ABAP zieht sich durch. UI-Entwicklung ebenfalls. Ansonsten 'technologieflexibel' :-)",
+        "linkedIn": "https://www.linkedin.com/in/sascha-w%C3%A4chter-120575226/",
+        "scn": "https://sascha-dev.de/",
+        "twitter": "wachtersascha",
+        "sessions": [
+            {
+                "id": "V103",
+                "title": "Troubleshoot your OData",
+                "abstract": "OData-Services stehen immer mehr im Fokus bei verschiedenen Arten von Anwendungen im SAP-Ökosystem, sowohl RAP-basiert wie auch viele Legacy-Anwendungen z.B. im Bereich Fiori. Ziel ist es sinnvoll zu zeigen wie man diese Services toolunterstützt sinnvoll und einfach Testen kann, sowohl OnPremise, wie auch in der Cloud.",
+                "track": 1,
+                "time": "11:30",
+                "duration": 50,
+                "language": "German",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    },
+                    {
+                        "name": "Testing",
+                        "color": 9
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "Testing",
+                "color": 9
+            }
+        ]
+    },
+    {
+        "id": "MartinJonen",
+        "firstname": "Martin",
+        "middlename": "",
+        "lastname": "Jonen",
+        "initials": "MJ",
+        "company": "Freelancer with SwissLife, ConVista, Brights Learning",
+        "companyWeb": "https://ase-coaching.com/en/coaching/",
+        "function": "Developer, Consultant and Coach",
+        "picture": "./card/speakers/martinjonen/MartinJonen.jpeg",
+        "shortBio": "I am an SAP Software Engineer and Coach focused on software testing and clean code. I help teams build high-quality, maintainable solutions by implementing best practices and fostering a culture of continuous improvement in software development.",
+        "longBio": "I am an experienced SAP Software Engineer and Coach specializing in software testing and clean code practices. With a deep commitment to quality and efficiency, I help teams and organizations implement best practices in software development, ensuring robust, maintainable, and scalable solutions. Known for my practical approach and passion for continuous improvement, I empower developers to elevate their skills and embrace a culture of excellence in coding and testing.",
+        "linkedIn": "https://www.linkedin.com/in/martin-jonen",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V104",
+                "title": "Unit Test your Business Objects in RAP",
+                "abstract": "A session on unit testing business objects in RAP covers the fundamental principles and practices of testing business logic within the RAP framework. Participants will learn how to design and implement unit tests for RAP business objects using the ABAP Test Double Framework. The session will focus on creating test scenarios to validate business rules, data consistency, and transactional behaviors without relying on a database connection or external dependencies. Key topics include setting up the test environment, creating mock objects, simulating data retrieval and modification, and executing tests to ensure the robustness and reliability of business logic in a RAP application. This hands-on session aims to equip developers with the skills to confidently test and maintain high-quality RAP applications.\n\nBased on the GitHub Repo from Christian Drumm (https://github.com/ceedee666/modern-abap-curriculum) the participants can follow the session as a hands-on exercise ",
+                "track": 1,
+                "time": "11:30",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    },
+                    {
+                        "name": "Testing",
+                        "color": 9
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "Testing",
+                "color": 9
+            }
+        ]
+    },
+    {
+        "id": "MarcBernard",
+        "firstname": "Marc",
+        "middlename": "",
+        "lastname": "Bernard",
+        "initials": "MB",
+        "company": "apm.to",
+        "companyWeb": "https://apm.to",
+        "function": "Founder of apm.to",
+        "picture": "./card/speakers/marcbernard/MarcBernard.png",
+        "shortBio": "Marc is the founder of apm.to, an innovative and highly specialized start-up company on a mission to build the world’s best ABAP open source tools for SAP customers, partners, and developers.",
+        "longBio": "Marc is the founder of Marc Bernard Tools, an innovative and highly specialized start-up company on a mission to build the world’s best open source tools for SAP Basis, SAP Business Warehouse, and SAP BW/4HANA customers, partners, and developers",
+        "linkedIn": "https://www.linkedin.com/in/marcfbe/",
+        "scn": "",
+        "twitter": "marcfbe",
+        "sessions": [
+            {
+                "id": "V105",
+                "title": "apm - From Vision to Reality",
+                "abstract": "In the world of ABAP development, the lack of efficient code sharing, robust version control, and automated dependency management have long been barriers to innovation and productivity. As developers increasingly seek open-source solutions, apm emerges as a transformative package manager designed to address these challenges, drawing inspiration from successful ecosystem solutions like npm.\n\nExplore how apm seamlessly integrates into your technology discovery routine, making it an essential part of your developer toolkit. Join us to uncover apm's straightforward approach to versioning, dependency management, and manifest definitions.\n\nExperience apm firsthand in our free and unlimited playground, where you can publish, download, and install packages with ease. Quickly activate your apm account and transition from adoption to becoming a proficient 'badass user.'\n\nFinally, discover how to join a vibrant community of ABAP developers dedicated to ongoing engagement and collaborative problem-solving. Be part of the revolution transforming ABAP development through open-source innovation.",
+                "track": 1,
+                "time": "14:20",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            }
+        ]
+    },
+    {
+        "id": "FrankEngert",
+        "firstname": "Frank",
+        "middlename": "",
+        "lastname": "Engert",
+        "initials": "FE",
+        "company": "Softway",
+        "companyWeb": "https://www.softway.de",
+        "function": "CEO",
+        "picture": "./card/speakers/frankengert/FrankEngert.jfif",
+        "shortBio": "CEO Softway AG | We love Formulare | Clean ABAP | Be agile",
+        "longBio": "Ich habe großen Spaß daran neue Sachen auszuprobieren, daraus zu lernen und dadurch mich selbst und andere weiterzuentwickeln.\nMeine Mission ist es unsere Kunden für unsere Produkte und Dienstleistungen im SAP-Umfeld zu begeistern.",
+        "linkedIn": "https://www.linkedin.com/in/frank-engert/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V106",
+                "title": "Von SAPscript zu Adobe Forms - Freud und Leid in der Formularentwicklung",
+                "abstract": "",
+                "track": 1,
+                "time": "15:10",
+                "duration": 50,
+                "language": "Deutsch",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "On Premise",
+                        "color": 4
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Classic ABAP",
+                        "color": 5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "On Premise",
+                "color": 4
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Classic ABAP",
+                "color": 5
+            }
+        ]
+    },
+    {
+        "id": "MichaelKeller",
+        "firstname": "Michael",
+        "middlename": "",
+        "lastname": "Keller",
+        "initials": "MK",
+        "company": "educatedBytes GmbH",
+        "companyWeb": "https://www.educatedbytes.de",
+        "function": "ABAP-Entwickler",
+        "picture": "./card/speakers/michaelkeller/MichaelKeller.png",
+        "shortBio": "Co-Founder and CEO of educatedBytes GmbH, software architect, ABAP developer, SAP Champion, blogger, lecturer, father, husband, son ... always in service",
+        "longBio": "I’ve been working as an ABAP developer in energy supply logistics for many years, mainly on legacy code. In addition, I teach at a local university of applied sciences, write blogs and articles in and for the SAP community and for heise developer. I’m also the co-founder of educatedBytes GmbH",
+        "linkedIn": "https://www.linkedin.com/in/michael-keller-abap-developer/",
+        "scn": "https://people.sap.com/keller.m",
+        "twitter": "I_heart_ABAP",
+        "sessions": [
+            {
+                "id": "V106",
+                "title": "Von SAPscript zu Adobe Forms - Freud und Leid in der Formularentwicklung",
+                "abstract": "",
+                "track": 1,
+                "time": "15:10",
+                "duration": 50,
+                "language": "Deutsch",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "On Premise",
+                        "color": 4
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Classic ABAP",
+                        "color": 5
+                    }        
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "On Premise",
+                "color": 4
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Classic ABAP",
+                "color": 5
+            }
+        ]
+    }, 
+    {
+        "id": "JoergMueller",
+        "firstname": "Jörg",
+        "middlename": "",
+        "lastname": "Müller",
+        "initials": "JM",
+        "company": "BA Business Advice GmbH",
+        "companyWeb": "https://www.ba-gmbh.com/",
+        "function": "Innovationsmanager",
+        "picture": "./card/speakers/joergmueller/JoergMueller.jpg",
+        "shortBio": "Innovationsmanager und SAP Stammtisch Organisator",
+        "longBio": "Seit 1996 im SAP Umfeld und vor allem im ABAP tätig. Über die Jahr in verschiedenen Rollen unterwegs. In der letzten Zeit beschäftige ich mich vorrangig mit hybriden Landschaften, Systemintegration, Datascience und KI. Opensource Fan. SAP Stammtisch Magdeburg Organisator.",
+        "linkedIn": "https://www.linkedin.com/company/ba-gmbh/mycompany/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V107",
+                "title": "ABAP Hybrid - Magie mit Graph Datenmodellen",
+                "abstract": "Wenn wir über die Grenzen eines ABAP Stacks hinaus denken (können), dann ist so manche komplexe Herausforderung unseres ABAP Alltags einfacher lösbar und sorgt zusätzlich für clean core. Mit Graph Datenmodellen bekommen wir neue 'Dimensionen' in denen wir uns bewegen können. Im Rahmen meines Vortrags stelle ich einige unserer Szenarien und Lösungsansätze vor.\n\nABAP Hybrid heißt nicht zwangsweise Cloud, was ich bei meinem letzten ABAPConf Vortrag schon thematisiert habe. KI wird auch wieder eingebaut: Graph Datenmodelle sind eine gute Basis für GraphRAG's...    ",
+                "track": 1,
+                "time": "16:30",
+                "duration": 50,
+                "language": "Deutsch",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "On Premise",
+                        "color": 4
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }      
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "On Premise",
+                "color": 4
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            }
+        ]
+    },
+    {
+        "id": "PankajYadav",
+        "firstname": "Pankaj",
+        "middlename": "",
+        "lastname": "Yadav",
+        "initials": "",
+        "company": "",
+        "companyWeb": "",
+        "function": "Manager - SAP Technology",
+        "picture": "./card/speakers/pankajyadav/PankajYadav.jfif",
+        "shortBio": "SAP Technical Expert | 10+ years of experience | India-based | Passionate about exploring the intersection of technology and society | Enthusiastic about deep conversations on innovation and its impact",
+        "longBio": "SAP Technical Expert with 10+ years of experience, driving innovation in the SAP ecosystem. Passionate about technology's impact on society and sharing knowledge with others. Outside work, I enjoy playing with my son, analyzing movies, playing cricket, traveling, love beers. I believe in the power of deep conversations to spark new ideas and drive meaningful change.",
+        "linkedIn": "https://www.linkedin.com/in/pankaj-yadav-sap",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V201",
+                "title": "Streamlining ABAP Code reviews with AI: ABAP GenAI Co-pilot on Microsoft Teams for S/4HANA on-premise",
+                "abstract": "This session explores how the ABAP GenAI Co-Pilot, powered by SAP Generative AI Hub helps in the code review activities like code analysis, defect detection, integrate microsoft teams for collaboration etc. for development leads & managers. Presentation as well as demo will be shown for this session.",
+                "track": 2,
+                "time": "9:50",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    }       
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            } 
+        ]
+    },
+    {
+        "id": "SimoneGaffurini",
+        "firstname": "Simone",
+        "middlename": "",
+        "lastname": "Gaffurini",
+        "initials": "SG",
+        "company": "Regesta Italia S.p.A",
+        "companyWeb": "",
+        "function": "",
+        "picture": "./card/speakers/simonegaffurini/SimoneGaffurini.jpg",
+        "shortBio": "ABAP/NodeJs developer and active contributor to the SAP Open Source Community",
+        "longBio": "ABAP/NodeJS Developer with a passion for innovation and modernization.\nJoined Regesta Italia S.p.A, SAP Gold Partner, in 2019 and began my journey in ABAP development.\nSince 2023, owner and maintainer of the open-source project TRM (Transport Request Manager).",
+        "linkedIn": "https://www.linkedin.com/in/simonegaffurini/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V202",
+                "title": "Making an on-premise ABAP CI/CD with GitHub Actions",
+                "abstract": "Live demo of my blog article 'Making an OnPremise ABAP CI/CD with Github Actions': how to leverage community-driven, open-source solutions to create a modern CI/CD setup for ABAP. This demo will showcase tools like abapGit, abapLint, ADASH, and TRM, demonstrating how each contributes to the pipeline. The demo will also include a brief overview of Git branching strategies tailored for effective CI/CD implementation.",
+                "track": 2,
+                "time": "10:40",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "Testing",
+                        "color": 9
+                    }           
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "Testing",
+                "color": 9
+            } 
+        ]
+    },
+    {
+        "id": "RobertEijpe",
+        "firstname": "Robert",
+        "middlename": "",
+        "lastname": "Eijpe",
+        "initials": "RE",
+        "company": "",
+        "companyWeb": "",
+        "function": "Strategic Enterprise Architect for SAP & SAP Mentor",
+        "picture": "./card/speakers/roberteijpe/RobertEijpe.jpeg",
+        "shortBio": "Mr. Eijpe is an SAP strategic enterprise architect, ABAP cloud developer, and user experience consultant. He is also an SAP Mentor, frequently speaking and writing about innovative SAP solutions.",
+        "longBio": "Robert Eijpe, a graduate of the Eindhoven University of Technology in 1995, began his SAP journey in 1996 as an SAP development engineer. His career has been a rich tapestry of roles and projects for major companies such as Deloitte Consulting, Philips Medical, Unilever, RWE, Leiden University, SAP SE, Blackline Inc., and Booking. As the co-founder and general manager of NL for Business, an SAP consultancy company established in the Netherlands in 2001, he has been instrumental in the company's focus on SAP custom-build innovations, including Integration, User Experience, Cloud Development, and Design Thinking.\n\nMr. Eijpe is an SAP strategic enterprise architect, ABAP cloud developer, and user experience consultant. He is also an SAP Mentor, frequently speaking and writing about innovative SAP solutions. His specialties include design thinking, business process management, enterprise architecture for SAP, user experience, and custom build development. He is a strategic advisor for integration and custom-build developments on S/4HANA and SAP BTP.",
+        "linkedIn": "https://www.linkedin.com/in/robert-eijpe-b94845/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V203",
+                "title": "Lessons learned building a product on clean core ABAP on S/4HANA public cloud",
+                "abstract": "In this session, we will share the challenges and lessons we learned when we built the partner solution FEXS API Connect for the S/4HANA public cloud with Clean Core ABAP. We will first explain the possible integration options for integrating as a partner with the S/4HANA public cloud and why we chose to build it on an embedded ABAP cloud environment. We will discuss the challenges we face with using an S/4HANA public cloud environment and how we overcome the restrictions of cloud ABAP and the RAP model. We will talk more about using RAP events, bgPF, XCO libraries, and other capabilities of the ABAP cloud, which will help us realize our solution.",
+                "track": 2,
+                "time": "11:30",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    }          
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            }
+        ]
+    },
+    {
+        "id": "OctavianMihailSavi",
+        "firstname": "Octavian",
+        "middlename": "Mihail",
+        "lastname": "Savi",
+        "initials": "OS",
+        "company": "",
+        "companyWeb": "",
+        "function": "Senior SAP Technical Consultant | SAP Developer (ABAP, RAP & Fiori) | Technical Team Lead | Trainer",
+        "picture": "./card/speakers/octavianmihailsavi/OctavianMihailSavi.jpeg",
+        "shortBio": "I am an experienced consultant committed to delivering high-quality SAP projects. I specialize in ABAP Cloud development with RAP and Clean Core principles.",
+        "longBio": "I am an experienced consultant committed to delivering high-quality SAP projects. I am passionate about technology and dedicated to continuous learning. Starting as an ABAP developer, I specialize in ABAP Cloud development with RAP and Clean Core principles. I have advanced my expertise in S/4HANA on-premise and cloud environments. Recently, I have focused on integrations between S/4HANA and other systems.\n\nMy experience includes solution design, custom development architecture, and technical team leadership. I have also served as a mentor and people manager. I prioritize building solutions that address real needs through careful requirement gathering and fair customer expectation management.",
+        "linkedIn": "https://www.linkedin.com/in/octavian-mihail-savu-8b016227/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V203",
+                "title": "Lessons learned building a product on clean core ABAP on S/4HANA public cloud",
+                "abstract": "In this session, we will share the challenges and lessons we learned when we built the partner solution FEXS API Connect for the S/4HANA public cloud with Clean Core ABAP. We will first explain the possible integration options for integrating as a partner with the S/4HANA public cloud and why we chose to build it on an embedded ABAP cloud environment. We will discuss the challenges we face with using an S/4HANA public cloud environment and how we overcome the restrictions of cloud ABAP and the RAP model. We will talk more about using RAP events, bgPF, XCO libraries, and other capabilities of the ABAP cloud, which will help us realize our solution.",
+                "track": 2,
+                "time": "11:30",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    }          
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            }
+        ]
+    },
+    {
+        "id": "ReginaHochecker",
+        "firstname": "Regina",
+        "middlename": "",
+        "lastname": "Hochecker",
+        "initials": "RH",
+        "company": "dox42",
+        "companyWeb": "https://www.dox42.com",
+        "function": "Business Technology Evangelist",
+        "picture": "./card/speakers/reginahochecker/ReginaHochecker.jpg",
+        "shortBio": "Regina is part of the dox42 Evangelist Team, helping customers and partners streamline document automation. With a background in financial audit, she’s passionate about using technology to boost efficiency and reduce errors.",
+        "longBio": "Regina is part of the dox42 Evangelist Team, where she is dedicated to assisting customers and partners in streamlining their document automation processes. Drawing upon her extensive experience in financial audit, Regina is keenly aware of the pitfalls of copy/paste methods, fueling her passion for leveraging technology to enhance operational efficiency and minimize errors. With her unique blend of industry insight and technical expertise, Regina supports dox42 customers and partners across diverse technology platforms, including SAP, MS Dynamics 365, Microsoft 365, and the Power Platform, among others. Regina frequently takes the stage at international conferences, showcasing the potential of dox42 to optimize processes and drive organizational success.",
+        "linkedIn": "",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V204",
+                "title": "Dokumentengenerierung mit dox42 direkt in ABAP integriert",
+                "abstract": "",
+                "track": 2,
+                "time": "13:30",
+                "duration": 50,
+                "language": "Deutsch",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    }           
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            }  
+        ]
+    },
+    {
+        "id": "DusanSacha",
+        "firstname": "Dusan",
+        "middlename": "",
+        "lastname": "Sacha",
+        "initials": "DS",
+        "company": "Cadaxo GmbH",
+        "companyWeb": "https://www.cadaxo.com",
+        "function": "Fiori Developer",
+        "picture": "./card/speakers/dusansacha/DusanSacha.jpg",
+        "shortBio": "Fiori Enthusiast",
+        "longBio": "Ich bin Dušan [:duschan:]. SAP Developer aus Tschechien, wohne und arbeite bei Cadaxo in Wien seit 2015.\n\nIch bin der Mr. Web aus unserem Cadaxo Team. Am liebsten arbeite ich am Frontend und bringe verschiedene Design Ideen aus Papier und Kopf in den Browser hinein. ",
+        "linkedIn": "",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V205",
+                "title": "Verloren im CDS Dschungel?",
+                "abstract": "Wie eine grafische Visualisierung die Sicht auf CDS Views, ihre Annotationen und Abhängigkeiten verändern kann.\n\nHabt ihr euch schon mal gefragt, in welchen CDS Views eine Tabelle denn jetzt genau verwendet wird? Wie diese von einander abhängen? Oder wo in einer CDS Hierarchie ein Feld nun verwendet wird, und wo nicht mehr? Oder auf welcher Ebene gewisse Annotations gesetzt werden? Oder…?\n\nWir nehmen euch mit auf die Reise, wir wir uns selbst in dem Dschungel verirrt haben, dann in den verschiedenen Lockdowns mit graphischen Darstellung experimentiert haben um dann ein Tool zu schaffen, dass wir jetzt demnächst auf Github Allen zur Verfügung stellen.",
+                "track": 2,
+                "time": "14:20",
+                "duration": 50,
+                "language": "Deutsch",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "CDS",
+                        "color": 11
+                    },
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "CDS",
+                "color": 11
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            }
+        ]
+    },
+    {
+        "id": "OliverWahrstoetter",
+        "firstname": "Oliver",
+        "middlename": "",
+        "lastname": "Wahrstötter",
+        "initials": "OW",
+        "company": "Cadaxo GmbH",
+        "companyWeb": "https://www.cadaxo.com",
+        "function": "SAP Architekt",
+        "picture": "./card/speakers/oliverwahrstoetter/OliverWahrstoetter.jpg",
+        "shortBio": "SAP Enthusiast",
+        "longBio": "1998 die ersten Berührungen mit SAP gemacht. (4.5b), seitdem dem SAP Virus verfallen. nach vielen Jahren bei der SAP in der Beratung, 2009 die Cadaxo mit gegründet und seitdem immer auf der Suche nach den besten neuen SAP Technologien. ",
+        "linkedIn": "https://www.linkedin.com/in/%F0%9F%A7%9E%E2%80%8D%E2%99%82%EF%B8%8F-oliver-wahrst%C3%B6tter-880bb219/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V205",
+                "title": "Verloren im CDS Dschungel?",
+                "abstract": "Wie eine grafische Visualisierung die Sicht auf CDS Views, ihre Annotationen und Abhängigkeiten verändern kann.\n\nHabt ihr euch schon mal gefragt, in welchen CDS Views eine Tabelle denn jetzt genau verwendet wird? Wie diese von einander abhängen? Oder wo in einer CDS Hierarchie ein Feld nun verwendet wird, und wo nicht mehr? Oder auf welcher Ebene gewisse Annotations gesetzt werden? Oder…?\n\nWir nehmen euch mit auf die Reise, wir wir uns selbst in dem Dschungel verirrt haben, dann in den verschiedenen Lockdowns mit graphischen Darstellung experimentiert haben um dann ein Tool zu schaffen, dass wir jetzt demnächst auf Github Allen zur Verfügung stellen.",        
+                "track": 2,
+                "time": "14:20",
+                "duration": 50,
+                "language": "Deutsch",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "CDS",
+                        "color": 11
+                    },
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "CDS",
+                "color": 11
+            },
+            {
+                "name": "RAP",
+                "color": 10
+            },
+            {
+                "name": "ABAP",
+                "color": 2
+            }
+        ]
+    },
+    {
+        "id": "IvanMans",
+        "firstname": "Ivan",
+        "middlename": "",
+        "lastname": "Mans",
+        "initials": "IM",
+        "company": "SecurityBridge",
+        "companyWeb": "https://securitybridge.com/",
+        "function": "CTO at SecurityBridge",
+        "picture": "./card/speakers/ivanmans/IvanMans.jpeg",
+        "shortBio": "In 2012 Ivan co-founded SecurityBridge and in his current role as CTO he is a motivated driver, inspires people and pushes technology, contributing to the continuous innovation of the SecurityBridge Platform. In more recent years, Ivan has been a regular speaker at SAP events, evangelizing SAP security.",
+        "longBio": "Ivan Mans is a seasoned SAP technology consultant, working in the SAP space since 1997, the early days of R/3. In 2012 Ivan co-founded SecurityBridge and in his current role as CTO he is a motivated driver, inspires people and pushes technology, contributing to the continuous innovation of the SecurityBridge Platform. In more recent years, Ivan has been a regular speaker at SAP events, evangelizing SAP security.",
+        "linkedIn": "https://linkedin.com/in/mansiva",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V206",
+                "title": "Secure custom SAP development - Typical security issues in ABAP code",
+                "abstract": "",
+                "track": 2,
+                "time": "15:10",
+                "duration": 50,
+                "language": "Deutsch",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    },
+                    {
+                        "name": "Classic ABAP",
+                        "color": 5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            },
+            {
+                "name": "Classic ABAP",
+                "color": 5
+            }
+        ]
+    },
+    {
+        "id": "EnnoWulff",
+        "firstname": "Enno",
+        "midsdlename": "",
+        "lastname": "Wulff",
+        "initials": "EW",
+        "company": "Inwerken AG",
+        "companyWeb": "https://tricktresor.de",
+        "function": "ABAP Developer & Consultant",
+        "picture": "./card/speakers/ennowulff/EnnoWulff.png",
+        "shortBio": "ABAP Dinosaurier seit 1994, Tricktresor, Badminton, Hunde",
+        "longBio": "ABAP Programmer since 1994. Evolved from SAP-Script to Clean Code in just 30 years. ABAP Enthusiast. Sharing is caring.  Love and Peace.",
+        "linkedIn": "https://www.linkedin.com/in/enno-wulff/",
+        "scn": "https://tricktresor.de",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V207",
+                "title": "Programming Glitches and ABAP Hacks",
+                "abstract": "SAP will nicht, dass du dies weißt: Ich zeige einige Merkwürdigkeiten aus drei Jahrzehnten ABAP-Programmierung. Ich zeige Dinge auf, die möglich sind, aber vielleicht lieber nicht gemacht werden sollten. Leider könnte das unter 'outdated techniques' fallen, die ja explizit nicht gewünscht sind.",
+                "track": 2,
+                "time": "16:30",
+                "language": "German",
+                "ics": "",
+                "slide": "",
+                "icon": "",
+                "tags": [
+                    {
+                        "name": "Classic ABAP",
+                        "color": 5
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Classic ABAP",
+                "color": 5
+            } 
+        ]
+    },
+    {
+        "id": "ThomasSchneider",
+        "firstname": "Thomas",
+        "middlename": "",
+        "lastname": "Schneider",
+        "initials": "TS",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Product Owner for extensibility",
+        "picture": "./card/speakers/thomasschneider/ThomasSchneider.jpeg", 
+        "shortBio": "Thomas Schneider is area product owner for extensibility",
+        "longBio": "Thomas Schneider is area product owner for extensibility. He is a chief development architect in the BTP ABAP organization. ",
+        "linkedIn": "",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V301",
+                "title": "Key User and Developer Extensibility Options - Best practices",
+                "abstract": "Key User Extensibility is a major pillar of the SAP S/4HANA Extensibility concept. It enables business experts to do last mile extensions by their own. But it also provides a lot of value for developers.\n\nDeveloper Extensibility on the other hand empowers the developer to develop extensions in a clean core compliant way using the ABAP Cloud development model.\n\nIn this session, we provide an overview on these extensibility options and will provide best practices when to use what. We provide examples for extensions that are realized as combination of key user and developer extensibility. ",
+                "track": 3,
+                "time": "9:50",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
+        ]
+    },
+    {
+        "id": "KaiDehmann",
+        "firstname": "Kai",
+        "middlename": "",
+        "lastname": "Dehmann",
+        "initials": "KD",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "",
+        "picture": "", 
+        "shortBio": "",
+        "longBio": "",
+        "linkedIn": "",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V301",
+                "title": "Key User and Developer Extensibility Options - Best practices",
+                "abstract": "Key User Extensibility is a major pillar of the SAP S/4HANA Extensibility concept. It enables business experts to do last mile extensions by their own. But it also provides a lot of value for developers.\n\nDeveloper Extensibility on the other hand empowers the developer to develop extensions in a clean core compliant way using the ABAP Cloud development model.\n\nIn this session, we provide an overview on these extensibility options and will provide best practices when to use what. We provide examples for extensions that are realized as combination of key user and developer extensibility. ",
+                "track": 3,
+                "time": "9:50",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
+        ]
+    },
+    {
+        "id": "GeorgWilhelm",
+        "firstname": "Georg",
+        "middlename": "",
+        "lastname": "Wilhelm",
+        "initials": "GW",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Chief development architect for extensibility",
+        "picture": "/card/speakers/georgwilhelm/GeorgWilhelm.jpeg", 
+        "shortBio": "Georg Wilhelm is a chief development architect for extensibility",
+        "longBio": "Georg Wilhelm is a chief development architect for extensibility",
+        "linkedIn": "https://www.linkedin.com/in/georg-wilhelm-9671341b6",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V302",
+                "title": "Implementing Extension Fields using Key User and Developer Extensibility - Do's and Don'ts",
+                "abstract": "In this session we will focus on how to implement extensions using extension fields.\n\nWe will demonstrate both the key user tools and the developer extensibility wizard in ADT to implement typical scenarios using extension fields. We will provide guidance for the Do’s and Don’ts in the extensibility area. ",
+                "track": 3,
+                "time": "10:40",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
+        ]
+    },    
+    {
+        "id": "DanielWachs",
+        "firstname": "Daniel",
+        "middlename": "",
+        "lastname": "Wachs",
+        "initials": "DW",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Development architect at SAP for extensibility",
+        "picture": "./card/speakers/danielwachs/DanielWachs.jfif", 
+        "shortBio": "Daniel Wachs is a development architect at SAP for extensibility",
+        "longBio": "Daniel Wachs is a development architect at SAP for extensibility",
+        "linkedIn": "https://www.linkedin.com/in/daniel-wachs-7b48a299/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V302",
+                "title": "Implementing Extension Fields using Key User and Developer Extensibility - Do's and Don'ts",
+                "abstract": "In this session we will focus on how to implement extensions using extension fields.\n\nWe will demonstrate both the key user tools and the developer extensibility wizard in ADT to implement typical scenarios using extension fields. We will provide guidance for the Do’s and Don’ts in the extensibility area. ",
+                "track": 3,
+                "time": "10:40",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            }
+        ]
+    },
+    {
+        "id": "PavanKumarReddy",
+        "firstname": "Pavan",
+        "middlename": "Kumar",
+        "lastname": "Reddy",
+        "initials": "PR",
+        "company": "Booking Holdings",
+        "companyWeb": "https://www.bookingholdings.com/",
+        "function": "Senior SAP Developer",
+        "picture": "./card/speakers/PavanKumarReddy/PavanKumarReddy.jpeg", 
+        "shortBio": "12+ years of experience with SAP Developments. Programming topics: S/4HANA, ABAP Restful Programming Model(RAP), ABAP on HANA, ABAP, Fiori, OData, CDS, AMDP's, BOPF, SAP BTP- ABAP Environment",
+        "longBio": "12+ years of experience with SAP Developments.  Currently working as a Senior Developer with Order to Cash team at Booking Holdings.\n\nWorked on products like CRM, HCM, S/4HANA Employee Integration, Success Factors Employee Central to ERP Integration, ERP to Success Factors Employee Central Migration, S/4HANA Intelligent Real Estate.\n\nWorked as Scrum Master, S/4HANA RAP Trainer with SAP Development Learning at SAP.\n\nSpecialties: Product Development, Scrum Master with strong experience in Agile and Scrum based software development, Facilitating Training Sessions , Training Delivery, Creating Content for courses for Programming topics: S/4HANA, ABAP Restful Programming Model(RAP), ABAP on HANA, ABAP, Fiori, OData, CDS, AMDP's, BOPF, SAP BTP- ABAP Environment.",
+        "linkedIn": "https://www.linkedin.com/in/reddypavankumar/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V303",
+                "title": "Enable OData Streams in RAP",
+                "abstract": "How to enable OData Streams such as excel, pdf, Images and other large objects using standard RAP Based application development without using UI5 tooling?\n\nWith the latest SAP BTP ABAP Environment 2208 release the RAP framework now supports OData streams. It is now possible to enable your RAP application to maintain and handle Large Objects(LOBs).This feature provides end users an option to upload external files of different file formats such as PDF, XLSX , binary file format and other types hence allowing media handling.",
+                "track": 3,
+                "time": "11:30",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "RAP",
+                "color": 10
+            }
+        ]
+    },
+    {
+        "id": "AnkitaSingh",
+        "firstname": "Ankita",
+        "middlename": "",
+        "lastname": "Singh",
+        "initials": "AS",        
+        "company": "Booking Holdings",
+        "companyWeb": "https://www.bookingholdings.com/",
+        "function": "SAP Developer",
+        "picture": "./card/speakers/AnkitaSingh/AnkitaSingh.jpg", 
+        "shortBio": "8+ years of experience with SAP Developments. Programming topics: S/4HANA, ABAP Restful Programming Model(RAP), ABAP on HANA, ABAP, Fiori, OData, CDS, AMDP's, BOPF, SAP BTP- ABAP Environment",
+        "longBio": "Currently working as SAP specialist with Booking holdings. Worked as Senior ABAP developer with Standard Chartered Bank GBS. Ex-development consultant with SAP. Skilled in SAP ABAP programming language,S4 HANA conversion and implementation and automation techniques and all other SAP technologies namely reports,enhancements,interfaces,S4 HANA conversion and implementation and new technologies like RAP, Fiori etc. Extensively worked on S4 HANA conversion and automation tool and SAP TM",
+        "linkedIn": "",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V303",
+                "title": "Enable OData Streams in RAP",
+                "abstract": "How to enable OData Streams such as excel, pdf, Images and other large objects using standard RAP Based application development without using UI5 tooling?\n\nWith the latest SAP BTP ABAP Environment 2208 release the RAP framework now supports OData streams. It is now possible to enable your RAP application to maintain and handle Large Objects(LOBs).This feature provides end users an option to upload external files of different file formats such as PDF, XLSX , binary file format and other types hence allowing media handling.",
+                "track": 3,
+                "time": "11:30",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "RAP",
+                        "color": 10
+                    }    
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "RAP",
+                "color": 10
+            }
+        ]
+    },
+    {
+        "id": "VolkerDrees",
+        "firstname": "Volker",
+        "middlename": "",
+        "lastname": "Drees",
+        "initials": "VD",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Product Expert",
+        "picture": "./card/speakers/volkerdrees/VolkerDrees.jpg", 
+        "shortBio": "Volker Drees works as a Product Expert for the ABAP RESTful Application Programming Model in the Technology & Innovation, BTP ABAP.",
+        "longBio": "Volker Drees works as a Product Expert for the ABAP RESTful Application Programming Model in the Technology & Innovation, BTP ABAP.",
+        "linkedIn": "",
+        "scn": "https://people.sap.com/volker.drees",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V304",
+                "title": "Clean Core extensibility with ABAP Cloud in SAP S/4HANA Cloud Private Edition",
+                "abstract": "ABAP Cloud is the powerful development model for clean core compliant, cloud-ready business applications, services, and extensions.\n\nIn this session, we will demonstrate how the 3-tier extensibility model helps you to consume BAPIs with ABAP Cloud in SAP S/4HANA Cloud Private Edition and SAP S/4HANA.",
+                "track": 3,
+                "time": "13:30",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
+        ]
+    },
+    {
+        "id": "FabianFellhauer",
+        "firstname": "Fabian",
+        "middlename": "",
+        "lastname": "Fellhauer",
+        "initials": "FF",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Development Expert",
+        "picture": "./card/speakers/FabianFellhauer/FabianFellhauer.jpeg", 
+        "shortBio": "Product Lead ABAP Cloud Programming Model (RAP), Development Expert, Enthusiast@SAP",
+        "longBio": "Together with implementation teams of SAP BTP ABAP, we are shaping the design of the ABAP RESTful Application Programming Model (RAP).",
+        "linkedIn": "https://www.linkedin.com/in/fabianfellhauer",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V304",
+                "title": "Clean Core extensibility with ABAP Cloud in SAP S/4HANA Cloud Private Edition",
+                "abstract": "ABAP Cloud is the powerful development model for clean core compliant, cloud-ready business applications, services, and extensions.\n\nIn this session, we will demonstrate how the 3-tier extensibility model helps you to consume BAPIs with ABAP Cloud in SAP S/4HANA Cloud Private Edition and SAP S/4HANA.",
+                "track": 3,
+                "time": "13:30",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
+        ]
+    },
+    {
+        "id": "ThomasFiedler",
+        "firstname": "Thomas",
+        "middlename": "",
+        "lastname": "Fiedler",
+        "initials": "TF",
+        "company": "SAP SE",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Product Owner of ABAP development tools",
+        "picture": "./card/speakers/thomasfiedler/ThomasFiedler.jpeg",
+        "shortBio": "Thomas has more than 20 years experience in ABAP development tools and is the product owner of the new ABAP Development Tools in Eclipse.",
+        "longBio": "I have more than 20 years experience in ABAP development. I'm the product owner of the ABAP development tools. Special focus for me is the area of tools around custom code management like the ATC, the SQLM and the usage analysis tools. I'm also presenter on SAP TechEds and SAP Inside Tracks. You can also follow me on Twitter via @thfiedler",
+        "linkedIn": "https://www.linkedin.com/in/thomas-fiedler-2813202a/",
+        "scn": "https://people.sap.com/thomasfiedler",
+        "twitter": "ThFiedler",
+        "sessions": [
+            {
+                "id": "V305",
+                "title": "ABAP Test Cockpit (ATC) goes Cloud - ATC on SAP BTP",
+                "abstract": "ABAP Test Cockpit (ATC) on SAP BTP is now ready for use and recommended by SAP for Clean Core governance and static quality assurance of your SAP S/4HANA Private Cloud (or on-premise) development landscapes. ATC on SAP BTP offers such essential capabilities like code analysis, custom checks, baseline, developer scenario, robust exemptions workflow or scheduling of ATC runs. The SAP Code Vulnerability Analyzer (CVA) security checks are included into ATC on SAP BTP at no additional licensing fee. Join this session to learn about ATC on BTP and see it in action.",
+                "track": 3,
+                "time": "14:20",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
+        ]
+    },
+    {
+        "id": "OlgaDolinskaja",
+        "firstname": "Olga",
+        "middlename": "",
+        "lastname": "Dolinskaja",
+        "initials": "OD",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com",
+        "function": "Product Manager",
+        "picture": "./card/speakers/olgadolinskaja/OlgaDolinskaja.png",
+        "shortBio": "SAP Product Manager with over 15 years of product management experience in various ABAP Platform topics like ABAP development, testing and troubleshooting tools, connectivity, and overall ABAP Platform rollout activities. As a product manager Olga is a regular speaker at SAP TechEd and SAP User Groups and partner events, as well as individual customer & partner workshops. Furthermore Olga drives product management for custom code migration tools for SAP S/4HANA and ABAP Cloud.",
+        "longBio": "SAP Product Manager with over 15 years of product management experience in various ABAP Platform topics like ABAP development, testing and troubleshooting tools, connectivity, and overall ABAP Platform rollout activities. As a product manager Olga is a regular speaker at SAP TechEd and SAP User Groups and partner events, as well as individual customer & partner workshops. Furthermore Olga drives product management for custom code migration tools for SAP S/4HANA and ABAP Cloud.",
+        "linkedIn": "https://www.linkedin.com/in/olga-dolinskaja-942251135/",
+        "scn": "https://www.linkedin.com/in/olga-dolinskaja",
+        "twitter": "OlgaDolinskaja",
+        "sessions": [
+            {
+                "id": "V305",
+                "title": "ABAP Test Cockpit (ATC) goes Cloud - ATC on SAP BTP",
+                "abstract": "ABAP Test Cockpit (ATC) on SAP BTP is now ready for use and recommended by SAP for Clean Core governance and static quality assurance of your SAP S/4HANA Private Cloud (or on-premise) development landscapes. ATC on SAP BTP offers such essential capabilities like code analysis, custom checks, baseline, developer scenario, robust exemptions workflow or scheduling of ATC runs. The SAP Code Vulnerability Analyzer (CVA) security checks are included into ATC on SAP BTP at no additional licensing fee. Join this session to learn about ATC on BTP and see it in action.",
+                "track": 3,
+                "time": "14:20",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    },
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "ABAP",
+                "color": 2
+            },
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
+        ]
+    },
+    {
+        "id": "GeorgeDrakos",
+        "firstname": "George",
+        "middlename": "",
+        "lastname": "Drakos",
+        "initials": "GD",
+        "company": "EY",
+        "companyWeb": "",
+        "function": "Developer",
+        "picture": "./card/speakers/GeorgeDrakos/GeorgeDrakos.png", 
+        "shortBio": "SAP Technical Consultant",
+        "longBio": "SAP Technical Consultant",
+        "linkedIn": "https://www.linkedin.com/in/george-drakos/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V306",
+                "title": "Advanced New ABAP",
+                "abstract": "Code Snippets using New ABAP Syntax",
+                "track": 3,
+                "time": "15:10",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    }
+                ]
+            }
+        ],
+        "tags": [
+        ]
+    },
+    {
+        "id": "IngoBraeuninger",
+        "firstname": "Ingo",
+        "middlename": "",
+        "lastname": "Bräuninger",
+        "initials": "IB",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com",
+        "function": "Product Expert",
+        "picture": "./card/speakers/ingobraeuninger/IngoBraeuninger.jpeg", 
+        "shortBio": "Product Expert",
+        "longBio": "Product Expert",
+        "linkedIn": "https://www.linkedin.com/in/ingo-br%C3%A4uninger-a6720b151/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "V307",
+                "title": "Integration Troubleshooting in the SAP BTP, ABAP Environment",
+                "abstract": "This session will offer an overview of troubleshooting capabilities within the Business Technology Platform (BTP) ABAP environment, specifically focusing on integration aspects.\n\nYou will see how to troubleshoot integration scenarios and discover different tools necessary for effectively addressing integration and security issues.",
+                "track": 3,
+                "time": "16:30",
+                "duration": 50,
+                "language": "English",
+                "ics": "",
+                "tags": [
+                    {
+                        "name": "Cloud",
+                        "color": 3
+                    },
+                    {
+                        "name": "S/4HANA",
+                        "color": 7
+                    },
+                    {
+                        "name": "Best practice",
+                        "color": 6
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Cloud",
+                "color": 3
+            },
+            {
+                "name": "S/4HANA",
+                "color": 7
+            },
+            {
+                "name": "Best practice",
+                "color": 6
+            }
         ]
     }
 ]

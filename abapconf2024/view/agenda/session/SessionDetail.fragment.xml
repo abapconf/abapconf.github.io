@@ -117,7 +117,8 @@
                 justifyContent="Center"
                 class="sapUiSmallMarginTop">
 
-                <HBox class="sapUiTinyMarginTop">
+                <HBox class="sapUiTinyMarginTop"
+                    visible="{= ${agenda>ics}.length > 0 }">
                     <core:Icon
                         src="sap-icon://calendar"
                         class="sapUiTinyMarginEnd"/>

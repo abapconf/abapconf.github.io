@@ -322,9 +322,9 @@
 
             </l:Grid>
 
-            <!-- Register on site -->
+            <!-- Register on site 
             <core:Fragment id="onsiteRegistrationInfo" fragmentName="abapconf.2024.org.view.RegistrationOnsite" type="XML" />
-            
+            -->
             <!-- Agenda Pre Event --> 
             <core:Fragment id="agendaPreEventHome" fragmentName="abapconf.2024.org.view.agenda.preevent.PreEvent" type="XML" />
 

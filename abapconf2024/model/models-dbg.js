@@ -55,7 +55,7 @@ sap.ui.define([
 				hideTableChannel12: false,
 				showEnglish: false,
 				showGerman: false,
-				showIcs: true,
+				showIcs: false,
 				showITregistration: true,
 				open: false,
 				videoicon: "sap-icon://video",

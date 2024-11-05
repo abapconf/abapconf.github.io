@@ -33,7 +33,6 @@ sap.ui.define([
 				this.getRouter().navTo("Session", {
 					id: sSlot
 				});
-
 			},
 
 
