@@ -32,7 +32,7 @@
                 hSpacing="1">
                 <html:div class="exampleDiv"/>
                 <HBox height="100px" alignItems="Center" justifyContent="Center">
-                    <Title level="H1" titleStyle="H1" text="{i18n>speakerH1}"> </Title>
+                    <Title level="H1" titleStyle="H1" text="{i18n>speakerH1}" wrapping="true"> </Title>
                     <layoutData>
                         <l:GridData span="XL8 L8 M12 S12"/>
                     </layoutData>

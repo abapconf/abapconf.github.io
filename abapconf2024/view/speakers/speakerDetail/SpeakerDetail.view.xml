@@ -31,8 +31,8 @@
                 defaultSpan="XL2 L2 M12 S12"
                 hSpacing="1">
                 <html:div class="exampleDiv"/>
-                <HBox height="100px" alignItems="Center" justifyContent="Center">
-                    <Title level="H1" titleStyle="H1" text="{speakers>firstname} {speakers>lastname}"> </Title>
+                <HBox height="auto" alignItems="Center" justifyContent="Center">
+                    <Title level="H1" titleStyle="H1" text="{speakers>firstname} {speakers>lastname}" wrapping="true"> </Title>
                     <layoutData>
                         <l:GridData span="XL8 L8 M12 S12"/>
                     </layoutData>
@@ -46,7 +46,7 @@
                 defaultSpan="XL2 L2 M12 S12"
                 hSpacing="1">
                 <html:div class="exampleDiv"/>
-                <HBox height="100px" alignItems="Center" justifyContent="Center">
+                <HBox height="auto" alignItems="Center" justifyContent="Center">
                     <Title level="H3" titleStyle="H3" wrapping="true" wrappingType="Hyphenated" text="{speakers>shortBio}"> </Title>
                     <layoutData>
                         <l:GridData span="XL8 L8 M12 S12"/>
@@ -73,7 +73,7 @@
                 
                 <!-- picture -->
                 <Image 
-                    id="img" 
+                    id="imgSpeaker" 
                     width="100%"
                     src="{speakers>picture}" 
                     densityAware="false">
@@ -160,7 +160,8 @@
                                 </VBox>
                                 <HBox
                                     items="{
-                                        path: 'speakers>tags'
+                                        path: 'speakers>tags',
+                                        templateShareable: false
                                     }"
                                     visible="{= !${device>/system/phone} }">
                                     <tnt:InfoLabel
@@ -171,16 +172,17 @@
                                 </HBox> 
                             </FlexBox>
                             <HBox
-                                    items="{
-                                        path: 'speakers>tags'
-                                    }"
-                                    visible="{device>/system/phone}">
-                                    <tnt:InfoLabel
-                                        class="sapUiSmallMargin"
-                                        text="{speakers>name}"
-                                        displayOnly="false"
-                                        colorScheme= "{speakers>color}" />                                                   
-                                </HBox> 
+                                items="{
+                                    path: 'speakers>tags',
+                                    templateShareable: false
+                                }"
+                                visible="{device>/system/phone}">
+                                <tnt:InfoLabel
+                                    class="sapUiSmallMargin"
+                                    text="{speakers>name}"
+                                    displayOnly="false"
+                                    colorScheme= "{speakers>color}" />                                                   
+                            </HBox> 
                         </CustomListItem>
                     </items>
                     <layoutData>
