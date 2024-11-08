@@ -38,6 +38,7 @@
                 <html:div class="exampleDiv"/>
             </l:Grid>
 
+            <!-- seperator -->
             <FlexBox
 				height="20px"
 				alignItems="Center"
@@ -61,10 +62,7 @@
                 <html:div class="exampleDiv"/>
             </l:Grid>
 
-            
             <core:Fragment fragmentName="abapconf.2024.org.view.orga.People" type="XML" />
-
-           
 
             <!-- footer -->
             <mvc:XMLView viewName="abapconf.2024.org.view.footer.Footer"/>
