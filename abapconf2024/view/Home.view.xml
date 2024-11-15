@@ -395,6 +395,21 @@
 				<Title level="H2" titleStyle="H2" text="{i18n>orgaTeamMeet}"> </Title>
 			</FlexBox>
 
+            <!-- Text Orga -->
+           <l:Grid
+                containerQuery="false"
+                defaultSpan="XL2 L2 M12 S12"
+                hSpacing="1">
+                <html:div class="exampleDiv"/>
+                <HBox alignItems="Center" justifyContent="Center">
+                    <Text width="100%" text="{i18n>orgaP1}" textAlign="Center"  class="textReadability"></Text>
+                    <layoutData>
+                        <l:GridData span="XL8 L8 M12 S12"/>
+                    </layoutData>
+                </HBox>
+                <html:div class="exampleDiv"/>
+            </l:Grid>
+
             <FlexBox
 				height="20px"
 				alignItems="Center"
