@@ -86,7 +86,6 @@ sap.ui.define([
 				//var sStartTime = "2021-12-07T08:45:00+01:00";
 				var date = new Date(sStartTime);
 				var timeCountdown = date.getTime();
-				
 	
 				// Get today's date and time
 				var now = new Date().getTime();

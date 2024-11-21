@@ -9,9 +9,9 @@
    xmlns:yt="de.itsfullofstars.yt.controls"
    xmlns:mvc="sap.ui.core.mvc">
    
-    <Page id="agenda" showHeader="false">
+    <Page id="agendaChannel2" showHeader="false">
         <content>
-            <!-- footer -->
+            <!-- header -->
             <mvc:XMLView viewName="abapconf.2024.org.view.header.Header"/>
 
              <!-- H1 -->
@@ -37,7 +37,7 @@
                 <html:div class="seperator"></html:div>
 			</FlexBox>
 
-
+            
             <l:Grid
                 containerQuery="false"
                 defaultSpan="XL2 L2 M12 S12"
@@ -52,10 +52,10 @@
                 <html:div class="exampleDiv"/>
             </l:Grid>
 
-            
+            <!-- YT video placeholder picture-->
             <l:Grid
                 containerQuery="false"
-                defaultSpan="XL4 L3 M12 S12"
+                defaultSpan="XL4 L4 M12 S12"
                 hSpacing="1">
                 <html:div class="exampleDiv"/>
                  <Image
@@ -72,6 +72,16 @@
 
                 <html:div class="exampleDiv"/>
             </l:Grid>
+
+            <!-- Agenda start morgens -->
+            <core:Fragment id="agendaChannel2agendaMorning" fragmentName="abapconf.2024.org.view.agenda.morning.AgendaMorning" type="XML" />
+           
+            <!-- Channel 1 -->
+            <core:Fragment id="agendaChannel2channe2mobile" fragmentName="abapconf.2024.org.view.agenda.channel2.channel2mobile" type="XML" />        
+            
+            <!-- Agenda closing keynote abends -->
+            <core:Fragment id="agendaChannel2agendaEvening" fragmentName="abapconf.2024.org.view.agenda.evening.AgendaEvening" type="XML" />
+
             
 
             <!-- footer -->

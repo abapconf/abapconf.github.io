@@ -27,8 +27,9 @@
             -->
 
             <!-- Agenda Pre Event --> 
-            <core:Fragment id="agendaPreEvent" fragmentName="abapconf.2024.org.view.agenda.preevent.PreEvent" type="XML" />
-
+             <VBox visible="{= !${agendaView>/live}}" >
+                <core:Fragment id="agendaPreEvent" fragmentName="abapconf.2024.org.view.agenda.preevent.PreEvent" type="XML"/>
+            </VBox>
 
             <!-- H1 -->
             <l:Grid

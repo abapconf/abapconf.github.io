@@ -135,7 +135,7 @@
                 
             </VBox>
 
-            <!-- ABAPConf is live streaming information -->
+            <!-- ABAPConf after event live streaming information -->
             <VBox class="imgBackground" height="900px" visible="{= ${homeView>/live} &amp;&amp; ${homeView>/aftergolive} }">
                 
                 <!-- TITLE -->
@@ -178,6 +178,7 @@
                             <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="YouTube ABAPConf" href="https://www.youtube.com/@abapconf" />
                             <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="Livestream Channel 1" href="{homeView>/channel1}" />
                             <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="Livestream Channel 2" href=" {homeView>/channel2}" />
+                            <Link width="100%" class="sapUiSmallMarginTopBottom channelLinkHome textReadability" text="Livestream Channel 3" href=" {homeView>/channel3}" />
                             </VBox>
                         </HBox>
                         <layoutData>

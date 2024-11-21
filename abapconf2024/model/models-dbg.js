@@ -21,7 +21,8 @@ sap.ui.define([
 				live: false,
 				aftergolive: false,
 				channel1: "https://youtube.com/live/bGtcmIJLeNY",
-				channel2: "https://youtube.com/live/hleq0-NTVQo"
+				channel2: "https://youtube.com/live/hleq0-NTVQo",
+				channel3: "https://youtube.com/live/hleq0-NTVQo"
 			};
 			var oModel = new JSONModel(oData);
 			return oModel;

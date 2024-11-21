@@ -11,6 +11,9 @@ sap.ui.define([
 		"use strict";
 
 		var URLHelper = mobileLibrary.URLHelper;
+		var urlABAPConfYTChannel = "https://www.youtube.com/playlist?list=PL7VGlQRMcLSAs5u5uhtq-el5fPBrbUCRG";
+
+
 		return BaseController.extend("abapconf.2024.org.controller.agenda.channel3.Channel3", {
 			onInit: function () {
 				
@@ -19,7 +22,14 @@ sap.ui.define([
 			},
 
 
-			
+			/**
+			 * User clicks placeholder image
+			 * Opens link to official ABAPConf YT channel
+			 * @param {*} oEvent 
+			 */
+			openYTChannel: function(oEvent) {
+				URLHelper.redirect(urlABAPConfYTChannel, true);
+			},
 
 
 			openSession: function(oEvent, iSpeaker) {
