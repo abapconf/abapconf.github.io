@@ -79,19 +79,21 @@
                        displayOnly="false"
                        colorScheme= "3" />
                </HBox>
-               <HBox class="sapUiTinyMarginTop">
-                   <core:Icon
-                       src="sap-icon://calendar"
-                       class="sapUiTinyMarginEnd whiteText"/>
-                   <Link 
-                       text="{i18n>agendaCalendar}"
-                       href="./model/agenda/Keynote2.ics"
-                       class="linkCalendar whiteText" 
-                       textAlign="Center" 
-                       wrapping="true"
-                       subtle="false" 
-                       width="100%"/>
-               </HBox>
+               <HBox class="sapUiTinyMarginTop" visible="true">
+                    <core:Icon
+                        src="sap-icon://calendar"
+                        class="sapUiTinyMarginEnd whiteText"
+                        color="orange" />
+                    <Link 
+                        text="{i18n>agendaCalendar}"
+                        href="{agenda>/keynote2/ics}"
+                        class="whiteText linkCalendar" 
+                        textAlign="Center" 
+                        wrapping="true"
+                        subtle="false" 
+                        width="100%"/>
+                </HBox>
+               
            </VBox>
            
        </ColumnListItem>

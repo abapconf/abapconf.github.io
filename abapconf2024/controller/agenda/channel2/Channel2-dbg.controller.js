@@ -16,8 +16,6 @@ sap.ui.define([
 
 		return BaseController.extend("abapconf.2024.org.controller.agenda.channel2.Channel2", {
 			onInit: function () {
-				
-
 				this.setModel(models.createAgendaViewModel(), "channel2View");
 			},
 

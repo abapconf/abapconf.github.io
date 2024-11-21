@@ -80,7 +80,7 @@
                             displayOnly="false"
                             colorScheme= "1" />                                  
                     </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="false">
+                    <HBox class="sapUiTinyMarginTop" visible="true">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd whiteText"
@@ -129,7 +129,7 @@
                             displayOnly="false"
                             colorScheme= "1" />                                  
                     </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="false">
+                    <HBox class="sapUiTinyMarginTop" visible="true">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd whiteText"
@@ -192,7 +192,7 @@
                             displayOnly="false"
                             colorScheme= "3" />      
                     </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="false">
+                    <HBox class="sapUiTinyMarginTop" visible="true">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd whiteText"

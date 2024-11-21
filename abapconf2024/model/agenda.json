@@ -14,7 +14,7 @@
         "YouTubeTimestamp": 0,
         "duration": 15,
         "language": "German",
-        "ics": "",
+        "ics": "./model/agenda/willkommen.ics",
         "tags": [
             {
                 "name": "Keynote",
@@ -33,11 +33,11 @@
         "title": "Welcome",
         "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day.",
         "track": 1,
-        "time": "8:30",
+        "time": "8:45",
         "YouTubeTimestamp": 0,
         "duration": 15,
         "language": "German",
-        "ics": "",
+        "ics": "./model/agenda/welcome.ics",
         "tags": [
             {
                 "name": "Keynote",
@@ -57,7 +57,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/keynote.ics",
         "tags": [
             {
                 "name": "Keynote",
@@ -102,7 +102,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/keynote2.ics",
         "tags": [
             {
                 "name": "Keynote",
@@ -131,7 +131,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "German",
-        "ics": "",
+        "ics": "./model/agenda/V101.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -166,7 +166,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "German",
-        "ics": "",
+        "ics": "./model/agenda/V102.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -197,7 +197,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "German",
-        "ics": "",
+        "ics": "./model/agenda/V103.ics",
         "tags": [
             {
                 "name": "ABAP",
@@ -226,7 +226,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V104.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -257,7 +257,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V105.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -282,7 +282,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "Deutsch",
-        "ics": "",
+        "ics": "./model/agenda/V106.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -313,7 +313,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "Deutsch",
-        "ics": "",
+        "ics": "./model/agenda/V107.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -344,7 +344,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V201.ics",
         "tags": [
             {
                 "name": "ABAP",
@@ -369,7 +369,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V202.ics",
         "tags": [
             {
                 "name": "ABAP",
@@ -400,7 +400,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V203.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -422,14 +422,14 @@
             "ReginaHochecker",
             "JohannFoessleitner"
         ],  
-        "title": "Dokumentengenerierung mit doc42 direkt in ABAP integriert",
+        "title": "Dokumentengenerierung mit dox42 direkt in ABAP integriert",
         "abstract": "",
         "track": 2,
         "time": "13:30",
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "Deutsch",
-        "ics": "",
+        "ics": "./model/agenda/V204.ics",
         "tags": [
             {
                 "name": "ABAP",
@@ -456,7 +456,7 @@
         "YouTubeTimestamp": 0,
         "duration": 50,
         "language": "Deutsch",
-        "ics": "",
+        "ics": "./model/agenda/V205.ics",
         "tags": [
             {
                 "name": "CDS",
@@ -482,7 +482,7 @@
         "YouTubeHMSformat": "",
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V206.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -514,7 +514,7 @@
         "YouTubeHMSformat": "",
         "duration": 50,
         "language": "German",
-        "ics": "",
+        "ics": "./model/agenda/V207.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -540,7 +540,7 @@
         "YouTubeHMSformat": "",
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V301.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -570,7 +570,7 @@
         "YouTubeHMSformat": "",
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V302.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -604,7 +604,7 @@
         "YouTubeHMSformat": "",
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V303.ics",
         "icon": "",
         "slide": "",
         "tags": [
@@ -628,7 +628,7 @@
         "time": "13:30",
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V304.ics",
         "link": "",
         "tags": [
             {
@@ -655,7 +655,7 @@
         "time": "14:20",
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V305.ics",
         "link": "",
         "tags": [
             {
@@ -684,7 +684,7 @@
         "time": "15:10",
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V306.ics",
         "link": "",
         "tags": [
             {
@@ -705,7 +705,7 @@
         "time": "16:30",
         "duration": 50,
         "language": "English",
-        "ics": "",
+        "ics": "./model/agenda/V307.ics",
         "link": "",
         "tags": [
             {
