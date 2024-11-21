@@ -237,13 +237,13 @@
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Text text="{agenda>/V304/language}" class="" />
                     </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showITregistration}" >
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
-                            src="sap-icon://add-employee"
+                            src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd"/>
                         <Link 
-                            text="{i18n>channel3Register}"
-                            href="{agenda>/V304/link}"
+                            text="{i18n>agendaCalendar}"
+                            href="{agenda>/V304/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
