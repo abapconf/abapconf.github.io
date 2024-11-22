@@ -6,141 +6,135 @@
     xmlns:html="http://www.w3.org/1999/xhtml"
     xmlns:mvc="sap.ui.core.mvc">
     
-   <!-- Agenda closing keynote abends -->
-   <l:Grid
-   containerQuery="false"
-   defaultSpan="XL2 L2 M12 S12"     
-   visible="{= !${agendaView>/hideTableChannel12} ? true : false}"
-   hSpacing="1">
-   <html:div class="exampleDiv"/>
-   
-   <Table
-       headerText=""
-       >
-       <columns>
-           <Column 
-               width="3.0rem"
-               hAlign="Begin">
-               <header >
-                   <Text visible="false" wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTime}" />
-               </header>
-           </Column>
-           <Column 
-               hAlign="Begin"
-               width="auto"
-               visible="{agendaView>/showTrack1}">
-               <header>
-                   <Text visible="false" wrapping="true" wrappingType="Hyphenated" text="Channel 1" />
-               </header>
-           </Column>                
-       </columns>
+    <!-- Agenda closing keynote abends -->
+    <l:Grid
+        containerQuery="false"
+        defaultSpan="XL2 L2 M12 S12"     
+        visible="{= !${agendaView>/hideTableChannel12} ? true : false}"
+        hSpacing="1">
+        <html:div class="exampleDiv"/>
+    
+        <Table
+            headerText=""
+            >
+            <columns>
+                <Column 
+                    width="3.0rem"
+                    hAlign="Begin">
+                    <header >
+                        <Text visible="false" wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTime}" />
+                    </header>
+                </Column>
+                <Column 
+                    hAlign="Begin"
+                    width="auto"
+                    visible="{agendaView>/showTrack1}">
+                    <header>
+                        <Text visible="false" wrapping="true" wrappingType="Hyphenated" text="Channel 1" />
+                    </header>
+                </Column>                
+            </columns>
 
-       <ColumnListItem class="columnSession">
-           <Text text="17:20" class="whiteText"/>
-           <Text text="Keynote Channel 1" class="whiteText"/>
-       </ColumnListItem>
-       
+            <ColumnListItem class="columnSession">
+                <Text text="17:20" class="whiteText"/>
+                <Text text="Keynote Channel 1" class="whiteText"/>
+            </ColumnListItem>
+            
 
-       <ColumnListItem class="columnKey">
-           <Text text="17:20" class="whiteText" />
-           <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-               <Link 
-                   class="sapMTitle sapMTitleStyleAuto whiteText keynoteTitle" 
-                   wrapping="true" 
-                   text="{agenda>/keynote2/title}" 
-                   press="openSession($event, 'keynote2')"/>
-               <HBox 
-                   wrap="Wrap"
-                   width="{= ${device>/system/phone}? '200%' : '300%'}" >
-                   <Label text="Speakers:" class="whiteText sapUiSmallMarginTop"/>
-                   
-                   <Link text="{agenda>/keynote2/speaker}" press="openSpeaker($event, 'BorisGebhardt')" class="whiteText sapUiSmallMargin" width="150%"/>
-                   <Link text="{agenda>/keynote2/speaker2}" press="openSpeaker($event, 'JensWeiler')" class="whiteText sapUiSmallMargin" width="150%"/>
-                   
-               </HBox>
-          
-               <HBox>
-                   <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="whiteText sapUiSmallMarginEnd"/>
-                   <Text text="{agenda>/keynote2/duration} Min" class="whiteText" />
-               </HBox>
-               <HBox>
-                   <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="whiteText sapUiSmallMarginEnd"/>
-                   <Text text="{agenda>/keynote2/language}" class="whiteText" />
-               </HBox>
-               <HBox>
-                   <tnt:InfoLabel
-                       class="sapUiTinyMargin"
-                       text="Keynote"
-                       displayOnly="false"
-                       colorScheme= "1" />
-                   <tnt:InfoLabel
-                       class="sapUiTinyMargin"
-                       text="ABAP"
-                       displayOnly="false"
-                       colorScheme= "3" />
-               </HBox>
-               <HBox class="sapUiTinyMarginTop" visible="true">
-                    <core:Icon
-                        src="sap-icon://calendar"
-                        class="sapUiTinyMarginEnd whiteText"
-                        color="orange" />
+            <ColumnListItem class="columnKey">
+                <Text text="17:20" class="whiteText" />
+                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
                     <Link 
-                        text="{i18n>agendaCalendar}"
-                        href="{agenda>/keynote2/ics}"
-                        class="whiteText linkCalendar" 
-                        textAlign="Center" 
-                        wrapping="true"
-                        subtle="false" 
-                        width="100%"/>
-                </HBox>
-               
-           </VBox>
-           
-       </ColumnListItem>
+                        class="sapMTitle sapMTitleStyleAuto whiteText keynoteTitle" 
+                        wrapping="true" 
+                        text="{agenda>/keynote2/title}" 
+                        press="openSession($event, 'keynote2')"/>
+                    <HBox 
+                        wrap="Wrap"
+                        width="{= ${device>/system/phone}? '200%' : '300%'}" >
+                        <Label text="Speakers:" class="whiteText sapUiSmallMarginTop"/>
+                        
+                        <Link text="{agenda>/keynote2/speaker}" press="openSpeaker($event, 'BorisGebhardt')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="{agenda>/keynote2/speaker2}" press="openSpeaker($event, 'JensWeiler')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        
+                    </HBox>
+                
+                    <HBox>
+                        <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="whiteText sapUiSmallMarginEnd"/>
+                        <Text text="{agenda>/keynote2/duration} Min" class="whiteText" />
+                    </HBox>
+                    <HBox>
+                        <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="whiteText sapUiSmallMarginEnd"/>
+                        <Text text="{agenda>/keynote2/language}" class="whiteText" />
+                    </HBox>
+                    <HBox>
+                        <tnt:InfoLabel
+                            class="sapUiTinyMargin"
+                            text="Keynote"
+                            displayOnly="false"
+                            colorScheme= "1" />
+                        <tnt:InfoLabel
+                            class="sapUiTinyMargin"
+                            text="ABAP"
+                            displayOnly="false"
+                            colorScheme= "3" />
+                    </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="true">
+                            <core:Icon
+                                src="sap-icon://calendar"
+                                class="sapUiTinyMarginEnd whiteText"
+                                color="orange" />
+                            <Link 
+                                text="{i18n>agendaCalendar}"
+                                href="{agenda>/keynote2/ics}"
+                                class="whiteText linkCalendar" 
+                                textAlign="Center" 
+                                wrapping="true"
+                                subtle="false" 
+                                width="100%"/>
+                        </HBox>
+                    
+                </VBox>
+                
+            </ColumnListItem>
 
-       
-       <!--
-       <ColumnListItem>
-           <Text text="17:20" />
-           <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-               <Text text="Meet the speakers" />
-               <HBox class="sapUiTinyMarginTop">
-                   <core:Icon
-                       src="sap-icon://calendar"
-                       class="sapUiTinyMarginEnd"/>
-                   <Link 
-                       text="{i18n>agendaCalendar}"
-                       href="./model/agenda/mts_c1_3.ics"
-                       class="linkCalendar" 
-                       textAlign="Center" 
-                       wrapping="true"
-                       subtle="false" 
-                       width="100%"/>
-               </HBox>
-           </VBox>
-           <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
-               <Text text="Meet the speakers" />
-               
-           </VBox>
-           <Text text="" />
-       </ColumnListItem>
-       -->
-       <ColumnListItem class="columnPause" >
-           <Text text="18:10" class="whiteText"/>
-           <Text text="This was the last ABAPConf" class="whiteText"/>
-           <Text text="This was the last ABAPConf" class="whiteText"/>
-           <Text text="This was the last ABAPConf" class="whiteText"/>
-       </ColumnListItem>
+            <ColumnListItem>
+                <Text text="18:10" />
+                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
+                    <Text text="Meet the speakers" />
+                    <HBox class="sapUiTinyMarginTop">
+                        <core:Icon
+                            src="sap-icon://calendar"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>agendaCalendar}"
+                            href="./model/agenda/MTS3C1.ics"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
+                </VBox>
+                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
+                    <Text text="Meet the speakers" />
+                    
+                </VBox>
+                <Text text="" />
+            </ColumnListItem>
+            
+            <ColumnListItem class="columnPause" >
+                <Text text="18:20" class="whiteText"/>
+                <Text text="This was the last ABAPConf" class="whiteText"/>
+            </ColumnListItem>
 
-      
+                <layoutData>
+                <l:GridData span="XL8 L8 M12 S12"/>
+            </layoutData>
 
-                   <layoutData>
-           <l:GridData span="XL8 L8 M12 S12"/>
-       </layoutData>
+        </Table>    
 
-   </Table>    
-
-   <html:div class="exampleDiv"/>
-   </l:Grid>
+    <html:div class="exampleDiv"/>
+    </l:Grid>
 
 </core:FragmentDefinition>

@@ -192,7 +192,7 @@
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href=""
+                            href="model/agenda/MTS1C3.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
@@ -344,7 +344,7 @@
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href=""
+                            href="model/agenda/MTS2C3.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"

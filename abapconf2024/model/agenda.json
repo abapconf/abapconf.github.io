@@ -721,5 +721,124 @@
                 "color": 6
             }
         ]
+    },
+    "MTS1C1": {
+        "id": "MTS1C1",
+        "speaker": "",
+        "speakerids": [
+            ""
+        ], 
+        "title": "Meet the Speakers Channel 1 - Morning",
+        "abstract": "Meet the speakers. Get to know the better and have your questions to them answered:\n- Björn Schulz\n-Christopher Graw\n-Sören Schlegel",
+        "track": 1,
+        "time": "12:20",
+        "duration": 10,
+        "language": "Deutsch",
+        "ics": "./model/agenda/MTS1C1.ics",
+        "link": "",
+        "tags": [            
+        ]
+    },
+    "MTS1C2": {
+        "id": "MTS1C2",
+        "speaker": "",
+        "speakerids": [
+            ""
+        ], 
+        "title": "Meet the Speakers Channel 2 - Morning",
+        "abstract": "Meet the speakers. Get to know the better and have your questions to them answered:\n- Pankaj Yadav\n-Simone Gaffurini\n-Robert Eijpe\n-Octavian Mihail Savi",
+        "track": 2,
+        "time": "12:20",
+        "duration": 10,
+        "language": "English",
+        "ics": "./model/agenda/MTS1C2.ics",
+        "link": "",
+        "tags": [            
+        ]
+    },
+    "MTS1C3": {
+        "id": "MTS1C3",
+        "speaker": "",
+        "speakerids": [
+            ""
+        ], 
+        "title": "Meet the Speakers Channel 3 - Morning",
+        "abstract": "Meet the speakers. Get to know the better and have your questions to them answered:\n- Thomas Schneider\n-Kai Dehmann\n-Georg Wilhelm\n-Daniel Wachs\n-Pavan Kumar Reddy\n-Ankita Singh",
+        "track": 3,
+        "time": "12:20",
+        "duration": 10,
+        "language": "English",
+        "ics": "./model/agenda/MTS1C3.ics",
+        "link": "",
+        "tags": [            
+        ]
+    },
+    "MTS2C1": {
+        "id": "MTS2C1",
+        "speaker": "",
+        "speakerids": [
+            ""
+        ], 
+        "title": "Meet the Speakers Channel 1 - Afternoon",
+        "abstract": "Meet the speakers. Get to know the better and have your questions to them answered:\n-Martin Jonen\n-Marc Bernard\n-Frank Engert\n-Michael Keller",
+        "track": 1,
+        "time": "16:00",
+        "duration": 10,
+        "language": "English",
+        "ics": "./model/agenda/MTS2C1.ics",
+        "link": "",
+        "tags": [            
+        ]
+    },
+    "MTS2C2": {
+        "id": "MTS2C2",
+        "speaker": "",
+        "speakerids": [
+            ""
+        ], 
+        "title": "Meet the Speakers Channel 2 - Afternoon",
+        "abstract": "Meet the speakers. Get to know the better and have your questions to them answered:\n-Rgina Hochecker\n-Johann Fößleitner\n-Dusan Sacha\n-Oliver Wahrstötter\n-Ivan Mans",
+        "track": 2,
+        "time": "16:00",
+        "duration": 10,
+        "language": "English",
+        "ics": "./model/agenda/MTS2C2.ics",
+        "link": "",
+        "tags": [            
+        ]
+    },
+    "MTS2C3": {
+        "id": "MTS2C3",
+        "speaker": "",
+        "speakerids": [
+            ""
+        ], 
+        "title": "Meet the Speakers Channel 3 - Afternoon",
+        "abstract": "Meet the speakers. Get to know the better and have your questions to them answered:\n- Volker Drees\n-Fabian Fellhauer\n-Olga Dolinskaja\n-Thomas Fiedler\n-George Drakos",
+        "track": 3,
+        "time": "16:00",
+        "duration": 10,
+        "language": "English",
+        "ics": "./model/agenda/MTS2C3.ics",
+        "link": "",
+        "tags": [            
+        ]
+    },
+    "MTS3C1": {
+        "id": "MTS3C1",
+        "speaker": "",
+        "speakerids": [
+            ""
+        ], 
+        "title": "Meet the Speakers Channel 1, 2 and 3 - Evening",
+        "abstract": "Meet the speakers. Get to know the better and have your questions to them answered:\n- Jörg Müller\n-Enno Wulff\n-Ingo Bräuninger\n-tba\n-tba",
+        "track": 1,
+        "time": "18:10",
+        "duration": 10,
+        "language": "English",
+        "ics": "./model/agenda/MTS3C1.ics",
+        "link": "",
+        "tags": [            
+        ]
     }
 }

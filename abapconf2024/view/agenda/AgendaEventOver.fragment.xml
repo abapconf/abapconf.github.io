@@ -649,7 +649,7 @@
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/mts_c1_1.ics"
+                            href="./model/agenda/MTS1C1.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
@@ -665,7 +665,7 @@
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/mts_c2_1.ics"
+                            href="./model/agenda/MTS1C2.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
@@ -1007,7 +1007,7 @@
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/mts_c1_2.ics"
+                            href="./model/agenda/MTS2C1.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
@@ -1023,7 +1023,7 @@
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/mts_c2_2.ics"
+                            href="./model/agenda/MTS2C2.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
@@ -1312,7 +1312,7 @@
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="./model/agenda/mts_c1_3.ics"
+                            href="./model/agenda/MTS3C1.ics"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
