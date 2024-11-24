@@ -92,8 +92,17 @@
     }, 
     "keynote2": {
         "id": "keynote2",
-        "speaker": "tba",
-        "speakerids": [            
+        "speaker": "Sören Schlegel",
+        "speaker2": "Christoph Gollmick",
+        "speaker3": "Christoph Laux",
+        "speaker4": "Volker Drees",
+        "speaker5": "Fabian Fellhauer",
+        "speakerids": [ 
+            "SoerenSchlegel",
+            "ChristophGollmick",
+            "ChristophLaux",
+            "VolkerDrees",
+            "FabianFellhauer"
         ], 
         "title": "Closing Keynote: The Modern SAP Full-Stack Developer",
         "abstract": "",

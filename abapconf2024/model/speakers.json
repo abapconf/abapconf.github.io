@@ -1809,5 +1809,85 @@
                 "color": 6
             }
         ]
+    },
+    {
+        "id": "ChristophGollmick",
+        "firstname": "Christoph",
+        "middlename": "",
+        "lastname": "Gollmick",
+        "initials": "CG",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Product Owner",
+        "picture": "./card/speakers/christophgollmick/ChristophGollmick.jpeg", 
+        "shortBio": "",
+        "longBio": "",
+        "linkedIn": "https://www.linkedin.com/in/christophgollmick/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "keynote2",
+                "title": "Closing Keynote: The Modern SAP Full-Stack Developer",
+                "abstract": "",
+                "track": 1,
+                "time": "17:20",
+                "duration": 50,
+                "language": "English",
+                "ics": "./model/agenda/keynote2.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+            }
+        ]
+    },
+    {
+        "id": "ChristophLaux",
+        "firstname": "Christoph",
+        "middlename": "",
+        "lastname": "Laux",
+        "initials": "CL",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "Development Manager",
+        "picture": "./card/speakers/christophlaux/ChristophLaux.jpeg", 
+        "shortBio": "Development Manager for SAP Fiori tools",
+        "longBio": "",
+        "linkedIn": "https://www.linkedin.com/in/christoph-laux/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "keynote2",
+                "title": "Closing Keynote: The Modern SAP Full-Stack Developer",
+                "abstract": "",
+                "track": 1,
+                "time": "17:20",
+                "duration": 50,
+                "language": "English",
+                "ics": "./model/agenda/keynote2.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+            }
+        ]
     }
 ]

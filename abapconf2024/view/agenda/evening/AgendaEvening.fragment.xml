@@ -54,8 +54,11 @@
                         width="{= ${device>/system/phone}? '200%' : '300%'}" >
                         <Label text="Speakers:" class="whiteText sapUiSmallMarginTop"/>
                         
-                        <Link text="{agenda>/keynote2/speaker}" press="openSpeaker($event, 'BorisGebhardt')" class="whiteText sapUiSmallMargin" width="150%"/>
-                        <Link text="{agenda>/keynote2/speaker2}" press="openSpeaker($event, 'JensWeiler')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="{agenda>/keynote2/speaker}" press="openSpeaker($event, 'SoerenSchlegel')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="{agenda>/keynote2/speaker2}" press="openSpeaker($event, 'ChristophGollmick')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="{agenda>/keynote2/speaker3}" press="openSpeaker($event, 'ChristophLaux')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="{agenda>/keynote2/speaker4}" press="openSpeaker($event, 'VolkerDrees')" class="whiteText sapUiSmallMargin" width="150%"/>
+                        <Link text="{agenda>/keynote2/speaker5}" press="openSpeaker($event, 'FabianFellhauer')" class="whiteText sapUiSmallMargin" width="150%"/>
                         
                     </HBox>
                 
