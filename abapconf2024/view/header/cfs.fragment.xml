@@ -1,0 +1,25 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core" >
+   <HBox
+        fitContainer="true"
+        alignItems="Center"
+        justifyContent="Center"
+        height="35px"
+        class="DarkBlue">
+        <core:HTML content="">
+            <core:layoutData>
+                <FlexItemData growFactor="1" />
+            </core:layoutData>
+        </core:HTML>
+            
+            <Link text="{i18n>headerCfSOpen}" class="whiteText"  wrapping="true" target="_blank" visible="true" href="https://forms.gle/z4x49M5g17bamqD56">
+            </Link>
+            
+        <core:HTML content="">
+            <core:layoutData>
+                <FlexItemData growFactor="1" />
+            </core:layoutData>
+        </core:HTML>
+    </HBox>
+</core:FragmentDefinition>

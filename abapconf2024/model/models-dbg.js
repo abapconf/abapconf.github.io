@@ -3,9 +3,13 @@ sap.ui.define([
 	"sap/ui/Device"
 ], function (JSONModel, Device) {
 	"use strict";
-
+			
 	return {
 
+		channel1: "https://www.youtube.com/playlist?list=PL7VGlQRMcLSA2fRwjhWQdAkLjs0eGN517",
+		channel2: "https://www.youtube.com/playlist?list=PL7VGlQRMcLSCb7HtbR2G7Ih4xyOZYrtsY",
+		channel3: "https://www.youtube.com/playlist?list=PL7VGlQRMcLSAs5u5uhtq-el5fPBrbUCRG",
+	
 		createDeviceModel: function () {
 			var oModel = new JSONModel(Device);
 			oModel.setDefaultBindingMode("OneWay");
@@ -20,9 +24,9 @@ sap.ui.define([
 				second: 0,
 				live: false,
 				aftergolive: false,
-				channel1: "https://youtube.com/live/bGtcmIJLeNY",
-				channel2: "https://youtube.com/live/hleq0-NTVQo",
-				channel3: "https://youtube.com/live/hleq0-NTVQo"
+				channel1: this.channel1,
+				channel2: this.channel2,
+				channel3: this.channel3
 			};
 			var oModel = new JSONModel(oData);
 			return oModel;
@@ -60,9 +64,9 @@ sap.ui.define([
 				showITregistration: true,
 				open: false,
 				videoicon: "sap-icon://video",
-				channel1: "https://www.youtube.com/playlist?list=PL7VGlQRMcLSA2fRwjhWQdAkLjs0eGN517",
-				channel2: "https://www.youtube.com/playlist?list=PL7VGlQRMcLSCb7HtbR2G7Ih4xyOZYrtsY",
-				channel3: "https://www.youtube.com/playlist?list=PL7VGlQRMcLSAs5u5uhtq-el5fPBrbUCRG",
+				channel1: this.channel1,
+				channel2: this.channel2,
+				channel3: this.channel3,
 				day: 0,
 				hour: 0,
 				minute: 0,

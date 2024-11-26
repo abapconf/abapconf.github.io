@@ -30,7 +30,10 @@
                     width="auto"
                     visible="{agendaView>/showTrack1}">
                     <header>
+                        <!-- 
                         <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack1}" />
+                        -->
+                        <Link wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack1}" href="#/agenda/channel1" />
                     </header>
                 </Column>
                 <Column
@@ -38,7 +41,10 @@
                     width="auto"
                     visible="{agendaView>/showTrack2}">
                     <header>
+                        <!--
                         <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack2}" />
+                        -->
+                        <Link wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack2}" href="#/agenda/channel2" />
                     </header>
                 </Column>
                 <Column
@@ -48,7 +54,10 @@
                     visible="{agendaView>/showTrack3}"
                     hAlign="Begin" >
                     <header>
+                        <!--
                         <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack3}" />
+                        -->
+                        <Link wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack3}" href="#/agenda/channel3" />
                     </header>
                 </Column>
             </columns>

@@ -37,7 +37,10 @@
                     width="auto"
                     visible="{agendaView>/showTrack2}">
                     <header>
+                        <!--
                         <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack2}" />
+                        -->
+                        <Link wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack2}" href="#/agenda/channel2" />
                     </header>
                 </Column>
             </columns>

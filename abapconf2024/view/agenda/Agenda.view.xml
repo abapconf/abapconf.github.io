@@ -54,6 +54,10 @@
                 <html:div class="seperator"></html:div>
 			</FlexBox>
 
+            <!-- channel list on event day -->
+            <core:Fragment id="agendaChannelList" fragmentName="abapconf.2024.org.view.agenda.ChannelList" type="XML" />
+
+
             <!-- Agenda Sample 
             <core:Fragment id="agendaSample" fragmentName="abapconf.2024.org.view.agenda.AgendaSample" type="XML" />
              -->

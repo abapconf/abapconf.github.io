@@ -83,7 +83,7 @@ sap.ui.define([
 
 			const calcTimeUntilEventStarts = () => {
 				var sStartTime = "2024-12-05T08:30:00+01:00";
-				//var sStartTime = "2021-12-07T08:45:00+01:00";
+				//var sStartTime = "2024-11-26T08:45:00+01:00";
 				var date = new Date(sStartTime);
 				var timeCountdown = date.getTime();
 	

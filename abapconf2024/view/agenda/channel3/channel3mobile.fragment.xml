@@ -40,7 +40,10 @@
                     visible="{agendaView>/showTrack3}"
                     hAlign="Begin" >
                     <header>
+                        <!--
                         <Text wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack3}" />
+                        -->
+                        <Link wrapping="true" wrappingType="Hyphenated" text="{i18n>agendaTableHeaderTrack3}" href="#/agenda/channel3" />
                     </header>
                 </Column>
             </columns>

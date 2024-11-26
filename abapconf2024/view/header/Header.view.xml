@@ -44,27 +44,7 @@
 
     <!-- Call for Speaker -->
     <!--
-    <HBox
-        fitContainer="true"
-        alignItems="Center"
-        justifyContent="Center"
-        height="35px"
-        class="DarkBlue">
-        <core:HTML content="">
-            <core:layoutData>
-                <FlexItemData growFactor="1" />
-            </core:layoutData>
-        </core:HTML>
-            
-            <Link text="{i18n>headerCfSOpen}" class="whiteText"  wrapping="true" target="_blank" visible="true" href="https://forms.gle/z4x49M5g17bamqD56">
-            </Link>
-            
-        <core:HTML content="">
-            <core:layoutData>
-                <FlexItemData growFactor="1" />
-            </core:layoutData>
-        </core:HTML>
-    </HBox>
+    <core:Fragment id="headerCfs" fragmentName="abapconf.2024.org.view.header.cfs" type="XML" />
     -->
      
     <!-- Previous events -->
@@ -119,9 +99,9 @@
         </VBox>
         
         <!-- live in -->
-        <VBox alignItems="Center" justifyContent="Center">
+        <VBox alignItems="Center" justifyContent="Center" visible="{= !${headerView>/live} }">
             <Text text="{i18n>headerLiveIn}" class="textBold textColorWhite teaserBody sapUiTinyMarginTop"/>
-            <HBox alignItems="Center" justifyContent="Center" visible="{= !${headerView>/live} }">
+            <HBox alignItems="Center" justifyContent="Center">
                 <FlexBox direction="Column" alignItems="Center">
                     <Text class="whiteText countdown sapUiTinyMargin" text="{headerView>/day}"/>
                     <Text class="whiteText countdownLabel sapUiTinyMargin" text="{i18n>headerDays}"/>
@@ -138,14 +118,20 @@
                     <Text class="whiteText countdown sapUiTinyMargin" text="{headerView>/second}"/>
                     <Text class="whiteText countdownLabel sapUiTinyMargin" text="{i18n>headerSeconds}"/>
                 </FlexBox>                               
-            </HBox>
-            <VBox alignItems="Center" justifyContent="Center" visible="{headerView>/live}">
+            </HBox>             
+            <layoutData>
+                <l:GridData span="XL6 L6 M7 S12"/>
+            </layoutData>
+        </VBox>
+
+        <!-- live stream links -->
+        <VBox alignItems="Center" justifyContent="Center" visible="{= ${headerView>/live} }">            
+            <VBox alignItems="Center" justifyContent="Center">
                 <FlexBox direction="Column" alignItems="Center">
-                   <Link width="auto" text="{i18n>linkChannel1}" href="{headerView>/channel1}" textAlign="Center"  class="sapUiSmallMarginTopBottom channelLink textReadability">
-                    </Link>
-                    <Link  width="auto" text="{i18n>linkChannel2}" href="{headerView>/channel2}" textAlign="Left"  class="sapUiSmallMarginTopBottom channelLink textReadability">
-                    </Link>
-                </FlexBox>                
+                    <Link width="auto" text="{i18n>linkChannel1}" href="{headerView>/channel1}" textAlign="Center"  class="sapUiSmallMarginTopBottom channelLink textReadability"></Link>
+                    <Link width="auto" text="{i18n>linkChannel2}" href="{headerView>/channel2}" textAlign="Left"  class="sapUiSmallMarginTopBottom channelLink textReadability"></Link>
+                    <Link width="auto" text="{i18n>linkChannel3}" href="{headerView>/channel3}" textAlign="Left"  class="sapUiSmallMarginTopBottom channelLink textReadability"></Link>
+                </FlexBox>
             </VBox>        
             <layoutData>
                 <l:GridData span="XL6 L6 M7 S12"/>
