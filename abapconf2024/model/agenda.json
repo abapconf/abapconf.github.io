@@ -97,15 +97,17 @@
         "speaker3": "Christoph Laux",
         "speaker4": "Volker Drees",
         "speaker5": "Fabian Fellhauer",
+        "speaker6": "Katja Zoch",
         "speakerids": [ 
             "SoerenSchlegel",
             "ChristophGollmick",
             "ChristophLaux",
             "VolkerDrees",
-            "FabianFellhauer"
+            "FabianFellhauer",
+            "KatjaZoch"
         ], 
         "title": "Closing Keynote: The Modern SAP Full-Stack Developer",
-        "abstract": "",
+        "abstract": "Fiori Elements meets ABAP Cloud: Demos and Outlook\n\nTool Bridge (BAS/ADT), Analytical List Page (ALP), Treeview Edit (RAP), AI Support",
         "track": 1,
         "time": "17:20",
         "YouTubeTimestamp": 0,
@@ -195,12 +197,12 @@
     },
     "V103": {
         "id": "V103",
-        "speaker": "Sascha Wächter",
+        "speaker": "Sören Schlegel",
         "speakerids": [
-            "SaschaWaechter"
+            "SoerenSchlegel"
         ],
-        "title": "Troubleshoot your OData",
-        "abstract": "OData-Services stehen immer mehr im Fokus bei verschiedenen Arten von Anwendungen im SAP-Ökosystem, sowohl RAP-basiert wie auch viele Legacy-Anwendungen z.B. im Bereich Fiori. Ziel ist es sinnvoll zu zeigen wie man diese Services toolunterstützt sinnvoll und einfach Testen kann, sowohl OnPremise, wie auch in der Cloud.",
+        "title": "Quo Vadis ABAP Devs?",
+        "abstract": "Wo geht die Reise hin? Was bleibt dabei zurück, was kommt, was ist wichtig? Was sind die kommenden Herausforderungen für ABAP Entwickler und Entwicklerinnen und wie kann man sich darauf vorbereiten?",
         "track": 1,
         "time": "11:30",
         "YouTubeTimestamp": 0,
@@ -565,10 +567,10 @@
     },
     "V302": {
         "id": "V302",
-        "speaker": "Georg Wilhelm",
+        "speaker": "Karsten Schaser",
         "speaker2": "Daniel Wachs",
         "speakerids": [
-            "GeorgWilhelm",
+            "KarstenSchaser",
             "DanielWachs"
         ], 
         "title": "Implementing Extension Fields using Key User and Developer Extensibility - Do's and Don'ts",

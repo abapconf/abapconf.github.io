@@ -1327,18 +1327,18 @@
         ]
     },
     {
-        "id": "GeorgWilhelm",
-        "firstname": "Georg",
+        "id": "KarstenSchaser",
+        "firstname": "Karsten",
         "middlename": "",
-        "lastname": "Wilhelm",
-        "initials": "GW",
+        "lastname": "Schaser",
+        "initials": "KS",
         "company": "SAP",
         "companyWeb": "https://www.sap.com/",
-        "function": "Chief development architect for extensibility",
-        "picture": "/card/speakers/georgwilhelm/GeorgWilhelm.jpeg", 
-        "shortBio": "Georg Wilhelm is a chief development architect for extensibility",
-        "longBio": "Georg Wilhelm is a chief development architect for extensibility",
-        "linkedIn": "https://www.linkedin.com/in/georg-wilhelm-9671341b6",
+        "function": "",
+        "picture": "", 
+        "shortBio": "",
+        "longBio": "",
+        "linkedIn": "",
         "scn": "",
         "twitter": "",
         "sessions": [
@@ -1863,6 +1863,46 @@
         "shortBio": "Development Manager for SAP Fiori tools",
         "longBio": "",
         "linkedIn": "https://www.linkedin.com/in/christoph-laux/",
+        "scn": "",
+        "twitter": "",
+        "sessions": [
+            {
+                "id": "keynote2",
+                "title": "Closing Keynote: The Modern SAP Full-Stack Developer",
+                "abstract": "",
+                "track": 1,
+                "time": "17:20",
+                "duration": 50,
+                "language": "English",
+                "ics": "./model/agenda/keynote2.ics",
+                "tags": [
+                    {
+                        "name": "Keynote",
+                        "color": 1
+                    }
+                ]
+            }
+        ],
+        "tags": [
+            {
+                "name": "Keynote",
+                "color": 1
+            }
+        ]
+    },
+    {
+        "id": "KatjaZoch",
+        "firstname": "Katja",
+        "middlename": "",
+        "lastname": "Zoch",
+        "initials": "KZ",
+        "company": "SAP",
+        "companyWeb": "https://www.sap.com/",
+        "function": "VP UX Engineering",
+        "picture": "./card/speakers/KatjaZoch/KatjaZoch.jpeg", 
+        "shortBio": "Katja is responsible for engineering, strategy, and customer support for the SAP UX Engineering product portfolio",
+        "longBio": "Katja joined SAP in 1999 as a working student. Today she holds the role of VP UX Engineering, S/4HANA and as a Chief Product Owner Katja is responsible for engineering, strategy, and customer support for the SAP UX Engineering product portfolio. She is driving technologies like SAP Fiori elements, UX development tools such as SAP Screen Personas and SAP Fiori tools, as well as new UX initiatives such as SAP Fiori AI, Collaborative ERP, and the recently relaunches My Home for SAP S/4HANA.",
+        "linkedIn": "https://www.linkedin.com/in/katjazoch/",
         "scn": "",
         "twitter": "",
         "sessions": [
