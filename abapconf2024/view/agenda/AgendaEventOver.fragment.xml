@@ -372,7 +372,7 @@
                         press="openSession($event, 'rap1', 5)"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap1/speaker}" press="openSpeaker($event, 'SaschaWaechter')" width="150%"/>
+                        <Link text="{agenda>/rap1/speaker}" press="openSpeaker($event, 'SoerenSchlegel')" width="150%"/>
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>

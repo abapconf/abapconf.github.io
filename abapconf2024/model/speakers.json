@@ -446,62 +446,6 @@
         ]
     },
     {
-        "id": "SaschaWaechter",
-        "firstname": "Sascha",
-        "middlename": "",
-        "lastname": "Wächter",
-        "initials": "SW",
-        "company": "",
-        "companyWeb": "",
-        "function": "Senior SAP Entwickler",
-        "picture": "./card/speakers/sascha/SaschaWaechter.jpeg",
-        "shortBio": "Anfangs viel klassisches ABAP, Workflowentwicklung und FPM for Web Dynpro, später dann viel OData und SAPUI5 und heute vermehrt RAP, Steampunk und Fiori Elements. ABAP zieht sich durch. UI-Entwicklung ebenfalls. Ansonsten 'technologieflexibel' :-)",
-        "longBio": "Anfangs viel klassisches ABAP, Workflowentwicklung und FPM for Web Dynpro, später dann viel OData und SAPUI5 und heute vermehrt RAP, Steampunk und Fiori Elements. ABAP zieht sich durch. UI-Entwicklung ebenfalls. Ansonsten 'technologieflexibel' :-)",
-        "linkedIn": "https://www.linkedin.com/in/sascha-w%C3%A4chter-120575226/",
-        "scn": "https://sascha-dev.de/",
-        "twitter": "wachtersascha",
-        "sessions": [
-            {
-                "id": "V103",
-                "title": "Troubleshoot your OData",
-                "abstract": "OData-Services stehen immer mehr im Fokus bei verschiedenen Arten von Anwendungen im SAP-Ökosystem, sowohl RAP-basiert wie auch viele Legacy-Anwendungen z.B. im Bereich Fiori. Ziel ist es sinnvoll zu zeigen wie man diese Services toolunterstützt sinnvoll und einfach Testen kann, sowohl OnPremise, wie auch in der Cloud.",
-                "track": 1,
-                "time": "11:30",
-                "duration": 50,
-                "language": "German",
-                "ics": "",
-                "tags": [
-                    {
-                        "name": "ABAP",
-                        "color": 2
-                    },
-                    {
-                        "name": "RAP",
-                        "color": 10
-                    },
-                    {
-                        "name": "Testing",
-                        "color": 9
-                    }
-                ]
-            }
-        ],
-        "tags": [
-            {
-                "name": "ABAP",
-                "color": 2
-            },
-            {
-                "name": "RAP",
-                "color": 10
-            },
-            {
-                "name": "Testing",
-                "color": 9
-            }
-        ]
-    },
-    {
         "id": "MartinJonen",
         "firstname": "Martin",
         "middlename": "",
