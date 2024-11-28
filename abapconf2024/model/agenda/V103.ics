@@ -6,15 +6,11 @@ METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:k7KvmCn4iiiT8E12lBaMd
-SUMMARY:Troubleshoot your OData
+SUMMARY:Quo Vadis ABAP Devs?
 DTSTAMP:20241121T134720Z
 DTSTART:20241205T103000Z
 DTEND:20241205T112000Z
-DESCRIPTION:OData-Services stehen immer mehr im Fokus bei verschiedenen Art
-	en von Anwendungen im SAP-Ökosystem\, sowohl RAP-basiert wie auch viele Le
-	gacy-Anwendungen z.B. im Bereich Fiori. Ziel ist es sinnvoll zu zeigen wie
-	 man diese Services toolunterstützt sinnvoll und einfach Testen kann\, sow
-	ohl OnPremise\, wie auch in der Cloud.
+DESCRIPTION:Wo geht die Reise hin? Was bleibt dabei zurück, was kommt, was ist wichtig? Was sind die kommenden Herausforderungen für ABAP Entwickler und Entwicklerinnen und wie kann man sich darauf vorbereiten?
 URL:https://abapconf.org/abapconf2024/#/agenda/channel1
 LOCATION:https://abapconf.org/abapconf2024/#/agenda/channel1
 STATUS:CONFIRMED

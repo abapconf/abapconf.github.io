@@ -112,7 +112,7 @@
 
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/V302/speaker}" press="openSpeaker($event, 'GeorgWilhelm')" width="150%"/>
+                        <Link text="{agenda>/V302/speaker}" press="openSpeaker($event, 'KarstenSchaser')" width="150%"/>
                     </HBox>
                     <HBox class="">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
