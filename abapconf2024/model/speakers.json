@@ -90,6 +90,18 @@
                         "color": 1
                     }                    
                 ]
+            },
+            {
+                "title": "Quo Vadis ABAP Devs?",
+                "abstract": "Wo geht die Reise hin? Was bleibt dabei zurück, was kommt, was ist wichtig? Was sind die kommenden Herausforderungen für ABAP Entwickler und Entwicklerinnen und wie kann man sich darauf vorbereiten?",
+                "track": 1,
+                "ics": "./model/agenda/V103.ics",
+                "tags": [
+                    {
+                        "name": "ABAP",
+                        "color": 2
+                    }                    
+                ]
             }
         ],
         "tags": [
