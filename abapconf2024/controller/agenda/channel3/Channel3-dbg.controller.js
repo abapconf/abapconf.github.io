@@ -11,7 +11,8 @@ sap.ui.define([
 		"use strict";
 
 		var URLHelper = mobileLibrary.URLHelper;
-		var urlABAPConfYTChannel = "https://www.youtube.com/playlist?list=PL7VGlQRMcLSAs5u5uhtq-el5fPBrbUCRG";
+		//var urlABAPConfYTChannel = "https://www.youtube.com/playlist?list=PL7VGlQRMcLSAs5u5uhtq-el5fPBrbUCRG";
+		var urlABAPConfYTChannel = "https://youtube.com/live/_5dnL6AZfnA";
 
 
 		return BaseController.extend("abapconf.2024.org.controller.agenda.channel3.Channel3", {

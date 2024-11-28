@@ -6,9 +6,9 @@ sap.ui.define([
 			
 	return {
 
-		channel1: "https://www.youtube.com/playlist?list=PL7VGlQRMcLSA2fRwjhWQdAkLjs0eGN517",
-		channel2: "https://www.youtube.com/playlist?list=PL7VGlQRMcLSCb7HtbR2G7Ih4xyOZYrtsY",
-		channel3: "https://www.youtube.com/playlist?list=PL7VGlQRMcLSAs5u5uhtq-el5fPBrbUCRG",
+		channel1: "https://youtube.com/live/SnKqmgOMdqY",
+		channel2: "https://youtube.com/live/5saGqydX6VE",
+		channel3: "https://youtube.com/live/_5dnL6AZfnA",
 	
 		createDeviceModel: function () {
 			var oModel = new JSONModel(Device);
