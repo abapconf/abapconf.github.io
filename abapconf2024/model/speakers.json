@@ -878,15 +878,15 @@
         ]
     },
     {
-        "id": "OctavianMihailSavi",
+        "id": "OctavianMihailSavu",
         "firstname": "Octavian",
         "middlename": "Mihail",
-        "lastname": "Savi",
+        "lastname": "Savu",
         "initials": "OS",
         "company": "",
         "companyWeb": "",
         "function": "Senior SAP Technical Consultant | SAP Developer (ABAP, RAP & Fiori) | Technical Team Lead | Trainer",
-        "picture": "./card/speakers/octavianmihailsavi/OctavianMihailSavi.jpeg",
+        "picture": "./card/speakers/octavianmihailsavu/OctavianMihailSavu.jpeg",
         "shortBio": "I am an experienced consultant committed to delivering high-quality SAP projects. I specialize in ABAP Cloud development with RAP and Clean Core principles.",
         "longBio": "I am an experienced consultant committed to delivering high-quality SAP projects. I am passionate about technology and dedicated to continuous learning. Starting as an ABAP developer, I specialize in ABAP Cloud development with RAP and Clean Core principles. I have advanced my expertise in S/4HANA on-premise and cloud environments. Recently, I have focused on integrations between S/4HANA and other systems.\n\nMy experience includes solution design, custom development architecture, and technical team leadership. I have also served as a mentor and people manager. I prioritize building solutions that address real needs through careful requirement gathering and fair customer expectation management.",
         "linkedIn": "https://www.linkedin.com/in/octavian-mihail-savu-8b016227/",

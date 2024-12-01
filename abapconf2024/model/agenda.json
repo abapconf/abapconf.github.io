@@ -402,7 +402,7 @@
         "speaker2": "Octavian Mihail Savi",
         "speakerids": [
             "RobertEijpe",
-            "OctavianMihailSavi"
+            "OctavianMihailSavu"
         ],  
         "title": "Lessons learned building a product on clean core ABAP on S/4HANA public cloud",
         "abstract": "In this session, we will share the challenges and lessons we learned when we built the partner solution FEXS API Connect for the S/4HANA public cloud with Clean Core ABAP. We will first explain the possible integration options for integrating as a partner with the S/4HANA public cloud and why we chose to build it on an embedded ABAP cloud environment. We will discuss the challenges we face with using an S/4HANA public cloud environment and how we overcome the restrictions of cloud ABAP and the RAP model. We will talk more about using RAP events, bgPF, XCO libraries, and other capabilities of the ABAP cloud, which will help us realize our solution.",
