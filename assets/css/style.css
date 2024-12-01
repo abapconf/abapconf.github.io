@@ -44,6 +44,15 @@ a {
   transition: 0.5s;
 }
 
+a.link {
+  text-decoration: underline;  
+}
+
+a.linkHero:hover {
+  font-size: 150%;
+  text-decoration: underline;
+}
+
 a:hover,
 a:active,
 a:focus {
