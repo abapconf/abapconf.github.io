@@ -9,7 +9,7 @@
 
     <VBox class="sapUiSmallMargin">
         <Avatar
-            src="./card/orga/soeren/SoerenSchlegel.png"
+            src="./card/orga/soeren/SoerenSchlegel.jpg"
             displaySize="Custom"
             customDisplaySize="250px"
             showBorder="true"/>
