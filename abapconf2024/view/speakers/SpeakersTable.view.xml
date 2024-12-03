@@ -9,7 +9,51 @@
    
     <!-- speaker directory -->
 
+    <!--
     <l:VerticalLayout id="speakerVerticalLayout" width="100%">
+		<l:BlockLayout 
+            id="speakerBlockLayout" 
+            background="Dashboard" 
+            content="{speakersTable>/}">
+			<l:BlockLayoutRow 
+                id="speakerRow"
+                content="{
+                    path: 'speakersTable>',
+                    templateShareable:true
+                }">
+
+
+				<l:BlockLayoutCell 
+                    id="speakerCell"> 
+                    
+                    <FlexBox
+                        direction="Column"
+                        alignItems="Center"
+                        >
+                        <Avatar
+                            src="{speakersTable>picture}"
+                            displaySize="Custom"
+                            customDisplaySize="250px"
+                            displayShape="Square"
+                            press="openSpeakerDetail"/>
+                        <FlexBox
+                            height="50px"
+                            alignItems="Center"
+                            justifyContent="Center">
+                            <Title text="{speakersTable>firstname} {speakersTable>lastname}" />
+                        </FlexBox>
+                    </FlexBox>
+                
+                    
+				</l:BlockLayoutCell>				
+
+			</l:BlockLayoutRow>		
+		</l:BlockLayout>
+	</l:VerticalLayout>
+    -->
+
+    
+        <l:VerticalLayout id="speakerVerticalLayout" width="100%">
 		<l:BlockLayout 
             id="speakerBlockLayout" 
             background="Dashboard" 

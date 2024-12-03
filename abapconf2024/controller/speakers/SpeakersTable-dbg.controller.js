@@ -24,6 +24,8 @@ sap.ui.define([
 				.then( () => {
 				
 					let speakers = this.getView().getModel("speakers").getData();
+
+					console.log(speakers);
 					let count = speakers.length;
 					//let rows = count / 3;
 	
