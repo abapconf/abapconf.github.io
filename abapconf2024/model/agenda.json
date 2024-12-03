@@ -427,13 +427,13 @@
     },
     "V204": {
         "id": "V204",
-        "speaker": "Regina Hochecker",
+        "speaker": "Lisa Pulsinger",
         "speaker2": "Johann Fößleitner",
         "speakerids": [
-            "ReginaHochecker",
+            "LisaPulsinger",
             "JohannFoessleitner"
         ],  
-        "title": "Dokumentengenerierung mit dox42 direkt in ABAP integriert",
+        "title": "Dokumentengenerierung mit dox42 in ABAP RAP",
         "abstract": "",
         "track": 2,
         "time": "13:30",
