@@ -608,7 +608,7 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/V105/title}" 
-                        press="openSession($event, 'rap5')"/>
+                        press="openSession($event, 'V105')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V105/speaker}" press="openSpeaker($event, 'MarcBernard')" class="" width="150%"/>

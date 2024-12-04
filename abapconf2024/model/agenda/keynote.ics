@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:bmdBEfY9YEZSjsyNmu0sF
-SUMMARY:Keynote: Modernizing a R/3 Solution with ABAP Cloud - Light and Sha
+SUMMARY:Keynote: Modernizing an R/3 Solution with ABAP Cloud - Light and Sha
 	dow
 DTSTAMP:20241121T134720Z
 DTSTART:20241205T080000Z

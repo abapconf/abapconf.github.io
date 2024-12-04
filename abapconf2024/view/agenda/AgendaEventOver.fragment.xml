@@ -807,19 +807,19 @@
                     <Link 
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
-                        text="{agenda>/rap5/title}" 
-                        press="openSession($event, 'rap5')"/>
+                        text="{agenda>/V105/title}" 
+                        press="openSession($event, 'V105')"/>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Link text="{agenda>/rap5/speaker}" press="openSpeaker($event, 'DominikElias')" class="" width="150%"/>
+                        <Link text="{agenda>/V105/speaker}" press="openSpeaker($event, 'DominikElias')" class="" width="150%"/>
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaDuration}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap5/duration} Min" class="" />
+                        <Text text="{agenda>/V105/duration} Min" class="" />
                     </HBox>
                     <HBox>
                         <Label text="{i18n>agendaLanguage}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
-                        <Text text="{agenda>/rap5/language}" class="" />
+                        <Text text="{agenda>/V105/language}" class="" />
                     </HBox>
                     <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
@@ -827,7 +827,7 @@
                             class="sapUiTinyMarginEnd"/>
                         <Link 
                             text="{i18n>agendaCalendar}"
-                            href="{agenda>/rap5/ics}"
+                            href="{agenda>/V105/ics}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
