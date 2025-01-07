@@ -83,7 +83,7 @@
                             displayOnly="false"
                             colorScheme= "1" />                                  
                     </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="true">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd whiteText"
@@ -97,9 +97,22 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/willkommen/icon}"
+                            class="sapUiTinyMarginEnd whiteText"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/willkommen/slide}"
+                            class="whiteText linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>                        
+                    </HBox>
                 </VBox>
             </ColumnListItem>
-
+            <!-- welcome -->
             <ColumnListItem class="columnWelcome">
                 <Text text="8:45" class="whiteText"/>
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop" >
@@ -132,7 +145,7 @@
                             displayOnly="false"
                             colorScheme= "1" />                                  
                     </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="true">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd whiteText"
@@ -146,9 +159,22 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/welcome/icon}"
+                            class="sapUiTinyMarginEnd whiteText"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/welcome/slide}"
+                            class="whiteText linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>                        
+                    </HBox>
                 </VBox>
             </ColumnListItem>
-
+            <!-- keynote -->
             <ColumnListItem class="columnKey">
                 <Text text="9:00" class="whiteText"/>
                 <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop">                    
@@ -159,14 +185,6 @@
                         text="{agenda>/keynote/title}" 
                         press="openSession($event, 'keynote')"/>
 
-                    <!-- 
-                       <Title 
-                        wrapping="true"   
-                        titleStyle="H3"
-                        level="H3" 
-                        text="{agenda>/keynote/title}"                 
-                        class="whiteText"/>                         
-                    -->
                     <Text 
                         wrapping="true" 
                         class="whiteText"
@@ -195,7 +213,7 @@
                             displayOnly="false"
                             colorScheme= "3" />      
                     </HBox>
-                    <HBox class="sapUiTinyMarginTop" visible="true">
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showIcs}">
                         <core:Icon
                             src="sap-icon://calendar"
                             class="sapUiTinyMarginEnd whiteText"
@@ -208,6 +226,19 @@
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
+                    </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/keynote/icon}"
+                            class="sapUiTinyMarginEnd whiteText"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/keynote/slide}"
+                            class="whiteText linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>                        
                     </HBox>
                 </VBox>                
             </ColumnListItem>

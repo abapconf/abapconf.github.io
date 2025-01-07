@@ -125,7 +125,22 @@
             
             <ColumnListItem class="columnPause" >
                 <Text text="18:20" class="whiteText"/>
-                <Text text="This was the last ABAPConf" class="whiteText"/>
+                <VBox>
+                    <Text text="This was the last ABAPConf" class="whiteText"/>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/closing/icon}"
+                            class="sapUiTinyMarginEnd whiteText"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/closing/slide}"
+                            class="whiteText linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>                        
+                    </HBox>
+                </VBox>
             </ColumnListItem>
 
                 <layoutData>

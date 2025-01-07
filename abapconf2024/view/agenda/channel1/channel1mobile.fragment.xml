@@ -89,6 +89,32 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/V101/icon}"
+                            class="sapUiTinyMarginEnd"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide} Deutsch"
+                            href="{agenda>/V101/slide}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>                        
+                    </HBox> 
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/V101/icon}"
+                            class="sapUiTinyMarginEnd"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide} English"
+                            href="{agenda>/V101/slide_en}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>                        
+                    </HBox> 
                     
                 </VBox>
             </ColumnListItem>          
@@ -130,7 +156,20 @@
                             wrapping="true"
                             subtle="false" 
                             width="100%"/>
-                    </HBox>  
+                    </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/V102/icon}"
+                            class="sapUiTinyMarginEnd"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/V102/slide}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>                        
+                    </HBox> 
                     
                 </VBox>
             </ColumnListItem>
@@ -169,6 +208,19 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/V103/icon}"
+                            class="sapUiTinyMarginEnd"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/V103/slide}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>                        
+                    </HBox> 
                 </VBox>                
             </ColumnListItem>
             <ColumnListItem>
@@ -228,6 +280,19 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/V104/icon}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/V104/slide}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                 </VBox>
             </ColumnListItem>
             <ColumnListItem >
@@ -264,7 +329,19 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
-                    
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/V105/icon}"
+                            class="sapUiTinyMarginEnd"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/V105/slide}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox> 
                 </VBox>
             </ColumnListItem>
             <ColumnListItem>
@@ -305,6 +382,19 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/V106/icon}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/V106/slide}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox> 
                 </VBox>  
             </ColumnListItem>
             <ColumnListItem>
@@ -371,6 +461,19 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox> 
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/V107/icon}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/V107/slide}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                                
                 </VBox>
             </ColumnListItem>

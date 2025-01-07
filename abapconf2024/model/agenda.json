@@ -15,6 +15,8 @@
         "duration": 15,
         "language": "German",
         "ics": "./model/agenda/willkommen.ics",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAPConf%202024%20Willkommen.pdf",
         "tags": [
             {
                 "name": "Keynote",
@@ -38,6 +40,8 @@
         "duration": 15,
         "language": "German",
         "ics": "./model/agenda/welcome.ics",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAPConf%202024%20Welcome.pdf",        
         "tags": [
             {
                 "name": "Keynote",
@@ -58,6 +62,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/keynote.ics",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAPConf%202024%20Keynote%20-%20Modernizing%20an%20R3%20Solution%20with%20ABAP%20Cloud.pdf",
         "tags": [
             {
                 "name": "Keynote",
@@ -143,8 +149,9 @@
         "duration": 50,
         "language": "German",
         "ics": "./model/agenda/V101.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAP-Cloud-A-Life-after-the-Report-DE.pdf",
+        "slide_en": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAP-Cloud-A-Life-after-the-Report-EN.pdf",
         "tags": [
             {
                 "name": "Cloud",
@@ -178,8 +185,8 @@
         "duration": 50,
         "language": "German",
         "ics": "./model/agenda/V102.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/20241017_ABAPConf_Pra%CC%88sentation_Graw.pdf",
         "tags": [
             {
                 "name": "Cloud",
@@ -209,6 +216,8 @@
         "duration": 50,
         "language": "German",
         "ics": "./model/agenda/V103.ics",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/Quo%20Vadis%20ABAP%20Devs.pdf",
+        "icon": "sap-icon://pdf-attachment",
         "tags": [
             {
                 "name": "ABAP",
@@ -238,8 +247,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/V104.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAPConf%2024%20-%20UNIT%20Test%20your%20Business%20Objects%20in%20RAP%20Framework_05.12.2024.pdf",
         "tags": [
             {
                 "name": "ABAP",
@@ -269,8 +278,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/V105.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/apm-abapconf-global-2024-marc-bernard.pdf",
         "tags": [
             {
                 "name": "ABAP",
@@ -294,8 +303,8 @@
         "duration": 50,
         "language": "Deutsch",
         "ics": "./model/agenda/V106.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAPConf%2005.12.2024%20-%20Von%20SAPscript%20zu%20Adobe%20Forms.pdf",
         "tags": [
             {
                 "name": "On Premise",
@@ -325,8 +334,8 @@
         "duration": 50,
         "language": "Deutsch",
         "ics": "./model/agenda/V107.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAPConf_ABAP_Hybrid_Die_Magie_von_Graph_Datenmodellen_V1.pdf",
         "tags": [
             {
                 "name": "ABAP",
@@ -381,6 +390,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/V202.ics",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/Making%20an%20OnPremise%20CICD%20with%20Github%20Actions.pdf",
         "tags": [
             {
                 "name": "ABAP",
@@ -412,8 +423,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/V203.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/Presentation%20ABAP%20Conf%202024.pptx.pdf",
         "tags": [
             {
                 "name": "S/4HANA",
@@ -552,8 +563,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/V301.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAPConf%202024%20-%20Key%20User%20and%20Developer%20Extensibility%20Options%20-%20Best%20Practices.pdf",
         "tags": [
             {
                 "name": "S/4HANA",
@@ -582,8 +593,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/V302.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/CFD-DOs_AND_DONTS.pdf",
         "tags": [
             {
                 "name": "S/4HANA",
@@ -616,8 +627,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/V303.ics",
-        "icon": "",
-        "slide": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/Enable%20OData%20Streams%20in%20RAP.pdf",
         "tags": [
             {
                 "name": "RAP",
@@ -641,6 +652,8 @@
         "language": "English",
         "ics": "./model/agenda/V304.ics",
         "link": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAP%20Cloud%20-%20Building%20Cloud-Ready%20Applications%20and%20Extensions%20for%20SAP%20S4HANA%20Cloud%2C%20Private%20Edition.pdf",
         "tags": [
             {
                 "name": "S/4HANA",
@@ -667,6 +680,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/V305.ics",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ATC_in_SAP_BTP_abapConf_2024.pdf",
         "link": "",
         "tags": [
             {
@@ -697,6 +712,8 @@
         "language": "English",
         "ics": "./model/agenda/V306.ics",
         "link": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/Presentation_Advanced_New_ABAP.pdf",
         "tags": [
             {
                 "name": "ABAP",
@@ -718,6 +735,8 @@
         "language": "English",
         "ics": "./model/agenda/V307.ics",
         "link": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAPConfDec2024%20Trouble%20Shooting.pdf",
         "tags": [
             {
                 "name": "Cloud",
@@ -850,6 +869,31 @@
         "ics": "./model/agenda/MTS3C1.ics",
         "link": "",
         "tags": [            
+        ]
+    },
+    "closing": {
+        "id": "closing",
+        "speakerids": [
+            "TobiasHofmann",
+            "SoerenSchlegel",
+            "JohannFoessleitner",
+            "DomiBigl"
+        ],
+        "title": "Closing",
+        "abstract": "Event closing and outlook",
+        "track": 1,
+        "time": "18:20",
+        "YouTubeTimestamp": 0,
+        "duration": 15,
+        "language": "English",
+        "ics": "",
+        "icon": "sap-icon://pdf-attachment",
+        "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/ABAPConf%202024%20Closing.pdf",
+        "tags": [
+            {
+                "name": "Closing",
+                "color": 1
+            }
         ]
     }
 }
