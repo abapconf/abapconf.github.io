@@ -80,7 +80,20 @@
                         class="sapMTitle sapMTitleStyleAuto textBlack" 
                         wrapping="true" 
                         text="{agenda>/V101/title}" 
-                        press="openSession($event, 'V101', 5)"/>
+                        press="openSession($event, 'V101', 5)"/>                    
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V101/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V101/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V101/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V101/speaker}" press="openSpeaker($event, 'BjoernSchulz')" width="150%"/>
@@ -143,7 +156,19 @@
                         wrapping="true" 
                         text="{agenda>/V201/title}" 
                         press="openSession($event, 'V201')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V201/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V201/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V201/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V201/speaker}" press="openSpeaker($event, 'PankajYadav')" width="150%"/>
@@ -180,7 +205,19 @@
                         wrapping="true" 
                         text="{agenda>/V301/title}" 
                         press="openSession($event, 'V301')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V301/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V301/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V301/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V301/speaker}" press="openSpeaker($event, 'ThomasSchneider')" width="150%"/>
@@ -236,7 +273,19 @@
                         wrapping="true" 
                         text="{agenda>/V102/title}" 
                         press="openSession($event, 'V102')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V102/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V102/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V102/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <VBox>
@@ -287,7 +336,19 @@
                         wrapping="true" 
                         text="{agenda>/V202/title}" 
                         press="openSession($event, 'V202')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V202/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V202/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V202/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <VBox>
@@ -339,7 +400,19 @@
                         wrapping="true" 
                         text="{agenda>/V302/title}" 
                         press="openSession($event, 'V302')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V302/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V302/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V302/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V302/speaker}" press="openSpeaker($event, 'KarstenSchaser')" width="150%"/>
@@ -394,6 +467,19 @@
                         wrapping="true" 
                         text="{agenda>/V103/title}" 
                         press="openSession($event, 'V103')"/>
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V103/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V103/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V103/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V103/speaker}" press="openSpeaker($event, 'SoerenSchlegel')" class="" width="150%"/>
@@ -442,7 +528,19 @@
                         wrapping="true" 
                         text="{agenda>/V203/title}" 
                         press="openSession($event, 'V203')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V203/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V203/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V203/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V203/speaker}" press="openSpeaker($event, 'RobertEijpe')" width="150%"/>
@@ -495,7 +593,19 @@
                         wrapping="true" 
                         text="{agenda>/V303/title}" 
                         press="openSession($event, 'V303')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V303/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V303/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V303/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V303/speaker}" press="openSpeaker($event, 'PavanKumarReddy')" width="150%"/>
@@ -612,6 +722,19 @@
                         wrapping="true" 
                         text="{agenda>/V104/title}" 
                         press="openSession($event, 'V104')"/>
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V104/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V104/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V104/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V104/speaker}" press="openSpeaker($event, 'MartinJonen')" class="" width="150%"/>
@@ -656,7 +779,19 @@
                         wrapping="true" 
                         text="{agenda>/V204/title}" 
                         press="openSession($event, 'V204')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V204/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V204/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V204/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V204/speaker}" press="openSpeaker($event, 'LisaPulsinger')" width="150%"/>
@@ -696,7 +831,19 @@
                         wrapping="true" 
                         text="{agenda>/V304/title}" 
                         press="openSession($event, 'V304')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V304/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V304/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V304/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V304/speaker}" press="openSpeaker($event, 'VolkerDrees')" width="150%"/>
@@ -750,6 +897,19 @@
                         wrapping="true" 
                         text="{agenda>/V105/title}" 
                         press="openSession($event, 'V105')"/>
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V105/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V105/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V105/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V105/speaker}" press="openSpeaker($event, 'MarcBernard')" class="" width="150%"/>
@@ -798,7 +958,19 @@
                         wrapping="true" 
                         text="{agenda>/V205/title}" 
                         press="openSession($event, 'V205')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V205/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V205/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V205/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V205/speaker}" press="openSpeaker($event, 'DusanSacha')" width="150%"/>
@@ -839,7 +1011,19 @@
                         wrapping="true" 
                         text="{agenda>/V305/title}" 
                         press="openSession($event, 'V305')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V305/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V305/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V305/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V305/speaker}" press="openSpeaker($event, 'OlgaDolinskaja')" width="150%"/>
@@ -893,6 +1077,19 @@
                         wrapping="true" 
                         text="{agenda>/V106/title}" 
                         press="openSession($event, 'V106')"/>
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V106/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V106/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V106/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V106/speaker}" press="openSpeaker($event, 'FrankEngert')" class="" width="150%"/>
@@ -945,6 +1142,19 @@
                         wrapping="true" 
                         text="{agenda>/V206/title}" 
                         press="openSession($event, 'V206')"/>
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V206/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V206/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V206/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V206/speaker}" press="openSpeaker($event, 'IvanMans')" width="150%"/>
@@ -980,6 +1190,19 @@
                         wrapping="true" 
                         text="{agenda>/V306/title}" 
                         press="openSession($event, 'V306')"/>
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V306/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V306/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V306/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V306/speaker}" press="openSpeaker($event, 'GeorgeDrakos')" width="150%"/>
@@ -1092,6 +1315,19 @@
                         wrapping="true" 
                         text="{agenda>/V107/title}" 
                         press="openSession($event, 'V107', 11)"/>
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V107/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V107/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V107/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <VBox>
@@ -1143,7 +1379,19 @@
                         wrapping="true" 
                         text="{agenda>/V207/title}" 
                         press="openSession($event, 'V207')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V207/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V207/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V207/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V207/speaker}" press="openSpeaker($event, 'EnnoWulff')" width="150%"/>
@@ -1169,6 +1417,19 @@
                             subtle="false" 
                             width="100%"/>
                     </HBox>
+                    <HBox class="sapUiTinyMarginTop" visible="{agendaView>/showSlides}">
+                        <core:Icon
+                            src="{agenda>/V207/icon}"
+                            class="sapUiTinyMarginEnd"/>                    
+                        <Link 
+                            text="{i18n>downloadSlide}"
+                            href="{agenda>/V207/slide}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/> 
+                    </HBox>    
                 </VBox>
                  <!-- V307 -->
                  <VBox 
@@ -1179,7 +1440,19 @@
                         wrapping="true" 
                         text="{agenda>/V307/title}" 
                         press="openSession($event, 'V307')"/>
-
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/V307/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/V307/iconVideo}"
+                            class="sapUiTinyMarginEnd"/>
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/V307/video}"
+                            class="linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>
+                    </HBox>
                     <HBox class="sapUiSmallMarginTop">
                         <Label text="{i18n>agendaSpeaker}" visible="{= !${device>/system/phone} }" class="sapUiSmallMarginEnd"/>
                         <Link text="{agenda>/V307/speaker}" press="openSpeaker($event, 'IngoBraeuninger')" width="150%"/>

@@ -185,6 +185,21 @@
                         text="{agenda>/keynote/title}" 
                         press="openSession($event, 'keynote')"/>
 
+                    <HBox class="sapUiTinyMarginTop" visible="{= ${agenda>/keynote/video}.length > 1 }">
+                        <core:Icon
+                            src="{agenda>/keynote/iconVideo}"
+                            class="sapUiTinyMarginEnd whiteText"/>                    
+                        <Link 
+                            text="{i18n>accessVideo}"
+                            href="{agenda>/keynote/video}"
+                            class="whiteText linkCalendar" 
+                            textAlign="Center" 
+                            wrapping="true"
+                            subtle="false" 
+                            width="100%"/>                        
+                    </HBox>
+
+
                     <Text 
                         wrapping="true" 
                         class="whiteText"
