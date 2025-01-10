@@ -448,7 +448,7 @@
                             class="sapUiTinyMarginEnd"/>                    
                         <Link 
                             text="{i18n>downloadSlide}"
-                            href="{agenda>/V202/slide}"
+                            href="{agenda>/V302/slide}"
                             class="linkCalendar" 
                             textAlign="Center" 
                             wrapping="true"
