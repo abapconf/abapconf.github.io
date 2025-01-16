@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ABAPConf//DE
+TZID:Europe/Berlin
+BEGIN:VEVENT
+UID:3175274
+DTSTART;VALUE=DATE:20250604
+DTEND;VALUE=DATE:20250606
+SUMMARY:ABAPConf 2025
+DESCRIPTION:The SAP Full-Stack developer conference for ABAP developers, by ABAP developers.
+X-ALT-DESC;FMTTYPE=text/html:<p>The SAP Full-Stack developer conference for ABAP developers, by ABAP developers.</p>
+LOCATION:MAFINEX, Mannheim, Germany and other co-locations and live on YouTube.
+URL:https://www.abapconf.org/
+END:VEVENT
+END:VCALENDAR
