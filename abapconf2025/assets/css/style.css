@@ -165,6 +165,8 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background: rgba(6, 12, 34, 0.98);
+  height: 70px;
 }
 
 #header.header-scrolled,
@@ -2034,4 +2036,41 @@ h6 {
 
 .icon-darkred {
   color: #e6e203;
+}
+
+
+.flag-earth {
+  background-image: url("../img/globe.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  height: 100px;
+}
+
+.flag-black {
+  height: 30px;
+  background-color: black;
+}
+
+.flag-red {
+  height: 30px;
+  background-color: red;
+}
+
+.flag-gold {
+  height: 30px;
+  background-color: gold;
+}
+
+.flag-white {
+  height: 30px;
+  background-color: white;
+}
+
+#online .card .card-title {
+  margin: 10px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
