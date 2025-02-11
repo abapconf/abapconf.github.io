@@ -383,7 +383,8 @@
         "duration": 50,
         "language": "English",
         "ics": "./model/agenda/V201.ics",
-        "video": "",
+        "video": "https://youtu.be/SpoFUIw1KlU",
+        "iconVideo": "sap-icon://video",
         "tags": [
             {
                 "name": "ABAP",
@@ -411,7 +412,7 @@
         "ics": "./model/agenda/V202.ics",
         "icon": "sap-icon://pdf-attachment",
         "iconVideo": "sap-icon://video",
-        "video": "",
+        "video": "https://youtu.be/B-NavY5EgW8",
         "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/Making%20an%20OnPremise%20CICD%20with%20Github%20Actions.pdf",
         "tags": [
             {
@@ -446,7 +447,7 @@
         "ics": "./model/agenda/V203.ics",
         "icon": "sap-icon://pdf-attachment",
         "iconVideo": "sap-icon://video",
-        "video": "",
+        "video": "https://youtu.be/Jo0-u1k0t4Y",
         "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/Presentation%20ABAP%20Conf%202024.pptx.pdf",
         "tags": [
             {
@@ -475,7 +476,8 @@
         "duration": 50,
         "language": "Deutsch",
         "ics": "./model/agenda/V204.ics",
-        "video": "",
+        "video": "https://youtu.be/bcFoHnN2wmQ",
+        "iconVideo": "sap-icon://video",
         "tags": [
             {
                 "name": "ABAP",
@@ -503,7 +505,8 @@
         "duration": 50,
         "language": "Deutsch",
         "ics": "./model/agenda/V205.ics",
-        "video": "",
+        "video": "https://youtu.be/c9-yBkkOj2Q",
+        "iconVideo": "sap-icon://video",
         "tags": [
             {
                 "name": "CDS",
@@ -532,7 +535,7 @@
         "ics": "./model/agenda/V206.ics",
         "icon": "sap-icon://pdf-attachment",
         "iconVideo": "sap-icon://video", 
-        "video": "",
+        "video": "https://youtu.be/Rw4vpEOaEhA",
         "slide": "",
         "tags": [
             {
@@ -566,7 +569,7 @@
         "ics": "./model/agenda/V207.ics",
         "icon": "sap-icon://pdf-attachment",
         "iconVideo": "sap-icon://video", 
-        "video": "",       
+        "video": "https://youtu.be/SepLxyZV9ls",       
         "slide": "https://raw.githubusercontent.com/abapconf/ABAPConf-Presentations/refs/heads/main/2024/ABAPConf%202024/abapconf2024-12.pdf",
         "tags": [
             {

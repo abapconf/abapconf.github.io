@@ -5,22 +5,24 @@
     xmlns:html="http://www.w3.org/1999/xhtml"
     width="100%"	  
     displayBlock="true"
-    controllerName="abapconf.2024.org.card.prog.domi.Main">
+    controllerName="abapconf.web.abapconf.card.prog.domi.Main">
 
-    <Avatar
-        src="./card/prog/domi/DomiBigl.jpg"
-        displaySize="Custom"
-		customDisplaySize="250px"
-        showBorder="true"
-        press="onPress"/>
-    <VBox >
-       <FlexBox alignItems="Start" justifyContent="SpaceBetween">
-			<Label text="{i18n>cardCompany} " labelFor="txtCompany" /> 
-            <Text id="txtCompany" text="Cadaxo GmbH" />
-		</FlexBox>
+    <VBox class="sapUiSmallMargin">
+        <Avatar
+            src="./card/prog/domi/DomiBigl.jpg"
+            displaySize="Custom"
+            customDisplaySize="250px"
+            showBorder="true"
+            press="onPress"/>
+        <VBox >
         <FlexBox alignItems="Start" justifyContent="SpaceBetween">
-			<Label text="{i18n>cardPosition}" /> 
-            <Text text="ADT or what is SE80?" />
-		</FlexBox>        
+                <Label text="{i18n>cardCompany} " labelFor="txtCompany" /> 
+                <Text id="txtCompany" text="Cadaxo GmbH" />
+            </FlexBox>
+            <FlexBox alignItems="Start" justifyContent="SpaceBetween">
+                <Label text="{i18n>cardPosition}" /> 
+                <Text text="ADT or what is SE80?" />
+            </FlexBox>        
+        </VBox>
     </VBox>
 </mvc:View>

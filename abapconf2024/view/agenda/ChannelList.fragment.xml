@@ -14,6 +14,23 @@
         hSpacing="1">
         <html:div class="exampleDiv"/>
 
+        <HBox alignItems="Center" justifyContent="Center">
+            <l:Grid
+                defaultSpan="XL3 L4 M4 S12"
+                containerQuery="true">
+                    <Link width="auto" text="{i18n>linkChannel1}" href="{agendaView>/channel1}" textAlign="Center"  class="sapUiSmallMarginTopBottom channelLink textReadability "></Link>
+                    <Link width="auto" text="{i18n>linkChannel2}" href="{agendaView>/channel2}" textAlign="Left"  class="sapUiSmallMarginTopBottom channelLink textReadability"></Link>
+                    <Link width="auto" text="{i18n>linkChannel3}" href="{agendaView>/channel3}" textAlign="Left"  class="sapUiSmallMarginTopBottom channelLink textReadability"></Link>
+                <l:layoutData>
+                    <l:GridData span="XL8 L8 M12 S12"/>
+                </l:layoutData>
+            </l:Grid>
+            <layoutData>
+                <l:GridData span="XL12 L12 M12 S12"/>
+            </layoutData>
+        </HBox>
+
+<!--
         <FlexBox direction="Row" alignItems="Center" alignContent="Center" width="100%">
             <FlexBox direction="Column" alignItems="Center" alignContent="Center" width="100%">
                 <Link width="auto" text="{i18n>linkChannel1}" href="{agendaView>/channel1}" textAlign="Center"  class="sapUiSmallMarginTopBottom channelLink textReadability"></Link>
@@ -28,7 +45,7 @@
                 <l:GridData span="XL8 L8 M12 S12"/>
             </layoutData>
         </FlexBox>
-
+-->
         <html:div class="exampleDiv"/>
     </l:Grid>  
 

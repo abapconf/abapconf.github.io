@@ -1,2 +1,2 @@
-sap.ui.define(["sap/ui/core/UIComponent"],function(n){"use strict";return n.extend("abapconf.2024.org.card.prog.tobias.Component",{})});
+sap.ui.define(["sap/ui/core/UIComponent"],function(n){"use strict";return n.extend("abapconf.web.abapconf.card.orga.tobias.Component",{})});
 //# sourceMappingURL=Component.js.map

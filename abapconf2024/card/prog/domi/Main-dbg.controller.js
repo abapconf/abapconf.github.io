@@ -4,10 +4,10 @@ sap.ui.define([
 ], function (Controller, ResourceModel) {
 	"use strict";
 
-	return Controller.extend("abapconf.2024.org.card.prog.domi.Main", {
+	return Controller.extend("abapconf.web.abapconf.card.prog.domi.Main", {
 		onInit: function () {
             var i18nModel = new ResourceModel({
-                bundleName: "abapconf.2024.org.card.prog.domi.i18n.i18n"
+                bundleName: "abapconf.web.abapconf.card.prog.domi.i18n.i18n"
             });
             this.getView().setModel(i18nModel, "i18n");
 		}
