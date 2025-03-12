@@ -2098,3 +2098,8 @@ h6 {
   background: #f82249;
   color: #fff;
 }
+
+.row div {
+  font-size: 18px;
+  font-weight: 400;
+}
