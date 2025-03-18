@@ -70,7 +70,8 @@ sap.ui.define(["./BaseController", "sap/m/GroupHeaderListItem", "sap/ui/model/Fi
      * @returns 
      */
     createFilter: function _createFilter(event) {
-      console.log("createFilter for %s", event);
+      //console.log("createFilter for %s", event);
+
       const filter = new Filter({
         path: 'events',
         test: function (aValue) {

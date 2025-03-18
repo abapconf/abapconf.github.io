@@ -91,7 +91,7 @@ export default class Main extends BaseController {
      * @returns 
      */
     private createFilter(event: string): Filter {
-        console.log("createFilter for %s", event);
+        //console.log("createFilter for %s", event);
         
         const filter = new Filter(
             {
@@ -103,7 +103,5 @@ export default class Main extends BaseController {
             });
         return filter;
     }
-    
-
 
 }

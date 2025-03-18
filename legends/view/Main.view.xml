@@ -17,21 +17,32 @@
 		id="page">
 		<content>
 
-            <l:Grid
-                id="gridABAPConfLogos"
-                containerQuery="false"
-                defaultSpan="XL1 L2 M2 S6"
-                class="sapUiMediumMarginTop"
-                content="{logos>/}"
-                >
-                <Image 
-                    id="ABAPConfLogo"
-                    ariaDetails="ABAPConf Logo" src="{logos>img}"
-                    width="130px"
-                    decorative="false"
-                    press="doFilterByABAPConf(${logos>event})" />
-            </l:Grid>
-
+            <!-- Filter for event -->
+            <l:VerticalLayout
+                id="vlLogos"
+                class=""
+				width="100%">
+                <l:Grid
+                    id="gridABAPConfLogos"
+                    containerQuery="false"
+                    defaultSpan="XL2 L2 M3 S6"
+                    class="sapUiMediumMarginTop"
+                    position="Left"
+                    width="100%"
+                    content="{logos>/}"
+                    hSpacing="1"
+                    >
+                    <Image 
+                        id="ABAPConfLogo"
+                        ariaDetails="ABAPConf Logo" src="{logos>img}"
+                        width="130px"
+                        height="80px"
+                        decorative="false"
+                        press="doFilterByABAPConf(${logos>event})" />                    
+                </l:Grid>
+            </l:VerticalLayout>
+            
+            <!-- Legends -->
             <l:VerticalLayout
                 id="vlSpeakers"
                 class="sapUiMediumMarginTop"
@@ -39,7 +50,7 @@
                 <l:Grid
                     id="gridSpeakers"
                     containerQuery="false"
-                    defaultSpan="XL1 L3 M4 S12"
+                    defaultSpan="XL2 L3 M4 S12"
                     content="{ 
                         path: '/'
                     }">

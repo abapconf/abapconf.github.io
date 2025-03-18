@@ -14,7 +14,8 @@
             "abapconf2021",
             "abapconf2022",
             "abapconf2023",
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -56,6 +57,21 @@
                 "event": "abapconfeurope2024",
                 "title": "Closing Keynote",
                 "abstract": "Looking back at ABAPConf Europe 2024 and a sneak preview of ABAPConf 2024 in December."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2023. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "This was the last ABAPConf",
+                "abstract": "This was the last ABAPConf."
             }
         ]
     },
@@ -74,7 +90,8 @@
             "abapconf2021",
             "abapconf2022",
             "abapconf2023",
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -116,6 +133,26 @@
                 "event": "abapconfeurope2024",
                 "title": "Closing Keynote",
                 "abstract": "Looking back at ABAPConf Europe 2024 and a sneak preview of ABAPConf 2024 in December."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2023. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Quo Vadis ABAP Devs?",
+                "abstract": "Wo geht die Reise hin? Was bleibt dabei zurück, was kommt, was ist wichtig? Was sind die kommenden Herausforderungen für ABAP Entwickler und Entwicklerinnen und wie kann man sich darauf vorbereiten?"
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Closing Keynote: The Modern SAP Full-Stack Developer",
+                "abstract": "Fiori Elements meets ABAP Cloud: Demos and Outlook\n\nTool Bridge (BAS/ADT), Analytical List Page (ALP), Treeview Edit (RAP), AI Support"
             }
         ]
     },
@@ -134,7 +171,8 @@
             "abapconf2021",
             "abapconf2022",
             "abapconf2023",
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -176,6 +214,21 @@
                 "event": "abapconfeurope2024",
                 "title": "Closing Keynote",
                 "abstract": "Looking back at ABAPConf Europe 2024 and a sneak preview of ABAPConf 2024 in December."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2023. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Dokumentengenerierung mit dox42 in ABAP RAP",
+                "abstract": ""
             }
         ]
     },
@@ -194,7 +247,8 @@
             "abapconf2021",
             "abapconf2022",
             "abapconf2023",
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -236,6 +290,16 @@
                 "event": "abapconfeurope2024",
                 "title": "Closing Keynote",
                 "abstract": "Looking back at ABAPConf Europe 2024 and a sneak preview of ABAPConf 2024 in December."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Willkommen",
+                "abstract": "Willkommen zur ABAPConf 2023. Einführung, Motivation und Vorstellung der Agenda. Lernt die Leute kennen und macht das Beste aus dem Tag."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day."
             }
         ]
     },
@@ -254,7 +318,9 @@
             "abapconf2021",
             "abapconf2022",
             "abapconf2023",
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconfsouthafrica2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -283,6 +349,16 @@
                 "event": "abapconfeurope2024",
                 "title": "Developing with ABAP Cloud in Clean Core Style",
                 "abstract": "Everybody is talking about Clean Core but there is not much practical experience what this means for the daily work of a developer. In this session Ingo and Thomas will show you how you can use the ABAP Cloud development model to program custom ABAP code that is compliant with the clean core principle. You will see how you can effectively use the released ABAP Cloud APIs and the ABAP development tools for Eclipse in order to make your custom code clean and upgrade stable."
+            },
+            {
+                "event": "abapconfsouthafrica2024",
+                "title": "ADT - Tips & Tricks for effective use of Eclipse in ABAP Development",
+                "abstract": "In this session, the speaker shares expert tips and tricks for optimizing the use of the ABAP Development Tools (ADT) within the Eclipse IDE. You will learn how to leverage Eclipse’s powerful features and plug-ins to streamline your ABAP development processes, improve code quality, and enhance productivity. By the end of the session, you will be equipped with practical strategies to make the most of ADT, transforming your ABAP development experience."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "ABAP Test Cockpit (ATC) goes Cloud - ATC on SAP BTP",
+                "abstract": "ABAP Test Cockpit (ATC) on SAP BTP is now ready for use and recommended by SAP for Clean Core governance and static quality assurance of your SAP S/4HANA Private Cloud (or on-premise) development landscapes. ATC on SAP BTP offers such essential capabilities like code analysis, custom checks, baseline, developer scenario, robust exemptions workflow or scheduling of ATC runs. The SAP Code Vulnerability Analyzer (CVA) security checks are included into ATC on SAP BTP at no additional licensing fee. Join this session to learn about ATC on BTP and see it in action."
             }
         ],
         "tags": [
@@ -306,7 +382,8 @@
         "events": [
             "abapconf2021",
             "abapconf2022",
-            "abapconf2023"
+            "abapconf2023",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -324,6 +401,11 @@
                 "event": "abapconf2023",
                 "title": "Jetzt ist alles besser, oder? Früher: Includes mit 1.000 Zeilen. Heute: Klassen mit 1.000 Zeilen.",
                 "abstract": "Objektorientierung ist der Standard bei dir im Unternehmen? Includes und Forms gibt es nicht mehr? FuBas werden gewrapped? Und es finden sich sogar manchmal Unit Tests? ABAP Cloud aktiv. Super! Läuft doch. Endlich ist alles besser als früher!\n\nAber sei mal ehrlich, ist jetzt irgendetwas *wirklich* anders? Plötzlich sind deine Klassen 1.000 Zeilen lang. Und sind deine Klassen wirklich Strukturen, die Funktionen anbieten, um damit auf Daten, die nur sie kennen, operieren? Oder ist eigentlich vieles beim Alten geblieben: \n* Lange Klassen und Methoden\n* Doppeltes Coding quer übers System. \n* Immer wieder dasselbe validieren, ob nicht doch jemand inkonsistente Daten übergeben hat.\n* Verdächtige Klassennamen wie „ZCL_UTILITY*“ oder „ZCL*MANAGER*“, weil du nicht so recht weißt, wohin bestimmte Funktionen sollen.\n* Businesslogik verstreut im ganzen System und kein Single Point Of Truth. \n* Viele primitive Datentyp, die irgendwie durchs System geschleust werden. \n* Wesentliche Begriffe aus der Domäne finden sich nicht im System wieder. \n\nKommt dir das bekannt vor? \n\nKeine Sorge, so sehen viele System aus. Aber kann man das besser machen? Klar, mit einer in anderen Sprachen sehr etablierten Technik. Michael und Dominik zeigen sie dir in der Theorie und Praxis."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Von SAPscript zu Adobe Forms - Freud und Leid in der Formularentwicklung",
+                "abstract": ""
             }
         ]
     },
@@ -368,7 +450,8 @@
         "linkedIn": "https://www.linkedin.com/in/enno-wulff/",
         "events": [
             "abapconf2021",
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -380,6 +463,11 @@
                 "event": "abapconfeurope2024",
                 "title": "Dieser Mann schrieb alles auf, was er wusste und was dann geschah, wirst du nicht glauben",
                 "abstract": "Eine kurze Geschichte über den Tricktresor, meine Erfahrungen mit Wissensvermittlung, Wissensdatenbanken, Lernen und Code-Dojos. Gewürzt mit ein paar pseudowissenschaftlichen Erkenntnissen, Anekdoten und merkwürdigen persönlichen Ansichten."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Programming Glitches and ABAP Hacks",
+                "abstract": "SAP will nicht, dass du dies weißt: Ich zeige einige Merkwürdigkeiten aus drei Jahrzehnten ABAP-Programmierung. Ich zeige Dinge auf, die möglich sind, aber vielleicht lieber nicht gemacht werden sollten. Leider könnte das unter 'outdated techniques' fallen, die ja explizit nicht gewünscht sind."
             }
         ]        
     },
@@ -498,7 +586,8 @@
         "linkedIn": "https://www.linkedin.com/in/christopher-graw-861245228/",
         "events": [
             "abapconf2021",
-            "abapconf2023"
+            "abapconf2023",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -510,6 +599,12 @@
                 "event": "abapconf2023",
                 "title": "Serviceentwicklung mit CDS und RAP im Rahmen einer Greenfield-Transformation",
                 "abstract": "In den vergangenen anderthalb Jahren haben wir mit dem Greenfield-Ansatz ein Template-System für Energieversorger auf der Basis von S/4HANA Utilities aufgebaut. In diesem Rahmen haben wir eine neue Servicearchitektur eingeführt und unseren Custom Code von Grund auf neu aufgebaut.\nIn meinem Vortrag erläutere ich am Beispiel der Strom- und Gaszählerablesung, wie ein Service mithilfe von CDS und RAP modelliert und implementiert wird, und über das API Management der SAP BTP bereitgestellt wird. Dabei beleuchte ich insbesondere auch die Unterstützung verschiedener Zugriffsmuster, Benutzerrollen und Frontend-Technologien.\n        Folgende Themen werden betrachtet:\n        - Paketkonzept für Services\n        - Schichtenmodell mit externen Services, Adaptern und Serviceklassen für Backendlogik\n        - Datenmodellierung für Stamm- und Bewegungsdaten mit CDS und RAP\n        - Berücksichtigung verschiedener Aufrufmuster und Benutzergruppen\n        - Erkenntnisse zu Performance und Fehlerbehandlung (Asynchrone Verbuchung, Ereignissteuerung, …)\n"
+                
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Releasemanagement mit gCTS",
+                "abstract": "Lifecycle und Release Management, sowie Versionsverwaltung gehören zu den wesentlichen Themen im Betrieb eines S/4HANA Systems. Mit gCTS bietet die SAP hier seit einigen Jahren ein Werkzeug, dass das Versionskontrollsystem git mit dem Transportwesen zusammenbringt."
                 
             }
         ]
@@ -601,7 +696,9 @@
         "events": [
             "abapconf2021",
             "abapconf2022",
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconfsouthafrica2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -619,7 +716,17 @@
                 "event": "abapconfeurope2024",
                 "title": "Addressing the Future of ABAP: The Power of Open Source",
                 "abstract": "'ABAP is dead!' is a statement worth revisiting. Despite, SAP's continued investment in the ABAP language and tooling, there's a hint of truth to this provocative slogan. The ABAP ecosystem is indeed at a crossroads, dealing with issues like an aging developer community, an escalating volume of legacy applications, and a pressing necessity for transitioning towards cloud-based, clean core systems.\nIn this interactive presentation, we investigate how different ecosystems have successfully integrated open-source tools and methodologies. We will discuss the advantages of application development using open source as well as the challenges it presents.\nThe session will highlight the urgent need for revitalization of the ABAP ecosystem. See how open source will provide the necessary booster shots. Learn about topics like semantic versions, the publication and discovery of packages, and dependency management.\nOpen source will change how we work with ABAP forever. The sharing of high-quality ABAP packages will enable a strategic shift - moving away from reliance on inadequately documented and unreleased SAP code, to modular, thoroughly tested components build by the community. This approach ultimately aids moving custom-developments to the cloud with greater ease.\nLet's make ABAP cool again: Open Source ABAP. Join the Movement."
-            }   
+            },
+            {
+                "event": "abapconfsouthafrica2024",
+                "title": "abapGit & apm - Taking your development to the next level with opensource ABAP",
+                "abstract": "In this presentation, the speaker explores how leveraging open-source tools like abapGit and ABAP Package Manager (APM) can elevate your ABAP development practices. You will gain valuable knowledge on harnessing the power of open-source solutions to advance your ABAP projects."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "apm - From Vision to Reality",
+                "abstract": "In the world of ABAP development, the lack of efficient code sharing, robust version control, and automated dependency management have long been barriers to innovation and productivity. As developers increasingly seek open-source solutions, apm emerges as a transformative package manager designed to address these challenges, drawing inspiration from successful ecosystem solutions like npm.\n\nExplore how apm seamlessly integrates into your technology discovery routine, making it an essential part of your developer toolkit. Join us to uncover apm's straightforward approach to versioning, dependency management, and manifest definitions.\n\nExperience apm firsthand in our free and unlimited playground, where you can publish, download, and install packages with ease. Quickly activate your apm account and transition from adoption to becoming a proficient 'badass user.'\n\nFinally, discover how to join a vibrant community of ABAP developers dedicated to ongoing engagement and collaborative problem-solving. Be part of the revolution transforming ABAP development through open-source innovation."
+            }
         ]
     },
     {
@@ -958,13 +1065,19 @@
         "longBio": "'Customers don't expect you to be perfect. But they do expect you to fix things when they go wrong.'\nThis is where I pitch in with my 10+ years of experience as a Leader, Developer and Coach in SAP technologies with a superb work ethic and client satisfaction record",
         "linkedIn": "https://www.linkedin.com/in/pankaj-yadav-sap",
         "events": [
-            "abapconf2022"
+            "abapconf2022",
+            "abapconf2024"
         ],
         "sessions": [
             {
                 "event": "abapconf2022",
                 "title": "Clean Core Strategy for WRICEF developments",
                 "abstract": "This session talks about building WRICEF objects by following clean core fundamentals"
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Streamlining ABAP Code reviews with AI: ABAP GenAI Co-pilot on Microsoft Teams for S/4HANA on-premise",
+                "abstract": "This session explores how the ABAP GenAI Co-Pilot, powered by SAP Generative AI Hub helps in the code review activities like code analysis, defect detection, integrate microsoft teams for collaboration etc. for development leads & managers. Presentation as well as demo will be shown for this session."
             }
         ]
     },
@@ -1086,13 +1199,19 @@
         "longBio": "Ich habe großen Spaß daran neue Sachen auszuprobieren, daraus zu lernen und dadurch mich selbst und andere weiterzuentwickeln.\nMeine Mission ist es unsere Kunden für unsere Produkte und Dienstleistungen im SAP-Umfeld zu begeistern.",
         "linkedIn": "https://www.linkedin.com/in/frank-engert/",
         "events": [
-            "abapconf2022"
+            "abapconf2022",
+            "abapconf2024"
         ],
         "sessions": [
             {
                 "event": "abapconf2022",
                 "title": "Testdatencontainer für Entwicklertests und dynamisch wachsende Unit Tests",
                 "abstract": "Unit Tests helfen bei der Implementierung und geben Sicherheit bei Änderungen an bestehendem Code.\nTestdaten im Entwicklungssystem helfen beim Debugging um den eigenen ABAP-Code zu verifizieren.\nBeides ist leider nicht selbstverständlich. Testdatencontainer können die bestehenden Lücken zu schließen.\nAnhand von Code-Beispielen aus verschiedenen Projekten werde ich die Verwendung von Testdatencontainern in der Praxis zeigen. „Jedes Stück ABAP-Code sollte seinen Test mit ausgeliefert bekommen“.        \nEinen ähnlichen Vortrag habe ich im November 2021 beim DSAG-AK Development gehalten. Sören war Teilnehmer und kann davon berichten."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Von SAPscript zu Adobe Forms - Freud und Leid in der Formularentwicklung",
+                "abstract": ""
             }
         ]
     },
@@ -1224,13 +1343,19 @@
         "longBio": "Lead Architect RAP Extensibility",
         "linkedIn": "https://www.linkedin.com/in/daniel-wachs-7b48a299/",
         "events": [
-            "abapconf2022"
+            "abapconf2022",
+            "abapconf2024"
         ],
         "sessions": [
             {
                 "event": "abapconf2022",
                 "title": "Inside Talk: Extensibility (CFD, BOPF)",
                 "abstract": ""
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Implementing Extension Fields using Key User and Developer Extensibility - Do's and Don'ts",
+                "abstract": "In this session we will focus on how to implement extensions using extension fields.\n\nWe will demonstrate both the key user tools and the developer extensibility wizard in ADT to implement typical scenarios using extension fields. We will provide guidance for the Do’s and Don’ts in the extensibility area."
             }
         ]
     },
@@ -1419,7 +1544,8 @@
         "linkedIn": "https://www.linkedin.com/in/olga-dolinskaja-942251135/",
         "events": [
             "abapconf2023",
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -1431,6 +1557,11 @@
                 "event": "abapconf2023",
                 "title": "ABAP custom code transformation for Clean Core in SAP S/4HANA",
                 "abstract": "In this session you will learn how to handle your ABAP custom code after an SAP S/4HANA transition with regard to clean core including different options: from retirement of the unused code and adaptation for SAP S/4HANA to renovation and innovation with ABAP Cloud. The ABAP test cockpit on SAP BTP will support the custom code transformation and management in your SAP S/4HANA system landscapes."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "ABAP Test Cockpit (ATC) goes Cloud - ATC on SAP BTP",
+                "abstract": "ABAP Test Cockpit (ATC) on SAP BTP is now ready for use and recommended by SAP for Clean Core governance and static quality assurance of your SAP S/4HANA Private Cloud (or on-premise) development landscapes. ATC on SAP BTP offers such essential capabilities like code analysis, custom checks, baseline, developer scenario, robust exemptions workflow or scheduling of ATC runs. The SAP Code Vulnerability Analyzer (CVA) security checks are included into ATC on SAP BTP at no additional licensing fee. Join this session to learn about ATC on BTP and see it in action."
             }
         ]
     },
@@ -1573,7 +1704,8 @@
         "linkedIn": "",
         "events": [
             "abapconf2023",
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
@@ -1590,6 +1722,16 @@
                 "event": "abapconfeurope2024",
                 "title": "Keynote: ABAP Cloud in action – Latest features and capabilities",
                 "abstract": "The ABAP Cloud development model supports the ABAP developer to build applications, extensions and services for the cloud. New ABAP Cloud apps can be automatically generated using Generative AI capabilities embedded into the ABAP Development Tools for Eclipse. The generated apps have built-in ABAP Cloud qualities such as end-to-end extensibility for side-by-side and on-stack extension scenarios.\nThe session will show how to integrate business events and expose the underlying data model for Enterprise Search and Analytics use cases."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Clean Core extensibility with ABAP Cloud in SAP S/4HANA Cloud Private Edition",
+                "abstract": "ABAP Cloud is the powerful development model for clean core compliant, cloud-ready business applications, services, and extensions.\n\nIn this session, we will demonstrate how the 3-tier extensibility model helps you to consume BAPIs with ABAP Cloud in SAP S/4HANA Cloud Private Edition and SAP S/4HANA."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Closing Keynote: The Modern SAP Full-Stack Developer",
+                "abstract": "Fiori Elements meets ABAP Cloud: Demos and Outlook\n\nTool Bridge (BAS/ADT), Analytical List Page (ALP), Treeview Edit (RAP), AI Support"
             }
         ]
     },
@@ -1693,13 +1835,19 @@
         "longBio": "",
         "linkedIn": "https://www.linkedin.com/in/ingo-br%C3%A4uninger-a6720b151/",
         "events": [
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [            
             {
                 "event": "abapconfeurope2024",
                 "title": "Developing with ABAP Cloud in Clean Core Style",
                 "abstract": "Everybody is talking about Clean Core but there is not much practical experience what this means for the daily work of a developer. In this session Ingo and Thomas will show you how you can use the ABAP Cloud development model to program custom ABAP code that is compliant with the clean core principle. You will see how you can effectively use the released ABAP Cloud APIs and the ABAP development tools for Eclipse in order to make your custom code clean and upgrade stable."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Integration Troubleshooting in the SAP BTP, ABAP Environment",
+                "abstract": "This session will offer an overview of troubleshooting capabilities within the Business Technology Platform (BTP) ABAP environment, specifically focusing on integration aspects.\n\nYou will see how to troubleshoot integration scenarios and discover different tools necessary for effectively addressing integration and security issues."
             }
         ],
         "tags": [
@@ -1777,13 +1925,19 @@
         "longBio": "Seit 1996 in allen mögliche SAP Bereichen und Rollen unterwegs. Langjähriger DSAG Arbeitskreis Funktionär. Organisator SAP Stammtisch Magdeburg seit 2018. Technologisch sehr breit interessiert.",
         "linkedIn": "https://www.linkedin.com/in/enno-wulff/",
         "events": [
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [
             {
                 "event": "abapconfeurope2024",
                 "title": "KI für ABAP - Vorstellung Open Source Projekt",
                 "abstract": "Im Vortrag stelle ich mein neues abapGit Open Source Projekt vor und zeige, wie man mit ABAP und sogar ohne Cloud KI machen kann."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "ABAP Hybrid - Magie mit Graph Datenmodellen",
+                "abstract": "Wenn wir über die Grenzen eines ABAP Stacks hinaus denken (können), dann ist so manche komplexe Herausforderung unseres ABAP Alltags einfacher lösbar und sorgt zusätzlich für clean core. Mit Graph Datenmodellen bekommen wir neue 'Dimensionen' in denen wir uns bewegen können. Im Rahmen meines Vortrags stelle ich einige unserer Szenarien und Lösungsansätze vor.\n\nABAP Hybrid heißt nicht zwangsweise Cloud, was ich bei meinem letzten ABAPConf Vortrag schon thematisiert habe. KI wird auch wieder eingebaut: Graph Datenmodelle sind eine gute Basis für GraphRAG's"
             }
         ]        
     },
@@ -1799,13 +1953,19 @@
         "longBio": "Winfried Schwarzmann is a chief development architect at SAP. Since 2011, he has worked as a trainer for agile software engineering (ASE) and has conducted in-house and external SAP training courses and workshops. He also developed the curriculum for ASE coaches of the SAP S/4HANA organization and the ASE best practices for modernizing ERP. He is author of the SAP PRESS publications 'Test-Driven Development with ABAP Objects', 'Test Data Classes for ABAP', 'Designing Testable ABAP Classes and Packages', and 'Parallel Processing with ABAP Objects: Implementation and Testing'.",
         "linkedIn": "https://blog.sap-press.com/author/winfried-schwarzmann",
         "events": [
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconfsouthafrica2024"
         ],
         "sessions": [            
             {
                 "event": "abapconfeurope2024",
                 "title": "How can a test pyramid be implemented?",
                 "abstract": "Everyone has heard of it, and can probably explain a picture of it without problems, but how can a test pyramid be implemented for an application? We are talking here about an isolated test pyramid – that is, one of which not only the unit tests, but also the tests of the entire application fulfill the FIRST principles. This presentation will further explain how such a test pyramid can be developed and maintained efficiently – that is, with the maximum readability and the least duplication."
+            },
+            {
+                "event": "abapconfsouthafrica2024",
+                "title": "Designing Testable ABAP Classes and Packages",
+                "abstract": "The speaker will delve into best practices for creating ABAP classes and packages that are easy to test and maintain. Covering principles of test-driven development, modular design, and effective use of interfaces and dependency injection to enhance code testability."
             }
         ]
     },
@@ -1843,13 +2003,19 @@
         "longBio": "12+ years of experience with SAP Developments. Currently working as a Senior Developer with Order to Cash team at Booking Holdings. Worked on products like CRM, HCM, S/4HANA Employee Integration, Success Factors Employee Central to ERP Integration, ERP to Success Factors Employee Central Migration, S/4HANA Intelligent Real Estate. Worked as Scrum Master, S/4HANA RAP Trainer with SAP Development Learning at SAP. Specialties: Product Development, Scrum Master with strong experience in Agile and Scrum based software development, Facilitating Training Sessions , Training Delivery, Creating Content for courses for Programming topics: S/4HANA, ABAP Restful Programming Model(RAP), ABAP on HANA, ABAP, Fiori, OData, CDS, AMDP's, BOPF, SAP BTP- ABAP Environment.",
         "linkedIn": "https://www.linkedin.com/in/reddypavankumar/",
         "events": [
-            "abapconfeurope2024"
+            "abapconfeurope2024",
+            "abapconf2024"
         ],
         "sessions": [            
             {
                 "event": "abapconfeurope2024",
                 "title": "Deep Dive into RAP Developer Extensibility",
                 "abstract": "How to develop custom extensions for standard ABAP RAP based business objects in S/4HANA Public, Private Cloud, BTP ABAP Environment and On-Premise Platforms?.\nRAP Developer Extensibility is the solution. The topic gives an overview of RAP developer extensibility architecture, extension development artifacts such as BO interfaces, all available extensibility features and how to develop RAP custom extensions such as data model extension, behavior extensions and node extensions for standard ABAP RAP based applications.\nUser can develop semantically rich, upgrade-safe, and lifecycle-stable custom extensions for standard RAP Business Objects in S/4HANA Public, Private Cloud, BTP ABAP environment and On-premise platforms."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Enable OData Streams in RAP",
+                "abstract": "How to enable OData Streams such as excel, pdf, Images and other large objects using standard RAP Based application development without using UI5 tooling?\n\nWith the latest SAP BTP ABAP Environment 2208 release the RAP framework now supports OData streams. It is now possible to enable your RAP application to maintain and handle Large Objects(LOBs).This feature provides end users an option to upload external files of different file formats such as PDF, XLSX , binary file format and other types hence allowing media handling."
             }
         ]
     },
@@ -1938,6 +2104,429 @@
                 "event": "abapconfeurope2024",
                 "title": "Embedded Analytics",
                 "abstract": "Learn how to build native analytical Fiori applications with the ABAP Cloud programming language using ABAP core data services, analytical providers, and business services in the ABAP development tools. The session will include the regular development process, a preview on the planned ADT generator as well as an outlook on Embedded Analytics in ABAP Cloud."
+            }
+        ]
+    },
+    {
+        "id": "PromiseAphana",
+        "firstname": "Promise",
+        "middlename": "",
+        "lastname": "Aphana",
+        "initials": "PA",
+        "function": "Full-Stack Developer",
+        "picture": "./speakers/promise/PromiseAphana.jpg",
+        "shortBio": "SAP Full-Stack Developer",
+        "longBio": "A well experienced and Cross-skilled SAP Developer with passion in creating abstract futuristic SAP solutions and frameworks that are reusable, ease continuous improvement and maintenance.\n\nHas years of experience in Global Template projects, SAP implementations and Operations support. \n\nCleanCode freak and obsessed with the new ABAP Syntax.",
+        "linkedIn": "https://www.linkedin.com/in/promise-aphana-a57471218/",
+        "events": [
+            "abapconfsouthafrica2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconfsouthafrica2024",
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf South Africa 2024. Introduction to the conference and agenda."
+            }
+        ]
+    },
+    {
+        "id": "ThomasErgin",
+        "firstname": "Thomas",
+        "middlename": "",
+        "lastname": "Ergin",
+        "initials": "TE",
+        "function": "Full-Stack Developer",
+        "picture": "./speakers/thomasergin/ThomasErgin.jpg",
+        "shortBio": "IT-Ingenieur SAP",
+        "longBio": "Software Entwicklung (ABAP), Custom Code Management, Software Architektur, SAP Basistechnologien, Security Management, SAP Betrieb für SAP Systeme im Bereich Entwicklung, Produktion, Vertrieb",
+        "linkedIn": "https://www.xing.com/profile/Thomas_Ergin",
+        "events": [
+            "abapconfsouthafrica2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconfsouthafrica2024",
+                "title": "Precise ABAP",
+                "abstract": "Robert C. Martin (\"Uncle Bob\") told us developers how to write clean code, which significantly affected our understanding of software quality. However, while writing readable code is essential, great solutions require more than that. They need to be compact, structured, ordered, and to the point. In this talk, the speaker will guide you through an overview of concepts that support writing precise ABAP code."
+            }
+        ]
+    },
+    {
+        "id": "ThabisoRamarou",
+        "firstname": "Thabiso",
+        "middlename": "",
+        "lastname": "Ramarou",
+        "initials": "TR",
+        "function": "Full-Stack Developer",
+        "picture": "./speakers/thabiso/ThabisoRamarou.jpg",
+        "shortBio": "SAP BTP Development and Integration Sr. Consultant at EPI-USE",
+        "longBio": "SAP BTP Development and Integration Sr. Consultant at EPI-USE",
+        "linkedIn": "https://www.linkedin.com/in/thabiso-ramarou/",
+        "events": [
+            "abapconfsouthafrica2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconfsouthafrica2024",
+                "title": "Introduction to ABAP Cloud - working towards a Clean Core",
+                "abstract": "This session introduces ABAP Cloud and its role in maintaining a clean core within SAP systems. The speaker will cover ABAP Cloud’s architecture, features, and best practices for developing cloud-native solutions while preserving the integrity of the SAP core. Attendees will learn how to use ABAP Cloud to enhance flexibility and sustainability in their SAP development projects."
+            }
+        ]
+    },
+    {
+        "id": "BjoernSchulz",
+        "firstname": "Björn",
+        "middlename": "",
+        "lastname": "Schulz",
+        "initials": "BJ",
+        "function": "Software Engineer and Blogger for the latest ABAP Content.",
+        "picture": "./speakers/bjoernschulz/BjoernSchulz.jpg",
+        "shortBio": "IT Software Engineer Lead",
+        "longBio": "IT Software Engineer Lead. Software Heroes",
+        "linkedIn": "https://www.linkedin.com/in/bjoern-schulz-swh",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "ABAP Cloud - A life after the report",
+                "abstract": "Wie geht es weiter mit dem ALV und dem klassischen ABAP Report? In dieser Session beschäftigen wir uns mit der Migrationsstrategie in Richtung ABAP Cloud und welche Alternativen es mit RAP und dem Application Job gibt. In einem Beispiel gehen wir die einzelnen Schritte der Migration hin zu einer ABAP Cloud Anwendung durch.\n\nWhat happens next with the ALV and the classic ABAP report? In this session we will look at the migration strategy towards ABAP Cloud and what alternatives there are with RAP and the Application Job. In an example we will go through the various steps of the migration to get an ABAP Cloud application."
+            }
+        ]
+    },
+    {
+        "id": "MartinJonen",
+        "firstname": "Martin",
+        "middlename": "",
+        "lastname": "Jonen",
+        "initials": "MJ",
+        "function": "Developer, Consultant and Coach",
+        "picture": "./speakers/martinjonen/MartinJonen.jpeg",
+        "shortBio": "I am an SAP Software Engineer and Coach focused on software testing and clean code. I help teams build high-quality, maintainable solutions by implementing best practices and fostering a culture of continuous improvement in software development.",
+        "longBio": "I am an experienced SAP Software Engineer and Coach specializing in software testing and clean code practices. With a deep commitment to quality and efficiency, I help teams and organizations implement best practices in software development, ensuring robust, maintainable, and scalable solutions. Known for my practical approach and passion for continuous improvement, I empower developers to elevate their skills and embrace a culture of excellence in coding and testing.",
+        "linkedIn": "https://www.linkedin.com/in/martin-jonen",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Unit Test your Business Objects in RAP",
+                "abstract": "A session on unit testing business objects in RAP covers the fundamental principles and practices of testing business logic within the RAP framework. Participants will learn how to design and implement unit tests for RAP business objects using the ABAP Test Double Framework. The session will focus on creating test scenarios to validate business rules, data consistency, and transactional behaviors without relying on a database connection or external dependencies. Key topics include setting up the test environment, creating mock objects, simulating data retrieval and modification, and executing tests to ensure the robustness and reliability of business logic in a RAP application. This hands-on session aims to equip developers with the skills to confidently test and maintain high-quality RAP applications."
+            }
+        ]
+    },
+    {
+        "id": "SimoneGaffurini",
+        "firstname": "Simone",
+        "middlename": "",
+        "lastname": "Gaffurini",
+        "initials": "SG",
+        "function": "ABAP Developer, BTP, Node.Js, AWS",
+        "picture": "./speakers/simonegaffurini/SimoneGaffurini.jpg",
+        "shortBio": "ABAP/NodeJs developer and active contributor to the SAP Open Source Community",
+        "longBio": "ABAP/NodeJS Developer with a passion for innovation and modernization.\n\nJoined Regesta Italia S.p.A, SAP Gold Partner, in 2019 and began my journey in ABAP development.\n\nSince 2023, owner and maintainer of the open-source project TRM (Transport Request Manager).",
+        "linkedIn": "https://www.linkedin.com/in/simonegaffurini/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Making an on-premise ABAP CI/CD with GitHub Actions",
+                "abstract": "Live demo of my blog article 'Making an OnPremise ABAP CI/CD with Github Actions': how to leverage community-driven, open-source solutions to create a modern CI/CD setup for ABAP. This demo will showcase tools like abapGit, abapLint, ADASH, and TRM, demonstrating how each contributes to the pipeline. The demo will also include a brief overview of Git branching strategies tailored for effective CI/CD implementation."
+            }
+        ]
+    },
+    {
+        "id": "RobertEijpe",
+        "firstname": "Robert",
+        "middlename": "",
+        "lastname": "Eijpe",
+        "initials": "RE",
+        "function": "Strategic Enterprise Architect for SAP & SAP Mentor",
+        "picture": "./speakers/roberteijpe/RobertEijpe.jpeg",
+        "shortBio": "Mr. Eijpe is an SAP strategic enterprise architect, ABAP cloud developer, and user experience consultant. He is also an SAP Mentor, frequently speaking and writing about innovative SAP solutions.",
+        "longBio": "Robert Eijpe, a graduate of the Eindhoven University of Technology in 1995, began his SAP journey in 1996 as an SAP development engineer. His career has been a rich tapestry of roles and projects for major companies such as Deloitte Consulting, Philips Medical, Unilever, RWE, Leiden University, SAP SE, Blackline Inc., and Booking. As the co-founder and general manager of NL for Business, an SAP consultancy company established in the Netherlands in 2001, he has been instrumental in the company's focus on SAP custom-build innovations, including Integration, User Experience, Cloud Development, and Design Thinking.\n\nMr. Eijpe is an SAP strategic enterprise architect, ABAP cloud developer, and user experience consultant. He is also an SAP Mentor, frequently speaking and writing about innovative SAP solutions. His specialties include design thinking, business process management, enterprise architecture for SAP, user experience, and custom build development. He is a strategic advisor for integration and custom-build developments on S/4HANA and SAP BTP.",
+        "linkedIn": "https://www.linkedin.com/in/robert-eijpe-b94845/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Lessons learned building a product on clean core ABAP on S/4HANA public cloud",
+                "abstract": "In this session, we will share the challenges and lessons we learned when we built the partner solution FEXS API Connect for the S/4HANA public cloud with Clean Core ABAP. We will first explain the possible integration options for integrating as a partner with the S/4HANA public cloud and why we chose to build it on an embedded ABAP cloud environment. We will discuss the challenges we face with using an S/4HANA public cloud environment and how we overcome the restrictions of cloud ABAP and the RAP model. We will talk more about using RAP events, bgPF, XCO libraries, and other capabilities of the ABAP cloud, which will help us realize our solution."
+            }
+        ]
+    },
+    {
+        "id": "OctavianSavu",
+        "firstname": "Octavian",
+        "middlename": "",
+        "lastname": "Savu",
+        "initials": "OS",
+        "function": "Senior SAP Technical Consultant | SAP Developer (ABAP, RAP & Fiori) | Technical Team Lead | Trainer",
+        "picture": "./speakers/octaviansavu/OctavianMihailSavu.jpeg",
+        "shortBio": "I am an experienced consultant committed to delivering high-quality SAP projects. I specialize in ABAP Cloud development with RAP and Clean Core principles.",
+        "longBio": "I am an experienced consultant committed to delivering high-quality SAP projects. I am passionate about technology and dedicated to continuous learning. Starting as an ABAP developer, I specialize in ABAP Cloud development with RAP and Clean Core principles. I have advanced my expertise in S/4HANA on-premise and cloud environments. Recently, I have focused on integrations between S/4HANA and other systems.\n\nMy experience includes solution design, custom development architecture, and technical team leadership. I have also served as a mentor and people manager. I prioritize building solutions that address real needs through careful requirement gathering and fair customer expectation management.",
+        "linkedIn": "https://www.linkedin.com/in/octavian-mihail-savu-8b016227/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Lessons learned building a product on clean core ABAP on S/4HANA public cloud",
+                "abstract": "In this session, we will share the challenges and lessons we learned when we built the partner solution FEXS API Connect for the S/4HANA public cloud with Clean Core ABAP. We will first explain the possible integration options for integrating as a partner with the S/4HANA public cloud and why we chose to build it on an embedded ABAP cloud environment. We will discuss the challenges we face with using an S/4HANA public cloud environment and how we overcome the restrictions of cloud ABAP and the RAP model. We will talk more about using RAP events, bgPF, XCO libraries, and other capabilities of the ABAP cloud, which will help us realize our solution."
+            }
+        ]
+    },
+    {
+        "id": "LisaPulsinger",
+        "firstname": "Lisa",
+        "middlename": "",
+        "lastname": "Pulsinger",
+        "initials": "LP",
+        "function": "Senior Technical Evangelist & Product Manager",
+        "picture": "./speakers/LisaPulsinger/LisaPulsinger.jpeg",
+        "shortBio": "I'm a multi-passionate woman who thrives in international and forward thinking environments. I dedicate my time to two things: my IT product manager/evangelist job at dox42 and supporting women and students through financial education and coaching. That's my unique combination & I love it",
+        "longBio": "I'm a multi-passionate woman who thrives in international and forward thinking environments. I dedicate my time to two things: my IT product manager/evangelist job at dox42 and supporting women and students through financial education and coaching. That's my unique combination & I love it",
+        "linkedIn": "https://www.linkedin.com/in/lisapulsinger/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Dokumentengenerierung mit dox42 in ABAP RAP",
+                "abstract": ""
+            }
+        ]
+    },
+    {
+        "id": "DusanSacha",
+        "firstname": "Dusan",
+        "middlename": "",
+        "lastname": "Sacha",
+        "initials": "DS",
+        "function": "Fiori Enthusiast",
+        "picture": "./speakers/DusanSacha/DusanSacha.jpg",
+        "shortBio": "Fiori Developer",
+        "longBio": "Ich bin Dušan [:duschan:]. SAP Developer aus Tschechien, wohne und arbeite bei Cadaxo in Wien seit 2015.\n\nIch bin der Mr. Web aus unserem Cadaxo Team. Am liebsten arbeite ich am Frontend und bringe verschiedene Design Ideen aus Papier und Kopf in den Browser hinein.",
+        "linkedIn": "https://www.linkedin.com/in/lisapulsinger/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Verloren im CDS Dschungel?",
+                "abstract": "Wie eine grafische Visualisierung die Sicht auf CDS Views, ihre Annotationen und Abhängigkeiten verändern kann.\n\nHabt ihr euch schon mal gefragt, in welchen CDS Views eine Tabelle denn jetzt genau verwendet wird? Wie diese von einander abhängen? Oder wo in einer CDS Hierarchie ein Feld nun verwendet wird, und wo nicht mehr? Oder auf welcher Ebene gewisse Annotations gesetzt werden? Oder…?\n\nWir nehmen euch mit auf die Reise, wir wir uns selbst in dem Dschungel verirrt haben, dann in den verschiedenen Lockdowns mit graphischen Darstellung experimentiert haben um dann ein Tool zu schaffen, dass wir jetzt demnächst auf Github Allen zur Verfügung stellen."
+            }
+        ]
+    },
+    {
+        "id": "OliverWahrstoetter",
+        "firstname": "Oliver",
+        "middlename": "",
+        "lastname": "Wahrstötter",
+        "initials": "OW",
+        "function": "SAP Architekt",
+        "picture": "./speakers/OliverWahrstoetter/OliverWahrstoetter.jpg",
+        "shortBio": "SAP Enthusiast",
+        "longBio": "1998 die ersten Berührungen mit SAP gemacht. (4.5b), seitdem dem SAP Virus verfallen. nach vielen Jahren bei der SAP in der Beratung, 2009 die Cadaxo mit gegründet und seitdem immer auf der Suche nach den besten neuen SAP Technologien.",
+        "linkedIn": "https://www.linkedin.com/in/lisapulsinger/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Verloren im CDS Dschungel?",
+                "abstract": "Wie eine grafische Visualisierung die Sicht auf CDS Views, ihre Annotationen und Abhängigkeiten verändern kann.\n\nHabt ihr euch schon mal gefragt, in welchen CDS Views eine Tabelle denn jetzt genau verwendet wird? Wie diese von einander abhängen? Oder wo in einer CDS Hierarchie ein Feld nun verwendet wird, und wo nicht mehr? Oder auf welcher Ebene gewisse Annotations gesetzt werden? Oder…?\n\nWir nehmen euch mit auf die Reise, wir wir uns selbst in dem Dschungel verirrt haben, dann in den verschiedenen Lockdowns mit graphischen Darstellung experimentiert haben um dann ein Tool zu schaffen, dass wir jetzt demnächst auf Github Allen zur Verfügung stellen."
+            }
+        ]
+    },
+    {
+        "id": "IvanMans",
+        "firstname": "Ivan",
+        "middlename": "",
+        "lastname": "Mans",
+        "initials": "IM",
+        "function": "CTO",
+        "picture": "./speakers/ivanmans/IvanMans.jpeg",
+        "shortBio": "CTO at SecurityBridge",
+        "longBio": "Ivan Mans is a seasoned SAP technology consultant, working in the SAP space since 1997, the early days of R/3. In 2012 Ivan co-founded SecurityBridge and in his current role as CTO he is a motivated driver, inspires people and pushes technology, contributing to the continuous innovation of the SecurityBridge Platform. In more recent years, Ivan has been a regular speaker at SAP events, evangelizing SAP security.",
+        "linkedIn": "https://linkedin.com/in/mansiva",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Verloren im CDS Dschungel?",
+                "abstract": "Wie eine grafische Visualisierung die Sicht auf CDS Views, ihre Annotationen und Abhängigkeiten verändern kann.\n\nHabt ihr euch schon mal gefragt, in welchen CDS Views eine Tabelle denn jetzt genau verwendet wird? Wie diese von einander abhängen? Oder wo in einer CDS Hierarchie ein Feld nun verwendet wird, und wo nicht mehr? Oder auf welcher Ebene gewisse Annotations gesetzt werden? Oder…?\n\nWir nehmen euch mit auf die Reise, wir wir uns selbst in dem Dschungel verirrt haben, dann in den verschiedenen Lockdowns mit graphischen Darstellung experimentiert haben um dann ein Tool zu schaffen, dass wir jetzt demnächst auf Github Allen zur Verfügung stellen."
+            }
+        ]
+    },
+    {
+        "id": "ThomasSchneider",
+        "firstname": "Thomas",
+        "middlename": "",
+        "lastname": "Schneider",
+        "initials": "TS",
+        "function": "Product Owner for extensibility",
+        "picture": "./speakers/ThomasSchneider/ThomasSchneider.jpeg",
+        "shortBio": "Thomas Schneider is area product owner for extensibility",
+        "longBio": "Thomas Schneider is area product owner for extensibility. He is a chief development architect in the BTP ABAP organization.",
+        "linkedIn": "",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Key User and Developer Extensibility Options - Best practices",
+                "abstract": "Key User Extensibility is a major pillar of the SAP S/4HANA Extensibility concept. It enables business experts to do last mile extensions by their own. But it also provides a lot of value for developers.\n\nDeveloper Extensibility on the other hand empowers the developer to develop extensions in a clean core compliant way using the ABAP Cloud development model.\n\nIn this session, we provide an overview on these extensibility options and will provide best practices when to use what. We provide examples for extensions that are realized as combination of key user and developer extensibility."
+            }
+        ]
+    },
+    {
+        "id": "KaiDehmann",
+        "firstname": "Kai",
+        "middlename": "",
+        "lastname": "Dehmann",
+        "initials": "KD",
+        "function": "Development Expert, Area Product Owner for Extensibility",
+        "picture": "./speakers/KaiDehmann/KaiDehmann.jpg",
+        "shortBio": "Development Expert, Area Product Owner for Extensibility",
+        "longBio": "",
+        "linkedIn": "https://www.linkedin.com/in/kai-dehmann/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Key User and Developer Extensibility Options - Best practices",
+                "abstract": "Key User Extensibility is a major pillar of the SAP S/4HANA Extensibility concept. It enables business experts to do last mile extensions by their own. But it also provides a lot of value for developers.\n\nDeveloper Extensibility on the other hand empowers the developer to develop extensions in a clean core compliant way using the ABAP Cloud development model.\n\nIn this session, we provide an overview on these extensibility options and will provide best practices when to use what. We provide examples for extensions that are realized as combination of key user and developer extensibility."
+            }
+        ]
+    },
+    {
+        "id": "KarstenSchaser",
+        "firstname": "Karsten",
+        "middlename": "",
+        "lastname": "Schaser",
+        "initials": "KD",
+        "function": "Development Expert, Area Product Owner for Extensibility",
+        "picture": "./speakers/KarstenSchaser/KarstenSchaser.jpg",
+        "shortBio": "Development Expert, Area Product Owner for Extensibility",
+        "longBio": "",
+        "linkedIn": "",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Implementing Extension Fields using Key User and Developer Extensibility - Do's and Don'ts",
+                "abstract": "In this session we will focus on how to implement extensions using extension fields.\n\nWe will demonstrate both the key user tools and the developer extensibility wizard in ADT to implement typical scenarios using extension fields. We will provide guidance for the Do’s and Don’ts in the extensibility area."
+            }
+        ]
+    },
+    {
+        "id": "AnkitaSingh",
+        "firstname": "Ankita",
+        "middlename": "",
+        "lastname": "Singh",
+        "initials": "AS",
+        "function": "SAP Developer",
+        "picture": "./speakers/AnkitaSingh/AnkitaSingh.jpg",
+        "shortBio": "8+ years of experience with SAP Developments. Programming topics: S/4HANA, ABAP Restful Programming Model(RAP), ABAP on HANA, ABAP, Fiori, OData, CDS, AMDP's, BOPF, SAP BTP- ABAP Environment",
+        "longBio": "Currently working as SAP specialist with Booking holdings. Worked as Senior ABAP developer with Standard Chartered Bank GBS. Ex-development consultant with SAP. Skilled in SAP ABAP programming language,S4 HANA conversion and implementation and automation techniques and all other SAP technologies namely reports,enhancements,interfaces,S4 HANA conversion and implementation and new technologies like RAP, Fiori etc. Extensively worked on S4 HANA conversion and automation tool and SAP TM",
+        "linkedIn": "",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Enable OData Streams in RAP",
+                "abstract": "How to enable OData Streams such as excel, pdf, Images and other large objects using standard RAP Based application development without using UI5 tooling?\n\nWith the latest SAP BTP ABAP Environment 2208 release the RAP framework now supports OData streams. It is now possible to enable your RAP application to maintain and handle Large Objects(LOBs).This feature provides end users an option to upload external files of different file formats such as PDF, XLSX , binary file format and other types hence allowing media handling."
+            }
+        ]
+    },
+    {
+        "id": "FabianFellhauer",
+        "firstname": "Fabian",
+        "middlename": "",
+        "lastname": "Fellhauer",
+        "initials": "FF",
+        "function": "Development Expert",
+        "picture": "./speakers/FabianFellhauer/FabianFellhauer.jpeg",
+        "shortBio": "Product Lead ABAP Cloud Programming Model (RAP), Development Expert, Enthusiast@SAP",
+        "longBio": "Together with implementation teams of SAP BTP ABAP, we are shaping the design of the ABAP RESTful Application Programming Model (RAP).",
+        "linkedIn": "https://www.linkedin.com/in/fabianfellhauer",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Clean Core extensibility with ABAP Cloud in SAP S/4HANA Cloud Private Edition",
+                "abstract": "ABAP Cloud is the powerful development model for clean core compliant, cloud-ready business applications, services, and extensions.\n\nIn this session, we will demonstrate how the 3-tier extensibility model helps you to consume BAPIs with ABAP Cloud in SAP S/4HANA Cloud Private Edition and SAP S/4HANA."
+            },
+            {
+                "event": "abapconf2024",
+                "title": "Closing Keynote: The Modern SAP Full-Stack Developer",
+                "abstract": "Fiori Elements meets ABAP Cloud: Demos and Outlook\n\nTool Bridge (BAS/ADT), Analytical List Page (ALP), Treeview Edit (RAP), AI Support"
+            }
+        ]
+    },
+    {
+        "id": "GeorgeDrakos",
+        "firstname": "George",
+        "middlename": "",
+        "lastname": "Drakos",
+        "initials": "GD",
+        "function": "Developer",
+        "picture": "./speakers/GeorgeDrakos/GeorgeDrakos.png",
+        "shortBio": "SAP Technical Consultant",
+        "longBio": "",
+        "linkedIn": "https://www.linkedin.com/in/george-drakos/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Advanced New ABAP",
+                "abstract": "Code Snippets using New ABAP Syntax."
+            }
+        ]
+    },
+    {
+        "id": "ChristophGollmick",
+        "firstname": "Christoph",
+        "middlename": "",
+        "lastname": "Gollmick",
+        "initials": "CG",
+        "function": "Product Owner",
+        "picture": "./speakers/ChristophGollmick/ChristophGollmick.jpeg",
+        "shortBio": "",
+        "longBio": "",
+        "linkedIn": "https://www.linkedin.com/in/christophgollmick/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Closing Keynote: The Modern SAP Full-Stack Developer",
+                "abstract": "Fiori Elements meets ABAP Cloud: Demos and Outlook\n\nTool Bridge (BAS/ADT), Analytical List Page (ALP), Treeview Edit (RAP), AI Support"
             }
         ]
     }

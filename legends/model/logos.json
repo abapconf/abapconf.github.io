@@ -18,5 +18,13 @@
     {
         "event": "abapconfeurope2024",
         "img": "./img/logo/abapconf_logo_2024.png"
+    },
+    {
+        "event": "abapconfsouthafrica2024",
+        "img": "./img/logo/abapconf_south_africa_2024.png"
+    },
+    {
+        "event": "abapconf2024",
+        "img": "./img/logo/abapconf_logo_2024.png"
     }
 ]

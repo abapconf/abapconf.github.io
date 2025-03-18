@@ -57,7 +57,9 @@
             <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2021" text="{i18n>abapconf2021}" href="https://www.abapconf.org/abapconf2021" target="_blank"/>
             <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2022" text="{i18n>abapconf2022}" href="https://www.abapconf.org/abapconf2022" target="_blank"/>
             <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2023" text="{i18n>abapconf2023}" href="https://www.abapconf.org/abapconf2023" target="_blank"/>
-            <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2024europe" text="{i18n>abapconfeurope2024}" href="https://www.abapconf.org" target="_blank"/>
+            <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2024europe" text="{i18n>abapconfeurope2024}" href="https://www.abapconf.org/abapconfeurope2024" target="_blank"/>
+            <Link class="sapUiTinyMargin footer-text" id="linkAbapConfSouthAfrica2024" text="{i18n>abapconfsouthafrica2024}" href="https://www.eventbrite.com/e/abapconf-south-africa-2024-tickets-952704102617" target="_blank"/>
+            <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2024" text="{i18n>abapconf2024}" href="https://www.abapconf.org/abapconf2024" target="_blank"/>
         </VBox>
         
         <VBox>
