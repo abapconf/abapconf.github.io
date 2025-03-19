@@ -6,6 +6,8 @@ import Filter from "sap/ui/model/Filter";
 import Context from "sap/ui/model/Context";
 import Control from "sap/ui/core/Control";
 import Binding from "sap/ui/model/Binding";
+import ResourceBundle from "sap/base/i18n/ResourceBundle";
+import Models from "../model/models";
 
 interface groupHeaderEvent {
     key: string;
@@ -17,7 +19,24 @@ interface groupHeaderEvent {
 export default class Main extends BaseController {
 
 	private dialog : Dialog;
-    
+
+    public onInit(): void {
+        const router = this.getOwnerComponent().getRouter();
+		router.getRoute("main").attachPatternMatched(this.onObjectMatched, this);
+    }
+
+
+    public async onObjectMatched(event: Event) {
+        // get number of speakers and add as parameter to description
+        const speakers = this.getModel().getProperty("/");
+        const i18nModel: ResourceBundle = await this.getResourceBundle();
+        const text = i18nModel.getText("legendsNumber", speakers.length);
+
+        // set main view
+        const mainView = await Models.createMainViewModel();
+        mainView.setProperty("/legendsNumber", text);
+        this.setModel(mainView, "mainView");
+	}
     
 
 	async openSpeakerDetail(event: Event): Promise<void> {

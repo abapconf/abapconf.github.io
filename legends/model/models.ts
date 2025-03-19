@@ -8,5 +8,11 @@ export default {
 		const oModel = new JSONModel(Device);
 		oModel.setDefaultBindingMode(BindingMode.OneWay);
 		return oModel;
+	},
+
+	createMainViewModel: () => {
+		const oModel = new JSONModel({"legendsNumber": 0});
+		oModel.setDefaultBindingMode(BindingMode.OneWay);
+		return oModel;
 	}
 };

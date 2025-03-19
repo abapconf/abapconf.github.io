@@ -8,6 +8,13 @@ sap.ui.define(["sap/ui/model/json/JSONModel", "sap/ui/model/BindingMode", "sap/u
       const oModel = new JSONModel(Device);
       oModel.setDefaultBindingMode(BindingMode.OneWay);
       return oModel;
+    },
+    createMainViewModel: () => {
+      const oModel = new JSONModel({
+        "legendsNumber": 0
+      });
+      oModel.setDefaultBindingMode(BindingMode.OneWay);
+      return oModel;
     }
   };
   return __exports;

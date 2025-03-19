@@ -1,16 +1,32 @@
 "use strict";
 
-sap.ui.define(["./BaseController", "sap/m/GroupHeaderListItem", "sap/ui/model/Filter"], function (__BaseController, GroupHeaderListItem, Filter) {
+sap.ui.define(["./BaseController", "sap/m/GroupHeaderListItem", "sap/ui/model/Filter", "../model/models"], function (__BaseController, GroupHeaderListItem, Filter, __Models) {
   "use strict";
 
   function _interopRequireDefault(obj) {
     return obj && obj.__esModule && typeof obj.default !== "undefined" ? obj.default : obj;
   }
   const BaseController = _interopRequireDefault(__BaseController);
+  const Models = _interopRequireDefault(__Models);
   /**
    * @namespace org.abapconf.legends.controller
    */
   const Main = BaseController.extend("org.abapconf.legends.controller.Main", {
+    onInit: function _onInit() {
+      const router = this.getOwnerComponent().getRouter();
+      router.getRoute("main").attachPatternMatched(this.onObjectMatched, this);
+    },
+    onObjectMatched: async function _onObjectMatched(event) {
+      // get number of speakers and add as parameter to description
+      const speakers = this.getModel().getProperty("/");
+      const i18nModel = await this.getResourceBundle();
+      const text = i18nModel.getText("legendsNumber", speakers.length);
+
+      // set main view
+      const mainView = await Models.createMainViewModel();
+      mainView.setProperty("/legendsNumber", text);
+      this.setModel(mainView, "mainView");
+    },
     openSpeakerDetail: async function _openSpeakerDetail(event) {
       // get path to clicked speaker
       const control = event.getSource();
