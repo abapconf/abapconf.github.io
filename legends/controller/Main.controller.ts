@@ -8,6 +8,7 @@ import Control from "sap/ui/core/Control";
 import Binding from "sap/ui/model/Binding";
 import ResourceBundle from "sap/base/i18n/ResourceBundle";
 import Models from "../model/models";
+import JSONModel from "sap/ui/model/json/JSONModel";
 
 interface groupHeaderEvent {
     key: string;
@@ -28,7 +29,9 @@ export default class Main extends BaseController {
 
     public async onObjectMatched(event: Event) {
         // get number of speakers and add as parameter to description
-        const speakers = this.getModel().getProperty("/");
+        const speakersJson = this.getModel() as JSONModel;
+        await speakersJson.dataLoaded();
+        const speakers = speakersJson.getProperty("/");
         const i18nModel: ResourceBundle = await this.getResourceBundle();
         const text = i18nModel.getText("legendsNumber", speakers.length);
 

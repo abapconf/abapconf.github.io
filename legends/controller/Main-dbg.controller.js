@@ -18,7 +18,9 @@ sap.ui.define(["./BaseController", "sap/m/GroupHeaderListItem", "sap/ui/model/Fi
     },
     onObjectMatched: async function _onObjectMatched(event) {
       // get number of speakers and add as parameter to description
-      const speakers = this.getModel().getProperty("/");
+      const speakersJson = this.getModel();
+      await speakersJson.dataLoaded();
+      const speakers = speakersJson.getProperty("/");
       const i18nModel = await this.getResourceBundle();
       const text = i18nModel.getText("legendsNumber", speakers.length);
 
