@@ -2103,3 +2103,39 @@ h6 {
   font-size: 18px;
   font-weight: 400;
 }
+
+
+
+#location-sponsor .details .social {
+  margin-bottom: 15px;
+}
+
+#location-sponsor .details .social a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#location-sponsor .details .social a:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#location-sponsor .details .social a i {
+  font-size: 16px;
+  line-height: 0;
+}
+
+#location-sponsor .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
