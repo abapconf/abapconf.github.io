@@ -1360,35 +1360,7 @@
         ]
     },
     {
-        "id": "39zy3820-dac5-4f99-8422-016622ebb789",
-        "firstname": "Marcel",
-        "middlename": "",
-        "lastname": "Hermanns",
-        "initials": "MH",
-        "function": "Development Expert",
-        "picture": "./speakers/marcel/marcel.hermanns.png", 
-        "shortBio": "RAP Product Lead",
-        "longBio": "RAP Product Lead",
-        "linkedIn": "",
-        "events": [
-            "abapconf2022",
-            "abapconf2023"
-        ],
-        "sessions": [
-            {
-                "event": "abapconf2022",
-                "title": "Inside Talk: RESTful Application Programming Model (RAP)",
-                "abstract": ""
-            },
-            {
-                "event": "abapconf2023",
-                "title": "Keynote: ABAP Cloud in Action",
-                "abstract": "The ABAP RESTful Application Development is now there for several years and the best choice for transactional application development in the cloud and new on-premise versions. In ABAP Cloud, RAP is combined with other technologies to shape the ABAP development model for cloud-ready apps, services and extensions\nIn this key-note session we will have the real SAP SalesOrder application on stage. We will see, how the existing application code was integrated into RAP and Fiori Elements. We will discuss experiences, pit falls and problems of this long running project.\nIn addition, we will have a look on the newest features and a short outlook what the future brings."
-            }
-        ]
-    },
-    {
-        "id": "39zx3820-dac5-4f99-8422-016622ebb789",
+        "id": "RenzoColle",
         "firstname": "Renzo",
         "middlename": "",
         "lastname": "Colle",
@@ -1438,7 +1410,7 @@
         ]        
     },
     {
-        "id": "39zx3820-dac5-4f99-8422-01063zqbt789",
+        "id": "HarishBokkasam",
         "firstname": "Harish ",
         "middlename": "",
         "lastname": "Bokkasam",
@@ -1670,9 +1642,15 @@
         "longBio": "Marcel Hermanns is one of the main inventors and the product lead of the ABAP RESTful Application Programming Model (RAP) and drives the strategy and high-level concepts of RAP. Marcel has 14+ years of experience in the area of ABAP programming models and a broad network to SAP development teams. His task is to ensure a consistent programming model with all the qualities modern applications need to cover. Marcel is in addition the ABAP Cloud project lead. Marcel is a regular speaker at tech conferences.",
         "linkedIn": "",
         "events": [
+            "abapconf2022",
             "abapconf2023"
         ],
         "sessions": [
+            {
+                "event": "abapconf2022",
+                "title": "Inside Talk: RESTful Application Programming Model (RAP)",
+                "abstract": ""
+            },
             {
                 "event": "abapconf2023",
                 "title": "Keynote: Restful Application Programming Model",
@@ -2170,6 +2148,28 @@
                 "event": "abapconfsouthafrica2024",
                 "title": "Introduction to ABAP Cloud - working towards a Clean Core",
                 "abstract": "This session introduces ABAP Cloud and its role in maintaining a clean core within SAP systems. The speaker will cover ABAP Cloud’s architecture, features, and best practices for developing cloud-native solutions while preserving the integrity of the SAP core. Attendees will learn how to use ABAP Cloud to enhance flexibility and sustainability in their SAP development projects."
+            }
+        ]
+    },
+    {
+        "id": "StephanHeinberg",
+        "firstname": "Stephan",
+        "middlename": "",
+        "lastname": "Heinberg",
+        "initials": "SH",
+        "function": "Product Owner",
+        "picture": "./speakers/StephanHeinberg/StephanHeinberg.jpeg",
+        "shortBio": "Product Owner, Team Lead & Solution Architect",
+        "longBio": "Product Owner, Team Lead & Solution Architect bei Universität Zürich | University of Zurich",
+        "linkedIn": "https://www.linkedin.com/in/stephan-heinberg/",
+        "events": [
+            "abapconf2024"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2024",
+                "title": "Keynote: Modernizing an R/3 Solution with ABAP Cloud - Light and Shadow",
+                "abstract": ""
             }
         ]
     },
