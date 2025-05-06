@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:_K8w-WxeruY5n33HzBxYo
+SUMMARY:Navigating the Clean Core Journey at SBB: Building Modern Fiori Ele
+	ments Applications with RAP and ABAP Cloud Model for SAP S/4HANA On-Premis
+	e
+DTSTAMP:20250506T074612Z
+DTSTART:20250604T123000Z
+DTEND:20250604T133000Z
+URL:https://abapconf.org/abapconf2025/mannheim
+LOCATION:https://abapconf.org/abapconf2025/mannheim
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR

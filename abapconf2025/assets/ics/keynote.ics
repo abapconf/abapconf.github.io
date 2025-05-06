@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:90R9H60lGv4cU6ImU6C4J
+SUMMARY:Capabilities
+DTSTAMP:20250506T074612Z
+DTSTART:20250604T073000Z
+DTEND:20250604T083000Z
+DESCRIPTION:What differentiates SAP developers? What makes SAP developers s
+	uccessfull today and what will be expected from SAP developers in the futu
+	re? Are business and coding skills enough? Why are customers using SAP sof
+	tware and what needs to be done to ensure they will continue to depend on 
+	SAP developers to enhance it?
+URL:https://abapconf.org/abapconf2025/mannheim
+LOCATION:https://abapconf.org/abapconf2025/mannheim
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR
