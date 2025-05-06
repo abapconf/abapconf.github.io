@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:-6dhZPLko02JTTkAvjXlG
+SUMMARY:Cloud ERP Extensibility with ABAP Cloud
+DTSTAMP:20250506T093954Z
+DTSTART:20250605T133000Z
+DTEND:20250605T150000Z
+DESCRIPTION:This hands-on session introduces attendees to the ABAP RESTful 
+	application programming model (RAP) and how this can be leveraged to build
+	 extensions (developer extensibility) and to extend an existing RAP Busine
+	ss Object using RAP.
+URL:https://abapconf.org/abapconf2025/dresden
+LOCATION:https://abapconf.org/abapconf2025/dresden
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:Dq5_IDJzc5pUnMNoJzSFG
+SUMMARY:SAP BTP ABAP Environment - How to build partner solutions
+DTSTAMP:20250506T093954Z
+DTSTART:20250604T113000Z
+DTEND:20250604T123000Z
+DESCRIPTION:The SAP BTP ABAP Environment offers partner different ways for 
+	developing and delivering solutions to their customer. This session gives 
+	an overview about different options with focus on Add-On product delivery 
+	options as they are offering a lot of comfort and flexibility to both the 
+	partner and customer. Join this session to learn about the partner scenari
+	os\, and the newest development and lifecycle management tools.
+URL:https://abapconf.org/abapconf2025/dresden
+LOCATION:https://abapconf.org/abapconf2025/dresden
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR

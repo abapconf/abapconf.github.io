@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:9fIYqwWFstW1FQN8unX_h
+SUMMARY:Build SAP Fiori Apps with ABAP Cloud and GenAI capabilities
+DTSTAMP:20250506T093954Z
+DTSTART:20250605T083000Z
+DTEND:20250605T103000Z
+DESCRIPTION:In this hands-on session you will learn how to use ABAP GenAI c
+	apabilities in Joule for developers\, including predictive code completion
+	\, unit test generation for ABAP CDS\, ABAP code\, and code explanation to
+	 speed up your development with ABAP Cloud.
+URL:https://abapconf.org/abapconf2025/dresden
+LOCATION:https://abapconf.org/abapconf2025/dresden
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR
