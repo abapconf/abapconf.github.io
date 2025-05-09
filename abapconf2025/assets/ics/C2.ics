@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:a3tPlTqsTmrgSUrPiAtZ_
+SUMMARY:Wait\, that's possible?
+DTSTAMP:20250509T085432Z
+DTSTART:20250603T170000Z
+DTEND:20250603T174500Z
+DESCRIPTION:A look outside the SAP bubble. How are others doing it? What ca
+	n we learn from them? Or is the SAP world the best? This talk wants to dis
+	cuss the topics that might influence our future as SAP developers. What sh
+	ould be adopt\, what are we doing better? If you look outside\, you'll rea
+	lise that the IT world is more than just reports. While some of the most s
+	uccessfull companies in the world are using SAP\, the inovovation they dri
+	ve has nothing to do with SAP. Be it UX\, mobile\, internet of things or n
+	ow AI: these trends came from the outside. What does this mean for us as S
+	AP developers? Adopt or be obsolete? Or is it them that should start liste
+	ning and learn from us?
+URL:https://abapconf.org/abapconf2025/mannheim
+LOCATION:https://abapconf.org/abapconf2025/mannheim
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR

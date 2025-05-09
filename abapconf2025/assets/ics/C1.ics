@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:vpjXsad20UlhWtTth3mbw
+SUMMARY:S/4HANA top tips to lift and shift left
+DTSTAMP:20250509T085432Z
+DTSTART:20250603T160000Z
+DTEND:20250603T170000Z
+DESCRIPTION:Embarking on an S/4HANA migration with a mountain of custom ABA
+	P code? This discussion offers a fresh perspective on turning that challen
+	ge into an opportunity to build a clean\, maintainable core. You’ll discov
+	er practical strategies and paradigms to reduce technical debt\, embrace m
+	odern tools and frameworks like CDS\, RAP\, and Fiori elements\, and autom
+	ate your way to a healthier codebase.  Going from a high level and down to
+	 details\, we will explore together how the wisdom of the past\, with the 
+	technology of the future\, can be combined to make something great.
+URL:https://abapconf.org/abapconf2025/mannheim
+LOCATION:https://abapconf.org/abapconf2025/mannheim
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR
