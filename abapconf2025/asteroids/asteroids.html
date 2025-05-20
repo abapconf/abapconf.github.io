@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Asteroids Game</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+  <script>
+let spaceshipImg, asteroidImg;
+let shootSound, explodeSound;
+
+let spaceship;
+let asteroids = [];
+let bullets = [];
+let particles = [];
+let floatingTexts = [];
+
+
+let gameOver = false;
+let gameWon = false;
+
+let powerUps = [];
+
+
+function preload() {
+  spaceshipImg = loadImage('Spaceship-removebg-preview.png');
+  asteroidImg = loadImage('Asteroid-removebg-preview.png');
+  shootSound = loadSound('shoot.mp3', () => {}, () => {}); // optional
+  explodeSound = loadSound('explode.mp3', () => {}, () => {}); // optional
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  imageMode(CENTER);
+  spaceship = new Spaceship();
+  for (let i = 0; i < 10; i++) {
+    asteroids.push(new Asteroid());
+  }
+}
+
+function draw() {
+  background(0);
+
+  // Power-up logic
+for (let i = powerUps.length - 1; i >= 0; i--) {
+  let p = powerUps[i];
+  p.update();
+  p.display();
+
+  if (p.isCollected(spaceship)) {
+  if (p.type === 'health' && spaceship.health < 3) {
+    spaceship.health++;
+    floatingTexts.push(new FloatingText("+1 HP", spaceship.pos, color(255, 100, 100)));
+  } else if (p.type === 'shield') {
+    spaceship.invincible = 180;
+    floatingTexts.push(new FloatingText("Shield!", spaceship.pos, color(100, 100, 255)));
+  }
+  powerUps.splice(i, 1);
+}
+
+}
+
+
+  if (gameOver) {
+    fill(255, 0, 0);
+    textSize(50);
+    textAlign(CENTER, CENTER);
+    text("Game Over!", width / 2, height / 2);
+    return;
+  }
+
+  if (gameWon) {
+    fill(0, 255, 0);
+    textSize(50);
+    textAlign(CENTER, CENTER);
+    text("You Win!", width / 2, height / 2);
+    return;
+  }
+
+  spaceship.update();
+  spaceship.display();
+
+  for (let i = asteroids.length - 1; i >= 0; i--) {
+    let a = asteroids[i];
+    a.update();
+    a.display();
+    if (a.hits(spaceship)) {
+      spaceship.takeDamage();
+    }
+  }
+
+  for (let i = bullets.length - 1; i >= 0; i--) {
+    let b = bullets[i];
+    b.update();
+    b.display();
+
+    for (let j = asteroids.length - 1; j >= 0; j--) {
+      if (b.hits(asteroids[j])) {
+  let pos = asteroids[j].pos.copy();
+  createExplosion(pos);
+  if (explodeSound.isLoaded()) explodeSound.play();
+
+  // Chance to spawn power-up
+  let r = random(1);
+  if (r < 0.2) {
+    powerUps.push(new PowerUp('health', pos));
+  } else if (r < 0.35) {
+    powerUps.push(new PowerUp('shield', pos));
+  }
+
+  asteroids.splice(j, 1);
+  bullets.splice(i, 1);
+  break;
+}
+
+    }
+  }
+
+  for (let i = particles.length - 1; i >= 0; i--) {
+    let p = particles[i];
+    p.update();
+    p.display();
+    if (p.lifespan <= 0) {
+      particles.splice(i, 1);
+    }
+  }
+
+  if (asteroids.length === 0 && !gameOver) {
+    gameWon = true;
+  }
+
+  // Draw health bar
+noStroke();
+fill(255, 0, 0);
+for (let i = 0; i < spaceship.health; i++) {
+  rect(20 + i * 30, 20, 20, 20, 5);
+}
+
+// Shield cooldown UI
+if (spaceship.invincible > 0) {
+  let barWidth = 120;
+  let barHeight = 15;
+  let x = width - barWidth - 20;
+  let y = 20;
+  let pct = spaceship.invincible / 180;
+
+  stroke(255);
+  noFill();
+  rect(x, y, barWidth, barHeight);
+
+  noStroke();
+  fill(100, 100, 255);
+  rect(x, y, barWidth * pct, barHeight);
+}
+
+// Floating feedback text
+for (let i = floatingTexts.length - 1; i >= 0; i--) {
+  let t = floatingTexts[i];
+  t.update();
+  t.display();
+  if (t.isDone()) {
+    floatingTexts.splice(i, 1);
+  }
+}
+
+
+
+}
+
+function mousePressed() {
+  if (mouseButton === LEFT && !gameOver && !gameWon) {
+    bullets.push(new Bullet(spaceship.pos.copy()));
+    if (shootSound.isLoaded()) shootSound.play();
+  }
+}
+
+function touchStarted() {
+  if (!gameOver && !gameWon) {
+    bullets.push(new Bullet(spaceship.pos.copy()));
+    if (shootSound.isLoaded()) shootSound.play();
+  }
+  return false; // prevent default
+}
+
+class Spaceship {
+  constructor() {
+    this.pos = createVector(width / 2, height / 2);
+    this.size = 60;
+    this.health = 3;
+    this.invincible = 0; // frames of invincibility after being hit
+  }
+
+  update() {
+    this.pos.x = mouseX;
+    this.pos.y = mouseY;
+    if (this.invincible > 0) this.invincible--;
+  }
+
+  display() {
+  if (this.invincible > 0) {
+    if (frameCount % 10 < 5) {
+      tint(100, 200, 255); // bluish flicker
+    } else {
+      tint(255, 150); // semi-transparent
+    }
+  } else {
+    noTint();
+  }
+  image(spaceshipImg, this.pos.x, this.pos.y, this.size, this.size);
+}
+
+
+  takeDamage() {
+    if (this.invincible === 0) {
+      this.health--;
+      this.invincible = 60; // 1 second of invincibility at 60 FPS
+      if (this.health <= 0) {
+        gameOver = true;
+      }
+    }
+  }
+}
+
+
+class Asteroid {
+  constructor() {
+    this.pos = createVector(random(width), random(height));
+    this.vel = p5.Vector.random2D().mult(random(1, 3));
+    this.size = random(50, 80);
+  }
+
+  update() {
+    this.pos.add(this.vel);
+    this.edges();
+  }
+
+  edges() {
+    if (this.pos.x > width) this.pos.x = 0;
+    if (this.pos.x < 0) this.pos.x = width;
+    if (this.pos.y > height) this.pos.y = 0;
+    if (this.pos.y < 0) this.pos.y = height;
+  }
+
+  display() {
+    image(asteroidImg, this.pos.x, this.pos.y, this.size, this.size);
+  }
+
+  hits(spaceship) {
+    let d = dist(this.pos.x, this.pos.y, spaceship.pos.x, spaceship.pos.y);
+    return d < this.size / 2 + spaceship.size / 2;
+  }
+}
+
+class Bullet {
+  constructor(pos) {
+    this.pos = pos;
+    this.vel = createVector(0, -10);
+    this.size = 8;
+  }
+
+  update() {
+    this.pos.add(this.vel);
+  }
+
+  display() {
+    fill(255);
+    noStroke();
+    ellipse(this.pos.x, this.pos.y, this.size);
+  }
+
+  hits(asteroid) {
+    let d = dist(this.pos.x, this.pos.y, asteroid.pos.x, asteroid.pos.y);
+    return d < asteroid.size / 2;
+  }
+}
+
+class Particle {
+  constructor(pos, col) {
+    this.pos = pos.copy();
+    this.vel = p5.Vector.random2D().mult(random(1, 4));
+    this.lifespan = 255;
+    this.col = col;
+  }
+
+  update() {
+    this.pos.add(this.vel);
+    this.lifespan -= 5;
+  }
+
+  display() {
+    noStroke();
+    fill(this.col.levels[0], this.col.levels[1], this.col.levels[2], this.lifespan);
+    ellipse(this.pos.x, this.pos.y, 5);
+  }
+}
+
+class PowerUp {
+  constructor(type, pos) {
+    this.type = type; // 'health' or 'shield'
+    this.pos = pos.copy();
+    this.size = 30;
+    this.lifespan = 600; // lasts for 10 seconds
+  }
+
+  update() {
+    this.lifespan--;
+  }
+
+  display() {
+  noStroke();
+  let pulse = sin(frameCount * 0.1) * 5;
+
+  if (this.type === 'health') {
+    fill(255, 100, 100);
+    ellipse(this.pos.x, this.pos.y, this.size + pulse);
+    fill(255);
+    textAlign(CENTER, CENTER);
+    textSize(18 + pulse * 0.3);
+    text('❤️', this.pos.x, this.pos.y);
+  } else if (this.type === 'shield') {
+    fill(100, 100, 255);
+    ellipse(this.pos.x, this.pos.y, this.size + pulse);
+    fill(255);
+    textAlign(CENTER, CENTER);
+    textSize(18 + pulse * 0.3);
+    text('🛡️', this.pos.x, this.pos.y);
+  }
+}
+
+
+  isCollected(ship) {
+    let d = dist(this.pos.x, this.pos.y, ship.pos.x, ship.pos.y);
+    return d < (this.size / 2 + ship.size / 2);
+  }
+}
+
+class FloatingText {
+  constructor(txt, pos, col = color(255)) {
+    this.txt = txt;
+    this.pos = pos.copy();
+    this.vel = createVector(0, -1);
+    this.alpha = 255;
+    this.col = col;
+  }
+
+  update() {
+    this.pos.add(this.vel);
+    this.alpha -= 4;
+  }
+
+  display() {
+    push();
+    textAlign(CENTER);
+    textSize(20);
+    fill(red(this.col), green(this.col), blue(this.col), this.alpha);
+    text(this.txt, this.pos.x, this.pos.y);
+    pop();
+  }
+
+  isDone() {
+    return this.alpha <= 0;
+  }
+}
+
+function createExplosion(position) {
+  for (let i = 0; i < 20; i++) {
+    particles.push(new Particle(position, color(255, 100, 0)));
+  }
+}
+  </script>
+</body>
+</html>
