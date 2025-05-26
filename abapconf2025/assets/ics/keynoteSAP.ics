@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:TCE_MP3T4uGgg_Wz5fRdc
+SUMMARY:The ABAP strategy towards ABAP Cloud development accelerated by ABA
+	P AI
+DTSTAMP:20250526T140752Z
+DTSTART:20250605T073000Z
+DTEND:20250605T083000Z
+DESCRIPTION:The keynote will layout the strategy towards ABAP Cloud based f
+	ull stack development. The session will show how ABAP AI will accelerate t
+	he development of ABAP Cloud and clean core aware apps and extensions.
+URL:https://abapconf.org/abapconf2025/mannheim
+LOCATION:https://abapconf.org/abapconf2025/mannheim
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR
