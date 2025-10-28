@@ -60,6 +60,7 @@
             <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2024europe" text="{i18n>abapconfeurope2024}" href="https://www.abapconf.org/abapconfeurope2024" target="_blank"/>
             <Link class="sapUiTinyMargin footer-text" id="linkAbapConfSouthAfrica2024" text="{i18n>abapconfsouthafrica2024}" href="https://www.eventbrite.com/e/abapconf-south-africa-2024-tickets-952704102617" target="_blank"/>
             <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2024" text="{i18n>abapconf2024}" href="https://www.abapconf.org/abapconf2024" target="_blank"/>
+            <Link class="sapUiTinyMargin footer-text" id="linkAbapConf2025" text="{i18n>abapconf2025}" href="https://www.abapconf.org/abapconf2025" target="_blank"/>
         </VBox>
         
         <VBox>

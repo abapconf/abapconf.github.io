@@ -26,5 +26,9 @@
     {
         "event": "abapconf2024",
         "img": "./img/logo/abapconf_logo_2024.png"
+    },
+    {
+        "event": "abapconf2025",
+        "img": "./img/logo/abapconf_logo_2025.svg"
     }
 ]
