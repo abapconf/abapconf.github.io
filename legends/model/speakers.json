@@ -83,6 +83,11 @@
                 "event": "abapconf2025",
                 "title": "Welcome",
                 "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day."
+            },
+            {
+                "event": "abapconf2025",
+                "title": "ABAPConf 2025 Keynote: Capabilites",
+                "abstract": "What differentiates SAP developers? What makes SAP developers successfull today and what will be expected from SAP developers in the future? Are business and coding skills enough? Why are customers using SAP software and what needs to be done to ensure they will continue to depend on SAP developers to enhance it?"
             }
         ]
     },
@@ -183,7 +188,8 @@
             "abapconf2022",
             "abapconf2023",
             "abapconfeurope2024",
-            "abapconf2024"
+            "abapconf2024",
+            "abapconf2025"
         ],
         "sessions": [
             {
@@ -240,6 +246,26 @@
                 "event": "abapconf2024",
                 "title": "Dokumentengenerierung mit dox42 in ABAP RAP",
                 "abstract": ""
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2025 Vienna."
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Ask the experts: Modern SAP development",
+                "abstract": ""
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Ask the experts: Extensibility",
+                "abstract": ""
+            },
+            {
+                "event": "abapconf2025",
+                "title": "RAP Events: Local and External Consumption",
+                "abstract": "Overview of possibilities to consume RAP events locally and from external consumers like (advanced) event mesh"
             }
         ]
     },
@@ -259,7 +285,8 @@
             "abapconf2022",
             "abapconf2023",
             "abapconfeurope2024",
-            "abapconf2024"
+            "abapconf2024",
+            "abapconf2025"
         ],
         "sessions": [
             {
@@ -311,6 +338,21 @@
                 "event": "abapconf2024",
                 "title": "Welcome",
                 "abstract": "Welcome to ABAPConf 2024. Introduction to the conference, motivation and agenda. Get to know the people and how to get the best out of the day."
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Welcome",
+                "abstract": "Welcome to ABAPConf 2025 Vienna."
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Ask the experts: Modern SAP development",
+                "abstract": ""
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Ask the experts: Extensibility",
+                "abstract": ""
             }
         ]
     },
@@ -1348,13 +1390,24 @@
         "longBio": "Teamlead SAP Software Engineering, realisiert mit seinem Team die SAP Entwicklung in der ICS. Das Team beschäftigt sich mit Backend Entwicklungen im Bereich der Datenbanken und Geschäftsprozessen, sowie Frontend-Entwicklungen im Bereich der verschiedenen SAP-Frameworks. Im März 2021 hat Patrick seine Laufbahn bei der ICS als SAP Software Engineer begonnen. In dieser Zeit hat er bereits aktiv bei diversen Projekten unterstützt und Verbesserungen im Bereich der SAP Softwareentwicklung vorangetrieben.",
         "linkedIn": "https://www.linkedin.com/in/patrick-thaler-525a72131/",
         "events": [
-            "abapconf2022"
+            "abapconf2022",
+            "abapconf2025"
         ],
         "sessions": [
             {
                 "event": "abapconf2022",
                 "title": "ABAP Innovationen: die letzten 10 Jahre",
                 "abstract": "In den letzten 10 Jahren gab es sehr viele Innovationen zu ABAP. Doch welche Auswirkungen und Nutzen haben diese am Ende in den Projekten? Patrick Thaler wird die ausgewählte ABAP Neuerungen am praktischen Beispiel des S/4HANA Projektes bei SPAR erläutern und wie diese dort eingesetzt werden."
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Location Keynote Vienna: Die SAP Wolke ruft – wir folgen?",
+                "abstract": ""
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Ask the experts: Modern SAP development",
+                "abstract": ""
             }
         ]                
     },
@@ -1986,11 +2039,11 @@
         "middlename": "",
         "lastname": "Schwarzmann",
         "initials": "WS",
-        "function": "Chief Development Architect",
+        "function": "Chief Development Architect and Agile Software Engineering Coach",
         "picture": "./speakers/winfried/WinfriedSchwarzmann.jpg", 
         "shortBio": "Winfried Schwarzmann is a chief development architect at SAP.",
         "longBio": "Winfried Schwarzmann is a chief development architect at SAP. Since 2011, he has worked as a trainer for agile software engineering (ASE) and has conducted in-house and external SAP training courses and workshops. He also developed the curriculum for ASE coaches of the SAP S/4HANA organization and the ASE best practices for modernizing ERP. He is author of the SAP PRESS publications 'Test-Driven Development with ABAP Objects', 'Test Data Classes for ABAP', 'Designing Testable ABAP Classes and Packages', and 'Parallel Processing with ABAP Objects: Implementation and Testing'.",
-        "linkedIn": "https://blog.sap-press.com/author/winfried-schwarzmann",
+        "linkedIn": "https://www.linkedin.com/in/winfried-schwarzmann-06a9b4382/",
         "events": [
             "abapconfeurope2024",
             "abapconfsouthafrica2024"
@@ -2307,13 +2360,19 @@
         "longBio": "ABAP/NodeJS Developer with a passion for innovation and modernization.\n\nJoined Regesta Italia S.p.A, SAP Gold Partner, in 2019 and began my journey in ABAP development.\n\nSince 2023, owner and maintainer of the open-source project TRM (Transport Request Manager).",
         "linkedIn": "https://www.linkedin.com/in/simonegaffurini/",
         "events": [
-            "abapconf2024"
+            "abapconf2024",
+            "abapconf2025"
         ],
         "sessions": [
             {
                 "event": "abapconf2024",
                 "title": "Making an on-premise ABAP CI/CD with GitHub Actions",
                 "abstract": "Live demo of my blog article 'Making an OnPremise ABAP CI/CD with Github Actions': how to leverage community-driven, open-source solutions to create a modern CI/CD setup for ABAP. This demo will showcase tools like abapGit, abapLint, ADASH, and TRM, demonstrating how each contributes to the pipeline. The demo will also include a brief overview of Git branching strategies tailored for effective CI/CD implementation."
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Effortless ABAP dependency management with TRM",
+                "abstract": "This talk dives into how TRM (shown in a previous demo) simplifies ABAP dependency management by automating the resolution and installation of required libraries. We will demonstrate how to declare and implement dependencies during development and showcase the deployment process on a target system, where TRM ensures seamless package installation."
             }
         ]
     },
@@ -2417,13 +2476,19 @@
         "longBio": "1998 die ersten Berührungen mit SAP gemacht. (4.5b), seitdem dem SAP Virus verfallen. nach vielen Jahren bei der SAP in der Beratung, 2009 die Cadaxo mit gegründet und seitdem immer auf der Suche nach den besten neuen SAP Technologien.",
         "linkedIn": "https://www.linkedin.com/in/lisapulsinger/",
         "events": [
-            "abapconf2024"
+            "abapconf2024",
+            "abapconf2025"
         ],
         "sessions": [
             {
                 "event": "abapconf2024",
                 "title": "Verloren im CDS Dschungel?",
                 "abstract": "Wie eine grafische Visualisierung die Sicht auf CDS Views, ihre Annotationen und Abhängigkeiten verändern kann.\n\nHabt ihr euch schon mal gefragt, in welchen CDS Views eine Tabelle denn jetzt genau verwendet wird? Wie diese von einander abhängen? Oder wo in einer CDS Hierarchie ein Feld nun verwendet wird, und wo nicht mehr? Oder auf welcher Ebene gewisse Annotations gesetzt werden? Oder…?\n\nWir nehmen euch mit auf die Reise, wir wir uns selbst in dem Dschungel verirrt haben, dann in den verschiedenen Lockdowns mit graphischen Darstellung experimentiert haben um dann ein Tool zu schaffen, dass wir jetzt demnächst auf Github Allen zur Verfügung stellen."
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Location Keynote Vienna: Do you still need documents? Join us on a time travel through the past, present & future!",
+                "abstract": "Location Keynote Vienna: Do you still need documents? Join us on a time travel through the past, present & future!"
             }
         ]
     },
@@ -2582,13 +2647,19 @@
         "longBio": "",
         "linkedIn": "https://www.linkedin.com/in/george-drakos/",
         "events": [
-            "abapconf2024"
+            "abapconf2024",
+            "abapconf2025"
         ],
         "sessions": [
             {
                 "event": "abapconf2024",
                 "title": "Advanced New ABAP",
                 "abstract": "Code Snippets using New ABAP Syntax."
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Smart ABAP: Design Patterns for Real-World Scenarios",
+                "abstract": "This session explores essential design patterns in ABAP, focusing on practical applications for writing clean, scalable, and maintainable code. For example, by implementing the MVC (Model-View-Controller) pattern, we can seamlessly switch from cl_salv_table to cl_gui_alv_grid when requirements change to support editable ALV, without major code rewrites. I want to present 3 or even more real-world scenarios and then the thought process of choosing the right design pattern for each case."
             }
         ]
     },
@@ -2895,12 +2966,12 @@
         "firstname": "Calvin",
         "middlename": "",
         "lastname": "Stauber",
-        "initials": "MCSK",
+        "initials": "CS",
         "function": "SAP Technology Expert",
         "picture": "./speakers/CalvinStauber/CalvinStauber.jpg",
         "shortBio": "SAP Technology Expert - UI5, Fiori, SAP BTP, ABAP RAP, AI & Cloud Automation.",
         "longBio": "SAP Technology Expert - UI5, Fiori, SAP BTP, ABAP RAP, AI & Cloud Automation.",
-        "linkedIn": "https://www.linkedin.com/in/calvin-stauber-140512245//",
+        "linkedIn": "https://www.linkedin.com/in/calvin-stauber-140512245/",
         "events": [
             "abapconf2025"
         ],
@@ -2911,5 +2982,164 @@
                 "abstract": "Mithilfe leistungsstarker KI-Tools mit n8n automatisieren wir die Erstellung umfassender Dokumentation für ein komplettes ABAP-Paket. In dieser Sitzung richten wir einen vollständigen n8n-Workflow für die Dokumentation ein und integrieren den direkten Zugriff auf das SAP-System über den ADT-Service. Zusätzlich enthält der Workflow Tools zum Erstellen von Diagrammen und zum Öffnen von Transaktionen für die automatische Screenshot-Erstellung, um den Dokumentationsprozess effizient zu optimieren."
             }
         ]
-    }
+    },
+    {
+        "id": "FlorianKopp",
+        "firstname": "Florian",
+        "middlename": "",
+        "lastname": "Kopp",
+        "initials": "FK",
+        "function": "Team Lead",
+        "picture": "./speakers/FlorianKopp/FlorianKopp.jpg",
+        "shortBio": "Team Lead SPAR ICS - Information & Communication Services",
+        "longBio": "Team Lead SPAR ICS - Information & Communication Services",
+        "linkedIn": "https://www.linkedin.com/in/florian-kopp-2385a3243/",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "Location Keynote Vienna: Die SAP Wolke ruft – wir folgen?",
+                "abstract": "Location Keynote Vienna: Die SAP Wolke ruft – wir folgen?"
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Ask the experts: Modern SAP development",
+                "abstract": ""
+            }
+        ]
+    },
+    {
+        "id": "ChristianPunz",
+        "firstname": "Christian",
+        "middlename": "",
+        "lastname": "Punz",
+        "initials": "CP",
+        "function": "SAP Architekt",
+        "picture": "./speakers/ChristianPunz/ChristianPunz.jpg",
+        "shortBio": "SAP Architekt bei scc EDV-Beratung AG",
+        "longBio": "SAP Architekt bei scc EDV-Beratung AG",
+        "linkedIn": "https://www.linkedin.com/in/christian-punz76/",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "ABAP Cloud",
+                "abstract": ""
+            }
+        ]
+    },
+    {
+        "id": "KatharinaAltrichter",
+        "firstname": "Katharina",
+        "middlename": "",
+        "lastname": "Altrichter",
+        "initials": "KA",
+        "function": "Software Developer",
+        "picture": "./speakers/KatharinaAltrichter/KatharinaAltrichter.jpg",
+        "shortBio": "Software Developer at SAP SE (Walldorf); Area: BTP ABAP/Data Modeling Frameworks; Member of the ABAP Dictionary Development Team; Responsible for: CDS based RAP requirements, CDS support of Analytical Query Modelling",
+        "longBio": "Software Developer at SAP SE (Walldorf); Area: BTP ABAP/Data Modeling Frameworks; Member of the ABAP Dictionary Development Team; Responsible for: CDS based RAP requirements, CDS support of Analytical Query Modelling",
+        "linkedIn": "https://hwww.linkedin.com/in/katharina-altrichter-754aa6217/",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "CDS-only Data Modeling - Harnessing New ABAP CDS Object Types for Modern RAP Applications",
+                "abstract": "With the continuous evolution of ABAP, the introduction of new Core Data Services (CDS) object types in recent releases has revolutionized the way developers model and interact with data. This session will provide a comprehensive overview of the latest additions to the ABAP CDS ecosystem, including CDS Table Entities, CDS Aspects, CDS Scalar Functions, CDS Types, CDS Entity Buffers, and CDS External Entities, with a focus on their role in the RESTful Application Programming (RAP) model."
+            }
+        ]
+    },
+    {
+        "id": "MatthiasHerchenroether",
+        "firstname": "Matthias",
+        "middlename": "",
+        "lastname": "Herchenröther",
+        "initials": "MH",
+        "function": "Product Owner",
+        "picture": "./speakers/MatthiasHerchenroether/MatthiasHerchenroether.jpg",
+        "shortBio": "Product Owner and Developer at SAP SE (Walldorf); Area: BTP ABAP/Data Modeling Frameworks; Member of the ABAP Dictionary Development Team; Responsible for: CDS based RAP requirements, CDS support of Analytical Query Modelling",
+        "longBio": "Product Owner and Developer at SAP SE (Walldorf); Area: BTP ABAP/Data Modeling Frameworks; Member of the ABAP Dictionary Development Team; Responsible for: CDS based RAP requirements, CDS support of Analytical Query Modelling",
+        "linkedIn": "https://www.linkedin.com/in/matthias-herchenr%C3%B6ther-8798772ab/",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "CDS-only Data Modeling - Harnessing New ABAP CDS Object Types for Modern RAP Applications",
+                "abstract": "With the continuous evolution of ABAP, the introduction of new Core Data Services (CDS) object types in recent releases has revolutionized the way developers model and interact with data. This session will provide a comprehensive overview of the latest additions to the ABAP CDS ecosystem, including CDS Table Entities, CDS Aspects, CDS Scalar Functions, CDS Types, CDS Entity Buffers, and CDS External Entities, with a focus on their role in the RESTful Application Programming (RAP) model."
+            }
+        ]
+    },
+    {
+        "id": "ChristianBauer",
+        "firstname": "Christian",
+        "middlename": "",
+        "lastname": "Bauer",
+        "initials": "CB",
+        "function": "CEO",
+        "picture": "./speakers/ChristianBauer/ChristianBauer.jpg",
+        "shortBio": "CEO and Founder dox42",
+        "longBio": "CEO and Founder dox42",
+        "linkedIn": "https://www.linkedin.com/in/bauer42",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "Location Keynote Vienna: Do you still need documents? Join us on a time travel through the past, present & future!",
+                "abstract": "Location Keynote Vienna: Do you still need documents? Join us on a time travel through the past, present & future!"
+            }
+        ]
+    },
+    {
+        "id": "JelenaPerfiljeva",
+        "firstname": "Jelena",
+        "middlename": "",
+        "lastname": "Perfiljeva",
+        "initials": "JP",
+        "function": "Expert SAP Developer",
+        "picture": "./speakers/JelenaPerfiljeva/JelenaPerfiljeva.png",
+        "shortBio": "Jelena Perfiljeva is an Expert SAP Developer and the better half of The Boring Enterprise Nerds. She is known for SAP Community engagement and SAP Press book ‘ABAP: An Introduction’.",
+        "longBio": "Jelena Perfiljeva is an Expert SAP Developer and the better half of The Boring Enterprise Nerds. She is known for SAP Community engagement and SAP Press book ‘ABAP: An Introduction’.",
+        "linkedIn": "https://www.linkedin.com/in/perfiljeva/",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "The Magical World of SAP EWM for ABAPers",
+                "abstract": "Explore the fascinating and confusing world of SAP Extended Warehouse Management (EWM). Its back end is an eclectic blend of old and new technologies, unlike anything ABAP developers have encountered before. In this session, you'll learn about EWM’s peculiarities, main processes, enhancement options, and more. Don’t fall into the trap of thinking, “It’s just ABAP - how hard can it be?” Be prepared!"
+            }
+        ]
+    },
+    {
+        "id": "MartinMuttenthaler",
+        "firstname": "Martin",
+        "middlename": "",
+        "lastname": "Muttenthaler",
+        "initials": "MM",
+        "function": "SAP Architect",
+        "picture": "./speakers/MartinMuttenthaler/MartinMuttenthaler.jfif",
+        "shortBio": "SAP Architect & Integration Consultant",
+        "longBio": "SAP Architect & Integration Consultant",
+        "linkedIn": "https://www.linkedin.com/in/martin-muttenthaler-1a262061/",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "RAP Events: Local and External Consumption",
+                "abstract": "Overview of possibilities to consume RAP events locally and from external consumers like (advanced) event mesh"
+            }
+        ]
+    }     
 ]
