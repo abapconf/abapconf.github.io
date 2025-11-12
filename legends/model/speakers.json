@@ -88,6 +88,11 @@
                 "event": "abapconf2025",
                 "title": "ABAPConf 2025 Keynote: Capabilites",
                 "abstract": "What differentiates SAP developers? What makes SAP developers successfull today and what will be expected from SAP developers in the future? Are business and coding skills enough? Why are customers using SAP software and what needs to be done to ensure they will continue to depend on SAP developers to enhance it?"
+            },
+            {
+                "event": "abapconf2025",
+                "title": "Wait, that's possible?",
+                "abstract": "A look outside the SAP bubble. How are others doing it? What can we learn from them? Or is the SAP world the best? This talk wants to discuss the topics that might influence our future as SAP developers. What should be adopt, what are we doing better? If you look outside, you'll realise that the IT world is more than just reports. While some of the most successfull companies in the world are using SAP, the inovovation they drive has nothing to do with SAP. Be it UX, mobile, internet of things or now AI: these trends came from the outside. What does this mean for us as SAP developers? Adopt or be obsolete? Or is it them that should start listening and learn from us?"
             }
         ]
     },
@@ -586,7 +591,6 @@
             }
         ]      
     },
-
     {
         "id": "WolfgangRöckelein",
         "firstname": "Dr. Wolfgang",
@@ -2688,6 +2692,72 @@
                 "event": "abapconf2025",
                 "title": "Optimized Tools for Building and Adapting SAP Fiori Elements Apps",
                 "abstract": "SAP development is evolving with AI-driven tools that streamline SAP Fiori Elements app creation. The GenAI Project Accelerator for RAP (Labs-Preview) speeds up project setup, while ChatAI for modifying your generated apps in Joule enables intuitive AI-powered adjustments. Developers can now also create and deploy SAP Fiori apps directly from the Service Binding Editor in ADT, simplying workflows with the new Quick Fiori Apps. The Adaptation Editor and Wizard further enhances flexibility, making customization effortless. These innovations make SAP Fiori development smarter, faster, and more efficient. Join us to find out more."
+            }
+        ]
+    },
+    {
+        "id": "BenPatterson",
+        "firstname": "Ben",
+        "middlename": "",
+        "lastname": "Patterson",
+        "initials": "BP",
+        "function": "CTO",
+        "picture": "./speakers/BenPatterson/BenPatterson.jpg",
+        "shortBio": "CTO Rev-Trac, passionate about delivering good software with over 20 year designing and developing ABAP solutions and involved in over 6 S/4HANA implementations",
+        "longBio": "Ben is an experienced SAP Development Architect with over 20 years in the SAP ecosystem, specialising in S/4HANA, SAP BTP, Fiori/UI5, RAP, and integration technologies. With a strong foundation in ABAP and architectural best practices, he has led development strategies across numerous large-scale implementations. Benjamin is passionate about clean design, mentoring, and driving innovation through modern SAP technologies. He’s a regular contributor to the SAP community and has presented at events like Mastering SAP and SAP Inside Track.",
+        "linkedIn": "https://www.linkedin.com/in/benjaminmpatterson/",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "S/4HANA top tips to lift and shift left",
+                "abstract": "Embarking on an S/4HANA migration with a mountain of custom ABAP code? This discussion offers a fresh perspective on turning that challenge into an opportunity to build a clean, maintainable core. You’ll discover practical strategies and paradigms to reduce technical debt, embrace modern tools and frameworks like CDS, RAP, and Fiori elements, and automate your way to a healthier codebase. Going from a high level and down to details, we will explore together how the wisdom of the past, with the technology of the future, can be combined to make something great."
+            }
+        ]
+    },
+    {
+        "id": "FritzMosonyi",
+        "firstname": "Fritz",
+        "middlename": "",
+        "lastname": "Mosonyi",
+        "initials": "FM",
+        "function": "Consulting Practice Lead",
+        "picture": "./speakers/FritzMosonyi/FritzMosonyi.jpg",
+        "shortBio": "Joined RSC in 2020. Before that 10 years RT-Consulting at a European Partner in the DACH Area. Fritz has more than 20 years of SAP Experience and a broad Consulting and Project management knowledge.",
+        "longBio": "Joined RSC in 2020. Before that 10 years RT-Consulting at a European Partner in the DACH Area. Fritz has more than 20 years of SAP Experience and a broad Consulting and Project management knowledge.",
+        "linkedIn": "https://www.linkedin.com/in/fritz-mosonyi-750a75/",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "S/4HANA top tips to lift and shift left",
+                "abstract": "Embarking on an S/4HANA migration with a mountain of custom ABAP code? This discussion offers a fresh perspective on turning that challenge into an opportunity to build a clean, maintainable core. You’ll discover practical strategies and paradigms to reduce technical debt, embrace modern tools and frameworks like CDS, RAP, and Fiori elements, and automate your way to a healthier codebase. Going from a high level and down to details, we will explore together how the wisdom of the past, with the technology of the future, can be combined to make something great."
+            }
+        ]
+    },
+    {
+        "id": "LauraSchmitz",
+        "firstname": "Laura",
+        "middlename": "",
+        "lastname": "Schmitz",
+        "initials": "LM",
+        "function": "SAP Community Advocate",
+        "picture": "./speakers/LauraSchmitz/LauraSchmitz.jpg",
+        "shortBio": "SAP Community Advocate - SAP Community Programs & Influencer Relations bei SAP.",
+        "longBio": "SAP Community Advocate - SAP Community Programs & Influencer Relations bei SAP.",
+        "linkedIn": "https://www.linkedin.com/in/laura-schmitz7/",
+        "events": [
+            "abapconf2025"
+        ],
+        "sessions": [
+            {
+                "event": "abapconf2025",
+                "title": "SAP Community",
+                "abstract": "This session will provide an overview of the SAP Community, highlighting its resources, opportunities for engagement, and the benefits of participation. Attendees will learn how to connect, access valuable content, and contribute to discussions within the SAP ecosystem."
             }
         ]
     },
