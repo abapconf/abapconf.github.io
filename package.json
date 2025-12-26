@@ -15,6 +15,7 @@
     "start": "browser-sync . -w"
   },
   "devDependencies": {
-    "browser-sync": "^3.0.2"
+    "browser-sync": "^3.0.2",
+    "sitemap-generator": "^8.5.1"
   }
 }
