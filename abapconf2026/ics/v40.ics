@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:Xf2gydxiWU_JLPvM-enew
+SUMMARY:Registration
+DTSTAMP:20260609T063701Z
+DTSTART:20260623T055900Z
+DTEND:20260623T060000Z
+DESCRIPTION:We welcome you to attend the ABAPConf Expo after your registrat
+	ion. Pick up your badge\, grap a coffee and something to eat for breakfast
+	. 
+URL:https://abapconf.org/abapconf2026/agenda/4
+LOCATION:https://abapconf.org/abapconf2026/agenda/4
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR

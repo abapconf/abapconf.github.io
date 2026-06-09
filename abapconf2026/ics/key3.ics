@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:TwiFPj0ep_frxeS5BL3op
+SUMMARY:Keynote: SAP - ABAP Cloud
+DTSTAMP:20260609T063701Z
+DTSTART:20260623T083000Z
+DTEND:20260623T093000Z
+DESCRIPTION:Get the latest innovations of SAP’s definitive program model fo
+	r cloud and clean core compliance powered by ABAP AI. You will get deep in
+	sights how RAP will allow you to leverage Business AI capabilities combine
+	d with innovative analytical features.
+URL:https://abapconf.org/abapconf2026/agenda/1
+LOCATION:https://abapconf.org/abapconf2026/agenda/1
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR

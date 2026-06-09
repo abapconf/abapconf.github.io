@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:5eMA6Z-95fNEyrACvSF_Q
+SUMMARY:V2: Nice Template! Can We Buy It? — The Reality of Turning a SaaS s
+	olution for German Utilities into a Product
+DTSTAMP:20260609T063701Z
+DTSTART:20260623T111500Z
+DTEND:20260623T120000Z
+DESCRIPTION:_**Session description:**_
+URL:https://abapconf.org/abapconf2026/agenda/1
+LOCATION:https://abapconf.org/abapconf2026/agenda/1
+STATUS:CONFIRMED
+ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+END:VCALENDAR
