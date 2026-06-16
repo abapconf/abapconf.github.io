@@ -6,13 +6,13 @@ METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:dGzuZUVrtEcRXJfYPYKtM
-SUMMARY:Demo Pod Conduct
+SUMMARY:News from Custom Code Migration
 DTSTAMP:20260609T063701Z
 DTSTART:20260623T125500Z
 DTEND:20260623T134000Z
 DESCRIPTION:tba
-URL:https://abapconf.org/abapconf2026/agenda/4
-LOCATION:https://abapconf.org/abapconf2026/agenda/4
+URL:https://abapconf.org/abapconf2026/agenda/
+LOCATION:https://abapconf.org/abapconf2026/agenda/
 STATUS:CONFIRMED
 ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY

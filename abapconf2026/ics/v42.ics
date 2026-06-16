@@ -12,8 +12,8 @@ DTSTART:20260623T150000Z
 DTEND:20260623T150000Z
 DESCRIPTION:Track 3 officially ends. The expo however\, might run just a li
 	ttle bit longer.
-URL:https://abapconf.org/abapconf2026/agenda/4
-LOCATION:https://abapconf.org/abapconf2026/agenda/4
+URL:https://abapconf.org/abapconf2026/agenda/
+LOCATION:https://abapconf.org/abapconf2026/agenda/
 STATUS:CONFIRMED
 ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY

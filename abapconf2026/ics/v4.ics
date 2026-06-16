@@ -11,8 +11,8 @@ DTSTAMP:20260609T063701Z
 DTSTART:20260623T125500Z
 DTEND:20260623T134000Z
 DESCRIPTION:_**Session description:**_
-URL:https://abapconf.org/abapconf2026/agenda/1
-LOCATION:https://abapconf.org/abapconf2026/agenda/1
+URL:https://abapconf.org/abapconf2026/agenda
+LOCATION:https://abapconf.org/abapconf2026/agenda
 STATUS:CONFIRMED
 ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY

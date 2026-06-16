@@ -6,15 +6,13 @@ METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:v4Vt_V0StOlKSO9ESzl2O
-SUMMARY:Meet the experts: RAPotheke
+SUMMARY:ABAP 2025 features on-prem - Overview and highlights
 DTSTAMP:20260609T063701Z
 DTSTART:20260623T120500Z
 DTEND:20260623T125000Z
-DESCRIPTION:Wenn du eine Frage zur RAP Architektur oder einem Konzept hast\
-	, oder bei einem Implementierungsproblem rund um das Thema RAP - ABAP REST
-	ful Programming Model nicht weiter kommst\, dann komm vorbei.
-URL:https://abapconf.org/abapconf2026/agenda/4
-LOCATION:https://abapconf.org/abapconf2026/agenda/4
+DESCRIPTION:
+URL:https://abapconf.org/abapconf2026/agenda/
+LOCATION:https://abapconf.org/abapconf2026/agenda/
 STATUS:CONFIRMED
 ORGANIZER;CN="ABAPConf":MAILTO:abapconf@gmail.com
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
