@@ -12,10 +12,14 @@
     "url": "https://www.itsfullofstars.de"
   },
   "scripts": {
-    "start": "browser-sync . -w"
+    "start": "browser-sync . -w",
+    "build:css": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwind.min.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwind.min.css --watch"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
     "browser-sync": "^3.0.2",
-    "sitemap-generator": "^8.5.1"
+    "sitemap-generator": "^8.5.1",
+    "tailwindcss": "^4.3.3"
   }
 }

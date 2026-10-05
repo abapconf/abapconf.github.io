@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@source "../../index.html";
+
+@theme {
+  --color-navy: #0b103e;
+  --color-navy-dark: #040919;
+  --color-footer: #101522;
+  --color-footer-border: #262c44;
+  --color-footer-link: #222636;
+  --color-heading: #0e1b4d;
+  --color-brand: #f82249;
+  --color-brand-dark: #e0072f;
+  --color-muted: #9195a2;
+  --color-body: #2f3138;
+}
